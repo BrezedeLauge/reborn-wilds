@@ -1,0 +1,1830 @@
+{
+  "schema_version": 1,
+  "source_revision": "f04b11e7b3672776599fd15ad98a61c53f63b182",
+  "license": "MIT",
+  "source_notice": "Copyright (c) 2022 Patrigan; adapted geometry/texture authors retain credits.",
+  "source_files": [
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/zombie/frozen_zombie.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/zombie/frozen_zombie.png",
+      "sha256": "4d5fefb8354e6fc8769fd9b6de7b536fb186c9882f350783381a39732c96927d",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/zombie/frozen_zombie.png"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/renderer/undead/CustomZombieRenderer.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/renderer/undead/CustomZombieRenderer.java",
+      "sha256": "6d63d43da9d5922e6814461371a73e5932f081f1673bb10ddb28c5e476d5d5bc",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/renderer/undead/CustomZombieRenderer.java"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/zombie/jungle_zombie.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/zombie/jungle_zombie.png",
+      "sha256": "5ddb40c893389c4d6ea6d4b70d2b2acd7c018a76b7a928dbb0fe17a490f80b18",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/zombie/jungle_zombie.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/skeleton/mossy_skeleton.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/skeleton/mossy_skeleton.png",
+      "sha256": "ae7f4b02091d8b42161fbfd626bb5df8eee5f58bf33cb6e4a04531b4b42291e6",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/skeleton/mossy_skeleton.png"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/renderer/undead/CustomSkeletonRenderer.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/renderer/undead/CustomSkeletonRenderer.java",
+      "sha256": "e67778db55c6e8d4f57a62d55aaa54e95b5fb70970616dafb495eb008d5d6b44",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/renderer/undead/CustomSkeletonRenderer.java"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/creeper/icy_creeper.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/creeper/icy_creeper.png",
+      "sha256": "fdee90e16936b55bbdbb9670fe269cae9877581c1d3332769051f63bcaf939b8",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/creeper/icy_creeper.png"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/renderer/creeper/IcyCreeperRenderer.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/renderer/creeper/IcyCreeperRenderer.java",
+      "sha256": "56cb38b7200a90fff12e913cffea1591d8428418723ad623a94e4efc9beb75eb",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/renderer/creeper/IcyCreeperRenderer.java"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/piglin/piglin_hunter.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/piglin_hunter.png",
+      "sha256": "691519b059c90474b39b73d83dbb532bdd999f5d8b0c31f623d5f57b095b7c50",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/piglin_hunter.png"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/renderer/piglin/CustomPiglinRenderer.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/renderer/piglin/CustomPiglinRenderer.java",
+      "sha256": "60d61fd2913e202279c4cae31ad466da70087cda22280535438a9b8a17646e7e",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/renderer/piglin/CustomPiglinRenderer.java"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/items/PiglinHelmetItem.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/items/PiglinHelmetItem.java",
+      "sha256": "c1a174b194518b9e1210b37905cf8ce591d43b670034752c248d516749c94c45",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/items/PiglinHelmetItem.java"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/piglin/zombified_piglin_hunter.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/zombified_piglin_hunter.png",
+      "sha256": "a99e1e770b8e838a01111ccb9ae0ab1d10ff8f29354b6158b51be96abbf46446",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/zombified_piglin_hunter.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/piglin/gold_armored_piglin.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/gold_armored_piglin.png",
+      "sha256": "cb519a3dcd95e57041729e605e83155922831228a0c16ee533c7fea50b8bd428",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/gold_armored_piglin.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/piglin/netherite_armored_piglin.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/netherite_armored_piglin.png",
+      "sha256": "dc2b19434d855bf83a4c77cc98ffb3201776fddd17fa9a55f86144ccd529c95c",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/netherite_armored_piglin.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/models/armor/gold_piglin_helmet.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/models/armor/gold_piglin_helmet.png",
+      "sha256": "6caffc66ee0a082dcc5063055648c8eccef1559a2e48ab6b67cfd8e131ea0b7e",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/models/armor/gold_piglin_helmet.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/models/armor/netherite_piglin_helmet.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/models/armor/netherite_piglin_helmet.png",
+      "sha256": "2f1029cf9489cd0f9d4d3d883eaa2c8b1bc408175aed83a40fecbe86e945bdb5",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/models/armor/netherite_piglin_helmet.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/piglin/gold_armored_piglin_hunter.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/gold_armored_piglin_hunter.png",
+      "sha256": "5b508b41216a1cb8f334ed21206f71131d863a396cfbe042fd6d0d2b9f161544",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/gold_armored_piglin_hunter.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/piglin/netherite_armored_piglin_hunter.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/netherite_armored_piglin_hunter.png",
+      "sha256": "9fd5acac8a82a3b8d34e00b79bd5854ef791d2c2e3868e8e9293cc2cdcbe99cf",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/netherite_armored_piglin_hunter.png"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/models/FungusSackModel.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/models/FungusSackModel.java",
+      "sha256": "d1ab6f2360960afacfd9ae11c7ba34d2a610ce6eeb0d2cf03d4c2c0334b69a30",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/models/FungusSackModel.java"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/piglin/fungus_thrower.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/fungus_thrower.png",
+      "sha256": "a0f94310b678428e78e7f4a907e9de445d33ea1258cd8eed10fb7d7a8b02eb2d",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/fungus_thrower.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/fungus_sack.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/fungus_sack.png",
+      "sha256": "d8966410307969359c0fb4f3392dd33d566abf17f6c26835a28aca183d318b79",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/fungus_sack.png"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/renderer/layers/FungusSackLayer.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/renderer/layers/FungusSackLayer.java",
+      "sha256": "b39be599cf1948b6e4aabfb46ae9cd6891f8ff54151d4b8bd0131985fb851d4c",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/renderer/layers/FungusSackLayer.java"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/piglin/zombified_fungus_thrower.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/zombified_fungus_thrower.png",
+      "sha256": "4ece6e86746f021c8e489047b8e58259f766141dac23a25c65a676d699aa8744",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/zombified_fungus_thrower.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/ocean/seaweed_armored_drowned.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/seaweed_armored_drowned.png",
+      "sha256": "b1ff6ddce013a4e114672ed865719ce3beb72126b8f95d19730cde61b234f26c",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/seaweed_armored_drowned.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/ocean/seaweed_armored_drowned_outer_layer.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/seaweed_armored_drowned_outer_layer.png",
+      "sha256": "5452587564c7b1400f4e133053891b84c87eae7704eb58e2adc34274f00149e3",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/seaweed_armored_drowned_outer_layer.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/ocean/pale_armored_drowned.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/pale_armored_drowned.png",
+      "sha256": "46c251ed938a636f07bb14ed614cd8264e33f60ad5ad2603ff7fdc9c80e14a5e",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/pale_armored_drowned.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/ocean/pale_armored_drowned_outer_layer.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/pale_armored_drowned_outer_layer.png",
+      "sha256": "1d9fd412e4b6da4dbaa4c63ca77f869f79e9309cee1edacd1eaca9c9646742cc",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/pale_armored_drowned_outer_layer.png"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/renderer/water/CustomDrownedRenderer.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/renderer/water/CustomDrownedRenderer.java",
+      "sha256": "dfe6056aba17178b4f1dc262e7da37219ddad189707c60ab0c87c920cb9bfd33",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/renderer/water/CustomDrownedRenderer.java"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/renderer/water/CustomDrownedOuterLayer.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/renderer/water/CustomDrownedOuterLayer.java",
+      "sha256": "630867fafeba7e13dab9461b52c51a316370d34ac94fe60c55642cf8e63200d8",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/renderer/water/CustomDrownedOuterLayer.java"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/models/undead/SunkenSkeletonModel.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/models/undead/SunkenSkeletonModel.java",
+      "sha256": "5fb9779af3245e2f1ddc50fc4b9aaa16711b1f2af9e5f821b50e2351d58c133e",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/models/undead/SunkenSkeletonModel.java"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/models/undead/SmartSkeletonModel.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/models/undead/SmartSkeletonModel.java",
+      "sha256": "71421ec7bf1cd0006a50222a0ee6ea4058bd738f2583b504bc687263d34624f2",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/models/undead/SmartSkeletonModel.java"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/ocean/sunken_skeleton.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/sunken_skeleton.png",
+      "sha256": "fe7744c8a8316ff6c7dddef409dbf79cc0cd3e2f565049fbf06b23f9f5a5901b",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/sunken_skeleton.png"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/renderer/water/SunkenSkeletonRenderer.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/renderer/water/SunkenSkeletonRenderer.java",
+      "sha256": "f1fa906bc49b983999e272bb240770be0b51ba759fc744cf83f66345be7def7d",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/renderer/water/SunkenSkeletonRenderer.java"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/ocean/red_coral_armored_sunken_skeleton.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/red_coral_armored_sunken_skeleton.png",
+      "sha256": "f0ed83c44d0359fb062a9b6b72fac4e5b2723f7a610a2fb84436476448d7aa50",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/red_coral_armored_sunken_skeleton.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/ocean/yellow_coral_armored_sunken_skeleton.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/yellow_coral_armored_sunken_skeleton.png",
+      "sha256": "a06512410865538d42fc9d6662e9ec18f45ce2f4dc7b1800138bffb454ba929f",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/yellow_coral_armored_sunken_skeleton.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/geo/geo_illager.geo.json",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/geo/geo_illager.geo.json",
+      "sha256": "cd12aab20053c37bb101eff784f7978bb60c1f96366b83279302f6e2afc86a75",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/geo/geo_illager.geo.json"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/illager/mage.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/illager/mage.png",
+      "sha256": "0723064d301b58502635b5d17417dce68223d34ed96deed7187e2991009dc2f5",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/illager/mage.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/animations/mage.animation.json",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/animations/mage.animation.json",
+      "sha256": "47d4f455b8cbf44e4bdfe533312a00d1a59dc44f7e2570aaba64906e0f85a71a",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/animations/mage.animation.json"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/models/illager/MageModel.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/models/illager/MageModel.java",
+      "sha256": "40890a6c4a9068e60c1282417a3ad3069dfc2e89fcdf0595cfd53352865d4703",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/models/illager/MageModel.java"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/geo/geomancer_pillar.geo.json",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/geo/geomancer_pillar.geo.json",
+      "sha256": "ea48ad4cf309c196fe16371c3297dd126be620d06533cfd0bc6d47909b050c13",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/geo/geomancer_pillar.geo.json"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/constructs/geomancer_bomb.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/constructs/geomancer_bomb.png",
+      "sha256": "f277db1ff7888112eecc5be66b0364f010d2b14f78c8f028bd55a03ecb0b9059",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/constructs/geomancer_bomb.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/animations/geomancer_pillar.animation.json",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/animations/geomancer_pillar.animation.json",
+      "sha256": "6494b102323a7e9c0827ccf74a635367c36a732e175832ddd42c00cddd99d59f",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/animations/geomancer_pillar.animation.json"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/models/summonables/GeomancerConstructModel.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/models/summonables/GeomancerConstructModel.java",
+      "sha256": "8b6cb07e0b0781577086a134de3d87c195f3c9f26ee81ed8940692228a70eec6",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/models/summonables/GeomancerConstructModel.java"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/constructs/geomancer_wall.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/constructs/geomancer_wall.png",
+      "sha256": "8ed2a2f24b81a1ea13bead694906fe08829cd71b34533d74ff609daf4aadc5ae",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/constructs/geomancer_wall.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/geo/ice_chunk.geo.json",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/geo/ice_chunk.geo.json",
+      "sha256": "3ae4dfcc035737eef03ec0b79c466ed778c1a4c3a38b3c4257f97c4e8f32d3bf",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/geo/ice_chunk.geo.json"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/ice_chunk.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/ice_chunk.png",
+      "sha256": "d897c000a39303724e8344eff320fba487adc0845e3f14fdc502bac8048966c6",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/ice_chunk.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/animations/ice_chunk.animation.json",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/animations/ice_chunk.animation.json",
+      "sha256": "660fed582b49889b904c6015f5626f42043616b0db77ab236c4a21a776472937",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/animations/ice_chunk.animation.json"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/models/summonables/IceCloudModel.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/models/summonables/IceCloudModel.java",
+      "sha256": "7f2131d8e5ec6496c18ad78026959760299f1a3cc47a7b0205c6b9a07969051a",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/models/summonables/IceCloudModel.java"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/geo/trap.geo.json",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/geo/trap.geo.json",
+      "sha256": "bdb8d0c668c28ca9a6f36e3619f1e6697c23560e2fe1500ce51db1f6f63379cf",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/geo/trap.geo.json"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/entity/vine_trap.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/vine_trap.png",
+      "sha256": "9aa59f9a59fdd97f3704833e6a8e65100ebbe7ad4605a2866bd4db100745b236",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/entity/vine_trap.png"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/animations/trap.animation.json",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/animations/trap.animation.json",
+      "sha256": "5e1384e4e63906c7585e078364866f24bef28cccc9ff1a55ab426996116fb962",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/animations/trap.animation.json"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/client/models/summonables/SimpleTrapModel.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/client/models/summonables/SimpleTrapModel.java",
+      "sha256": "f0353dcf1e123a6bb9d0db7ad86d07cd1539f99aaa017f08e9d07eb112005ad3",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/client/models/summonables/SimpleTrapModel.java"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/geo/armor/mage_armor.geo.json",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/geo/armor/mage_armor.geo.json",
+      "sha256": "3ee8d9d97f51180818500574d33e2df21a8c47a0c369e30db7531a9e92bc3718",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/geo/armor/mage_armor.geo.json"
+    },
+    {
+      "upstream_path": "src/main/resources/assets/dungeons_mobs/textures/models/armor/mage_armor.png",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/models/armor/mage_armor.png",
+      "sha256": "4f80804bb819a1f6340675dc644dc5ccf15bbb2659f8d3262ad69060c8470bf3",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/resources/assets/dungeons_mobs/textures/models/armor/mage_armor.png"
+    },
+    {
+      "upstream_path": "src/main/java/com/infamous/dungeons_mobs/entities/illagers/MageEntity.java",
+      "snapshot": "third_party/dungeons_mobs/snapshots/src/main/java/com/infamous/dungeons_mobs/entities/illagers/MageEntity.java",
+      "sha256": "3c93f364a1ee07d9692a861a0fd4b37d1f8bcf90dc9d267ed45fb2bdde5585b2",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs/blob/f04b11e7b3672776599fd15ad98a61c53f63b182/src/main/java/com/infamous/dungeons_mobs/entities/illagers/MageEntity.java"
+    }
+  ],
+  "assets": [
+    {
+      "key": "InfamousMage",
+      "source": "dungeons_mobs",
+      "catalog_id": "mcd:mage",
+      "geometry_class": "InfamousMageGeometry",
+      "animation_class": "InfamousMageAnimations",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2022 Patrigan",
+      "source_revision": "f04b11e7b3672776599fd15ad98a61c53f63b182",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs",
+      "credits": [
+        "Patrigan",
+        "Selected-file authors recorded in design/model-source-audit.json"
+      ],
+      "procedural_loop_seconds": 7.2,
+      "model_snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/geo/geo_illager.geo.json",
+      "model_sha256": "cd12aab20053c37bb101eff784f7978bb60c1f96366b83279302f6e2afc86a75",
+      "upstream_model_path": "src/main/resources/assets/dungeons_mobs/geo/geo_illager.geo.json",
+      "animation_snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/animations/mage.animation.json",
+      "animation_sha256": "47d4f455b8cbf44e4bdfe533312a00d1a59dc44f7e2570aaba64906e0f85a71a",
+      "upstream_animation_path": "src/main/resources/assets/dungeons_mobs/animations/mage.animation.json",
+      "discard_unbound_channels": [],
+      "equipment": {
+        "atlas_size": [
+          256,
+          64
+        ],
+        "atlas_file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/infamous/mage_complete.png",
+        "materials": [
+          {
+            "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/illager/mage.png",
+            "sha256": "0723064d301b58502635b5d17417dce68223d34ed96deed7187e2991009dc2f5",
+            "offset": [
+              0,
+              0
+            ],
+            "size": [
+              64,
+              64
+            ]
+          },
+          {
+            "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/models/armor/mage_armor.png",
+            "sha256": "4f80804bb819a1f6340675dc644dc5ccf15bbb2659f8d3262ad69060c8470bf3",
+            "offset": [
+              64,
+              0
+            ],
+            "size": [
+              128,
+              64
+            ]
+          }
+        ],
+        "attachments": [
+          {
+            "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/geo/armor/mage_armor.geo.json",
+            "sha256": "3ee8d9d97f51180818500574d33e2df21a8c47a0c369e30db7531a9e92bc3718",
+            "atlas_offset": [
+              64,
+              0
+            ],
+            "bone_map": {
+              "armorHead": "armorBipedHead",
+              "armorBody": "armorBipedBody",
+              "armorCloak": "bipedCape",
+              "armorRightArm": "armorBipedRightArm",
+              "armorLeftArm": "armorBipedLeftArm",
+              "armorLeftLeg": "armorBipedLeftLeg",
+              "armorRightLeg": "armorBipedRightLeg",
+              "armorLeftBoot": "armorBipedLeftFoot",
+              "armorRightBoot": "armorBipedRightFoot"
+            },
+            "bone_offsets": {}
+          }
+        ],
+        "changes": [
+          "MageEntity explicitly equips MAGE_ARMOR. Use the authored mage armor rig/PNG, including its cloak, on corresponding common-coordinate sockets.",
+          "Lossless juxtaposition of skin/armor PNGs; no palette recoloring or vanilla texture copying.",
+          "query.life_time is explicitly sampled as the converter documented cyclic clip clock, not replaced by zero."
+        ]
+      }
+    },
+    {
+      "key": "InfamousGeomancerBomb",
+      "source": "dungeons_mobs",
+      "catalog_id": "mcd:geomancer_bomb",
+      "geometry_class": "InfamousGeomancerBombGeometry",
+      "animation_class": "InfamousGeomancerBombAnimations",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2022 Patrigan",
+      "source_revision": "f04b11e7b3672776599fd15ad98a61c53f63b182",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs",
+      "credits": [
+        "Patrigan",
+        "Selected-file authors recorded in design/model-source-audit.json"
+      ],
+      "procedural_loop_seconds": 7.2,
+      "model_snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/geo/geomancer_pillar.geo.json",
+      "model_sha256": "ea48ad4cf309c196fe16371c3297dd126be620d06533cfd0bc6d47909b050c13",
+      "upstream_model_path": "src/main/resources/assets/dungeons_mobs/geo/geomancer_pillar.geo.json",
+      "animation_snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/animations/geomancer_pillar.animation.json",
+      "animation_sha256": "6494b102323a7e9c0827ccf74a635367c36a732e175832ddd42c00cddd99d59f",
+      "upstream_animation_path": "src/main/resources/assets/dungeons_mobs/animations/geomancer_pillar.animation.json",
+      "discard_unbound_channels": []
+    },
+    {
+      "key": "InfamousGeomancerWall",
+      "source": "dungeons_mobs",
+      "catalog_id": "mcd:geomancer_wall",
+      "geometry_class": "InfamousGeomancerWallGeometry",
+      "animation_class": "InfamousGeomancerWallAnimations",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2022 Patrigan",
+      "source_revision": "f04b11e7b3672776599fd15ad98a61c53f63b182",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs",
+      "credits": [
+        "Patrigan",
+        "Selected-file authors recorded in design/model-source-audit.json"
+      ],
+      "procedural_loop_seconds": 7.2,
+      "model_snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/geo/geomancer_pillar.geo.json",
+      "model_sha256": "ea48ad4cf309c196fe16371c3297dd126be620d06533cfd0bc6d47909b050c13",
+      "upstream_model_path": "src/main/resources/assets/dungeons_mobs/geo/geomancer_pillar.geo.json",
+      "animation_snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/animations/geomancer_pillar.animation.json",
+      "animation_sha256": "6494b102323a7e9c0827ccf74a635367c36a732e175832ddd42c00cddd99d59f",
+      "upstream_animation_path": "src/main/resources/assets/dungeons_mobs/animations/geomancer_pillar.animation.json",
+      "discard_unbound_channels": []
+    },
+    {
+      "key": "InfamousIceChunk",
+      "source": "dungeons_mobs",
+      "catalog_id": "mcd:ice_chunk",
+      "geometry_class": "InfamousIceChunkGeometry",
+      "animation_class": "InfamousIceChunkAnimations",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2022 Patrigan",
+      "source_revision": "f04b11e7b3672776599fd15ad98a61c53f63b182",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs",
+      "credits": [
+        "Patrigan",
+        "Selected-file authors recorded in design/model-source-audit.json"
+      ],
+      "procedural_loop_seconds": 7.2,
+      "model_snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/geo/ice_chunk.geo.json",
+      "model_sha256": "3ae4dfcc035737eef03ec0b79c466ed778c1a4c3a38b3c4257f97c4e8f32d3bf",
+      "upstream_model_path": "src/main/resources/assets/dungeons_mobs/geo/ice_chunk.geo.json",
+      "animation_snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/animations/ice_chunk.animation.json",
+      "animation_sha256": "660fed582b49889b904c6015f5626f42043616b0db77ab236c4a21a776472937",
+      "upstream_animation_path": "src/main/resources/assets/dungeons_mobs/animations/ice_chunk.animation.json",
+      "discard_unbound_channels": []
+    },
+    {
+      "key": "InfamousEntangleVine",
+      "source": "dungeons_mobs",
+      "catalog_id": "mcd:entangle_vine",
+      "geometry_class": "InfamousEntangleVineGeometry",
+      "animation_class": "InfamousEntangleVineAnimations",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2022 Patrigan",
+      "source_revision": "f04b11e7b3672776599fd15ad98a61c53f63b182",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs",
+      "credits": [
+        "Patrigan",
+        "Selected-file authors recorded in design/model-source-audit.json"
+      ],
+      "procedural_loop_seconds": 7.2,
+      "model_snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/geo/trap.geo.json",
+      "model_sha256": "bdb8d0c668c28ca9a6f36e3619f1e6697c23560e2fe1500ce51db1f6f63379cf",
+      "upstream_model_path": "src/main/resources/assets/dungeons_mobs/geo/trap.geo.json",
+      "animation_snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/animations/trap.animation.json",
+      "animation_sha256": "5e1384e4e63906c7585e078364866f24bef28cccc9ff1a55ab426996116fb962",
+      "upstream_animation_path": "src/main/resources/assets/dungeons_mobs/animations/trap.animation.json",
+      "discard_unbound_channels": []
+    }
+  ],
+  "native_visuals": [
+    {
+      "id": "frozen_zombie",
+      "catalog_id": "mcd:frozen_zombie",
+      "asset": "InfamousZombie",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/zombie/frozen_zombie.png",
+      "scale": 1,
+      "geometry_class": "InfamousZombieGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "zombie",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [],
+      "cem_driver": "zombie",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "MELEE"
+        ]
+      },
+      "profile_proposal_note": "SKELETON is only the available runtime biped grouping; taxonomic family remains zombie. Do not present this temporary code choice as a species claim."
+    },
+    {
+      "id": "jungle_zombie",
+      "catalog_id": "mcd:jungle_zombie",
+      "asset": "InfamousZombie",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/zombie/jungle_zombie.png",
+      "scale": 1,
+      "geometry_class": "InfamousZombieGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "zombie",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [],
+      "cem_driver": "zombie",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "MELEE"
+        ]
+      },
+      "profile_proposal_note": "SKELETON is only the available runtime biped grouping; taxonomic family remains zombie. Do not present this temporary code choice as a species claim."
+    },
+    {
+      "id": "mossy_skeleton",
+      "catalog_id": "mcd:mossy_skeleton",
+      "asset": "InfamousMossySkeleton",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/skeleton/mossy_skeleton.png",
+      "scale": 1,
+      "geometry_class": "InfamousMossySkeletonGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "skeleton",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [],
+      "cem_driver": "skeleton",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "VOLLEY"
+        ]
+      },
+      "default_equipment": {
+        "mainhand": "minecraft:bow"
+      }
+    },
+    {
+      "id": "icy_creeper",
+      "catalog_id": "mcd:icy_creeper",
+      "asset": "InfamousIcyCreeper",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/creeper/icy_creeper.png",
+      "scale": 1,
+      "geometry_class": "InfamousIcyCreeperGeometry",
+      "animation_class": "InfamousIcyCreeperAnimations",
+      "baked_root": false,
+      "visual_family": "creeper",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "The reference animation is a fuse swell, not a melee swing. A real icy explosion/freeze gameplay action must be implemented; no FIRE_FIELD binding is supplied because fire damage is not completed icy behavior."
+      ],
+      "idle": "IDLE",
+      "walk": {
+        "clip": "WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "gestures": {
+        "fuse": "FUSE"
+      },
+      "required_gameplay_action": {
+        "kind": "ICY_EXPLOSION",
+        "clip": "FUSE",
+        "hit_seconds": 1.25
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 40,
+        "pitch": 25
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "required_new_family": "CREEPER",
+        "health": 20,
+        "damage": 8,
+        "speed": 0.22,
+        "width": 0.6,
+        "height": 1.7,
+        "attacks_pending": [
+          "ICY_EXPLOSION"
+        ],
+        "registration_ready": false
+      }
+    },
+    {
+      "id": "piglin_hunter",
+      "catalog_id": "mcd:piglin_hunter",
+      "asset": "InfamousPiglin",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/piglin/piglin_hunter.png",
+      "scale": 1,
+      "geometry_class": "InfamousPiglinGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [],
+      "idle": "HUNTER_IDLE",
+      "walk": {
+        "clip": "HUNTER_WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        },
+        "VOLLEY": {
+          "clip": "CROSSBOW",
+          "hit_seconds": 1.0
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:crossbow"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 24,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE",
+          "VOLLEY"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "zombified_piglin_hunter",
+      "catalog_id": "mcd:zombified_piglin_hunter",
+      "asset": "InfamousPiglin",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/piglin/zombified_piglin_hunter.png",
+      "scale": 1,
+      "geometry_class": "InfamousPiglinGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [],
+      "idle": "HUNTER_IDLE",
+      "walk": {
+        "clip": "HUNTER_WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        },
+        "VOLLEY": {
+          "clip": "CROSSBOW",
+          "hit_seconds": 1.0
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:crossbow"
+      },
+      "hidden_bones": [
+        "right_ear"
+      ],
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 24,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE",
+          "VOLLEY"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "armored_piglin",
+      "catalog_id": "mcd:armored_piglin",
+      "asset": "InfamousArmoredPiglin",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/gold_armored_piglin_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousArmoredPiglinGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Source skin selected by armor material and hunter status; matching separate authored helmet texture retained.",
+        "Helmet geometry matches the installed PiglinRenderer outer HumanoidArmorModel head (1.02 inflation), attached to the animated piglin head."
+      ],
+      "palette_variant_of": "armored_piglin",
+      "idle": "IDLE",
+      "walk": {
+        "clip": "WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:golden_sword"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 30,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "netherite_armored_piglin",
+      "catalog_id": "mcd:armored_piglin",
+      "asset": "InfamousArmoredPiglin",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/netherite_armored_piglin_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousArmoredPiglinGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Source skin selected by armor material and hunter status; matching separate authored helmet texture retained.",
+        "Helmet geometry matches the installed PiglinRenderer outer HumanoidArmorModel head (1.02 inflation), attached to the animated piglin head."
+      ],
+      "palette_variant_of": "armored_piglin",
+      "idle": "IDLE",
+      "walk": {
+        "clip": "WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:golden_sword"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 30,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "armored_piglin_hunter",
+      "catalog_id": "mcd:armored_piglin_hunter",
+      "asset": "InfamousArmoredPiglin",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/gold_armored_piglin_hunter_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousArmoredPiglinGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Source skin selected by armor material and hunter status; matching separate authored helmet texture retained.",
+        "Helmet geometry matches the installed PiglinRenderer outer HumanoidArmorModel head (1.02 inflation), attached to the animated piglin head."
+      ],
+      "palette_variant_of": "armored_piglin_hunter",
+      "idle": "HUNTER_IDLE",
+      "walk": {
+        "clip": "HUNTER_WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        },
+        "VOLLEY": {
+          "clip": "CROSSBOW",
+          "hit_seconds": 1.0
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:crossbow"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 30,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE",
+          "VOLLEY"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "netherite_armored_piglin_hunter",
+      "catalog_id": "mcd:armored_piglin_hunter",
+      "asset": "InfamousArmoredPiglin",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/netherite_armored_piglin_hunter_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousArmoredPiglinGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Source skin selected by armor material and hunter status; matching separate authored helmet texture retained.",
+        "Helmet geometry matches the installed PiglinRenderer outer HumanoidArmorModel head (1.02 inflation), attached to the animated piglin head."
+      ],
+      "palette_variant_of": "armored_piglin_hunter",
+      "idle": "HUNTER_IDLE",
+      "walk": {
+        "clip": "HUNTER_WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        },
+        "VOLLEY": {
+          "clip": "CROSSBOW",
+          "hit_seconds": 1.0
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:crossbow"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 30,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE",
+          "VOLLEY"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "fungus_thrower",
+      "catalog_id": "mcd:fungus_thrower",
+      "asset": "InfamousFungusThrower",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/fungus_thrower_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousFungusThrowerGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Exact authored FungusSackModel box and source setupAnim y=4.3611 preserved; backpack follows body as an explicit child."
+      ],
+      "idle": "IDLE",
+      "walk": {
+        "clip": "WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        },
+        "VOLLEY": {
+          "clip": "THROW",
+          "hit_seconds": 0.9
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:warped_fungus"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 24,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE",
+          "VOLLEY"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "zombified_fungus_thrower",
+      "catalog_id": "mcd:zombified_fungus_thrower",
+      "asset": "InfamousFungusThrower",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/zombified_fungus_thrower_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousFungusThrowerGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Exact authored FungusSackModel box and source setupAnim y=4.3611 preserved; backpack follows body as an explicit child."
+      ],
+      "idle": "IDLE",
+      "walk": {
+        "clip": "WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        },
+        "VOLLEY": {
+          "clip": "THROW",
+          "hit_seconds": 0.9
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:warped_fungus"
+      },
+      "hidden_bones": [
+        "right_ear"
+      ],
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 24,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE",
+          "VOLLEY"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "armored_drowned",
+      "catalog_id": "mcd:armored_drowned",
+      "asset": "InfamousArmoredDrowned",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/seaweed_armored_drowned_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousArmoredDrownedGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "zombie",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Matching authored base/outer PNG pair; 0.25-deformed Drowned outer shell is separately attached to the corresponding animated limbs, with the same source UV layout.",
+        "Trident throw and swimming require own gameplay/pose integration; the dry-land baseline is not full submerged behavior."
+      ],
+      "palette_variant_of": "armored_drowned",
+      "cem_driver": "zombie",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "MELEE"
+        ]
+      },
+      "profile_proposal_note": "SKELETON is only the available runtime biped grouping; taxonomic family remains zombie. Do not present this temporary code choice as a species claim."
+    },
+    {
+      "id": "pale_armored_drowned",
+      "catalog_id": "mcd:armored_drowned",
+      "asset": "InfamousArmoredDrowned",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/pale_armored_drowned_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousArmoredDrownedGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "zombie",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Matching authored base/outer PNG pair; 0.25-deformed Drowned outer shell is separately attached to the corresponding animated limbs, with the same source UV layout.",
+        "Trident throw and swimming require own gameplay/pose integration; the dry-land baseline is not full submerged behavior."
+      ],
+      "palette_variant_of": "armored_drowned",
+      "cem_driver": "zombie",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "MELEE"
+        ]
+      },
+      "profile_proposal_note": "SKELETON is only the available runtime biped grouping; taxonomic family remains zombie. Do not present this temporary code choice as a species claim."
+    },
+    {
+      "id": "sunken_skeleton",
+      "catalog_id": "mcd:sunken_skeleton",
+      "asset": "InfamousSunkenSkeleton",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/ocean/sunken_skeleton.png",
+      "scale": 1,
+      "geometry_class": "InfamousSunkenSkeletonGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "skeleton",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Authored coral geometry retained and parented to head/right leg so it follows motion. Empty redundant hat prevents overlapping duplicate coral shell.",
+        "The upstream armored palette selector was commented out; this explicit model definition enables the verified red/yellow author-supplied palettes instead."
+      ],
+      "cem_driver": "skeleton",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "VOLLEY"
+        ]
+      },
+      "default_equipment": {
+        "mainhand": "minecraft:bow"
+      }
+    },
+    {
+      "id": "armored_sunken_skeleton",
+      "catalog_id": "mcd:armored_sunken_skeleton",
+      "asset": "InfamousSunkenSkeleton",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/ocean/red_coral_armored_sunken_skeleton.png",
+      "scale": 1,
+      "geometry_class": "InfamousSunkenSkeletonGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "skeleton",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Authored coral geometry retained and parented to head/right leg so it follows motion. Empty redundant hat prevents overlapping duplicate coral shell.",
+        "The upstream armored palette selector was commented out; this explicit model definition enables the verified red/yellow author-supplied palettes instead."
+      ],
+      "palette_variant_of": "armored_sunken_skeleton",
+      "cem_driver": "skeleton",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "VOLLEY"
+        ]
+      },
+      "default_equipment": {
+        "mainhand": "minecraft:bow"
+      }
+    },
+    {
+      "id": "yellow_coral_armored_sunken_skeleton",
+      "catalog_id": "mcd:armored_sunken_skeleton",
+      "asset": "InfamousSunkenSkeleton",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/ocean/yellow_coral_armored_sunken_skeleton.png",
+      "scale": 1,
+      "geometry_class": "InfamousSunkenSkeletonGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "skeleton",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Authored coral geometry retained and parented to head/right leg so it follows motion. Empty redundant hat prevents overlapping duplicate coral shell.",
+        "The upstream armored palette selector was commented out; this explicit model definition enables the verified red/yellow author-supplied palettes instead."
+      ],
+      "palette_variant_of": "armored_sunken_skeleton",
+      "cem_driver": "skeleton",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "VOLLEY"
+        ]
+      },
+      "default_equipment": {
+        "mainhand": "minecraft:bow"
+      }
+    }
+  ],
+  "texture_atlases": [
+    {
+      "resource": "dungeonsalive:textures/entity/reference/infamous/mage_complete.png",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/infamous/mage_complete.png",
+      "size": [
+        256,
+        64
+      ],
+      "materials": [
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/illager/mage.png",
+          "sha256": "0723064d301b58502635b5d17417dce68223d34ed96deed7187e2991009dc2f5",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            64,
+            64
+          ]
+        },
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/models/armor/mage_armor.png",
+          "sha256": "4f80804bb819a1f6340675dc644dc5ccf15bbb2659f8d3262ad69060c8470bf3",
+          "offset": [
+            64,
+            0
+          ],
+          "size": [
+            128,
+            64
+          ]
+        }
+      ],
+      "changes": "Lossless side-by-side assembly of authored MIT source PNGs. Every source RGBA pixel including alpha is preserved; geometry UVs are offset to the source tile."
+    },
+    {
+      "resource": "dungeonsalive:textures/entity/reference/infamous/gold_armored_piglin_complete.png",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/infamous/gold_armored_piglin_complete.png",
+      "size": [
+        128,
+        64
+      ],
+      "materials": [
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/gold_armored_piglin.png",
+          "sha256": "cb519a3dcd95e57041729e605e83155922831228a0c16ee533c7fea50b8bd428",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            64,
+            64
+          ]
+        },
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/models/armor/gold_piglin_helmet.png",
+          "sha256": "6caffc66ee0a082dcc5063055648c8eccef1559a2e48ab6b67cfd8e131ea0b7e",
+          "offset": [
+            64,
+            0
+          ],
+          "size": [
+            64,
+            32
+          ]
+        }
+      ],
+      "changes": "Lossless side-by-side assembly of authored MIT source PNGs. Every source RGBA pixel including alpha is preserved; geometry UVs are offset to the source tile."
+    },
+    {
+      "resource": "dungeonsalive:textures/entity/reference/infamous/netherite_armored_piglin_complete.png",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/infamous/netherite_armored_piglin_complete.png",
+      "size": [
+        128,
+        64
+      ],
+      "materials": [
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/netherite_armored_piglin.png",
+          "sha256": "dc2b19434d855bf83a4c77cc98ffb3201776fddd17fa9a55f86144ccd529c95c",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            64,
+            64
+          ]
+        },
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/models/armor/netherite_piglin_helmet.png",
+          "sha256": "2f1029cf9489cd0f9d4d3d883eaa2c8b1bc408175aed83a40fecbe86e945bdb5",
+          "offset": [
+            64,
+            0
+          ],
+          "size": [
+            64,
+            32
+          ]
+        }
+      ],
+      "changes": "Lossless side-by-side assembly of authored MIT source PNGs. Every source RGBA pixel including alpha is preserved; geometry UVs are offset to the source tile."
+    },
+    {
+      "resource": "dungeonsalive:textures/entity/reference/infamous/gold_armored_piglin_hunter_complete.png",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/infamous/gold_armored_piglin_hunter_complete.png",
+      "size": [
+        128,
+        64
+      ],
+      "materials": [
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/gold_armored_piglin_hunter.png",
+          "sha256": "5b508b41216a1cb8f334ed21206f71131d863a396cfbe042fd6d0d2b9f161544",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            64,
+            64
+          ]
+        },
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/models/armor/gold_piglin_helmet.png",
+          "sha256": "6caffc66ee0a082dcc5063055648c8eccef1559a2e48ab6b67cfd8e131ea0b7e",
+          "offset": [
+            64,
+            0
+          ],
+          "size": [
+            64,
+            32
+          ]
+        }
+      ],
+      "changes": "Lossless side-by-side assembly of authored MIT source PNGs. Every source RGBA pixel including alpha is preserved; geometry UVs are offset to the source tile."
+    },
+    {
+      "resource": "dungeonsalive:textures/entity/reference/infamous/netherite_armored_piglin_hunter_complete.png",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/infamous/netherite_armored_piglin_hunter_complete.png",
+      "size": [
+        128,
+        64
+      ],
+      "materials": [
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/netherite_armored_piglin_hunter.png",
+          "sha256": "9fd5acac8a82a3b8d34e00b79bd5854ef791d2c2e3868e8e9293cc2cdcbe99cf",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            64,
+            64
+          ]
+        },
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/models/armor/netherite_piglin_helmet.png",
+          "sha256": "2f1029cf9489cd0f9d4d3d883eaa2c8b1bc408175aed83a40fecbe86e945bdb5",
+          "offset": [
+            64,
+            0
+          ],
+          "size": [
+            64,
+            32
+          ]
+        }
+      ],
+      "changes": "Lossless side-by-side assembly of authored MIT source PNGs. Every source RGBA pixel including alpha is preserved; geometry UVs are offset to the source tile."
+    },
+    {
+      "resource": "dungeonsalive:textures/entity/reference/infamous/fungus_thrower_complete.png",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/infamous/fungus_thrower_complete.png",
+      "size": [
+        128,
+        64
+      ],
+      "materials": [
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/fungus_thrower.png",
+          "sha256": "a0f94310b678428e78e7f4a907e9de445d33ea1258cd8eed10fb7d7a8b02eb2d",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            64,
+            64
+          ]
+        },
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/fungus_sack.png",
+          "sha256": "d8966410307969359c0fb4f3392dd33d566abf17f6c26835a28aca183d318b79",
+          "offset": [
+            64,
+            0
+          ],
+          "size": [
+            32,
+            16
+          ]
+        }
+      ],
+      "changes": "Lossless side-by-side assembly of authored MIT source PNGs. Every source RGBA pixel including alpha is preserved; geometry UVs are offset to the source tile."
+    },
+    {
+      "resource": "dungeonsalive:textures/entity/reference/infamous/zombified_fungus_thrower_complete.png",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/infamous/zombified_fungus_thrower_complete.png",
+      "size": [
+        128,
+        64
+      ],
+      "materials": [
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/piglin/zombified_fungus_thrower.png",
+          "sha256": "4ece6e86746f021c8e489047b8e58259f766141dac23a25c65a676d699aa8744",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            64,
+            64
+          ]
+        },
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/fungus_sack.png",
+          "sha256": "d8966410307969359c0fb4f3392dd33d566abf17f6c26835a28aca183d318b79",
+          "offset": [
+            64,
+            0
+          ],
+          "size": [
+            32,
+            16
+          ]
+        }
+      ],
+      "changes": "Lossless side-by-side assembly of authored MIT source PNGs. Every source RGBA pixel including alpha is preserved; geometry UVs are offset to the source tile."
+    },
+    {
+      "resource": "dungeonsalive:textures/entity/reference/infamous/seaweed_armored_drowned_complete.png",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/infamous/seaweed_armored_drowned_complete.png",
+      "size": [
+        128,
+        64
+      ],
+      "materials": [
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/seaweed_armored_drowned.png",
+          "sha256": "b1ff6ddce013a4e114672ed865719ce3beb72126b8f95d19730cde61b234f26c",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            64,
+            64
+          ]
+        },
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/seaweed_armored_drowned_outer_layer.png",
+          "sha256": "5452587564c7b1400f4e133053891b84c87eae7704eb58e2adc34274f00149e3",
+          "offset": [
+            64,
+            0
+          ],
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "changes": "Lossless side-by-side assembly of authored MIT source PNGs. Every source RGBA pixel including alpha is preserved; geometry UVs are offset to the source tile."
+    },
+    {
+      "resource": "dungeonsalive:textures/entity/reference/infamous/pale_armored_drowned_complete.png",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/infamous/pale_armored_drowned_complete.png",
+      "size": [
+        128,
+        64
+      ],
+      "materials": [
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/pale_armored_drowned.png",
+          "sha256": "46c251ed938a636f07bb14ed614cd8264e33f60ad5ad2603ff7fdc9c80e14a5e",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            64,
+            64
+          ]
+        },
+        {
+          "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/ocean/pale_armored_drowned_outer_layer.png",
+          "sha256": "1d9fd412e4b6da4dbaa4c63ca77f869f79e9309cee1edacd1eaca9c9646742cc",
+          "offset": [
+            64,
+            0
+          ],
+          "size": [
+            64,
+            64
+          ]
+        }
+      ],
+      "changes": "Lossless side-by-side assembly of authored MIT source PNGs. Every source RGBA pixel including alpha is preserved; geometry UVs are offset to the source tile."
+    }
+  ],
+  "source_bundle_count": 18,
+  "visual_binding_count": 22,
+  "notes": [
+    "Own native wrapper geometry calls installed Minecraft factories; no Minecraft source archive or textures redistributed.",
+    "All skins are exact source bytes, or losslessly juxtaposed into documented layer atlases.",
+    "Additional palette definitions are variants of the same catalog row, not extra original species.",
+    "Geometry generation and animation conversion are technical steps; native visual acceptance remains required."
+  ]
+}

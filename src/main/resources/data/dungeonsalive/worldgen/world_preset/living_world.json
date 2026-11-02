@@ -1,0 +1,27 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "minecraft:overworld",
+        "biome_source": {
+          "type": "dungeonsalive:living_overworld",
+          "base": {"type": "minecraft:multi_noise", "preset": "minecraft:overworld"},
+          "amber_grove": "dungeonsalive:amber_grove",
+          "luminous_marsh": "dungeonsalive:luminous_marsh",
+          "ember_crags": "dungeonsalive:ember_crags",
+          "blighted_thicket": "dungeonsalive:blighted_thicket"
+        }
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {"type": "minecraft:noise", "settings": "minecraft:nether", "biome_source": {"type": "minecraft:multi_noise", "preset": "minecraft:nether"}}
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {"type": "minecraft:noise", "settings": "minecraft:end", "biome_source": {"type": "minecraft:the_end"}}
+    }
+  }
+}

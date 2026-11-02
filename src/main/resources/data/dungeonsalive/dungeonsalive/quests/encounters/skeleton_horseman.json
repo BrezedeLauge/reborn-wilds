@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "title": "Erinnerung: Skelettreiter",
+  "description": "Eine freiwillige Herausforderung für dein nächstes Abenteuer. Stelle das passende Begegnungssiegel her. Schleiche und benutze es auf einer freien, ebenen Fläche. Besiege Skelettreiter. Nimm die Aufgabe vor dem Kampf an. Das Siegel wird verbraucht; es gibt keine automatisch gebaute Arena.",
+  "icon": "dungeonsalive:skeleton_horseman_seal",
+  "order": 108,
+  "prerequisites": [
+    "dungeonsalive:a_place_to_return"
+  ],
+  "objectives": [
+    {
+      "id": "defeat_v1",
+      "type": "kill_entity",
+      "target": "dungeonsalive:skeleton_horseman",
+      "amount": 1,
+      "label": "Skelettreiter besiegen"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:emerald",
+      "count": 8
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "count": 1
+    }
+  ],
+  "experience": 80
+}

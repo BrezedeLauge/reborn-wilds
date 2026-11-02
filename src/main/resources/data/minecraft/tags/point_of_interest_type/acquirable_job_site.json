@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "dungeonsalive:village_merchant",
+    "dungeonsalive:luxury_merchant",
+    "dungeonsalive:mystery_merchant",
+    "dungeonsalive:blacksmith",
+    "dungeonsalive:gift_wrapper",
+    "dungeonsalive:enchantsmith"
+  ]
+}

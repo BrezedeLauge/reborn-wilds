@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "dungeonsalive:wolf_helmet",
+    "dungeonsalive:wolf_chestplate",
+    "dungeonsalive:wolf_leggings",
+    "dungeonsalive:wolf_boots",
+    "dungeonsalive:spider_helmet",
+    "dungeonsalive:spider_chestplate",
+    "dungeonsalive:spider_leggings",
+    "dungeonsalive:spider_boots",
+    "dungeonsalive:battle_robes_helmet",
+    "dungeonsalive:battle_robes_chestplate",
+    "dungeonsalive:battle_robes_leggings",
+    "dungeonsalive:battle_robes_boots"
+  ]
+}

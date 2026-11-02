@@ -1,0 +1,209 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"texture": "textures/entity/fox/raccoon.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [-1, -7.5, 3],
+			"submodels": [
+				{
+					"id": "raccoon_head",
+					"invertAxis": "xy",
+					"translate": [0, 9.5, -6],
+					"boxes": [
+						{"coordinates": [-4, -3.5, -5, 8, 7, 7], "textureOffset": [0, 0]},
+						{"coordinates": [-2, -3.5, -7, 4, 2, 2], "textureOffset": [0, 14]}
+					],
+					"submodels": [
+						{
+							"id": "left_ear2",
+							"invertAxis": "xy",
+							"translate": [7, 0, 8],
+							"boxes": [
+								{"coordinates": [-5, 3.5, -12, 2, 2, 1], "textureOffset": [0, 4]}
+							]
+						},
+						{
+							"id": "right_ear2",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [-7, 0, 8],
+							"boxes": [
+								{"coordinates": [3, 3.5, -12, 2, 2, 1], "textureOffset": [0, 4]}
+							]
+						},
+						{
+							"id": "closed_eyes",
+							"invertAxis": "xy",
+							"translate": [0, -11.5, 5],
+							"boxes": [
+								{"coordinates": [-4, 10, -10, 8, 1, 0], "textureOffset": [19, 24]}
+							]
+						},
+						{
+							"id": "open_eyes",
+							"invertAxis": "xy",
+							"translate": [0, -11.5, 5],
+							"boxes": [
+								{"coordinates": [-4, 10, -10, 8, 1, 0], "textureOffset": [19, 23]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"head.ty": "if(is_sitting, 7, 14) + if(body.rz==torad(-90), 5, 0)",
+					"head.tz": "if(is_sitting, 0, -5) + if(body.rz==torad(-90), 2, 0)",
+					"open_eyes.visible": "body.rz==torad(0)",
+					"closed_eyes.visible": "body.rz==torad(-90)",
+					"raccoon_head.tx": "if(body.rz==torad(-90), -1, 0)",
+					"raccoon_head.ty": "if(body.rz==torad(-90), -7, -7)",
+					"raccoon_head.tz": "if(body.rz==torad(-90), -3, -4)",
+					"leg3.tx": "-2.01",
+					"leg3.tz": "if(is_sitting, 0, -2)",
+					"leg4.tx": "2.01",
+					"leg4.tz": "if(is_sitting, 0, -2)"
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -8, 6],
+			"rotate": [-90, 0, 0],
+			"submodels": [
+				{
+					"id": "body_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 8, -6],
+					"submodels": [
+						{
+							"id": "raccoon",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"rotate": [90, 0, 0],
+							"submodels": [
+								{
+									"id": "raccoon_body",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"submodels": [
+										{
+											"id": "body_rotation5",
+											"invertAxis": "xy",
+											"translate": [0, 3.5, 14],
+											"rotate": [-90, 0, 0],
+											"boxes": [
+												{"coordinates": [-3, -1, -6.5, 6, 13, 7], "textureOffset": [0, 18]}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-5, -6.5, -7],
+			"submodels": [
+				{
+					"id": "raccoon_leg1",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [2, 5.5, 7],
+					"boxes": [
+						{"coordinates": [-1.001, -5.5, -1, 2, 6, 2], "textureOffset": [19, 14]}
+					]
+				}
+			]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [-1, -6.5, -7],
+			"submodels": [
+				{
+					"id": "raccoon_leg2",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [-2, 5.5, 7],
+					"boxes": [
+						{"coordinates": [-0.999, -5.5, -1, 2, 6, 2], "textureOffset": [27, 15]}
+					]
+				}
+			]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-2, -6.5, 2],
+			"submodels": [
+				{
+					"id": "raccoon_leg3",
+					"invertAxis": "xy",
+					"translate": [2, 5.5, -2],
+					"boxes": [
+						{"coordinates": [-0.999, -5.5, -1, 2, 6, 2], "textureOffset": [27, 15]}
+					]
+				}
+			]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [2, -6.5, 2],
+			"submodels": [
+				{
+					"id": "raccoon_leg4",
+					"invertAxis": "xy",
+					"translate": [-2, 6.5, -2],
+					"boxes": [
+						{"coordinates": [-1.001, -6.5, -1, 2, 6, 2], "textureOffset": [19, 14]}
+					]
+				}
+			]
+		},
+		{
+			"part": "tail",
+			"id": "tail",
+			"invertAxis": "xy",
+			"translate": [-4, -9, -9],
+			"submodels": [
+				{
+					"id": "tail_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 8.5, 11.5],
+					"rotate": [-90, 0, 0],
+					"boxes": [
+						{"coordinates": [-2, -8.5, -0.5, 4, 11, 4], "textureOffset": [30, 0]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"tail_rotation.rx": "0",
+					"tail.ty": "if(body.rz==torad(-90), 12, 16.5)",
+					"tail.tz": "if(body.rz==torad(-90), 0.5, -2)"
+				}
+			]
+		}
+	]
+}

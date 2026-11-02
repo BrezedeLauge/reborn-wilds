@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dungeonsalive:block/enchantsmith_table",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "dungeonsalive:block/enchantsmith_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dungeonsalive:block/enchantsmith_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dungeonsalive:block/enchantsmith_table",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "title": "Unruhige Nächte",
+  "description": "Nach Sonnenuntergang werden die Wege gefährlicher. Kümmere dich um einige Zombies und Skelette. Als Dank wartet ein Windhorn auf dich: Es verschafft dir im Gedränge etwas Luft. Nur eigene besiegte Gegner seit Annahme zählen.",
+  "icon": "dungeonsalive:wind_horn",
+  "order": 30,
+  "prerequisites": ["dungeonsalive:small_wonders"],
+  "objectives": [
+    {"id": "zombies", "type": "kill_entity", "target": "minecraft:zombie", "amount": 5, "label": "Zombies besiegen"},
+    {"id": "skeletons", "type": "kill_entity", "target": "minecraft:skeleton", "amount": 3, "label": "Skelette besiegen"}
+  ],
+  "rewards": [{"item": "dungeonsalive:wind_horn", "count": 1}],
+  "experience": 50
+}

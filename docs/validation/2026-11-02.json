@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "project": "Reborn Wilds",
+  "internal_mod_id": "dungeonsalive",
+  "version": "0.4.0-alpha",
+  "verified_at_utc": "2026-11-02T21:42:34.521307+00:00",
+  "scope": "Pre-branding Java/NeoForge snapshot; presentation-only rebranding is validated separately.",
+  "artifact": {
+    "sha256": "90b2c19bc58a03baa4b62a19f9505e32c6d70205fe1dd8e0d51a0b1403cb7f8a",
+    "size_bytes": 5151834,
+    "kind": "local_direct_javac_test_artifact_not_gradle_release"
+  },
+  "main_sources": 458,
+  "test_sources": 40,
+  "junit": {
+    "found": 170,
+    "started": 170,
+    "succeeded": 170,
+    "failed": 0,
+    "aborted": 0,
+    "skipped": 0,
+    "containers_failed": 0,
+    "total_failures": 0
+  },
+  "native_server": {
+    "passed": 139,
+    "required_failures": 0,
+    "optional_failures": 0
+  },
+  "evidence_sha256": {
+    "java_report": "5eac73769471b0bc528d87514df9cf3e31a2b3f98cc02e0c54f08044a63ac466",
+    "java_log": "9a2e460e9dff5d44e941c9afafe5d520c054bd0434f7dbc742340d53a7c3e2e8",
+    "native_report": "4c1b6e31a6e87d25507f54bf1a9be873be36fcb91811b4fb594b789e325b15d4",
+    "native_log": "bce4ac5a1afe2397c0c13cb6b7215209afe80309f53e50eb3009c1e6ab70ac86"
+  },
+  "public_evidence_notice": "Raw local logs, captures and machine paths are not part of the public repository.",
+  "native_visual_review_complete": false,
+  "audio_listening_review_complete": false,
+  "gradle_release": false,
+  "m2_mechanics_included": false
+}

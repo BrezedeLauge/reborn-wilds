@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "generator": "tools/generate_boss_sites.py",
+  "license": "MIT",
+  "origin": "Own original block layouts; no original mission maps or external assets copied.",
+  "data_version": 3955,
+  "templates": [
+    {
+      "id": "dungeonsalive:boss_sites/overgrown_arena",
+      "file": "src/main/resources/data/dungeonsalive/structure/boss_sites/overgrown_arena.nbt",
+      "size": [
+        21,
+        10,
+        37
+      ],
+      "blocks_including_air": 3838,
+      "palette_entries": 16,
+      "sha256": "de41ca9f3d4205995d802fb8e49864bfa8458a124fec165b3929b3c1d1e3f758",
+      "entities": [],
+      "seal": "dungeonsalive:corrupted_cauldron_seal",
+      "usable_floor": [
+        10,
+        0,
+        10
+      ],
+      "clear_space": [
+        9,
+        5,
+        9
+      ],
+      "chest": [
+        10,
+        1,
+        18
+      ]
+    },
+    {
+      "id": "dungeonsalive:boss_sites/redstone_mineyard",
+      "file": "src/main/resources/data/dungeonsalive/structure/boss_sites/redstone_mineyard.nbt",
+      "size": [
+        23,
+        12,
+        37
+      ],
+      "blocks_including_air": 5020,
+      "palette_entries": 22,
+      "sha256": "cc52f593067da8f3f2fe0fae7d48284fcefeef62f31686593720621c6f01ec3a",
+      "entities": [],
+      "seal": "dungeonsalive:redstone_monstrosity_seal",
+      "usable_floor": [
+        11,
+        0,
+        10
+      ],
+      "clear_space": [
+        9,
+        5,
+        9
+      ],
+      "chest": [
+        19,
+        1,
+        15
+      ]
+    },
+    {
+      "id": "dungeonsalive:boss_sites/sunken_shrine",
+      "file": "src/main/resources/data/dungeonsalive/structure/boss_sites/sunken_shrine.nbt",
+      "size": [
+        21,
+        10,
+        37
+      ],
+      "blocks_including_air": 3850,
+      "palette_entries": 15,
+      "sha256": "b46b35b80a4f70cf250ca1353e6e3faa162f1788ac0d361784e7e45acedfb6de",
+      "entities": [],
+      "seal": "dungeonsalive:nameless_one_seal",
+      "usable_floor": [
+        10,
+        2,
+        10
+      ],
+      "clear_space": [
+        9,
+        5,
+        9
+      ],
+      "chest": [
+        10,
+        3,
+        18
+      ]
+    }
+  ],
+  "generation": "Default mod worldgen, only new chunks; finite single-piece Jigsaw sites with beard_thin terrain adaptation.",
+  "encounters": "No saved mobs/spawners/commands. One ordinary loot chest contains one existing encounter seal; explicit use remains required.",
+  "discovery": "Each real site includes a 16-block narrow weathered approach and two cairns. The waystone reads only nearby existing loaded structure starts; it never locates or generates chunks.",
+  "source_schema": [
+    "Minecraft 1.21.1 JigsawStructure, JigsawPlacement, StructureTemplate, SinglePoolElement",
+    "Existing original generate_dungeons_camps.py typed NBT encoder"
+  ],
+  "validation_limits": [
+    "Generator checks dimensions, bounded palettes, dry 9x5x9 encounter space and registered seal recipes.",
+    "Actual registry loading, loot and collision checks are separate BossSiteGameTests.",
+    "Natural frequency, varied terrain placement and visual appearance require native exploration."
+  ]
+}

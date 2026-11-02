@@ -1,0 +1,71 @@
+{
+  "type": "dungeonsalive:exploration_gear",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/simple_dungeon"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/abandoned_mineshaft"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/desert_pyramid"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/jungle_temple"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/pillager_outpost"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/buried_treasure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/nether_bridge"
+        }
+      ]
+    }
+  ],
+  "chance": 0.3,
+  "items": [
+    "dungeonsalive:sword",
+    "dungeonsalive:cutlass",
+    "dungeonsalive:daggers",
+    "dungeonsalive:glaive",
+    "dungeonsalive:spear",
+    "dungeonsalive:hammer",
+    "dungeonsalive:sickles",
+    "dungeonsalive:soul_knife",
+    "dungeonsalive:power_bow",
+    "dungeonsalive:auto_crossbow",
+    "dungeonsalive:boots_of_swiftness",
+    "dungeonsalive:death_cap_mushroom",
+    "dungeonsalive:iron_hide_amulet",
+    "dungeonsalive:shock_powder",
+    "dungeonsalive:harvester",
+    "dungeonsalive:soul_healer",
+    "dungeonsalive:ghost_cloak",
+    "dungeonsalive:flaming_quiver",
+    "dungeonsalive:wolf_helmet",
+    "dungeonsalive:wolf_chestplate",
+    "dungeonsalive:wolf_leggings",
+    "dungeonsalive:wolf_boots",
+    "dungeonsalive:spider_helmet",
+    "dungeonsalive:spider_chestplate",
+    "dungeonsalive:spider_leggings",
+    "dungeonsalive:spider_boots",
+    "dungeonsalive:battle_robes_helmet",
+    "dungeonsalive:battle_robes_chestplate",
+    "dungeonsalive:battle_robes_leggings",
+    "dungeonsalive:battle_robes_boots"
+  ]
+}

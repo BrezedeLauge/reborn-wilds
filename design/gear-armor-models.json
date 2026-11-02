@@ -1,0 +1,46 @@
+{
+  "source_repository": "Infamous-Misadventures/Dungeons-Gear",
+  "revision": "9ba0075c5b2f13ef54ec914ad1327a853ecdce6f",
+  "license": "MIT",
+  "models": [
+    {
+      "id": "wolf",
+      "source": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/geo/armor/wolf_armor.geo.json",
+      "sha256": "6bcf1f46f071980ada312c196dc5dd159409d20aa9c2a2e7baae366f33265084",
+      "atlas_size": [
+        96,
+        64
+      ],
+      "source_bones": 14,
+      "source_cubes": 9,
+      "adaptation": "Native humanoid socket offsets retain source rest placement, pivots, rotations and explicit UVs. Empty boot bones receive lower four pixels of source leg mesh through proportional UV clipping at local Y=8; complementary leggings reconstruct the complete original surface. Open clothing seam, no duplicated faces or fabricated pixels."
+    },
+    {
+      "id": "spider",
+      "source": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/geo/armor/spider_armor.geo.json",
+      "sha256": "e914011a5914328ff33794ea85d3dc991da393f0d6f2fcf9447e251da8715ce2",
+      "atlas_size": [
+        96,
+        64
+      ],
+      "source_bones": 15,
+      "source_cubes": 10,
+      "adaptation": "Native humanoid socket offsets retain source rest placement, pivots, rotations and explicit UVs. Authored leg and boot meshes remain separate equipment slots."
+    },
+    {
+      "id": "battle_robes",
+      "source": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/geo/armor/battle_robes_armor.geo.json",
+      "sha256": "cd059b3313e4e84cf8f9a33c7207051a9931ff92c6fa2be296be0039851ec663",
+      "atlas_size": [
+        96,
+        66
+      ],
+      "source_bones": 14,
+      "source_cubes": 11,
+      "adaptation": "Native humanoid socket offsets retain source rest placement, pivots, rotations and explicit UVs. Authored leg and boot meshes remain separate equipment slots."
+    }
+  ],
+  "generated_java": "src/main/java/de/laugenbreze/dungeonsalive/client/gear/ArmorGeometry.java",
+  "generated_sha256": "3c719fe71ca0702b8c8db0322eafe8d778115510f5000b9ce0233ac0a4c3562e",
+  "validation": "Reproducible geometry conversion only; no native Minecraft visual acceptance is implied."
+}

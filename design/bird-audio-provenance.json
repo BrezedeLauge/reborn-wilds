@@ -1,0 +1,21 @@
+{
+  "kind": "own_event_aliases_to_installed_minecraft_audio",
+  "minecraft_version": "1.21.1",
+  "implementation_license": "MIT for own Java/generator/event definitions only",
+  "copied_game_recordings": [],
+  "calls": {
+    "toucan": {
+      "source_event": "minecraft:entity.parrot.ambient",
+      "pitch": 0.85,
+      "original_dungeons_or_real_species_recording_claimed": false
+    },
+    "golden_parrot": {
+      "source_event": "minecraft:entity.parrot.ambient",
+      "pitch": 1.0,
+      "original_dungeons_or_real_species_recording_claimed": false
+    }
+  },
+  "departure_event": "minecraft:entity.parrot.fly",
+  "runtime": "Real supported rest/actual takeoff transitions; leader-only contact voice and per-entity cooldowns",
+  "limits": "Raven and vulture gain quiet departure wings, not an invented parrot voice. Native event resolution and actual listening are separate checks."
+}

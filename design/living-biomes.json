@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "generator": "tools/generate_living_biomes.py",
+  "biomes": [
+    "amber_grove",
+    "luminous_marsh",
+    "ember_crags"
+  ],
+  "world_preset": "dungeonsalive:living_world",
+  "existing_worlds_keep_their_generator": true,
+  "source": "Original biome palettes and decoration recipes; installed Minecraft 1.21.1 registry references and codecs only. No copied textures or world archives.",
+  "terrain": "The optional preset retains vanilla Overworld noise. Ember Crags names an aesthetic; these JSON biomes do not impose cliff height or a new surface/noise engine.",
+  "decoration": {
+    "woodland": [
+      "amber_rocks",
+      "amber_floor",
+      "woodland_deadwood",
+      "amber_flowers"
+    ],
+    "wetland": [
+      "marsh_rocks",
+      "luminous_floor",
+      "marsh_deadwood",
+      "marsh_flowers",
+      "marsh_lichen"
+    ],
+    "dryland": [
+      "ember_rocks",
+      "ember_floor",
+      "dry_deadwood",
+      "dry_scrub"
+    ]
+  },
+  "bounds": {
+    "tree_attempts_per_chunk": {
+      "amber_grove": 3,
+      "luminous_marsh": 1,
+      "ember_crags": 1
+    },
+    "ground_disk_radius": [
+      1,
+      2
+    ],
+    "ground_disk_layers": 1,
+    "deadwood_blocks": [
+      2,
+      4
+    ],
+    "flower_patch_attempts": 12,
+    "flower_patch_xz_spread": 3,
+    "lichen_search_range": 4,
+    "marsh_pool_attempt_chance_per_chunk": "1/6",
+    "marsh_pool_shape_limit": "Vanilla LakeFeature local 16 x 8 x 16 cells; not an unbounded water fill",
+    "decoration_placement": "Only new-chunk worldgen, each outer placement biome-filtered; no ticking decorator or player-block mutation"
+  },
+  "validation_limit": "Generated JSON/reference checks are not native world-generation or visual approval.",
+  "generated_resources": [
+    "src/main/resources/data/dungeonsalive/neoforge/biome_modifier/living_dryland.json",
+    "src/main/resources/data/dungeonsalive/neoforge/biome_modifier/living_wetland.json",
+    "src/main/resources/data/dungeonsalive/neoforge/biome_modifier/living_woodland.json",
+    "src/main/resources/data/dungeonsalive/tags/worldgen/biome/living_biomes.json",
+    "src/main/resources/data/dungeonsalive/tags/worldgen/biome/living_decoration/dryland.json",
+    "src/main/resources/data/dungeonsalive/tags/worldgen/biome/living_decoration/wetland.json",
+    "src/main/resources/data/dungeonsalive/tags/worldgen/biome/living_decoration/woodland.json",
+    "src/main/resources/data/dungeonsalive/worldgen/biome/amber_grove.json",
+    "src/main/resources/data/dungeonsalive/worldgen/biome/ember_crags.json",
+    "src/main/resources/data/dungeonsalive/worldgen/biome/luminous_marsh.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/amber_floor.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/amber_flowers.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/amber_rocks.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/dry_deadwood.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/dry_scrub.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/ember_floor.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/ember_rocks.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/luminous_floor.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/marsh_deadwood.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/marsh_flowers.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/marsh_lichen.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/marsh_pool.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/marsh_rocks.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/marsh_trees.json",
+    "src/main/resources/data/dungeonsalive/worldgen/configured_feature/living/woodland_deadwood.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/amber_floor.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/amber_flowers.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/amber_rocks.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/amber_trees.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/dry_deadwood.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/dry_scrub.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/ember_floor.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/ember_rocks.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/ember_trees.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/luminous_floor.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/marsh_deadwood.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/marsh_flowers.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/marsh_lichen.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/marsh_pool.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/marsh_rocks.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/marsh_trees.json",
+    "src/main/resources/data/dungeonsalive/worldgen/placed_feature/living/woodland_deadwood.json",
+    "src/main/resources/data/minecraft/tags/worldgen/biome/is_forest.json",
+    "src/main/resources/data/minecraft/tags/worldgen/biome/is_overworld.json",
+    "src/main/resources/data/minecraft/tags/worldgen/biome/is_savanna.json"
+  ]
+}

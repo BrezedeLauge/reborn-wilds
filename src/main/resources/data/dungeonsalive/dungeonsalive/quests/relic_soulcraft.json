@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "title": "Die Sprache der Seelen",
+  "description": "Erkunde den Nether und bringe Seelensand mit. Der Seelenernter lädt sich anschließend durch besiegte Gegner auf.",
+  "icon": "dungeonsalive:harvester",
+  "order": 510,
+  "prerequisites": [
+    "dungeonsalive:relic_supplies"
+  ],
+  "objectives": [
+    {
+      "id": "soul_sand",
+      "type": "collect_item",
+      "target": "minecraft:soul_sand",
+      "amount": 8,
+      "label": "Seelensand im Inventar"
+    },
+    {
+      "id": "amethyst_shard",
+      "type": "collect_item",
+      "target": "minecraft:amethyst_shard",
+      "amount": 8,
+      "label": "Amethystscherben im Inventar"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "dungeonsalive:harvester",
+      "count": 1
+    }
+  ],
+  "experience": 65
+}

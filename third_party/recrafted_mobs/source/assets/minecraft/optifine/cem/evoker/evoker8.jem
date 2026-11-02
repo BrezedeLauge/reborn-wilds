@@ -1,0 +1,177 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "textures/entity/illager/tower_wraith.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "hat",
+			"id": "hat",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "nose",
+			"id": "nose",
+			"invertAxis": "xy",
+			"translate": [0, -26, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "wraith",
+					"invertAxis": "xy",
+					"translate": [-1, 6, -2],
+					"boxes": [
+						{"coordinates": [0.5, 6, 3, 1, 12, 1], "textureOffset": [54, 30]}
+					],
+					"submodels": [
+						{
+							"id": "face",
+							"invertAxis": "xy",
+							"translate": [0, 14, 3],
+							"boxes": [
+								{"coordinates": [-2, 4, -4, 6, 7, 6], "textureOffset": [0, 0]},
+								{"coordinates": [-3, 0, -4.5, 8, 12, 8], "textureOffset": [0, 40]},
+								{"coordinates": [-2, 0, -5.05, 6, 3, 5], "textureOffset": [0, 32]}
+							],
+							"submodels": [
+								{
+									"id": "towerthing",
+									"invertAxis": "xy",
+									"translate": [0, 12, 3.5],
+									"rotate": [50, 0, 0],
+									"boxes": [
+										{"coordinates": [-3, -2, 0, 8, 2, 9], "textureOffset": [24, 0], "sizeAdd": -0.01}
+									]
+								},
+								{
+									"id": "Cape",
+									"invertAxis": "xy",
+									"translate": [0, 0, 2.5],
+									"rotate": [-22.5, 0, 0],
+									"boxes": [
+										{"coordinates": [-4, -20, -1, 10, 20, 1], "textureOffset": [32, 37], "sizeAdd": -0.01}
+									]
+								}
+							]
+						},
+						{
+							"id": "waist",
+							"invertAxis": "xy",
+							"translate": [0, 14, 0],
+							"rotate": [-12.5, 0, 0],
+							"boxes": [
+								{"coordinates": [-3, -16, 0.5, 8, 19, 4], "textureOffset": [18, 14], "sizeAdd": -0.01}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"face.rx": "head.rx",
+					"face.ry": "head.ry",
+					"face.rz": "head.rz",
+					"waist.rx": "torad(12.5) + sin(torad(12.5*3) + time/42) *0.20"
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [2, -12, 0]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -21, 2],
+			"submodels": [
+				{
+					"id": "rightarm4",
+					"invertAxis": "xy",
+					"translate": [4, 22, 0.5],
+					"boxes": [
+						{"coordinates": [1.5, -11.5, -0.5, 1, 12, 1], "textureOffset": [54, 30]},
+						{"coordinates": [0, -10, -2, 4, 12, 4], "textureOffset": [2, 14]}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -22, 0],
+			"submodels": [
+				{
+					"id": "leftarm4",
+					"invertAxis": "xy",
+					"translate": [-4, 22, 0.5],
+					"boxes": [
+						{"coordinates": [-2.5, -11.5, -0.5, 1, 12, 1], "textureOffset": [54, 30]},
+						{"coordinates": [-4, -10, -2, 4, 12, 4], "textureOffset": [42, 14]}
+					]
+				}
+			]
+		},
+		{
+			"part": "arms",
+			"id": "arms",
+			"invertAxis": "xy",
+			"translate": [0, -22, 0],
+			"submodels": [
+				{
+					"id": "bone32",
+					"invertAxis": "xy",
+					"translate": [-1, 7, 1],
+					"submodels": [
+						{
+							"id": "leftarm",
+							"invertAxis": "xy",
+							"translate": [-3, 16, 0.5],
+							"boxes": [
+								{"coordinates": [-2.5, -11.5, -0.5, 1, 12, 1], "textureOffset": [54, 30]},
+								{"coordinates": [-4, -10, -2, 4, 12, 4], "textureOffset": [42, 14]}
+							]
+						},
+						{
+							"id": "rightarm",
+							"invertAxis": "xy",
+							"translate": [5, 16, 0.5],
+							"boxes": [
+								{"coordinates": [1.5, -11.5, -0.5, 1, 12, 1], "textureOffset": [54, 30]},
+								{"coordinates": [0, -10, -2, 4, 12, 4], "textureOffset": [2, 14]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"rightarm.rx": "torad(42.5) + right_arm.rx / 1.5",
+					"leftarm.rx": "torad(42.5) + left_arm.rx / 1.5"
+				}
+			]
+		}
+	]
+}

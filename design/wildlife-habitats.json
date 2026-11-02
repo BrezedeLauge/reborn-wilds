@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "source": "tools/generate_peaceful_resources.py",
+  "status": "source_implemented_runtime_validation_pending",
+  "default_enabled": true,
+  "configuration": "dungeonsalive-wildlife-common.toml",
+  "spawn_category": "creature",
+  "habitats": [
+    {
+      "id": "wooly_cow",
+      "biome_tag": "dungeonsalive:has_wildlife/wooly_cow",
+      "biomes": [
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "minecraft:meadow"
+      ],
+      "schedule": "day",
+      "spawn_weight": 6,
+      "requested_pack_min": 3,
+      "requested_pack_max": 5,
+      "modifier": "src/main/resources/data/dungeonsalive/neoforge/biome_modifier/wildlife_wooly_cow.json"
+    },
+    {
+      "id": "vulture",
+      "biome_tag": "dungeonsalive:has_wildlife/vulture",
+      "biomes": [
+        "minecraft:desert",
+        "minecraft:badlands",
+        "minecraft:eroded_badlands",
+        "minecraft:wooded_badlands",
+        "minecraft:savanna",
+        "minecraft:savanna_plateau",
+        "minecraft:windswept_savanna"
+      ],
+      "schedule": "day",
+      "spawn_weight": 4,
+      "requested_pack_min": 3,
+      "requested_pack_max": 5,
+      "modifier": "src/main/resources/data/dungeonsalive/neoforge/biome_modifier/wildlife_vulture.json"
+    },
+    {
+      "id": "wisp",
+      "biome_tag": "dungeonsalive:has_wildlife/wisp",
+      "biomes": [
+        "minecraft:forest",
+        "minecraft:flower_forest",
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:dark_forest",
+        "minecraft:swamp",
+        "minecraft:mangrove_swamp"
+      ],
+      "schedule": "dusk_and_night",
+      "spawn_weight": 5,
+      "requested_pack_min": 3,
+      "requested_pack_max": 5,
+      "modifier": "src/main/resources/data/dungeonsalive/neoforge/biome_modifier/wildlife_wisp.json"
+    }
+  ],
+  "notes": [
+    "Minecraft adaptations, not extracted original spawn tables; Wisp habitat remains an explicit adaptation.",
+    "Normal creature caps, spawn placement and collision checks apply. Requested pack size is not a guaranteed successful spawn count.",
+    "Piggy Bank uses separate rare single-spawn rules in tools/generate_piggy_bank_resources.py and design/piggy-bank-behavior.json. Pets, key golems and merchants receive no natural wildlife biome entries.",
+    "Biome modifiers add spawn opportunities without replacing terrain, structures or existing entities."
+  ]
+}

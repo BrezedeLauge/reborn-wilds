@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#dungeonsalive:living_decoration/woodland",
+  "features": [
+    "dungeonsalive:living/amber_rocks",
+    "dungeonsalive:living/amber_floor",
+    "dungeonsalive:living/woodland_deadwood",
+    "dungeonsalive:living/amber_flowers"
+  ],
+  "step": "vegetal_decoration"
+}

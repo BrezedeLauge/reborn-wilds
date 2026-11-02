@@ -1,0 +1,30 @@
+{
+  "de_de": {
+    "entity.minecraft.villager.dungeonsalive.village_merchant": "Dorfhändler",
+    "block.dungeonsalive.merchant_counter": "Händlertresen",
+    "entity.minecraft.villager.dungeonsalive.luxury_merchant": "Luxushändler",
+    "block.dungeonsalive.luxury_counter": "Luxustresen",
+    "entity.minecraft.villager.dungeonsalive.mystery_merchant": "Mysteriöser Händler",
+    "block.dungeonsalive.mystery_counter": "Kuriositätentresen",
+    "entity.minecraft.villager.dungeonsalive.blacksmith": "Dungeons-Schmied",
+    "block.dungeonsalive.blacksmith_station": "Dungeons-Schmiede",
+    "entity.minecraft.villager.dungeonsalive.gift_wrapper": "Geschenkverpacker",
+    "block.dungeonsalive.gift_wrapping_table": "Geschenktisch",
+    "entity.minecraft.villager.dungeonsalive.enchantsmith": "Verzauberungsschmied",
+    "block.dungeonsalive.enchantsmith_table": "Verzaubererschreibtisch"
+  },
+  "en_us": {
+    "entity.minecraft.villager.dungeonsalive.village_merchant": "Village Merchant",
+    "block.dungeonsalive.merchant_counter": "Merchant Counter",
+    "entity.minecraft.villager.dungeonsalive.luxury_merchant": "Luxury Merchant",
+    "block.dungeonsalive.luxury_counter": "Luxury Counter",
+    "entity.minecraft.villager.dungeonsalive.mystery_merchant": "Mystery Merchant",
+    "block.dungeonsalive.mystery_counter": "Curiosity Counter",
+    "entity.minecraft.villager.dungeonsalive.blacksmith": "Dungeons Blacksmith",
+    "block.dungeonsalive.blacksmith_station": "Dungeons Smithing Station",
+    "entity.minecraft.villager.dungeonsalive.gift_wrapper": "Gift Wrapper",
+    "block.dungeonsalive.gift_wrapping_table": "Gift Wrapping Table",
+    "entity.minecraft.villager.dungeonsalive.enchantsmith": "Enchantsmith",
+    "block.dungeonsalive.enchantsmith_table": "Enchantsmith Table"
+  }
+}

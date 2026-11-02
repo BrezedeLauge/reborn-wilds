@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "title": "Erinnerung: Verderbter Kessel",
+  "description": "Eine freiwillige Herausforderung für dein nächstes Abenteuer. Stelle das passende Begegnungssiegel her. Schleiche und benutze es auf einer freien, ebenen Fläche. Besiege Verderbter Kessel. Nimm die Aufgabe vor dem Kampf an. Das Siegel wird verbraucht; es gibt keine automatisch gebaute Arena.",
+  "icon": "dungeonsalive:corrupted_cauldron_seal",
+  "order": 110,
+  "prerequisites": [
+    "dungeonsalive:a_place_to_return"
+  ],
+  "objectives": [
+    {
+      "id": "defeat_v1",
+      "type": "kill_entity",
+      "target": "dungeonsalive:corrupted_cauldron",
+      "amount": 1,
+      "label": "Verderbter Kessel besiegen"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:emerald",
+      "count": 16
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "count": 2
+    }
+  ],
+  "experience": 160
+}

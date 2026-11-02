@@ -1,0 +1,181 @@
+{
+  "type": "minecraft:random_boolean_selector",
+  "config": {
+    "feature_true": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "direction": "east",
+          "prioritize_tip": false,
+          "allowed_placement": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:dirt",
+                  "minecraft:coarse_dirt",
+                  "minecraft:podzol",
+                  "minecraft:rooted_dirt",
+                  "minecraft:moss_block",
+                  "minecraft:mud",
+                  "dungeonsalive:amber_moss",
+                  "dungeonsalive:luminous_moss"
+                ],
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            ]
+          },
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:acacia_log",
+                  "Properties": {
+                    "axis": "x"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:dirt",
+                  "minecraft:coarse_dirt",
+                  "minecraft:podzol",
+                  "minecraft:rooted_dirt",
+                  "minecraft:moss_block",
+                  "minecraft:mud",
+                  "dungeonsalive:amber_moss",
+                  "dungeonsalive:luminous_moss"
+                ],
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "feature_false": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "direction": "south",
+          "prioritize_tip": false,
+          "allowed_placement": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:dirt",
+                  "minecraft:coarse_dirt",
+                  "minecraft:podzol",
+                  "minecraft:rooted_dirt",
+                  "minecraft:moss_block",
+                  "minecraft:mud",
+                  "dungeonsalive:amber_moss",
+                  "dungeonsalive:luminous_moss"
+                ],
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            ]
+          },
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:acacia_log",
+                  "Properties": {
+                    "axis": "z"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:dirt",
+                  "minecraft:coarse_dirt",
+                  "minecraft:podzol",
+                  "minecraft:rooted_dirt",
+                  "minecraft:moss_block",
+                  "minecraft:mud",
+                  "dungeonsalive:amber_moss",
+                  "dungeonsalive:luminous_moss"
+                ],
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

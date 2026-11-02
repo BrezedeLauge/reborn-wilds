@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.dungeonsalive.committed"
+  },
+  "supported_items": "#dungeonsalive:enchantable/dungeons_melee",
+  "weight": 4,
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {}
+}

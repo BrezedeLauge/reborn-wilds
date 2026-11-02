@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "key": "MooshroomMonstrosity",
+      "source": "dungeons_mobs_port",
+      "geometry_class": "BedrockMooshroomMonstrosityGeometry",
+      "animation_class": "BedrockMooshroomMonstrosityAnimations",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2022 Patrigan",
+      "source_revision": "cca789ab3ce910853517d65494efd76508255a1d",
+      "source_url": "https://github.com/FirefoxSalesman/DungeonsMobs",
+      "credits": [
+        "Patrigan",
+        "Pasticcino (explicit model credit on author project page)",
+        "Carson Holscher / FirefoxSalesman"
+      ],
+      "procedural_loop_seconds": 7.2,
+      "model_snapshot": "third_party/dungeons_mobs_port/snapshots/src/main/resources/assets/dungeonsmobs/geo/redstone_monstrosity.v2.geo.json",
+      "model_sha256": "fb9b2267898757a14cbceafb193cc1e600d24f6f6ba2b8c5763507f1c4697e15",
+      "upstream_model_path": "src/main/resources/assets/dungeonsmobs/geo/redstone_monstrosity.v2.geo.json",
+      "animation_snapshot": "third_party/dungeons_mobs_port/snapshots/src/main/resources/assets/dungeonsmobs/animations/redstone_monstrosity.v2.animation.json",
+      "animation_sha256": "87e9a8d6a0c04177ebf0eb35b095357322972bb7fe96a31fec4b04a84c5264a6",
+      "upstream_animation_path": "src/main/resources/assets/dungeonsmobs/animations/redstone_monstrosity.v2.animation.json",
+      "discard_unbound_channels": [
+        "L_Elbow",
+        "L_Eye",
+        "L_Hand",
+        "L_IndexFinger",
+        "L_Leg",
+        "L_MiddleFinger",
+        "L_Shoulder",
+        "L_Thumb",
+        "LowerBody",
+        "MiddleEye",
+        "Mouth",
+        "R_Ee",
+        "R_Elbow",
+        "R_Hand",
+        "R_IndexFinger",
+        "R_Leg",
+        "R_MiddleFinger",
+        "R_Shoulder",
+        "R_Thumb",
+        "UpperBody2"
+      ],
+      "discard_reason": "Legacy animation tracks target absent bones in the original source rig and are ignored there too; source snapshots retained unchanged."
+    },
+    {
+      "key": "Illusioner",
+      "source": "dungeons_mobs",
+      "geometry_class": "BedrockIllusionerGeometry",
+      "animation_class": "BedrockIllusionerAnimations",
+      "license": "MIT",
+      "copyright": "Copyright (c) 2022 Patrigan",
+      "source_revision": "f04b11e7b3672776599fd15ad98a61c53f63b182",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Mobs",
+      "credits": [
+        "Patrigan",
+        "Alexander's Fun And Games (2022 Illusioner remake and animation history)"
+      ],
+      "procedural_loop_seconds": 7.2,
+      "model_snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/geo/geo_illager.geo.json",
+      "model_sha256": "cd12aab20053c37bb101eff784f7978bb60c1f96366b83279302f6e2afc86a75",
+      "upstream_model_path": "src/main/resources/assets/dungeons_mobs/geo/geo_illager.geo.json",
+      "animation_snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/animations/illusioner.animation.json",
+      "animation_sha256": "6e79ce1999785b1666d8e5789c67a290182ae7c6d7b4c00705fbbe0de4a10987",
+      "upstream_animation_path": "src/main/resources/assets/dungeons_mobs/animations/illusioner.animation.json",
+      "discard_unbound_channels": [],
+      "discard_reason": "Legacy animation tracks target absent bones in the original source rig and are ignored there too; source snapshots retained unchanged.",
+      "equipment": {
+        "atlas_size": [
+          256,
+          64
+        ],
+        "atlas_file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/dungeons_mobs/illusioner_complete.png",
+        "materials": [
+          {
+            "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/entity/illager/illusioner.png",
+            "sha256": "890f51d75217a85848e6fdfdc0239e3b37cf99e7e92fd58762989e5ee3b239cc",
+            "offset": [
+              0,
+              0
+            ]
+          },
+          {
+            "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/textures/models/armor/illusioner_armor.png",
+            "sha256": "30015550929f27024fd6357cabdc84b441daa3b68cfb68738714d9e4b06973ea",
+            "offset": [
+              64,
+              0
+            ]
+          }
+        ],
+        "attachments": [
+          {
+            "snapshot": "third_party/dungeons_mobs/snapshots/src/main/resources/assets/dungeons_mobs/geo/armor/illusioner_armor.geo.json",
+            "sha256": "8e716576e4e3fd59d22228535b411872a4886d809d4f9e5f9551b5994cdf3845",
+            "atlas_offset": [
+              64,
+              0
+            ],
+            "bone_map": {
+              "armorHead": "armorBipedHead",
+              "armorBody": "armorBipedBody",
+              "armorRightArm": "armorBipedRightArm",
+              "armorLeftArm": "armorBipedLeftArm",
+              "armorLeftLeg": "armorBipedLeftLeg",
+              "armorRightLeg": "armorBipedRightLeg",
+              "armorLeftBoot": "armorBipedLeftFoot",
+              "armorRightBoot": "armorBipedRightFoot"
+            },
+            "bone_offsets": {}
+          }
+        ],
+        "changes": [
+          "Lossless juxtaposition of source skin and source costume PNG, source armor attached in common authored humanoid coordinates.",
+          "Use authored uncrossed-arm animation family; crossed-arm tracks remain in source library.",
+          "Head/socket coordinates checked against geo_illager and original armor renderer."
+        ]
+      }
+    }
+  ]
+}

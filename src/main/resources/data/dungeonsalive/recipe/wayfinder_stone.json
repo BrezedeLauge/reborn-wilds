@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "dungeonsalive:carved_ancient_bricks"
+    },
+    {
+      "item": "minecraft:compass"
+    },
+    {
+      "item": "minecraft:glow_ink_sac"
+    }
+  ],
+  "result": {
+    "id": "dungeonsalive:wayfinder_stone",
+    "count": 1
+  }
+}

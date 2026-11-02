@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "generator": "tools/generate_dungeons_camps.py",
+  "asset_license": "MIT",
+  "data_version": 3955,
+  "pack_format": 48,
+  "templates": [
+    {
+      "id": "dungeonsalive:camps/merchant",
+      "file": "examples/datapacks/dungeons_camps/data/dungeonsalive/structure/camps/merchant.nbt",
+      "size": [
+        9,
+        6,
+        9
+      ],
+      "block_records_including_air": 486,
+      "palette_entries": 17,
+      "entity_ids": [
+        "dungeonsalive:village_merchant"
+      ],
+      "sha256": "5326a2fec74590cbf4afc0417d0f006340e269afaae35b71ba42c994b3bf066d",
+      "origin": "own_generator_authored_layout",
+      "no_original_map_or_structure_copied": true
+    },
+    {
+      "id": "dungeonsalive:camps/captive",
+      "file": "examples/datapacks/dungeons_camps/data/dungeonsalive/structure/camps/captive.nbt",
+      "size": [
+        11,
+        6,
+        9
+      ],
+      "block_records_including_air": 594,
+      "palette_entries": 15,
+      "entity_ids": [
+        "dungeonsalive:captured_blacksmith"
+      ],
+      "sha256": "cd940041df82fc59593904c15b46e679c3ee46756cf2ef4221f400b4c9923c69",
+      "origin": "own_generator_authored_layout",
+      "no_original_map_or_structure_copied": true
+    }
+  ],
+  "runtime_status": "generated; actual datapack registry loading/template placement require separate CampGameTests",
+  "scope": "Optional new-chunk world generation. One friendly NPC per camp. No forced hostile mobs or bosses.",
+  "primary_schema_verification": {
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.265",
+    "installed_data": [
+      "version.json",
+      "data/minecraft/worldgen/structure/pillager_outpost.json",
+      "data/minecraft/worldgen/structure_set/pillager_outposts.json"
+    ],
+    "installed_source_classes": [
+      "JigsawStructure",
+      "SinglePoolElement",
+      "RandomSpreadStructurePlacement",
+      "StructureTemplate",
+      "GameTestServer",
+      "Main"
+    ],
+    "game_files_redistributed": false
+  },
+  "limitations": [
+    "One-piece Jigsaw start templates; no expanding dungeon network.",
+    "NPC rescue does not open physical gates; players open the ordinary gate themselves.",
+    "No full original mission layout, map, chest loot or blacksmith upgrade service.",
+    "Spacing/frequency are generation settings, not a guaranteed real-world interval."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "title": "Erinnerung: Redstone-Monstrosität",
+  "description": "Eine freiwillige Herausforderung für dein nächstes Abenteuer. Stelle das passende Begegnungssiegel her. Schleiche und benutze es auf einer freien, ebenen Fläche. Besiege Redstone-Monstrosität. Nimm die Aufgabe vor dem Kampf an. Das Siegel wird verbraucht; es gibt keine automatisch gebaute Arena.",
+  "icon": "dungeonsalive:redstone_monstrosity_seal",
+  "order": 114,
+  "prerequisites": [
+    "dungeonsalive:a_place_to_return"
+  ],
+  "objectives": [
+    {
+      "id": "defeat_v1",
+      "type": "kill_entity",
+      "target": "dungeonsalive:redstone_monstrosity",
+      "amount": 1,
+      "label": "Redstone-Monstrosität besiegen"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:emerald",
+      "count": 16
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "count": 2
+    }
+  ],
+  "experience": 160
+}

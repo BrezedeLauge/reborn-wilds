@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dungeonsalive:block/luxury_counter",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "dungeonsalive:block/luxury_counter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dungeonsalive:block/luxury_counter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dungeonsalive:block/luxury_counter",
+      "y": 270
+    }
+  }
+}

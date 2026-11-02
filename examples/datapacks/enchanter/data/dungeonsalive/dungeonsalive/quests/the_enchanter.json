@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "title": "Der Verzauberer",
+  "description": "Ein Verzauberer stärkt die Monster der Umgebung. Suche ihn auf deiner Reise und besiege ihn. Diese Aufgabe verwendet den Enchanter aus Enchant With Mob; sie erzeugt selbst keinen Gegner und verändert keine Gebäude.",
+  "icon": "minecraft:enchanted_book",
+  "order": 50,
+  "requires_mods": ["enchantwithmob"],
+  "prerequisites": ["dungeonsalive:restless_nights"],
+  "objectives": [
+    {"id": "enchanter", "type": "kill_entity", "target": "enchantwithmob:enchanter", "amount": 1, "label": "Einen Verzauberer besiegen"}
+  ],
+  "rewards": [{"item": "minecraft:emerald", "count": 12}, {"item": "minecraft:golden_apple", "count": 1}],
+  "experience": 80
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dungeonsalive:item/gear/battle_robes_helmet"
+  }
+}

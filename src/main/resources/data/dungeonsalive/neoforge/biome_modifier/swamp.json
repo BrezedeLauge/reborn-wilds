@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#dungeonsalive:has_natural_hostiles/swamp",
+  "spawners": [
+    {
+      "type": "dungeonsalive:wraith",
+      "weight": 14,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

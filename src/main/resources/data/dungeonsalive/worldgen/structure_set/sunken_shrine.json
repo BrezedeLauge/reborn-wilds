@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "dungeonsalive:sunken_shrine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 36,
+    "salt": 84625175,
+    "frequency": 0.6,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 6
+    }
+  }
+}

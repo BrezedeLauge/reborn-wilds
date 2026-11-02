@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#dungeonsalive:corruption_soil",
+  "features": [
+    "dungeonsalive:corruption/natural_soil"
+  ],
+  "step": "top_layer_modification"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "title": "Erinnerung: Rachsüchtiges Herz des Enders",
+  "description": "Eine freiwillige Herausforderung für dein nächstes Abenteuer. Stelle das passende Begegnungssiegel her. Schleiche und benutze es auf einer freien, ebenen Fläche. Besiege Rachsüchtiges Herz des Enders. Nimm die Aufgabe vor dem Kampf an. Das Siegel wird verbraucht; es gibt keine automatisch gebaute Arena.",
+  "icon": "dungeonsalive:vengeful_heart_of_ender_seal",
+  "order": 120,
+  "prerequisites": [
+    "dungeonsalive:a_place_to_return"
+  ],
+  "objectives": [
+    {
+      "id": "defeat_v1",
+      "type": "kill_entity",
+      "target": "dungeonsalive:vengeful_heart_of_ender",
+      "amount": 1,
+      "label": "Rachsüchtiges Herz des Enders besiegen"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:emerald",
+      "count": 16
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "count": 2
+    }
+  ],
+  "experience": 160
+}

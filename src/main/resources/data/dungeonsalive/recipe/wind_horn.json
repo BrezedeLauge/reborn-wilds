@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {"item": "minecraft:goat_horn"},
+    {"item": "minecraft:copper_ingot"},
+    {"item": "minecraft:feather"},
+    {"item": "minecraft:leather"}
+  ],
+  "result": {
+    "id": "dungeonsalive:wind_horn",
+    "count": 1
+  }
+}

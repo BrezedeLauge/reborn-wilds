@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "project": "Dungeons Alive",
+  "mod_version": "0.4.0-alpha",
+  "updated_on": "2026-11-02",
+  "purpose": "Setup specification plus actual execution status; reports/skill-setup.json is authoritative for this environment.",
+  "execution_status": "project_sources_validated_automatic_installation_blocked",
+  "instructions": "docs/CODEX_SKILL_SETUP.md",
+  "installation_report_to_create": "reports/skill-setup.json",
+  "existing_system_workflows_to_resolve": [
+    "skill-installer",
+    "skill-creator"
+  ],
+  "source_selection": "Reuse existing suitable capabilities; inspect current official offerings first. The pinned legacy source below is a verified fallback, not a claim that it is still maintained.",
+  "official_documentation": "https://learn.chatgpt.com/docs/build-skills",
+  "current_official_catalog": "https://github.com/openai/plugins",
+  "verified_fallback_catalog": {
+    "repository": "openai/skills",
+    "revision": "49f948faa9258a0c61caceaf225e179651397431",
+    "status": "deprecated_upstream",
+    "readme_sha256": "0f6a07580f3c627253e15a58dd0439e135049ec38eb16cf3587f7e50abc6f590"
+  },
+  "existing_skills": [
+    {
+      "name": "screenshot",
+      "priority": "setup",
+      "purpose": "Native desktop/window captures as a fallback to the project's Minecraft capture helpers.",
+      "status": "covered_by_tested_native_computer_use",
+      "repository": "openai/skills",
+      "revision": "49f948faa9258a0c61caceaf225e179651397431",
+      "path": "skills/.curated/screenshot",
+      "installation_scope": "Full skill directory including helpers and license; resolve destination through the target environment.",
+      "source_check": {
+        "file": "SKILL.md",
+        "bytes": 7754,
+        "sha256": "081935a6a163277537d46365f49d6b4a3cb40b4748347e7e88759c5927fa8cf5",
+        "url": "https://raw.githubusercontent.com/openai/skills/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/screenshot/SKILL.md",
+        "scope": "Description bytes verified; not a runtime test or audit of every helper."
+      },
+      "actual_implementation": "mcp__cua_repl native window getScreenshot; tested on macOS Preview with prior project PNG, not a new Minecraft run",
+      "fallback_installed": false
+    },
+    {
+      "name": "playwright",
+      "priority": "optional_when_working_on_html_gallery",
+      "purpose": "Browser checks of the offline HTML gallery only.",
+      "status": "deferred_optional",
+      "repository": "openai/skills",
+      "revision": "49f948faa9258a0c61caceaf225e179651397431",
+      "path": "skills/.curated/playwright",
+      "installation_scope": "Full skill directory including helpers and license; resolve destination through the target environment.",
+      "source_check": {
+        "file": "SKILL.md",
+        "bytes": 3771,
+        "sha256": "0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8",
+        "url": "https://raw.githubusercontent.com/openai/skills/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright/SKILL.md",
+        "scope": "Description bytes verified; not a runtime test or audit of every helper."
+      }
+    },
+    {
+      "name": "gh-fix-ci",
+      "priority": "optional_when_using_github_actions",
+      "purpose": "Diagnose actual GitHub Actions PR checks; not a general local Gradle requirement.",
+      "status": "deferred_optional",
+      "repository": "openai/skills",
+      "revision": "49f948faa9258a0c61caceaf225e179651397431",
+      "path": "skills/.curated/gh-fix-ci",
+      "installation_scope": "Full skill directory including helpers and license; resolve destination through the target environment.",
+      "source_check": {
+        "file": "SKILL.md",
+        "bytes": 3651,
+        "sha256": "7b326b4a2f0f5f85122144628ec02077e48841e0e0e82efce88b3415bcfb7c26",
+        "url": "https://raw.githubusercontent.com/openai/skills/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/gh-fix-ci/SKILL.md",
+        "scope": "Description bytes verified; not a runtime test or audit of every helper."
+      }
+    }
+  ],
+  "project_skills_to_create": [
+    {
+      "name": "dungeons-neoforge-runtime",
+      "status": "source_created_and_validated_installation_blocked",
+      "trigger": "Dungeons Alive Java/NeoForge runtime, state, persistence, registries, AI, quests, items and server synchronization.",
+      "project_references": [
+        "AGENTS.md",
+        "docs/ARCHITECTURE.md",
+        "docs/MOBS_RUNTIME.md",
+        "docs/QUEST_FORMAT.md",
+        "docs/GEAR_AND_SOULS.md",
+        "docs/CONSTRUCTS_AND_SWIMMING.md",
+        "docs/GAMETESTS.md"
+      ],
+      "source_path": "skills/dungeons-neoforge-runtime",
+      "validation_report": "reports/project-skills-validation.json",
+      "automatic_discovery_verified": false
+    },
+    {
+      "name": "dungeons-models-animation",
+      "status": "source_created_and_validated_installation_blocked",
+      "trigger": "Model sources, Java/Gecko/CEM conversion, UVs, bones, materials, hands and animation timing in Dungeons Alive.",
+      "project_references": [
+        "AGENTS.md",
+        "docs/SOURCE_MODEL_AUDIT.md",
+        "docs/REFERENCE_ANIMATION_RUNTIME.md",
+        "docs/ANIMATION_PRODUCTION.md",
+        "docs/V04_VISUAL_POLISH.md",
+        "design/reference-models.json",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "source_path": "skills/dungeons-models-animation",
+      "validation_report": "reports/project-skills-validation.json",
+      "automatic_discovery_verified": false
+    },
+    {
+      "name": "dungeons-native-qa",
+      "status": "source_created_and_validated_installation_blocked",
+      "trigger": "Native Minecraft visual checks, capture manifests, observed image evidence, regressions and release handoff.",
+      "project_references": [
+        "AGENTS.md",
+        "docs/VALIDATION.md",
+        "docs/MANUAL_TESTS.md",
+        "docs/GAMETESTS.md",
+        "tools/prepare_mob_model_showcase.py",
+        "tools/prepare_feature_showcase.py",
+        "tools/prepare_camp_showcase.py",
+        "tools/verify_release.py",
+        "tools/package_release.py"
+      ],
+      "source_path": "skills/dungeons-native-qa",
+      "validation_report": "reports/project-skills-validation.json",
+      "automatic_discovery_verified": false
+    }
+  ],
+  "acceptance": [
+    "Resolve all installed names and target locations without duplicating existing system or custom skills.",
+    "Use the current skill-creator workflow and validator for all three project skills.",
+    "Run the small read-only usage checks defined in the guide and report their actual scope.",
+    "Record installed/available/deferred/blocked statuses and actual revisions in reports/skill-setup.json.",
+    "Continue the authorized mod work after setup; run gameplay tests when the actual changes require them."
+  ],
+  "packaging_note": "package_release.py includes exactly the three named skills/ source folders. Automatic installation into protected .agents/skills is still blocked; see reports/skill-packaging-check.json.",
+  "installation_report": "reports/skill-setup.json"
+}

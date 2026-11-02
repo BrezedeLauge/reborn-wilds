@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#dungeonsalive:has_natural_hostiles/peaks",
+  "spawners": [
+    {
+      "type": "dungeonsalive:iceologer",
+      "weight": 12,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "dungeonsalive:wind_caller",
+      "weight": 12,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

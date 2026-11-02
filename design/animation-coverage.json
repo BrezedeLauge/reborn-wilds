@@ -1,0 +1,1575 @@
+{
+  "schema_version": 3,
+  "reviewed_on": "2026-11-02",
+  "version": "0.4.0-alpha",
+  "status_authority": "design/implementation-status.json",
+  "runtime_api": "docs/REFERENCE_ANIMATION_RUNTIME.md",
+  "counts": {
+    "registered_figures": 131,
+    "hostile": 78,
+    "peaceful": 53,
+    "hostile_tiers": {
+      "REGULAR": 57,
+      "MINIBOSS": 9,
+      "BOSS": 12
+    },
+    "peaceful_kinds": {
+      "KEY_GOLEM": 2,
+      "WILDLIFE": 4,
+      "PET": 35,
+      "MERCHANT": 11,
+      "CIVILIAN": 1
+    },
+    "reference_bindings": 133,
+    "builtin_bindings": 4,
+    "registered_spell_constructs": 4,
+    "unregistered_model_templates": [
+      "imperfect_heart_of_ender",
+      "mage"
+    ],
+    "catalog_rows": 436,
+    "excluded_sift": 47,
+    "catalog_rows_with_registered_adaptation": 129,
+    "runtime_rows_without_exact_catalog_mapping": 0
+  },
+  "source_semantics": [
+    "Selected community-authored clips are retained with documented coordinate/time adaptation.",
+    "CEM models use their expressions and installed Minecraft host poses; these are not original Dungeons keyframe exports.",
+    "Own Vengeful geometry and Treetop palette adaptation are explicitly identified.",
+    "Capture and structural rig validation do not certify all original attacks, transitions, death, swimming or multiplayer behavior."
+  ],
+  "actual_profiles": [
+    {
+      "id": "royal_guard",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "RoyalGuard",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "vanguard",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "Vanguard",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "enchanter",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "Enchanter",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "necromancer",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "Necromancer",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "geomancer",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "Geomancer",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "wraith",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "Wraith",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "iceologer",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "Iceologer",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "wind_caller",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "WindCaller",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "whisperer",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "Whisperer",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "wavewhisperer",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "Whisperer",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "leapleaf",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "Leapleaf",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "watchling",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "Watchling",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "blastling",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "Blastling",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "snareling",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "Snareling",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_vindicator",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs_port",
+      "model_binding": "PortArmoredVindicator",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_pillager",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs_port",
+      "model_binding": "PortArmoredPillager",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "redstone_cube",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "RedstoneCube",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "conjured_slime",
+      "category": "REGULAR",
+      "visual_source": "installed_minecraft_composition",
+      "model_binding": "builtin:conjured_slime",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "tropical_slime",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "GoetyTropicalSlime",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "diamond_armored_pillager",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs_port",
+      "model_binding": "PortArmoredPillager",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "diamond_armored_vindicator",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs_port",
+      "model_binding": "PortArmoredVindicator",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "squall_golem",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "SquallGolem",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "mountaineer",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "Mountaineer",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "vindicator_chef",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "VindicatorChef",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "sunken_skeleton",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "SunkenSkeleton",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "quick_growing_vine",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "QuickGrowingVine",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "quick_growing_anemone",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "QuickGrowingVine",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "poison_quill_vine",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "PoisonQuillVine",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "poison_anemone",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "PoisonQuillVine",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "flame_construct",
+      "category": "REGULAR",
+      "visual_source": "goety",
+      "model_binding": "FlameConstruct",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "tower_guard",
+      "category": "REGULAR",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemTowerGuard",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "rampart_captain",
+      "category": "MINIBOSS",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemRampartCaptain",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "tower_wraith",
+      "category": "REGULAR",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemTowerWraith",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_mountaineer",
+      "category": "REGULAR",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemArmoredMountaineer",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_mossy_skeleton",
+      "category": "REGULAR",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemArmoredMossySkeleton",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_frozen_zombie",
+      "category": "REGULAR",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemArmoredFrozenZombie",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_jungle_zombie",
+      "category": "REGULAR",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemArmoredJungleZombie",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "frozen_zombie",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousZombie",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "jungle_zombie",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousZombie",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "mossy_skeleton",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousMossySkeleton",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "icy_creeper",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousIcyCreeper",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "piglin_hunter",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousPiglin",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "zombified_piglin_hunter",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousPiglin",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_piglin",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousArmoredPiglin",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "netherite_armored_piglin",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousArmoredPiglin",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_piglin_hunter",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousArmoredPiglin",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "netherite_armored_piglin_hunter",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousArmoredPiglin",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "fungus_thrower",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousFungusThrower",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "zombified_fungus_thrower",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousFungusThrower",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_drowned",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousArmoredDrowned",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_trident_drowned",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousArmoredDrowned",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "pale_armored_drowned",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousArmoredDrowned",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_sunken_skeleton",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousSunkenSkeleton",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "yellow_coral_armored_sunken_skeleton",
+      "category": "REGULAR",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "InfamousSunkenSkeleton",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_skeleton",
+      "category": "REGULAR",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemArmoredSkeleton",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_stray",
+      "category": "REGULAR",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemArmoredStray",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_zombie",
+      "category": "REGULAR",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemArmoredZombie",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "armored_husk",
+      "category": "REGULAR",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemArmoredHusk",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "redstone_golem",
+      "category": "MINIBOSS",
+      "visual_source": "goety",
+      "model_binding": "RedstoneGolem",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "endersent",
+      "category": "MINIBOSS",
+      "visual_source": "goety",
+      "model_binding": "Endersent",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "drowned_necromancer",
+      "category": "MINIBOSS",
+      "visual_source": "goety",
+      "model_binding": "DrownedNecromancer",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "wildfire",
+      "category": "MINIBOSS",
+      "visual_source": "goety",
+      "model_binding": "Wildfire",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "illusioner",
+      "category": "MINIBOSS",
+      "visual_source": "dungeons_mobs",
+      "model_binding": "Illusioner",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "pillager_raid_captain",
+      "category": "MINIBOSS",
+      "visual_source": "installed_minecraft_composition",
+      "model_binding": "builtin:pillager_raid_captain",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "vindicator_raid_captain",
+      "category": "MINIBOSS",
+      "visual_source": "installed_minecraft_composition",
+      "model_binding": "builtin:vindicator_raid_captain",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "skeleton_horseman",
+      "category": "MINIBOSS",
+      "visual_source": "installed_minecraft_composition",
+      "model_binding": "builtin:skeleton_horseman",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "arch_illager",
+      "category": "BOSS",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemArchIllager",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "corrupted_cauldron",
+      "category": "BOSS",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemCorruptedCauldron",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "heart_of_ender",
+      "category": "BOSS",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemHeartOfEnder",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "mooshroom_monstrosity",
+      "category": "BOSS",
+      "visual_source": "dungeons_mobs_port",
+      "model_binding": "MooshroomMonstrosity",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "nameless_one",
+      "category": "BOSS",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemNamelessOne",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "redstone_monstrosity",
+      "category": "BOSS",
+      "visual_source": "goety",
+      "model_binding": "RedstoneMonstrosity",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "jungle_abomination",
+      "category": "BOSS",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemJungleAbomination",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "treetop_whisperer",
+      "category": "BOSS",
+      "visual_source": "goety",
+      "model_binding": "Whisperer",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "wretched_wraith",
+      "category": "BOSS",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemWretchedWraith",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "tempest_golem",
+      "category": "BOSS",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemTempestGolem",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "ancient_guardian",
+      "category": "BOSS",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemAncientGuardian",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "vengeful_heart_of_ender",
+      "category": "BOSS",
+      "visual_source": "original",
+      "model_binding": "OriginalVengefulHeart",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "action"
+      ]
+    },
+    {
+      "id": "key_golem",
+      "category": "KEY_GOLEM",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemKeyGolem",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "diamond_key_golem",
+      "category": "KEY_GOLEM",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemDiamondKeyGolem",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "wooly_cow",
+      "category": "WILDLIFE",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemWoolyCow",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "piggy_bank",
+      "category": "WILDLIFE",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPiggyBank",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "vulture",
+      "category": "WILDLIFE",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemVulture",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "wisp",
+      "category": "WILDLIFE",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemWisp",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_baby_dairy_cow",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetBabyDairyCow",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_baby_ghast",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetBabyGhast",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_baby_moobloom",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetBabyMoobloom",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_baby_piebald_pig",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetBabyPiebaldPig",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_baby_sooty_pig",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetBabySootyPig",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_baby_squid",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetBabySquid",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_baby_wooly_cow",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetBabyWoolyCow",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_cluckshroom",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetCluckshroom",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_duck",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetDuck",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_fancy_chicken",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetFancyChicken",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_glowing_mini_abomination",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetGlowingMiniAbomination",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_glowing_ministrosity",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetGlowingMinistrosity",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_golden_parrot",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetGoldenParrot",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_hedgehog",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetHedgehog",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_mini_abomination",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetMiniAbomination",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_mole",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetMole",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_racoon",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetRacoon",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_raven",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetRaven",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_royal_penguin",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetRoyalPenguin",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_red_panda",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetRedPanda",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_redstone_ministrosity",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetRedstoneMinistrosity",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_skunk",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetSkunk",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_stone_ministrosity",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetStoneMinistrosity",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_toucan",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetToucan",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_vested_rabbit",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetVestedRabbit",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_zombified_baby_pig",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetZombifiedBabyPig",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "speedy_blue_sheep",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemSpeedyBlueSheep",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "fire_red_sheep",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemFireRedSheep",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "poisonous_green_sheep",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPoisonousGreenSheep",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_dark_baby_goat",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetDarkBabyGoat",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_grey_tabby",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetGreyTabby",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_spotted_baby_pig",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetSpottedBabyPig",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "pet_ruby_baby_turtle",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPetRubyBabyTurtle",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "blacksmith",
+      "category": "MERCHANT",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemBlacksmith",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "interaction"
+      ]
+    },
+    {
+      "id": "captured_blacksmith",
+      "category": "CIVILIAN",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemBlacksmith",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "interaction",
+        "movement"
+      ]
+    },
+    {
+      "id": "gift_wrapper",
+      "category": "MERCHANT",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemGiftWrapper",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "interaction"
+      ]
+    },
+    {
+      "id": "mystery_merchant",
+      "category": "MERCHANT",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemMysteryMerchant",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "interaction"
+      ]
+    },
+    {
+      "id": "village_merchant",
+      "category": "MERCHANT",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemVillageMerchant",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "interaction"
+      ]
+    },
+    {
+      "id": "luxury_merchant",
+      "category": "MERCHANT",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemLuxuryMerchant",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "interaction"
+      ]
+    },
+    {
+      "id": "piglin_merchant",
+      "category": "MERCHANT",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPiglinMerchant",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "interaction"
+      ]
+    },
+    {
+      "id": "enchantsmith",
+      "category": "MERCHANT",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemEnchantsmith",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "interaction"
+      ]
+    },
+    {
+      "id": "tower_keeper",
+      "category": "MERCHANT",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemTowerKeeper",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "interaction"
+      ]
+    },
+    {
+      "id": "powersmith",
+      "category": "MERCHANT",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemPowersmith",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "interaction"
+      ]
+    },
+    {
+      "id": "uniquesmith",
+      "category": "MERCHANT",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemUniquesmith",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "interaction"
+      ]
+    },
+    {
+      "id": "gildsmith",
+      "category": "MERCHANT",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemGildsmith",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement",
+        "interaction"
+      ]
+    },
+    {
+      "id": "summoned_guardian_vex",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemSummonedGuardianVex",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    },
+    {
+      "id": "summoned_soul_wizard",
+      "category": "PET",
+      "visual_source": "recrafted_mobs",
+      "model_binding": "CemSummonedSoulWizard",
+      "animation_status": "server_driven_source_or_host_adaptation; individual_original_sequences_not_all_reproduced",
+      "native_views": [
+        "idle",
+        "movement"
+      ]
+    }
+  ],
+  "villager_profession_animations": 19
+}

@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#dungeonsalive:living_decoration/wetland",
+  "features": [
+    "dungeonsalive:living/marsh_rocks",
+    "dungeonsalive:living/luminous_floor",
+    "dungeonsalive:living/marsh_deadwood",
+    "dungeonsalive:living/marsh_flowers",
+    "dungeonsalive:living/marsh_lichen"
+  ],
+  "step": "vegetal_decoration"
+}

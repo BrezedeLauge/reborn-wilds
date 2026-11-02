@@ -1,0 +1,887 @@
+{
+  "source_project": "ReCrafted Mobs",
+  "source_url": "https://modrinth.com/resourcepack/recrafted-mobs",
+  "source_version": "11.0",
+  "archive_sha256": "74901b18716b8efc57368a3b2d47a43207416925da6f6f5e492758c94f2cec2c",
+  "license": "CC-BY-NC-SA-4.0",
+  "credits": {
+    "section": "ReCrafted Mobs",
+    "titles": [
+      {
+        "title": "Original Creator",
+        "names": [
+          "GillsBills"
+        ]
+      },
+      {
+        "title": "With Help From",
+        "names": [
+          "Cave Fox",
+          "Kekkman",
+          "PinkuRinku",
+          "RavenVLemon",
+          "Ewanhowell5195",
+          "creepermax123",
+          "MickeyJoeAlpha"
+        ]
+      }
+    ]
+  },
+  "copied_files": [
+    {
+      "path": "assets/minecraft/optifine/cem/allay/allay2.jem",
+      "sha256": "5fd2d0ab1d7627a9a43e501bf4edf689d17eeff820a33f14009273a8b9c220d8",
+      "bytes": 8241
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/allay/allay3.jem",
+      "sha256": "1177f90b42b738a53cade803245be5e0f5eb889d3578c14c71f320b22a299b9b",
+      "bytes": 5064
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/allay/allay4.jem",
+      "sha256": "83520ffd62c0d5cfcafa1e969a0d7222fd787d7e712f37fced8930d024166ec0",
+      "bytes": 3268
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/allay/allay5.jem",
+      "sha256": "de370922c46e2329cd1091faa643169c75f1ee76484cb1c07c8b2951d48854c6",
+      "bytes": 3475
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/cat/cat.jem",
+      "sha256": "7c12db1234223418f2ba6a485ddcb1e050f452f26e2f05ee08832c04b02b6327",
+      "bytes": 2131
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/cat/cat.properties",
+      "sha256": "9411be4d3538c082eda12487374f59e4f46cfceee0a336659bd6d0405ac763f0",
+      "bytes": 234
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/chicken/chicken.jem",
+      "sha256": "fa0c64bf86966eaf2c496f5f8362b1ddd4ddac8a2874e8703cf5c78a3f6ddf6e",
+      "bytes": 1712
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/chicken/chicken2.jem",
+      "sha256": "9ac6fa05e401460e03e230ac27367abf701bc7104f51958466ac828aacb6b3b1",
+      "bytes": 2311
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/chicken/chicken3.jem",
+      "sha256": "2af33f7e7d34a175113ec73de1ca286eefd8c2a81a512e5f05f6b069fd53c177",
+      "bytes": 3924
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/chicken/chicken4.jem",
+      "sha256": "0a913daab053a99584ee3ac4ff06c1fcb58a16347996ee09e7fca6938c0b1481",
+      "bytes": 2575
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/chicken/chicken5.jem",
+      "sha256": "cb27c85fc11c452139f285ed0ee78492228484757803caa0a799cf4c372f8a64",
+      "bytes": 10499
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/chicken/chicken6.jem",
+      "sha256": "dd03235a29f972d3555322411093864f75ae42719c4ba1319a73b8c55f1daec6",
+      "bytes": 5244
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/cow/cow.jem",
+      "sha256": "b0f1c513ebc8216237fc4d70b7d314ff45b9fa683cb7cab07ee5154fdd4c402b",
+      "bytes": 1485
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/cow/cow2.jem",
+      "sha256": "f480de90250cf7627d1501bd4db561b1f35b70dc5532a280af706627a09fc771",
+      "bytes": 2817
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/cow/cow5.jem",
+      "sha256": "d46b7c2b15d59eafa515dcae3e6621c05f1cda41350317a4c1d7cd71bba37295",
+      "bytes": 1755
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/elder_guardian/elder_guardian2.jem",
+      "sha256": "f83e59ef3784ccab42721aed5c4a7d55c85b35a3b0ecd238751267e7de76a02e",
+      "bytes": 14049
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/evoker/evoker8.jem",
+      "sha256": "22d997e678596324bbfaf7b66253d1a780cf8f5a4c069aca925ad4b14a96b1a9",
+      "bytes": 4121
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/fox/fox3.jem",
+      "sha256": "36f360f133810660f955c6abac3b0d1491f4f2c03353d557040aa45ba8df091f",
+      "bytes": 3967
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/fox/fox4.jem",
+      "sha256": "1fc96160bbce48bd8f171762ce7a90ccc66add844925d715ce76de15b976a97a",
+      "bytes": 3590
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/fox/fox5.jem",
+      "sha256": "77dc30d3ea620d5c6e69849ad43b2389e860a0ecb951d900b223b5c19a785f01",
+      "bytes": 4731
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/glow_squid/glow_squid2.jem",
+      "sha256": "856162c814be633165a854733d90a777dcd20d2d05116c380da65b5e2922e99c",
+      "bytes": 2284
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/husk/husk2.jem",
+      "sha256": "e7d69ea210af8002354c0c398b7bf5bcd826aa8285c300d6f200acfb902345e6",
+      "bytes": 3351
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/parrot/parrot2.jem",
+      "sha256": "f47ab4f9260730a66dde3c9250e550702faa151dc6c15abc2fcf1fb85bfe4c12",
+      "bytes": 2464
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/parrot/parrot3.jem",
+      "sha256": "fdbf8485cf64ac547da230bb2a57598a64f70bb8a2fb78dd0c599fef0ca89a32",
+      "bytes": 4130
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/parrot/parrot4.jem",
+      "sha256": "8e98739c40f8d4381f0b090989fb79d30e732be093b5f81f5f585ee7c4bd70d0",
+      "bytes": 4970
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/phantom/phantom2.jem",
+      "sha256": "483cea28407717ede11c04ea47f476b30c2b1f35204ba0690984b94f96a5b8f5",
+      "bytes": 5089
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/pig/pig.jem",
+      "sha256": "581280968f2bd81c33d5b72bafb3b281f40fa4eff21b7116545a57f7c3baad64",
+      "bytes": 1377
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/pig/pig.properties",
+      "sha256": "e865af7eb30de07f9406d3bfcc74e90c2f2f1e7bb7edc844e3b4fddec3e9bc87",
+      "bytes": 334
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/pig/pig3.jem",
+      "sha256": "a8627c76fde657c331e55d47b71403f71a8698c725453abf7f2ef5e3a46e86d4",
+      "bytes": 2551
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/rabbit/rabbit2.jem",
+      "sha256": "6990c635da744a22bca23df09cf9ae187a23fde1e40731562740af87c4c8bbf9",
+      "bytes": 2477
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/rabbit/rabbit6.jem",
+      "sha256": "f48186f6a672046b614e3b8f8995dd64d66dadba4fdd422d2825ea4f00d73247",
+      "bytes": 3518
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/ravager/ravager5.jem",
+      "sha256": "98ef5997128fd73e59bf3a8650a4736b5af8579cba9fee746939cfef5ae02ed5",
+      "bytes": 9537
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/sheep/sheep.jem",
+      "sha256": "945296832dd7d8f1a7f5c10128e89dbfd7f88cc6da7977243c0a3c138131cb87",
+      "bytes": 1440
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/sheep_wool/sheep_wool.jem",
+      "sha256": "9c94bfd76c00e47cd7170e06e915773f380c89061fda0489b5098e10e76a227c",
+      "bytes": 1545
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/sheep_wool/sheep_wool.properties",
+      "sha256": "3bd3ffab8fd62be38ef54a8e51448539b779a55edc708515e01087d6479be3b2",
+      "bytes": 682
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/silverfish/silverfish2.jem",
+      "sha256": "93dae6f8f1c05187788a2040b1cb5e9eb439d41a1b6a5fbb57501c180416b247",
+      "bytes": 4582
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/skeleton/skeleton2.jem",
+      "sha256": "18f83366a6cbdb34fa3cbdfe5e0d7481f7a2e39581744a11abd0c01d1dd1f3ce",
+      "bytes": 2428
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/slime/slime3.jem",
+      "sha256": "01473ebb763ecec33a32b1d32a853a3d7002b3cb565627ff704fa2f754edc81c",
+      "bytes": 7554
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/stray/stray2.jem",
+      "sha256": "ea2efc6d26eb6da10c5795d2f3e20d24a906379a4a15d2c658a38f2228531e1d",
+      "bytes": 2368
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/vindicator/vindicator5.jem",
+      "sha256": "09e58ba676939055778d076d4dc746737876157b066d17130cdb5672e9707399",
+      "bytes": 5222
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/vindicator/vindicator6.jem",
+      "sha256": "aaf17fffafdd833e174d4ebba209e9b8d9aa339e1167b0ddf03779ed0da15caa",
+      "bytes": 5714
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/vindicator/vindicator8.jem",
+      "sha256": "f4ffd043654ebd1cdf5a1b73f3607e59c160a1ad145d8c0ba2b9dd0a8f127982",
+      "bytes": 9838
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wandering_trader/wandering_trader10.jem",
+      "sha256": "54bcffb321fe1df5e325b21f210d97dfcc9fdf01db11d907dd761b67df3a2500",
+      "bytes": 7710
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wandering_trader/wandering_trader11.jem",
+      "sha256": "f7b05875d7f87b5adf10a903c5f7bd7d44b6be3db86925c221d4c4abf725ed1d",
+      "bytes": 5983
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wandering_trader/wandering_trader12.jem",
+      "sha256": "10c9d8bf60f7d7554fbc17975dbbc4906a1ed9c2feec4ebf0e6604c86d8b02a7",
+      "bytes": 5334
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wandering_trader/wandering_trader13.jem",
+      "sha256": "ee33a4d95f5a40c0cb77760d5200c4757c958e7367d59cd374f9975bc6c56d44",
+      "bytes": 4563
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wandering_trader/wandering_trader2.jem",
+      "sha256": "71935327375329201ad522c59a9308f744784e5e75aae30f7fc95ec3ee3e56f3",
+      "bytes": 2381
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wandering_trader/wandering_trader3.jem",
+      "sha256": "56376cb9772015463b288d73e8f25f927eae3f63c6c283322d850326b90065e1",
+      "bytes": 3072
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wandering_trader/wandering_trader4.jem",
+      "sha256": "648495e9c1b39b3eec753baf76ebc938c9daa1ae7194412bba68ee99e43540da",
+      "bytes": 2383
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wandering_trader/wandering_trader5.jem",
+      "sha256": "cee1cb8a21bdd489940073ee51a1f693fb746237a051c7cda57d3f718c2fecd5",
+      "bytes": 2812
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wandering_trader/wandering_trader6.jem",
+      "sha256": "cc5f48c5f67fcc27f0f844ed55c2692e8604b06962446c865fe826e342a66b69",
+      "bytes": 2546
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wandering_trader/wandering_trader8.jem",
+      "sha256": "38a5de4b25714f94eefca4bf5622801fd1ee2898b39133e34e725694e26005b4",
+      "bytes": 6823
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wandering_trader/wandering_trader9.jem",
+      "sha256": "4278b7e0c24e96ade97ae49aeebdfc7c358882c050d767de60f0208b7b718390",
+      "bytes": 3183
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/warden/warden4.jem",
+      "sha256": "1f272b07b5c2477415eb966526bcfa45ee4583ef654582050a98012b6d957b15",
+      "bytes": 15320
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/warden/warden5.jem",
+      "sha256": "4576eae51a4521fd2a05a3f35ec4b55555efd39d6dfe4a957a989afe1605e1f3",
+      "bytes": 12029
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wither/wither3.jem",
+      "sha256": "e911059e6b01bee843ce7acc712f4759de9b7a2830a5c3e79043ec8feea5acf4",
+      "bytes": 5657
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wither/wither5.jem",
+      "sha256": "f0e8fbbbd3e1c67cb73587bef8c14996bbdf7c58ee3f3c1f23ee7961c7e444d9",
+      "bytes": 7234
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wither/wither6.jem",
+      "sha256": "cb8559e107d6c5ece3db867582b2ecd18ec1cceda12f68d2750da153433ae9bd",
+      "bytes": 13395
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/zombie/zombie2.jem",
+      "sha256": "b7b6fe82ee2f85cfa651764045b56a81f334614e0585e7cec32c18efab373abf",
+      "bytes": 3971
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/cat/tabby4.png",
+      "sha256": "e14de72c92ef32071f16cee9dd71e9139c83d77b7a40006dd75f1b646f57e2a0",
+      "bytes": 1746
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/chicken8.png",
+      "sha256": "de1484b6a4386384433df00f55c2188c537b473a8d8f83bc670ddf3df81dfa06",
+      "bytes": 1431
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/chicken_key2.png",
+      "sha256": "6dba237fdca3ed2841f2eafc7ef726acac5120759e8ad3a1e48e111492cd75f4",
+      "bytes": 609
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/chicken_ministrosity2.png",
+      "sha256": "044a0a1a4613051a54bcfa0aa2809ec554d974b282b35668aab91b2f3e37c4b1",
+      "bytes": 2013
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/chicken_ministrosity2_e.png",
+      "sha256": "93497b74ada895f58e4cabca5a444e911f72cdce95742b40415d508a4ffe666a",
+      "bytes": 892
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/chicken_ministrosity3.png",
+      "sha256": "76fb8f4429d5e0f4530600d449c2252b3bd0db6e80a73ebe22872b73a9953d8c",
+      "bytes": 1714
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/chicken_ministrosity3_e.png",
+      "sha256": "8f74f7bf720edefb1191a827d3cee0e776310a77fb8433fa1109ba68e14bcb57",
+      "bytes": 716
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/chicken_ministrosity4.png",
+      "sha256": "78ef3f9a7c038768a4670fb84009e0dc8396a9679d13ad27f431fb56af74c7ea",
+      "bytes": 2016
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/chicken_ministrosity4_e.png",
+      "sha256": "89382d867909613bd2ce085213b21d7cfb81f5799c190ac7a8f3e393abe4ef76",
+      "bytes": 794
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/chicken_ministrosity5.png",
+      "sha256": "44659616c22e109ca8004a6075d36527c1c64681aa28e0032fe9345f89c0bb15",
+      "bytes": 1949
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/chicken_ministrosity5_e.png",
+      "sha256": "8c4799cedf683652561a3c2d387905a59cdd872d68c75b5d296803461747078c",
+      "bytes": 823
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/chicken_penguin2.png",
+      "sha256": "07ae9c87727af237f05fa7075baab38d356b97bfd5a5232858aceb6e0648a8b9",
+      "bytes": 1958
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/cow/cow3.png",
+      "sha256": "ffca88b8109aa7db27aa9f89d69754dc31a3e48d2d3470b4beeb3ed750b4312d",
+      "bytes": 11541
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/cow/wooly_cow2.png",
+      "sha256": "ec4d83466151db0795c0c782cc35aa3ea9e471ecd979a20025fc2a3eae2b783f",
+      "bytes": 2993
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/goat/goat2.png",
+      "sha256": "5c65729e61b102370b1266d858ca97bede5aa21d27f4d88b608567516d7a3d98",
+      "bytes": 3095
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/illager/mountaineer2.png",
+      "sha256": "7ccf3c95816a719e726fd6b2a8a8f80fcd62b25b9a62b0ed585bd2a4c2690023",
+      "bytes": 2364
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/pig/pig4.png",
+      "sha256": "bc4f395d5c830cb433ea7a4b2a5b12d2c37830cad537cfaafea889abc96ab44c",
+      "bytes": 3093
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/pig/pig7.png",
+      "sha256": "598e649288e8463cfeb08243317a96eae303d12b10502012d3cb393a2a5105cb",
+      "bytes": 2210
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/pig/pig8.png",
+      "sha256": "dd025ad1b2c7553f7410fe3081832b0350f9d477b5bba45667f60a577f1bc62e",
+      "bytes": 2732
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/pig/pig9.png",
+      "sha256": "88aa4efd8655ed10a17fe7ad4550cc0b487e13f0afbaa2b3836ea1c4039dff1b",
+      "bytes": 2849
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/rabbit/rabbit_variant5.png",
+      "sha256": "e21fa44414b9bfb64f830385625a3e1f598258972cc2ea4d8439aa5d924f1c63",
+      "bytes": 1981
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/sheep/sheep10.png",
+      "sha256": "ac848b915b0da4ed2bfaf940249b3a94b138e1bb2e6c9f60224e466ea5b3907e",
+      "bytes": 1987
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/sheep/sheep10_e.png",
+      "sha256": "f835d41f20c78a15b0eceea5265ee5356e55c4b72fbd15a1853674f5a9b17f9d",
+      "bytes": 246
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/sheep/sheep8.png",
+      "sha256": "307e43da47be6e7ce03a7f6e8fad631b63e36e5546888240c441197b99616966",
+      "bytes": 1992
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/sheep/sheep9.png",
+      "sha256": "476c98c7f64e0be38cc475e0cb3a97509030e126a0d017c9b646d883a2fb4546",
+      "bytes": 2032
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/sheep/sheep_fur10.png",
+      "sha256": "fe83e8e1ac4f8e0a500c7706e041af99000fb276e1914828be23f8d0cff75ad5",
+      "bytes": 1209
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/sheep/sheep_fur8.png",
+      "sha256": "cfeb2177fa67cd399cd806c44c33af1b39df98d2a1a86246f9fc512ec5923501",
+      "bytes": 1223
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/sheep/sheep_fur9.png",
+      "sha256": "c95491d70de4ede25d511e147a68eada31d92a7f92e1fdcaa650ebaa4edc1f39",
+      "bytes": 1228
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/skeleton/skeleton2.png",
+      "sha256": "d74c68bbe3a531eb8b750390fe21d8536dbd701d2f412fdd16d4f9aafab83d4a",
+      "bytes": 2682
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/skeleton/skeleton_armor3.png",
+      "sha256": "6168c4fded4d155fc7366a4afd9c4be45f42ad70bc874675d260314c45f52b64",
+      "bytes": 1153
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/turtle/big_sea_turtle2.png",
+      "sha256": "32049d7d014bd67ef5c7a03b731d401325d71deec9318c54a662044b804f5aa8",
+      "bytes": 3567
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/wandering_trader_enchanter_merchant2.png",
+      "sha256": "deeee6f71eda6a299a0c63dd5910be6a92cf59166ee9e0116d1b5ff7eb0f2b9e",
+      "bytes": 2264
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/wandering_trader_enchanter_merchant_accessories2.png",
+      "sha256": "0294c8fbc0e35440744c3503b5c4c4625792cd90a60736d73554b8e76cf7226f",
+      "bytes": 227
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/wither/wither3.png",
+      "sha256": "743f6f30272c92492d09111dbdf5390be29dc9aaf7c26b09c3d3240b3d899771",
+      "bytes": 4939
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/wither/wither3_e.png",
+      "sha256": "25d1ce5e9a0218c3cdec15fc7678d41da25d2b9507f1558ace952cff0e413e1c",
+      "bytes": 16457
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/wither/wither5.png",
+      "sha256": "807ba35467ff77106b08931b81edaa713366ad60d6d01a6bc89e1593419b7062",
+      "bytes": 2372
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/wither/wither5_e.png",
+      "sha256": "e2b7a638368d3a5930e09eb4f9462f46c1e39e6f5dd95b6348e70d97c9fb5bc0",
+      "bytes": 5332
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/wither/wither6.png",
+      "sha256": "a4a3bfb4f5539ac115fd2147e5788e347d39b8b194407d76bd711d2b6086752c",
+      "bytes": 5824
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/wither/wither6_e.png",
+      "sha256": "0866d948d37a2491e2da334d612f460490996194329dccb1b8b0cbf70cace666",
+      "bytes": 3463
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/wither/wither_invulnerable6.png",
+      "sha256": "84ea7aa82ca00b56da2ddb01b8843b350d761e808e2a8d59cb5205d6b68aa829",
+      "bytes": 2072
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/zombie/zombie2.png",
+      "sha256": "bf96dbffa3205be9498ddfb1015c21b1e4f6a393da79b266744612bc32a0c01c",
+      "bytes": 3229
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/zombie/zombie3.png",
+      "sha256": "f84c392e3f8dd8e5f82de5c59c622611a16b8a0525433110bd0b1558be7fabd3",
+      "bytes": 3525
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/zombie/zombie_armor3.png",
+      "sha256": "3c44bd10716f0188eb759e1622100fcb8c87fc625cf5f5dd1d78c7302f504e74",
+      "bytes": 1102
+    },
+    {
+      "path": "assets/minecraft/textures/entity/allay/guardian_vex.png",
+      "sha256": "2e5499dbc6eb09a0a0c957d72f339093249a1c8a1558a0506729be56cd0015d4",
+      "bytes": 1531
+    },
+    {
+      "path": "assets/minecraft/textures/entity/allay/nether_baby_ghast.png",
+      "sha256": "b97db8f3085abbc4c955f1a978b45d829a52ce3f07f82f5313c75b0039f57154",
+      "bytes": 4633
+    },
+    {
+      "path": "assets/minecraft/textures/entity/allay/soul_wizard.png",
+      "sha256": "769135e67ae135b18fca5da848f2aa062153d78cda2144f2ab7512f92c236171",
+      "bytes": 22059
+    },
+    {
+      "path": "assets/minecraft/textures/entity/allay/wisp.png",
+      "sha256": "5d97bc3b8668bd6f1bf1ef6d47d212fb6ab2c54d1d729b2f0514fb8096f227a4",
+      "bytes": 400
+    },
+    {
+      "path": "assets/minecraft/textures/entity/allay/wisp_e.png",
+      "sha256": "5d97bc3b8668bd6f1bf1ef6d47d212fb6ab2c54d1d729b2f0514fb8096f227a4",
+      "bytes": 400
+    },
+    {
+      "path": "assets/minecraft/textures/entity/ancient_guardian.png",
+      "sha256": "b323fb3abda1ecaae4133a09855fe76911a2bc219baedf31f517909f7add62ad",
+      "bytes": 72771
+    },
+    {
+      "path": "assets/minecraft/textures/entity/ancient_guardian_e.png",
+      "sha256": "8007956fe4b90b643f2eda5b3e9b55e010169c075ed939a58995dd031f0eab94",
+      "bytes": 22465
+    },
+    {
+      "path": "assets/minecraft/textures/entity/chicken_fancy.png",
+      "sha256": "7438c25317e32047fc8d50cf72c512d8349bd27bd136f64ff3b6f66fadaf0d36",
+      "bytes": 1340
+    },
+    {
+      "path": "assets/minecraft/textures/entity/chicken_key.png",
+      "sha256": "1b71fe339c77afb14a2ac90ce0b6764d41e8047aeb919e8c7cd72bd3d0ea7171",
+      "bytes": 542
+    },
+    {
+      "path": "assets/minecraft/textures/entity/chicken_ministrosity.png",
+      "sha256": "0e3eeb74cb8537aa910778128e97462a36e0d7e78e267bc149a4f36e719a91ea",
+      "bytes": 1777
+    },
+    {
+      "path": "assets/minecraft/textures/entity/chicken_ministrosity_e.png",
+      "sha256": "b2c0ca029748f5f984c45d0342bb7cc87a8877bb39f9cb760d4979fa0de34021",
+      "bytes": 571
+    },
+    {
+      "path": "assets/minecraft/textures/entity/cluckshroom.png",
+      "sha256": "8f6ce5f1f075db11ae040fe8b12c2a02b8d9e0d733e7a0fbeed3cc6400affe58",
+      "bytes": 1515
+    },
+    {
+      "path": "assets/minecraft/textures/entity/cow/moobloom.png",
+      "sha256": "8013f0347d7de8ffcb9d36f7b040b14e4764004d4f43fe2cb46b752248b44bed",
+      "bytes": 1704
+    },
+    {
+      "path": "assets/minecraft/textures/entity/fox/raccoon.png",
+      "sha256": "fc3cc616cd5b74d2cb978f21d205491096405fc2c9a8207e8f139fad1bd8762f",
+      "bytes": 1510
+    },
+    {
+      "path": "assets/minecraft/textures/entity/fox/red_panda.png",
+      "sha256": "1d94e612426181451837efca8110310dc010eedab782531fb945a1894f500e47",
+      "bytes": 1533
+    },
+    {
+      "path": "assets/minecraft/textures/entity/fox/skunk.png",
+      "sha256": "e0fc78b4f23e2774de4e8c908838cbdd5462297294eb197ea1efb60214d60de2",
+      "bytes": 1466
+    },
+    {
+      "path": "assets/minecraft/textures/entity/illager/imperfect.png",
+      "sha256": "ee9407a7e92ae0ddfb2a3261338edf178bba9150ac149fe16afac2f862e56eaa",
+      "bytes": 10834
+    },
+    {
+      "path": "assets/minecraft/textures/entity/illager/imperfect_e.png",
+      "sha256": "5cebb78cf3c5bd1930575b4123c56cc2166d29dde27f1ae6519426d4d18f47e6",
+      "bytes": 2231
+    },
+    {
+      "path": "assets/minecraft/textures/entity/illager/mountaineer_backpack.png.png",
+      "sha256": "965cb3b4131f9e5fb7de119e8b0a3dc581c3ac4533de244f9c85ee38a2bfb55e",
+      "bytes": 2845
+    },
+    {
+      "path": "assets/minecraft/textures/entity/illager/tower_guard.png",
+      "sha256": "d79cc96e425581a0597776c48cf1dec2d6e95cc3549c03856a8cc8456dea26a8",
+      "bytes": 3981
+    },
+    {
+      "path": "assets/minecraft/textures/entity/illager/tower_wraith.png",
+      "sha256": "64836fdab2a1c826c5fd663f5846dd45b79cdb4866cae1ae925bb4aa65e41f56",
+      "bytes": 2005
+    },
+    {
+      "path": "assets/minecraft/textures/entity/illager/tower_wraith_e.png",
+      "sha256": "319beb8cec1629bd97a452a7973032b13bd20be9938d5d7980bda8b05917ab2a",
+      "bytes": 10288
+    },
+    {
+      "path": "assets/minecraft/textures/entity/parrot/crow.png",
+      "sha256": "8fb3e94bb764951df4c6a31f52674d6997c94bc3d77a6712e99847c48e3ae526",
+      "bytes": 760
+    },
+    {
+      "path": "assets/minecraft/textures/entity/parrot/parrot_variant.png",
+      "sha256": "426441d6edd697679b426ebe4223c3afd471058a68426f0b30ce61060fa03e29",
+      "bytes": 1103
+    },
+    {
+      "path": "assets/minecraft/textures/entity/parrot/toucan.png",
+      "sha256": "5a6c2881cc0f28d2f13b7c9958cfe97650ea4391f3d44f3c4c8f9abe37f630ec",
+      "bytes": 953
+    },
+    {
+      "path": "assets/minecraft/textures/entity/phantom_vulture.png",
+      "sha256": "015ca87487937a923a42cebf714a9c3477abf7cf16ea2e2dd91dc58ee32f6be0",
+      "bytes": 1408
+    },
+    {
+      "path": "assets/minecraft/textures/entity/pig/chest_pig.png",
+      "sha256": "e9e417b84d404cad320e08b42a80f7e975266faa1e1e41d202efbd9d398879c9",
+      "bytes": 1648
+    },
+    {
+      "path": "assets/minecraft/textures/entity/pig/pig_chest_closed.png",
+      "sha256": "495214c7983bb829ad0f196e91a3965558a85fccc430e38626ae41aade418675",
+      "bytes": 1642
+    },
+    {
+      "path": "assets/minecraft/textures/entity/rabbit/rabbit_hedgehog.png",
+      "sha256": "d8f3a51844951dd9ece2f270d72a68709c009b0e2e67abce021ce4e41fd6a98a",
+      "bytes": 1050
+    },
+    {
+      "path": "assets/minecraft/textures/entity/silverfish_mole.png",
+      "sha256": "b025729ae5610791c35435e2c082b969467a69c03a1f6cc061f3fad098153727",
+      "bytes": 610
+    },
+    {
+      "path": "assets/minecraft/textures/entity/slime/corrupted_cauldron.png",
+      "sha256": "e3bc249734f21e21d5b4c1aac7fae803e216810b0dfac3d1c4cb6a52fd9f2f86",
+      "bytes": 5170
+    },
+    {
+      "path": "assets/minecraft/textures/entity/slime/corrupted_cauldron_e.png",
+      "sha256": "52a1ec3c0828fafc1775061da67499fa19f9ca1c94d4ff64ac6ac3dbec85e0d2",
+      "bytes": 6581
+    },
+    {
+      "path": "assets/minecraft/textures/entity/squid/baby_glow_squid.png",
+      "sha256": "6f0eee0765d11c528f9aeb5b394906bc46305bae8c76d3efc3d9a6699b47fa14",
+      "bytes": 534
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_black_smith.png",
+      "sha256": "4b1ff97db09e592aaa78e51cc14db9cbe41b820ec6c9f9d0bcdce5f5a68f6028",
+      "bytes": 3096
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_black_smith_e.png",
+      "sha256": "3e1f799a87ef23a1e9f3b917e5adbb8b5eff8ad944595a222b9a58a5e2499c9f",
+      "bytes": 600
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_gift_wraper.png",
+      "sha256": "2b7bdce41407cdcc9c9388926c0ac7743a49e6e6381578b554b66751162d55ea",
+      "bytes": 2580
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_luxury_merchant.png",
+      "sha256": "1181079d21e1d6d301bf87dc1d71ba046524c4421c956ba016b9d00efd878340",
+      "bytes": 2686
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_mystery_merchant.png",
+      "sha256": "c652dfedbb7cba9227d5af0c92f0ff42a3112a48dcac066d75e4e449249e3604",
+      "bytes": 2027
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_piglin_merchant.png",
+      "sha256": "36b09dc4c3e37858869f8a4fbfd2a28408f0fdd52b03ca552f0d58c495226006",
+      "bytes": 20667
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_tower_gildsmith.png",
+      "sha256": "851d6486a866d889eb52e147c3f0c62703f7e5034c8dcc39c818bf6fa8498d1d",
+      "bytes": 3197
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_tower_gildsmith_e.png",
+      "sha256": "2bcd7e58c7999528903f42025580a177d9266caaaa4bb79a0fa620401d38db43",
+      "bytes": 12546
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_tower_powersmith.png",
+      "sha256": "f13b877be9f26ef5becbe857de1eb0f93fac4690157540ecefe427f21586abb4",
+      "bytes": 4507
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_tower_powersmith_e.png",
+      "sha256": "38fb8dc50dbe958fbcd99608e9cbd444e675c2e8ba4bc5178696dd08f5470e4a",
+      "bytes": 9261
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_tower_tower_keeper.png",
+      "sha256": "fa9ea45b203b52829c62101c2c9bad25d3748c5bb5dedf449d384c6ca4d7886d",
+      "bytes": 5659
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_tower_tower_keeper_e.png",
+      "sha256": "8d2460ef57f6d373e7dd8fb51dd6f37ca92d5ff3bd5140f468dbf6d1bd8ce116",
+      "bytes": 9842
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_tower_uniquesmith.png",
+      "sha256": "c11049529577fccac94631fd990d08f8a117e76f600797962b2fc9db392f8486",
+      "bytes": 4641
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_tower_uniquesmith_e.png",
+      "sha256": "27901b5e1282fa41ee5770b3562117d0da1a54aa5af6cd8b535d4b7f0aded105",
+      "bytes": 9539
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_village_merchant.png",
+      "sha256": "3e240fb6be2ba2fff0510201ef3fa962ca07f0c0b12569c6349600ad092ce051",
+      "bytes": 2887
+    },
+    {
+      "path": "assets/minecraft/textures/entity/wandering_trader_village_merchant_magnifying_glass.png",
+      "sha256": "3e5be46352e9a132ec677c7a910ed917b2a0e6b2e8b7f8f0447d944246c92501",
+      "bytes": 227
+    },
+    {
+      "path": "assets/minecraft/textures/entity/warden/jungle_abomination.png",
+      "sha256": "62058cafb8ef87191dfb10924c2d33519965f19738228d52f5187beabb25642e",
+      "bytes": 77356
+    },
+    {
+      "path": "assets/minecraft/textures/entity/warden/jungle_abomination_e.png",
+      "sha256": "3bd71f4eb397c0bd64b8744ffedfba83efbad10275e95de39c5498cdae750a73",
+      "bytes": 8288
+    },
+    {
+      "path": "assets/minecraft/textures/entity/warden/tempest_golem.png",
+      "sha256": "a27566cb080fd7e2e174f7087fea8401d8fc3815860927ecb5785c950a0eaa94",
+      "bytes": 39095
+    },
+    {
+      "path": "assets/minecraft/textures/entity/warden/tempest_golem_e.png",
+      "sha256": "26508f0b00ffa10e4a4fcb7c178b1a1aff2d97c5934e540cce9c70b698df0abe",
+      "bytes": 8695
+    }
+  ],
+  "unchanged_original_sources": true,
+  "converted_models": [
+    "dungeonsalive:corrupted_cauldron",
+    "dungeonsalive:ancient_guardian",
+    "dungeonsalive:jungle_abomination",
+    "dungeonsalive:tempest_golem",
+    "dungeonsalive:wretched_wraith",
+    "dungeonsalive:nameless_one",
+    "dungeonsalive:arch_illager",
+    "dungeonsalive:heart_of_ender",
+    "dungeonsalive:key_golem",
+    "dungeonsalive:diamond_key_golem",
+    "dungeonsalive:wooly_cow",
+    "dungeonsalive:piggy_bank",
+    "dungeonsalive:vulture",
+    "dungeonsalive:wisp",
+    "dungeonsalive:pet_baby_dairy_cow",
+    "dungeonsalive:pet_baby_ghast",
+    "dungeonsalive:pet_baby_moobloom",
+    "dungeonsalive:pet_baby_piebald_pig",
+    "dungeonsalive:pet_baby_sooty_pig",
+    "dungeonsalive:pet_spotted_baby_pig",
+    "dungeonsalive:pet_baby_squid",
+    "dungeonsalive:pet_baby_wooly_cow",
+    "dungeonsalive:pet_cluckshroom",
+    "dungeonsalive:pet_duck",
+    "dungeonsalive:pet_fancy_chicken",
+    "dungeonsalive:pet_glowing_mini_abomination",
+    "dungeonsalive:pet_glowing_ministrosity",
+    "dungeonsalive:pet_golden_parrot",
+    "dungeonsalive:pet_grey_tabby",
+    "dungeonsalive:pet_hedgehog",
+    "dungeonsalive:pet_mini_abomination",
+    "dungeonsalive:pet_mole",
+    "dungeonsalive:pet_racoon",
+    "dungeonsalive:pet_raven",
+    "dungeonsalive:pet_royal_penguin",
+    "dungeonsalive:pet_red_panda",
+    "dungeonsalive:pet_redstone_ministrosity",
+    "dungeonsalive:pet_skunk",
+    "dungeonsalive:pet_stone_ministrosity",
+    "dungeonsalive:pet_toucan",
+    "dungeonsalive:pet_vested_rabbit",
+    "dungeonsalive:pet_zombified_baby_pig",
+    "dungeonsalive:blacksmith",
+    "dungeonsalive:gift_wrapper",
+    "dungeonsalive:mystery_merchant",
+    "dungeonsalive:village_merchant",
+    "dungeonsalive:luxury_merchant",
+    "dungeonsalive:piglin_merchant",
+    "dungeonsalive:enchantsmith",
+    "dungeonsalive:tower_keeper",
+    "dungeonsalive:powersmith",
+    "dungeonsalive:uniquesmith",
+    "dungeonsalive:gildsmith",
+    "dungeonsalive:summoned_guardian_vex",
+    "dungeonsalive:summoned_soul_wizard",
+    "dungeonsalive:speedy_blue_sheep",
+    "dungeonsalive:fire_red_sheep",
+    "dungeonsalive:poisonous_green_sheep",
+    "dungeonsalive:tower_guard",
+    "dungeonsalive:rampart_captain",
+    "dungeonsalive:tower_wraith",
+    "dungeonsalive:armored_mountaineer",
+    "dungeonsalive:armored_skeleton",
+    "dungeonsalive:armored_mossy_skeleton",
+    "dungeonsalive:armored_stray",
+    "dungeonsalive:armored_zombie",
+    "dungeonsalive:armored_frozen_zombie",
+    "dungeonsalive:armored_jungle_zombie",
+    "dungeonsalive:armored_husk",
+    "dungeonsalive:imperfect_heart_of_ender",
+    "dungeonsalive:pet_dark_baby_goat",
+    "dungeonsalive:pet_ruby_baby_turtle"
+  ],
+  "derivative_manifests": [
+    "design/cem-model-imports.json",
+    "design/cem-extra-model-imports.json"
+  ],
+  "changes": "Source copies unchanged; generated Java transforms, source expressions, standalone Arch extraction, lossless texture atlases, separate CEM armor/fur materials and installed-model wrappers are documented in derivative manifests. The named sheep variants retain the source sheep_wool.jem 64x64 UVs. Normal pig.jem/cat.jem are explicit species-base adaptations for the named pig/cat skins; source weighted species choices are documented rather than claimed unique. Minecraft geometry and texture files are supplied at runtime and are not copied here."
+}

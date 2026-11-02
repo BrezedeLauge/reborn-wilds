@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_door"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dungeonsalive:key_gate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_door",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dungeonsalive:key_gate"
+    ]
+  }
+}

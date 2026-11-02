@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-11-02T22:11:23.587809+00:00",
+  "status": "java_and_packaged_branding_passed_gradle_blocked",
+  "display_name": "Reborn Wilds",
+  "mod_id": "dungeonsalive",
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.265",
+  "java_major": 21,
+  "artifact": {
+    "path": "build/local-check/reborn-wilds-0.4.0-alpha.jar",
+    "sha256": "d781c943cb9e44298a639eb358429594454e5f4ecb93663d182bcbd558d1025f",
+    "size_bytes": 5151920,
+    "kind": "separate_local_direct_javac_test_artifact"
+  },
+  "java": {
+    "main_sources": 458,
+    "test_sources": 40,
+    "junit": {
+      "found": 170,
+      "started": 170,
+      "succeeded": 170,
+      "failed": 0,
+      "aborted": 0,
+      "skipped": 0,
+      "containers_failed": 0,
+      "total_failures": 0
+    },
+    "local_detailed_report": "build/branding-check/local-java-check.json",
+    "local_log": "build/branding-check/local-java-check.log"
+  },
+  "gradle": {
+    "at_utc": "2026-11-02T22:09:53.606535+00:00",
+    "command": [
+      "./gradlew",
+      "build",
+      "--offline"
+    ],
+    "java_major": 21,
+    "exit_code": 1,
+    "status": "failed",
+    "log": "build/branding-check/gradle-attempt.log"
+  },
+  "packaged_checks": {
+    "display_name": true,
+    "mod_id_unchanged": true,
+    "entry_paths_unchanged": true,
+    "data_entries_unchanged": 463,
+    "language_values": [
+      {
+        "locale": "de_de",
+        "changed_display_values": {
+          "key.categories.dungeonsalive": "Reborn Wilds",
+          "itemGroup.dungeonsalive": "Reborn Wilds",
+          "generator.dungeonsalive.living_world": "Reborn Wilds – Lebendige Welt"
+        },
+        "translation_keys_unchanged": true
+      },
+      {
+        "locale": "en_us",
+        "changed_display_values": {
+          "key.categories.dungeonsalive": "Reborn Wilds",
+          "itemGroup.dungeonsalive": "Reborn Wilds",
+          "generator.dungeonsalive.living_world": "Reborn Wilds – Living World"
+        },
+        "translation_keys_unchanged": true
+      }
+    ],
+    "changed_entries": [
+      "META-INF/dungeonsalive/local-check.json",
+      "META-INF/neoforge.mods.toml",
+      "assets/dungeonsalive/lang/de_de.json",
+      "assets/dungeonsalive/lang/en_us.json",
+      "de/laugenbreze/dungeonsalive/client/village/VillageClient.class",
+      "de/laugenbreze/dungeonsalive/quest/QuestCommands.class",
+      "de/laugenbreze/dungeonsalive/quest/data/QuestRepository.class",
+      "de/laugenbreze/dungeonsalive/quest/data/QuestSavedData.class",
+      "de/laugenbreze/dungeonsalive/village/VillageAnimationConfig.class"
+    ],
+    "m2_draft_excluded": true
+  },
+  "previous_test_jar": {
+    "path": "build/local-check/dungeonsalive-0.4.0-alpha.jar",
+    "sha256": "90b2c19bc58a03baa4b62a19f9505e32c6d70205fe1dd8e0d51a0b1403cb7f8a",
+    "unchanged": true
+  },
+  "previous_default_java_report_unchanged": true,
+  "staged_qa_profiles": [
+    {
+      "profile": "Dungeons-Alive-Nature-QA",
+      "artifact_sha256": "90b2c19bc58a03baa4b62a19f9505e32c6d70205fe1dd8e0d51a0b1403cb7f8a",
+      "unchanged": true
+    },
+    {
+      "profile": "Dungeons-Alive-Inn-QA",
+      "artifact_sha256": "90b2c19bc58a03baa4b62a19f9505e32c6d70205fe1dd8e0d51a0b1403cb7f8a",
+      "unchanged": true
+    }
+  ],
+  "native_server_for_new_artifact": {
+    "executed": false,
+    "reason": "Display strings only; no gameplay, registration or persistence contract changes; no repeated139-case run requested.",
+    "prior_separate_artifact_evidence": "docs/validation/2026-11-02.json"
+  },
+  "new_graphical_review_performed": false,
+  "user_profiles_modified": false,
+  "public_summary_contains_home_paths": false
+}

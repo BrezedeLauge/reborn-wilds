@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dungeons Client-Prüfung"
+  short_description: "Echte Minecraft-Aufnahmen prüfen und belegen"
+  default_prompt: "Nutze $dungeons-native-qa zur gezielten Ingame-Prüfung der geänderten Darstellung."

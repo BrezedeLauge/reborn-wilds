@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "title": "Erinnerung: Dschungelungeheuer",
+  "description": "Eine freiwillige Herausforderung für dein nächstes Abenteuer. Stelle das passende Begegnungssiegel her. Schleiche und benutze es auf einer freien, ebenen Fläche. Besiege Dschungelungeheuer. Nimm die Aufgabe vor dem Kampf an. Das Siegel wird verbraucht; es gibt keine automatisch gebaute Arena.",
+  "icon": "dungeonsalive:jungle_abomination_seal",
+  "order": 115,
+  "prerequisites": [
+    "dungeonsalive:a_place_to_return"
+  ],
+  "objectives": [
+    {
+      "id": "defeat_v1",
+      "type": "kill_entity",
+      "target": "dungeonsalive:jungle_abomination",
+      "amount": 1,
+      "label": "Dschungelungeheuer besiegen"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:emerald",
+      "count": 16
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "count": 2
+    }
+  ],
+  "experience": 160
+}

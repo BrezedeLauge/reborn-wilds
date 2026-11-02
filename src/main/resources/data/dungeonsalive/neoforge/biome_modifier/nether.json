@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#dungeonsalive:has_natural_hostiles/nether",
+  "spawners": [
+    {
+      "type": "dungeonsalive:piglin_hunter",
+      "weight": 18,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "dungeonsalive:fungus_thrower",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "title": "Relikte des Weges",
+  "description": "Sammle Materialien für die ersten Artefakte. Deine Vorräte bleiben erhalten.",
+  "icon": "dungeonsalive:boots_of_swiftness",
+  "order": 500,
+  "prerequisites": [
+    "dungeonsalive:a_place_to_return"
+  ],
+  "objectives": [
+    {
+      "id": "feather",
+      "type": "collect_item",
+      "target": "minecraft:feather",
+      "amount": 8,
+      "label": "Federn im Inventar"
+    },
+    {
+      "id": "sugar",
+      "type": "collect_item",
+      "target": "minecraft:sugar",
+      "amount": 8,
+      "label": "Zucker im Inventar"
+    },
+    {
+      "id": "emerald",
+      "type": "collect_item",
+      "target": "minecraft:emerald",
+      "amount": 4,
+      "label": "Smaragde im Inventar"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "dungeonsalive:boots_of_swiftness",
+      "count": 1
+    }
+  ],
+  "experience": 40
+}

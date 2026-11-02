@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#dungeonsalive:living_decoration/dryland",
+  "features": [
+    "dungeonsalive:living/ember_rocks",
+    "dungeonsalive:living/ember_floor",
+    "dungeonsalive:living/dry_deadwood",
+    "dungeonsalive:living/dry_scrub"
+  ],
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-11-01",
+  "source": "https://api.modrinth.com/v2",
+  "minecraft_version": "1.21.1",
+  "loader": "neoforge",
+  "project_neoforge_version": "21.1.265",
+  "selection_note": "Exact pinned versions verified from the public official Modrinth API. This installer never resolves latest. Fresh Animations 1.10.4 is intentionally retained despite newer releases. No third-party binaries are included in this project.",
+  "profiles": {
+    "animations": {
+      "description": "Fresh Animations + Entity Model Features + Entity Texture Features; client only.",
+      "automatic_install": true,
+      "artifacts": [
+        "etf",
+        "emf",
+        "fresh_animations"
+      ],
+      "manual_steps": [
+        "Activate Fresh Animations in the Minecraft resource-pack menu.",
+        "Use Minecraft 1.21.1 with NeoForge 21.1.265 or a separately verified compatible version.",
+        "Do not combine this profile with OptiFine or another CEM implementation."
+      ],
+      "validation": {
+        "details": "docs/VALIDATION.md",
+        "downloads_sizes_sha512": "passed",
+        "declared_dependency_metadata": "passed",
+        "graphical_client": "not_tested",
+        "headless_integration": "not_applicable_client_animation_profile"
+      }
+    },
+    "enchanter": {
+      "description": "Enchant With Mob and its required Bagus Lib dependency; install matching content on client and server.",
+      "automatic_install": true,
+      "minimum_neoforge_version": "21.1.228",
+      "artifacts": [
+        "bagus_lib",
+        "enchantwithmob"
+      ],
+      "manual_steps": [
+        "Requires Minecraft 1.21.1 and NeoForge >=21.1.228; project baseline is 21.1.265.",
+        "Check gameplay balance and multiplayer before enabling this content in a long-running world."
+      ],
+      "validation": {
+        "details": "docs/VALIDATION.md",
+        "downloads_sizes_sha512": "passed",
+        "declared_dependency_metadata": "passed",
+        "graphical_client": "not_tested",
+        "headless_integration": "passed",
+        "test_command": "./gradlew runIntegrationGameTest",
+        "headless_tests_passed": 3,
+        "verified_mod_loading": [
+          "enchantwithmob",
+          "bagus_lib"
+        ],
+        "verified_entity_registry_id": "enchantwithmob:enchanter",
+        "optional_quest_target": "passed",
+        "loaded_dungeonsalive_quests": 5,
+        "real_client_multiplayer": "not_tested",
+        "full_enchanter_combat": "not_tested"
+      }
+    }
+  },
+  "artifacts": {
+    "fresh_animations": {
+      "title": "Fresh Animations 1.10.4",
+      "project_slug": "fresh-animations",
+      "project_id": "50dA9Sha",
+      "version_id": "xN57JJts",
+      "version_number": "1.10.4",
+      "version_type": "release",
+      "published_at": "2026-02-24T01:17:22.685658Z",
+      "source_api": "https://api.modrinth.com/v2/version/xN57JJts",
+      "source_project": "https://modrinth.com/resourcepack/fresh-animations",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "api_dependencies": [],
+      "directory": "resourcepacks",
+      "filename": "FreshAnimations_v1.10.4.zip",
+      "url": "https://cdn.modrinth.com/data/50dA9Sha/versions/xN57JJts/FreshAnimations_v1.10.4.zip",
+      "sha512": "41258f9bea1a773d823f9a014d0c08206e9e7b339bc538e1538211fff28fadd06878a836d292cbb636ed6829cd2801a509368ae3eb3ad4bedf42190a0d5f7a90",
+      "size_bytes": 850941,
+      "conflict_prefixes": [
+        "FreshAnimations"
+      ],
+      "download_hash_verified_on": "2026-11-01",
+      "required_artifacts": [
+        "emf",
+        "etf"
+      ],
+      "dependency_note": "The pinned API entry has no required dependencies; EMF+ETF are included explicitly according to the author resource-pack documentation.",
+      "validation": {
+        "downloads_sizes_sha512": "passed",
+        "declared_dependency_metadata": "passed",
+        "graphical_client": "not_tested",
+        "details": "docs/VALIDATION.md"
+      }
+    },
+    "emf": {
+      "title": "3.3.12-neoforge-1.21",
+      "project_slug": "entity-model-features",
+      "project_id": "4I1XuqiY",
+      "version_id": "197m3VoU",
+      "version_number": "3.3.12-neoforge-1.21",
+      "version_type": "release",
+      "published_at": "2026-10-15T07:13:06.396744Z",
+      "source_api": "https://api.modrinth.com/v2/version/197m3VoU",
+      "source_project": "https://modrinth.com/mod/entity-model-features",
+      "game_versions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "api_dependencies": [
+        {
+          "version_id": null,
+          "project_id": "BVzZfTc1",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "directory": "mods",
+      "filename": "entity_model_features-3.3.12-1.21-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/197m3VoU/entity_model_features-3.3.12-1.21-neoforge.jar",
+      "sha512": "b18bde755c6719c62579d65c96e6e768c99b25fba9f987dc843b2a64ce4d713ba2f8151da4a98efe76d854550f40356ac4fdfa952568cf1fb11771353dfc70e8",
+      "size_bytes": 656382,
+      "conflict_prefixes": [
+        "entity_model_features"
+      ],
+      "download_hash_verified_on": "2026-11-01",
+      "required_artifacts": [
+        "etf"
+      ],
+      "checked_binary_requirements": {
+        "entity_texture_features": "[7.2.0,)"
+      },
+      "validation": {
+        "downloads_sizes_sha512": "passed",
+        "declared_dependency_metadata": "passed",
+        "graphical_client": "not_tested",
+        "details": "docs/VALIDATION.md"
+      }
+    },
+    "etf": {
+      "title": "7.2.6-neoforge-1.21",
+      "project_slug": "entitytexturefeatures",
+      "project_id": "BVzZfTc1",
+      "version_id": "lwNx1nD1",
+      "version_number": "7.2.6-neoforge-1.21",
+      "version_type": "release",
+      "published_at": "2026-10-15T06:55:43.054886Z",
+      "source_api": "https://api.modrinth.com/v2/version/lwNx1nD1",
+      "source_project": "https://modrinth.com/mod/entitytexturefeatures",
+      "game_versions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "api_dependencies": [],
+      "directory": "mods",
+      "filename": "entity_texture_features-7.2.6-1.21-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/lwNx1nD1/entity_texture_features-7.2.6-1.21-neoforge.jar",
+      "sha512": "0e349c235b509de605ef4175a60e87ee78eab208b554ebc1dfa756b18ab2b531ce4641bfdc1c4542cb3c24d45b81698ca1413fcd001d589d82cbad6cea346f46",
+      "size_bytes": 807089,
+      "conflict_prefixes": [
+        "entity_texture_features"
+      ],
+      "download_hash_verified_on": "2026-11-01",
+      "required_artifacts": [],
+      "validation": {
+        "downloads_sizes_sha512": "passed",
+        "declared_dependency_metadata": "passed",
+        "graphical_client": "not_tested",
+        "details": "docs/VALIDATION.md"
+      }
+    },
+    "enchantwithmob": {
+      "title": "EnchantWithMob 1.21.1-21.7.0",
+      "project_slug": "enchantwithmob",
+      "project_id": "SwDIbBHh",
+      "version_id": "BxJSXnXY",
+      "version_number": "1.21.1-21.7.0",
+      "version_type": "release",
+      "published_at": "2026-10-26T01:54:02.014349Z",
+      "source_api": "https://api.modrinth.com/v2/version/BxJSXnXY",
+      "source_project": "https://modrinth.com/mod/enchantwithmob",
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "api_dependencies": [
+        {
+          "version_id": null,
+          "project_id": "95nSN4Rd",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "directory": "mods",
+      "filename": "enchantwithmob-1.21.1-21.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/SwDIbBHh/versions/BxJSXnXY/enchantwithmob-1.21.1-21.7.0.jar",
+      "sha512": "5cf2de3f3dfd01a114e17537535d414bbfeea43afd0287a877ec8f5fbcd0f585caa5a9c45159ea24b7cea11a70d0461090e2978871dba7e944c8a24f44f92d49",
+      "size_bytes": 577126,
+      "conflict_prefixes": [
+        "enchantwithmob-"
+      ],
+      "download_hash_verified_on": "2026-11-01",
+      "required_artifacts": [
+        "bagus_lib"
+      ],
+      "checked_binary_requirements": {
+        "minecraft": "[1.21.1]",
+        "neoforge": "[21.1.228,)",
+        "bagus_lib": "[1.21.1-13.3.0,)"
+      },
+      "validation": {
+        "downloads_sizes_sha512": "passed",
+        "declared_dependency_metadata": "passed",
+        "graphical_client": "not_tested",
+        "details": "docs/VALIDATION.md",
+        "headless_server_load": "passed"
+      }
+    },
+    "bagus_lib": {
+      "title": "Bagus Lib 1.21.1-13.27.0",
+      "project_slug": "bagus-lib",
+      "project_id": "95nSN4Rd",
+      "version_id": "VPif9tbA",
+      "version_number": "1.21.1-13.27.0",
+      "version_type": "release",
+      "published_at": "2026-09-14T23:20:45.520133Z",
+      "source_api": "https://api.modrinth.com/v2/version/VPif9tbA",
+      "source_project": "https://modrinth.com/mod/bagus-lib",
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "api_dependencies": [],
+      "directory": "mods",
+      "filename": "bagus_lib-1.21.1-13.27.0.jar",
+      "url": "https://cdn.modrinth.com/data/95nSN4Rd/versions/VPif9tbA/bagus_lib-1.21.1-13.27.0.jar",
+      "sha512": "2691acbdbc62d750472fc63518129b2a190c430e4f1fc59df8b000b33e650d5061f2050bdb3b9f655434d6b25fcdf60079bcb3b30374233d9c43c100d03c7db3",
+      "size_bytes": 224815,
+      "conflict_prefixes": [
+        "bagus_lib-"
+      ],
+      "download_hash_verified_on": "2026-11-01",
+      "required_artifacts": [],
+      "checked_binary_requirements": {
+        "minecraft": "[1.21.1]",
+        "neoforge": "[21.1.60,)"
+      },
+      "validation": {
+        "downloads_sizes_sha512": "passed",
+        "declared_dependency_metadata": "passed",
+        "graphical_client": "not_tested",
+        "details": "docs/VALIDATION.md",
+        "headless_server_load": "passed"
+      }
+    }
+  },
+  "validation": {
+    "checked_on": "2026-11-01",
+    "details": "docs/VALIDATION.md",
+    "downloads_sizes_sha512": "passed",
+    "declared_dependency_metadata": "passed",
+    "enchanter_headless_integration": "passed",
+    "graphical_client": "not_tested",
+    "real_client_multiplayer": "not_tested",
+    "full_enchanter_combat": "not_tested"
+  }
+}

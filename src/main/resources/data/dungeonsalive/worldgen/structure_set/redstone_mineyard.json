@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "dungeonsalive:redstone_mineyard",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 56,
+    "separation": 32,
+    "salt": 84625038,
+    "frequency": 0.6,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 6
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "generator": "tools/generate_natural_hostiles.py",
+  "default_enabled": true,
+  "config": "dungeonsalive-hostiles-common.toml",
+  "config_key": "hostiles.naturalHostiles",
+  "spawn_system": "Native Minecraft MONSTER spawning and category caps; no independent hostile scheduler",
+  "distinct_regular_types": 20,
+  "bosses_or_minibosses": 0,
+  "rules": {
+    "overworld": "Native darkness and non-Peaceful difficulty",
+    "nether_and_end": "Native any-light monster rule and non-Peaceful difficulty",
+    "aquatic": "Full body water volume, water surface height, free collision, registered IN_WATER placement; native Overworld darkness",
+    "pack_size": "1–2, stronger casters individually",
+    "loaded_region": "Body and complete one-block collision edge checked before block reads",
+    "disabling": "Stops new NATURAL/CHUNK_GENERATION Dungeons opponents; retains existing mobs, eggs and encounter mechanics"
+  },
+  "families": {
+    "woodland": {
+      "biomes": [
+        "#minecraft:is_forest",
+        "#minecraft:is_taiga",
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "minecraft:meadow"
+      ],
+      "spawns": [
+        {
+          "id": "royal_guard",
+          "weight": 16,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "id": "enchanter",
+          "weight": 10,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "desert": {
+      "biomes": [
+        "minecraft:desert",
+        "#minecraft:is_badlands",
+        "#minecraft:is_savanna"
+      ],
+      "spawns": [
+        {
+          "id": "vanguard",
+          "weight": 16,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "id": "necromancer",
+          "weight": 10,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "jungle": {
+      "biomes": [
+        "#minecraft:is_jungle"
+      ],
+      "spawns": [
+        {
+          "id": "whisperer",
+          "weight": 10,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "leapleaf",
+          "weight": 10,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "jungle_zombie",
+          "weight": 18,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "id": "mossy_skeleton",
+          "weight": 14,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "peaks": {
+      "biomes": [
+        "minecraft:frozen_peaks",
+        "minecraft:jagged_peaks",
+        "minecraft:stony_peaks",
+        "minecraft:snowy_slopes"
+      ],
+      "spawns": [
+        {
+          "id": "iceologer",
+          "weight": 12,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "wind_caller",
+          "weight": 12,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "swamp": {
+      "biomes": [
+        "minecraft:swamp",
+        "minecraft:mangrove_swamp",
+        "dungeonsalive:luminous_marsh"
+      ],
+      "spawns": [
+        {
+          "id": "wraith",
+          "weight": 14,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "outer_end": {
+      "biomes": [
+        "minecraft:end_highlands",
+        "minecraft:end_midlands",
+        "minecraft:end_barrens",
+        "minecraft:small_end_islands"
+      ],
+      "spawns": [
+        {
+          "id": "watchling",
+          "weight": 3,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "id": "blastling",
+          "weight": 2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "id": "snareling",
+          "weight": 2,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "frozen": {
+      "biomes": [
+        "minecraft:snowy_plains",
+        "minecraft:ice_spikes",
+        "minecraft:snowy_taiga",
+        "minecraft:grove",
+        "minecraft:snowy_slopes",
+        "minecraft:frozen_peaks"
+      ],
+      "spawns": [
+        {
+          "id": "frozen_zombie",
+          "weight": 18,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "id": "icy_creeper",
+          "weight": 12,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "nether": {
+      "biomes": [
+        "#minecraft:is_nether"
+      ],
+      "spawns": [
+        {
+          "id": "piglin_hunter",
+          "weight": 18,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "id": "fungus_thrower",
+          "weight": 10,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "aquatic": {
+      "biomes": [
+        "#minecraft:is_ocean",
+        "#minecraft:is_river",
+        "minecraft:swamp",
+        "minecraft:mangrove_swamp",
+        "dungeonsalive:luminous_marsh"
+      ],
+      "spawns": [
+        {
+          "id": "armored_drowned",
+          "weight": 14,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "id": "sunken_skeleton",
+          "weight": 10,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    }
+  },
+  "legacy_pack": {
+    "path": "examples/datapacks/dungeons_wilds",
+    "same_modifier_ids": [
+      "woodland",
+      "desert",
+      "jungle",
+      "peaks",
+      "swamp",
+      "outer_end"
+    ],
+    "behavior": "Optional legacy low-density overrides for six families, not required for natural spawning. Identical resource IDs prevent duplicate entries. New frozen/nether/aquatic entries remain built in."
+  },
+  "validation_limit": "Generated profiles and resource checks do not prove that a natural spawn occurred in a running world."
+}

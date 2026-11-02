@@ -1,0 +1,882 @@
+{
+  "source_project": "ReCrafted Mobs",
+  "source_url": "https://modrinth.com/resourcepack/recrafted-mobs",
+  "version": "11.0",
+  "version_id": "nUAnxMZE",
+  "archive_sha256": "74901b18716b8efc57368a3b2d47a43207416925da6f6f5e492758c94f2cec2c",
+  "credits": {
+    "section": "ReCrafted Mobs",
+    "titles": [
+      {
+        "title": "Original Creator",
+        "names": [
+          "GillsBills"
+        ]
+      },
+      {
+        "title": "With Help From",
+        "names": [
+          "Cave Fox",
+          "Kekkman",
+          "PinkuRinku",
+          "RavenVLemon",
+          "Ewanhowell5195",
+          "creepermax123",
+          "MickeyJoeAlpha"
+        ]
+      }
+    ]
+  },
+  "origin_review": {
+    "evidence": [
+      "Author project page explicitly licenses pack content under CC-BY-NC-SA-4.0.",
+      "Author states included third-party assets are used with original author permission.",
+      "Seven examined boss .jem files identify Blockbench authoring/export; no file-specific exclusion was found.",
+      "The published credits identify GillsBills plus collaborators, but do not identify the artist of every specific boss."
+    ],
+    "explicit_game_extraction_notice_found": false,
+    "limitation": "No complete original authoring history is public for this downloaded resource pack. This is a targeted reuse decision based on its explicit publishing license and creator attribution, not proof that every asset in the entire pack is newly drawn. Do not blanket copy unrelated vanilla textures/sounds/credits.",
+    "license_conditions": [
+      "Retain all supplied ReCrafted Mobs contributor credits for the selected bundle.",
+      "Attribute source/version and CC BY-NC-SA 4.0, include the license link/text.",
+      "Record conversions and any artistic changes; keep adapted model/texture/expression content under CC BY-NC-SA 4.0.",
+      "Noncommercial use/distribution only for this asset bundle. Own independent runtime code may retain its separately stated license.",
+      "The additional request to ask before edits is recorded verbatim; the published CC license itself grants adaptation under its stated conditions."
+    ]
+  },
+  "schema_version": 1,
+  "scope": "Exact previously audited input subset for the original visual corrections; does not extend source reuse permission.",
+  "audit_origin": [
+    "recrafted-boss-map.json (Arch standalone corrected spawn-phase skin)",
+    "recrafted-extra-model-map.json (Baby Squid exact model/skin bundle)"
+  ],
+  "models": [
+    {
+      "runtime_id": "dungeonsalive:arch_illager",
+      "model_file": "assets/minecraft/optifine/cem/wither/wither6.jem",
+      "mapping_rule": "assets/minecraft/optifine/cem/wither/wither.properties",
+      "texture_files": [
+        "assets/minecraft/optifine/random/entity/wither/wither_invulnerable6.png"
+      ],
+      "optional_layer_files": [
+        "assets/minecraft/optifine/random/entity/wither/wither_armor7.png"
+      ],
+      "external_jpm_files": [],
+      "texture_size": [
+        256,
+        256
+      ],
+      "box_count": 37,
+      "rig_node_count": 48,
+      "rig_nodes": [
+        {
+          "id": "body1",
+          "part": "body1",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            -24,
+            0
+          ],
+          "parent": null,
+          "box_count": 0
+        },
+        {
+          "id": "ender",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "scale": "0.5",
+          "parent": "body1",
+          "box_count": 0
+        },
+        {
+          "id": "inner_body",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            -10,
+            24,
+            -11.5
+          ],
+          "parent": "ender",
+          "box_count": 1
+        },
+        {
+          "id": "top_body",
+          "invertAxis": "xy",
+          "translate": [
+            10,
+            -19,
+            10
+          ],
+          "parent": "inner_body",
+          "box_count": 1
+        },
+        {
+          "id": "ender2",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            19,
+            -10
+          ],
+          "parent": "top_body",
+          "box_count": 0
+        },
+        {
+          "id": "head5",
+          "invertAxis": "xy",
+          "translate": [
+            0.5,
+            18,
+            2
+          ],
+          "parent": "ender2",
+          "box_count": 3
+        },
+        {
+          "id": "left_arm4",
+          "invertAxis": "xy",
+          "translate": [
+            -10,
+            0,
+            0
+          ],
+          "parent": "ender2",
+          "box_count": 0
+        },
+        {
+          "id": "arm13",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            11,
+            11
+          ],
+          "parent": "left_arm4",
+          "box_count": 1
+        },
+        {
+          "id": "arm14",
+          "invertAxis": "xy",
+          "translate": [
+            -35,
+            0,
+            0
+          ],
+          "parent": "arm13",
+          "box_count": 1
+        },
+        {
+          "id": "arm15",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            -7,
+            11
+          ],
+          "parent": "left_arm4",
+          "box_count": 1
+        },
+        {
+          "id": "arm16",
+          "invertAxis": "xy",
+          "translate": [
+            -35,
+            0,
+            0
+          ],
+          "parent": "arm15",
+          "box_count": 1
+        },
+        {
+          "id": "right_arm4",
+          "invertAxis": "xy",
+          "translate": [
+            10,
+            0,
+            0
+          ],
+          "parent": "ender2",
+          "box_count": 0
+        },
+        {
+          "id": "arm19",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            11,
+            11
+          ],
+          "parent": "right_arm4",
+          "box_count": 0
+        },
+        {
+          "id": "body1_sub_3",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "arm19",
+          "box_count": 1
+        },
+        {
+          "id": "arm20",
+          "invertAxis": "xy",
+          "translate": [
+            35,
+            0,
+            0
+          ],
+          "parent": "arm19",
+          "box_count": 0
+        },
+        {
+          "id": "body1_sub_4",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "arm20",
+          "box_count": 1
+        },
+        {
+          "id": "arm21",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            -7,
+            11
+          ],
+          "parent": "right_arm4",
+          "box_count": 0
+        },
+        {
+          "id": "body1_sub_5",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "arm21",
+          "box_count": 1
+        },
+        {
+          "id": "arm22",
+          "invertAxis": "xy",
+          "translate": [
+            35,
+            0,
+            0
+          ],
+          "parent": "arm21",
+          "box_count": 0
+        },
+        {
+          "id": "body1_sub_6",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "arm22",
+          "box_count": 1
+        },
+        {
+          "id": "left_arm3",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "inner_body",
+          "box_count": 0
+        },
+        {
+          "id": "arm5",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            -25,
+            11
+          ],
+          "parent": "left_arm3",
+          "box_count": 1
+        },
+        {
+          "id": "arm6",
+          "invertAxis": "xy",
+          "translate": [
+            -35,
+            0,
+            0
+          ],
+          "parent": "arm5",
+          "box_count": 1
+        },
+        {
+          "id": "right_arm3",
+          "invertAxis": "xy",
+          "translate": [
+            20,
+            0,
+            0
+          ],
+          "parent": "inner_body",
+          "box_count": 0
+        },
+        {
+          "id": "arm11",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            -25,
+            11
+          ],
+          "parent": "right_arm3",
+          "box_count": 0
+        },
+        {
+          "id": "body1_sub_67",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "arm11",
+          "box_count": 1
+        },
+        {
+          "id": "arm12",
+          "invertAxis": "xy",
+          "translate": [
+            35,
+            0,
+            0
+          ],
+          "parent": "arm11",
+          "box_count": 0
+        },
+        {
+          "id": "body1_sub_69",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "arm12",
+          "box_count": 1
+        },
+        {
+          "id": "arch_illager",
+          "invertAxis": "xy",
+          "translate": [
+            10,
+            -54,
+            11.5
+          ],
+          "parent": "inner_body",
+          "box_count": 0
+        },
+        {
+          "id": "head4",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            10,
+            0
+          ],
+          "parent": "arch_illager",
+          "box_count": 3
+        },
+        {
+          "id": "body5",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "arch_illager",
+          "box_count": 2
+        },
+        {
+          "id": "necklace",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "body5",
+          "box_count": 1
+        },
+        {
+          "id": "bone12",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            5,
+            -3
+          ],
+          "rotate": [
+            0,
+            0,
+            -22.5
+          ],
+          "parent": "necklace",
+          "box_count": 1
+        },
+        {
+          "id": "bone13",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            5,
+            -3
+          ],
+          "rotate": [
+            0,
+            0,
+            22.5
+          ],
+          "parent": "necklace",
+          "box_count": 0
+        },
+        {
+          "id": "body1_sub_79",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "bone13",
+          "box_count": 1
+        },
+        {
+          "id": "right_leg2",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "body5",
+          "box_count": 3
+        },
+        {
+          "id": "left_leg2",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "body5",
+          "box_count": 0
+        },
+        {
+          "id": "body1_sub_82",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "left_leg2",
+          "box_count": 3
+        },
+        {
+          "id": "right_arm5",
+          "invertAxis": "xy",
+          "translate": [
+            4,
+            8,
+            0
+          ],
+          "parent": "body5",
+          "box_count": 2
+        },
+        {
+          "id": "right_arm6",
+          "invertAxis": "xy",
+          "translate": [
+            -4,
+            8,
+            0
+          ],
+          "parent": "body5",
+          "box_count": 0
+        },
+        {
+          "id": "body1_sub_85",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "right_arm6",
+          "box_count": 2
+        },
+        {
+          "id": "bone14",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            -5,
+            -5
+          ],
+          "rotate": [
+            -90,
+            0,
+            0
+          ],
+          "parent": "right_arm6",
+          "box_count": 0
+        },
+        {
+          "id": "body1_sub_87",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": "bone14",
+          "box_count": 2
+        },
+        {
+          "id": "body2",
+          "part": "body2",
+          "invertAxis": "xy",
+          "translate": [
+            -3,
+            -17.1,
+            0.5
+          ],
+          "parent": null,
+          "box_count": 0
+        },
+        {
+          "id": "body3",
+          "part": "body3",
+          "invertAxis": "xy",
+          "translate": [
+            -3,
+            -7.1,
+            0.5
+          ],
+          "parent": null,
+          "box_count": 0
+        },
+        {
+          "id": "head1",
+          "part": "head1",
+          "invertAxis": "xy",
+          "translate": [
+            -1,
+            -24,
+            0
+          ],
+          "parent": null,
+          "box_count": 0
+        },
+        {
+          "id": "head2",
+          "part": "head2",
+          "invertAxis": "xy",
+          "translate": [
+            -9,
+            -20,
+            1
+          ],
+          "parent": null,
+          "box_count": 0
+        },
+        {
+          "id": "head3",
+          "part": "head3",
+          "invertAxis": "xy",
+          "translate": [
+            9,
+            -20,
+            1
+          ],
+          "parent": null,
+          "box_count": 0
+        }
+      ],
+      "animations": [
+        {
+          "top_body.tx": "-10",
+          "top_body.ty": "20",
+          "ender.ty": "-15",
+          "arch_illager.ty": "50",
+          "top_body.tz": "10",
+          "head5.rx": "head1.rx + torad(7.5) + -sin(torad(12.5*3) + time/42) *0.20",
+          "head5.ry": "head1.ry",
+          "head5.rz": "head1.rz",
+          "arm13.ry": "torad(12.5) + -sin(torad(12.5*3) + time/42) *0.20",
+          "arm14.ry": "torad(12.5) + -sin(torad(12.5*3) + time/42) *0.20",
+          "arm15.ry": "torad(15) + -sin(torad(12.5*3) + time/42) *0.30",
+          "arm16.ry": "torad(15) + -sin(torad(12.5*3) + time/42) *0.30",
+          "arm5.ry": "torad(17.5) + -sin(torad(12.5*3) + time/42) *0.35",
+          "arm6.ry": "torad(17.5) + -sin(torad(12.5*3) + time/42) *0.35",
+          "arm19.ry": "torad(-12.5) + sin(torad(12.5*3) + time/42) *0.20",
+          "arm20.ry": "torad(-12.5) + sin(torad(12.5*3) + time/42) *0.20",
+          "arm21.ry": "torad(-15) + sin(torad(12.5*3) + time/42) *0.30",
+          "arm22.ry": "torad(-15) + sin(torad(12.5*3) + time/42) *0.30",
+          "arm11.ry": "torad(-17.5) + sin(torad(12.5*3) + time/42) *0.35",
+          "arm12.ry": "torad(-17.5) + sin(torad(12.5*3) + time/42) *0.35",
+          "top_body.rx": "torad(12.5) + sin(torad(12.5*3) + time/42) *0.20",
+          "ender.rx": "torad(0) +sin(torad(12.5*3) + time/42) *0.10"
+        }
+      ],
+      "animation_input_variables": [
+        "head1.rx",
+        "head1.ry",
+        "head1.rz",
+        "time"
+      ],
+      "license": "CC-BY-NC-SA-4.0",
+      "author_attribution": "GillsBills and credited ReCrafted Mobs contributors; per-file artist not separately specified",
+      "decision": "reuse_with_CC_BY_NC_SA_attribution_changes_and_sharealike",
+      "animation_scope": "CEM expressions drive Minecraft vanilla animation state; not exported original-game keyframe clips",
+      "notes": [
+        "Both entities are contained in one authored CEM model. For Arch-Illager select/reposition arch_illager subtree; for Heart of Ender retain the ender subtree and its contained Archie as required. Do not claim two independent original keyframe rigs.",
+        "Verified correction after actual client review: the standalone arch_illager UV subtree is fully textured only in wither_invulnerable6.png (source Wither spawn phase). Normal wither6.png contains magenta placeholder pixels there. Do not apply wither6_e.png to standalone Archie. Heart of Ender keeps normal wither6.png."
+      ],
+      "binding_review": "Actual source texture comparison and in-client diagnostic; final converted appearance acceptance remains separate."
+    },
+    {
+      "catalog_id": "mcd:pet_baby_squid",
+      "canonical_name": "Baby Squid",
+      "model_file": "assets/minecraft/optifine/cem/glow_squid/glow_squid2.jem",
+      "source_selector": "Baby Squid",
+      "model_rule": {
+        "file": "assets/minecraft/optifine/cem/glow_squid/glow_squid.properties",
+        "selector": "Baby Squid",
+        "name_rule": "iregex:(Baby Squid)",
+        "index": "3",
+        "models": "2"
+      },
+      "texture_bindings": [
+        {
+          "node": "root",
+          "upstream_reference": "textures/entity/squid/baby_glow_squid.png",
+          "resolved_file": "assets/minecraft/textures/entity/squid/baby_glow_squid.png",
+          "selector": "Baby Squid",
+          "skin_rule": null
+        }
+      ],
+      "texture_files": [
+        "assets/minecraft/textures/entity/squid/baby_glow_squid.png"
+      ],
+      "texture_rules": [],
+      "box_count": 11,
+      "rig_node_count": 10,
+      "rig_nodes": [
+        {
+          "id": "body",
+          "part": "body",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            0,
+            0,
+            0
+          ],
+          "parent": null,
+          "box_count": 0
+        },
+        {
+          "id": "babyghast",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            5,
+            -4.5
+          ],
+          "parent": "body",
+          "box_count": 11
+        },
+        {
+          "id": "tentacle1",
+          "part": "tentacle1",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            -5,
+            7,
+            0
+          ],
+          "parent": null,
+          "box_count": 0
+        },
+        {
+          "id": "tentacle2",
+          "part": "tentacle2",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            -3.5,
+            7,
+            3.5
+          ],
+          "parent": null,
+          "box_count": 0
+        },
+        {
+          "id": "tentacle3",
+          "part": "tentacle3",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            0,
+            7,
+            5
+          ],
+          "parent": null,
+          "box_count": 0
+        },
+        {
+          "id": "tentacle4",
+          "part": "tentacle4",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            3.5,
+            7,
+            3.5
+          ],
+          "parent": null,
+          "box_count": 0
+        },
+        {
+          "id": "tentacle5",
+          "part": "tentacle5",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            -10,
+            7,
+            5
+          ],
+          "rotate": [
+            0,
+            -90,
+            0
+          ],
+          "parent": null,
+          "box_count": 0
+        },
+        {
+          "id": "tentacle6",
+          "part": "tentacle6",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            3.5,
+            7,
+            -3.5
+          ],
+          "parent": null,
+          "box_count": 0
+        },
+        {
+          "id": "tentacle7",
+          "part": "tentacle7",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            0,
+            7,
+            -1.65
+          ],
+          "rotate": [
+            0,
+            -180,
+            0
+          ],
+          "parent": null,
+          "box_count": 0
+        },
+        {
+          "id": "tentacle8",
+          "part": "tentacle8",
+          "invertAxis": "xy",
+          "mirrorTexture": "u",
+          "translate": [
+            -3.5,
+            7,
+            -3.5
+          ],
+          "parent": null,
+          "box_count": 0
+        }
+      ],
+      "animations": [],
+      "external_jpm_files": [],
+      "license": "CC-BY-NC-SA-4.0",
+      "author_attribution": "GillsBills and the ReCrafted Mobs contributor credits; per-file artist not separately specified",
+      "license_decision": "reuse_with_CC_BY_NC_SA_attribution_changes_and_sharealike",
+      "scope": "source_bundle_ready_for_adaptation_not_implemented",
+      "notes": [
+        "The pack targets vanilla renderer animation variables. CEM expressions must be adapted to the actual new entity state.",
+        "The source selector is an adult-family model; pet proportions/scale and following behavior still require adaptation."
+      ],
+      "runtime_id": "dungeonsalive:pet_baby_squid"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "assets/minecraft/optifine/cem/glow_squid/glow_squid2.jem",
+      "kind": "cem_model",
+      "sha256": "856162c814be633165a854733d90a777dcd20d2d05116c380da65b5e2922e99c",
+      "bytes": 2284
+    },
+    {
+      "path": "assets/minecraft/optifine/cem/wither/wither6.jem",
+      "kind": "cem_model",
+      "bytes": 13395,
+      "sha256": "cb8559e107d6c5ece3db867582b2ecd18ec1cceda12f68d2750da153433ae9bd"
+    },
+    {
+      "path": "assets/minecraft/optifine/random/entity/wither/wither_invulnerable6.png",
+      "kind": "optional_wither_layer",
+      "bytes": 2072,
+      "sha256": "84ea7aa82ca00b56da2ddb01b8843b350d761e808e2a8d59cb5205d6b68aa829"
+    },
+    {
+      "path": "assets/minecraft/textures/entity/squid/baby_glow_squid.png",
+      "kind": "texture",
+      "sha256": "6f0eee0765d11c528f9aeb5b394906bc46305bae8c76d3efc3d9a6699b47fa14",
+      "bytes": 534
+    }
+  ]
+}

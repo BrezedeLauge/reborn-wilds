@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dungeons Modelle und Animation"
+  short_description: "Quellenmodelle, Rigs und Animationen bearbeiten"
+  default_prompt: "Nutze $dungeons-models-animation für die Modell- oder Animationsänderung in Dungeons Alive."

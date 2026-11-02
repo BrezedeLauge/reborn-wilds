@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "dungeonsalive:radiance",
+    "dungeonsalive:leeching",
+    "dungeonsalive:committed",
+    "dungeonsalive:critical_hit",
+    "dungeonsalive:chains",
+    "dungeonsalive:swirling"
+  ]
+}

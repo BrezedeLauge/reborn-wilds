@@ -1,0 +1,176 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+    id 'idea'
+}
+
+version = mod_version
+group = mod_group_id
+base { archivesName = mod_id }
+java { toolchain.languageVersion = JavaLanguageVersion.of(21) }
+repositories { mavenCentral() }
+
+neoForge {
+    version = project.neo_version
+    runs {
+        client { client() }
+        featureShowcase {
+            client()
+            gameDirectory = project.file('run-feature-showcase')
+            systemProperty 'dungeonsalive.featureShowcase', 'true'
+            systemProperty 'dungeonsalive.featureShowcaseSelection', providers.gradleProperty('showcaseFeatures').getOrElse('all')
+            programArgument '--quickPlaySingleplayer'
+            programArgument 'feature-showcase'
+            programArgument '--width'
+            programArgument '1600'
+            programArgument '--height'
+            programArgument '1000'
+        }
+        campGameTestServer {
+            type = 'gameTestServer'
+            gameDirectory = project.file('run-gametest-camps')
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+            systemProperty 'dungeonsalive.test.camps', 'true'
+        }
+        campShowcase {
+            client()
+            gameDirectory = project.file('run-camp-showcase')
+            systemProperty 'dungeonsalive.campShowcase', 'true'
+            programArgument '--quickPlaySingleplayer'
+            programArgument 'camp-showcase'
+            programArgument '--width'
+            programArgument '1440'
+            programArgument '--height'
+            programArgument '900'
+        }
+        wildlifeShowcase {
+            client()
+            gameDirectory = project.file('run-wildlife-showcase')
+            programArgument '--quickPlaySingleplayer'
+            programArgument 'wildlife-showcase'
+            programArgument '--width'
+            programArgument '1600'
+            programArgument '--height'
+            programArgument '1000'
+        }
+        renderSmoke {
+            client()
+            gameDirectory = project.file('run-render-smoke')
+            systemProperty 'dungeonsalive.renderSmoke', 'true'
+            programArgument '--quickPlaySingleplayer'
+            programArgument 'render-smoke'
+            programArgument '--width'
+            programArgument '1280'
+            programArgument '--height'
+            programArgument '800'
+        }
+        bossShowcase {
+            client()
+            gameDirectory = project.file('run-boss-showcase')
+            systemProperty 'dungeonsalive.bossShowcase', 'true'
+            programArgument '--quickPlaySingleplayer'
+            programArgument 'boss-showcase'
+            programArgument '--width'
+            programArgument '1920'
+            programArgument '--height'
+            programArgument '1080'
+        }
+        mobModelShowcase {
+            client()
+            gameDirectory = project.file('run-mob-model-showcase')
+            systemProperty 'dungeonsalive.modelShowcase', 'true'
+            systemProperty 'dungeonsalive.modelShowcaseIds', providers.gradleProperty('showcaseMobs').getOrElse('')
+            systemProperty 'dungeonsalive.modelShowcaseClips', providers.gradleProperty('showcaseClips').getOrElse('royal_guard,wraith,leapleaf,redstone_monstrosity,skeleton_horseman,heart_of_ender,ancient_guardian')
+            programArgument '--quickPlaySingleplayer'
+            programArgument 'mob-model-showcase'
+            programArgument '--width'
+            programArgument '1440'
+            programArgument '--height'
+            programArgument '900'
+        }
+        server {
+            server()
+            programArgument '--nogui'
+        }
+        gameTestServer {
+            type = 'gameTestServer'
+            gameDirectory = project.file('run-gametest')
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        integrationGameTest {
+            type = 'gameTestServer'
+            gameDirectory = project.file('run-gametest-integration')
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        configureEach {
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+    mods {
+        "${mod_id}" { sourceSet(sourceSets.main) }
+    }
+    unitTest {
+        enable()
+        testedMod = mods.dungeonsalive
+    }
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.11.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+var generateModMetadata = tasks.register('generateModMetadata', ProcessResources) {
+    var properties = [mod_id: mod_id, mod_name: mod_name, mod_version: mod_version,
+                      neo_version: neo_version, minecraft_version: minecraft_version]
+    inputs.properties properties
+    expand properties
+    from 'src/main/templates'
+    into 'build/generated/sources/modMetadata'
+}
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+// Keep attribution and complete selected-art licenses with the installable JAR.
+// Source/texture snapshots remain in the source distribution, not duplicated here.
+tasks.named('processResources', ProcessResources) {
+    from('LICENSE') {
+        into 'META-INF'
+        rename { 'LICENSE-Dungeons-Alive.txt' }
+    }
+    from('THIRD_PARTY_NOTICES.md') { into 'META-INF' }
+    from('third_party') {
+        include 'goety/LICENSE.txt'
+        include 'dungeons_mobs/LICENSE.txt'
+        include 'dungeons_mobs_port/LICENSE.txt'
+        include 'dungeons_gear/LICENSE.txt'
+        include 'recrafted_mobs/LICENSE.txt'
+        include 'recrafted_mobs/UPSTREAM-LICENSE-NOTICE.txt'
+        include 'recrafted_mobs/source/CREDITS.md'
+        into 'META-INF/third_party'
+    }
+    from('design/model-delivery-inventory.json') {
+        into 'META-INF/dungeonsalive'
+        rename { 'model-provenance.json' }
+    }
+    from('design/gear-source-inventory.json') {
+        into 'META-INF/dungeonsalive'
+        rename { 'gear-provenance.json' }
+    }
+    from('design/gear-armor-models.json') {
+        into 'META-INF/dungeonsalive'
+        rename { 'gear-armor-provenance.json' }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('test') {
+    useJUnitPlatform()
+    testLogging { events 'passed', 'skipped', 'failed' }
+}
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+idea { module { downloadSources = true } }

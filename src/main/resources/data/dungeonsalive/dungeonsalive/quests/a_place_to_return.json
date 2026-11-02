@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "title": "Ein Ort zum Bleiben",
+  "description": "Ein Abenteuer braucht einen Ort zum Zurückkommen. Packe Holz, Stein und ein Lagerfeuer ein. Wo und wie du anschließend baust, entscheidest du selbst. Hier wird dein Vorrat geprüft; alle Materialien bleiben bei dir.",
+  "icon": "minecraft:campfire",
+  "order": 40,
+  "prerequisites": ["dungeonsalive:woodland_paths"],
+  "objectives": [
+    {"id": "stone", "type": "collect_item", "target": "minecraft:cobblestone", "amount": 16, "label": "Bruchstein im Inventar"},
+    {"id": "logs", "type": "collect_item", "target": "minecraft:oak_log", "amount": 8, "label": "Eichenstämme im Inventar"},
+    {"id": "campfire", "type": "collect_item", "target": "minecraft:campfire", "amount": 1, "label": "Ein Lagerfeuer im Inventar"}
+  ],
+  "rewards": [{"item": "minecraft:lantern", "count": 4}, {"item": "minecraft:emerald", "count": 6}],
+  "experience": 35
+}

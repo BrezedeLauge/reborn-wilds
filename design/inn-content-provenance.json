@@ -1,0 +1,60 @@
+{
+  "scope": "Player-built inn M1 content",
+  "generator": "tools/generate_inn_resources.py",
+  "own_content_license": "MIT, project LICENSE",
+  "new_texture_or_model_asset_files_copied_from_minecraft": 0,
+  "native_references": [
+    "minecraft:block/lectern",
+    "minecraft:item/generated",
+    "minecraft:item/map"
+  ],
+  "merchant_art": "Existing selected village_merchant binding in design/reference-models.json retains its documented source/license. No new merchant texture copied.",
+  "animation_change": "Own CEM-host riding leg pose, not an extracted Dungeons animation",
+  "files": [
+    {
+      "file": "src/main/resources/assets/dungeonsalive/blockstates/inn_ledger.json",
+      "sha256": "e82f91feb59b1561dc455bd34b68a7a4d1d5970db630feb5fc082ac5661c9e09",
+      "origin": "Own generated JSON; Minecraft resources referenced, never copied"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/block/inn_ledger.json",
+      "sha256": "f5bc2284e184d6fc62efcee55b977becf3f0cc5a2bb01836cf4b57214267e783",
+      "origin": "Own generated JSON; Minecraft resources referenced, never copied"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/inn_ledger.json",
+      "sha256": "224d0e873f2c5a42ada87e5b4e50a8a1fc0f47c5f1fc9a24c2fda9ae79891c6e",
+      "origin": "Own generated JSON; Minecraft resources referenced, never copied"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/inn_marker.json",
+      "sha256": "4f7632293d3745567bb224c45cda04c59947d0c2705b8849ef3fef6cf4b776a7",
+      "origin": "Own generated JSON; Minecraft resources referenced, never copied"
+    },
+    {
+      "file": "src/main/resources/data/dungeonsalive/dungeonsalive/quests/a_welcoming_inn.json",
+      "sha256": "127a07456b32195b7ec2c5df205c3da14987da0634450d5c8f7c3f3fdfa890b6",
+      "origin": "Own generated JSON; Minecraft resources referenced, never copied"
+    },
+    {
+      "file": "src/main/resources/data/dungeonsalive/loot_table/blocks/inn_ledger.json",
+      "sha256": "53df1d8a578f518ca365ea0d53433a86cd7315fcf2749d57f3beb697c6934926",
+      "origin": "Own generated JSON; Minecraft resources referenced, never copied"
+    },
+    {
+      "file": "src/main/resources/data/dungeonsalive/recipe/inn_ledger.json",
+      "sha256": "7757da611a71dfcbcd3dac9fc25bec0130ffa0edab0d5f167659a7803e036e1e",
+      "origin": "Own generated JSON; Minecraft resources referenced, never copied"
+    },
+    {
+      "file": "src/main/resources/data/dungeonsalive/recipe/inn_marker.json",
+      "sha256": "5274cc241b10966e0985af5de78cf3bf6f2fdbc7f967055252a494f0eb128496",
+      "origin": "Own generated JSON; Minecraft resources referenced, never copied"
+    }
+  ],
+  "other_additive_data": [
+    "src/main/resources/data/minecraft/tags/block/mineable/axe.json",
+    "src/main/resources/assets/dungeonsalive/lang/de_de.json",
+    "src/main/resources/assets/dungeonsalive/lang/en_us.json"
+  ]
+}

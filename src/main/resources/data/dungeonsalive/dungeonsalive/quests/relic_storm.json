@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "title": "Ein Funke im Sturm",
+  "description": "Baue einen Blitzableiter und sammle die letzten Werkstoffe für den Blitzstab.",
+  "icon": "dungeonsalive:lightning_rod",
+  "order": 530,
+  "prerequisites": [
+    "dungeonsalive:relic_soulcraft"
+  ],
+  "objectives": [
+    {
+      "id": "lightning_rod",
+      "type": "collect_item",
+      "target": "minecraft:lightning_rod",
+      "amount": 1,
+      "label": "Blitzableiter im Inventar"
+    },
+    {
+      "id": "diamond",
+      "type": "collect_item",
+      "target": "minecraft:diamond",
+      "amount": 2,
+      "label": "Diamanten im Inventar"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "dungeonsalive:lightning_rod",
+      "count": 1
+    }
+  ],
+  "experience": 80
+}

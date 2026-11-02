@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "dungeonsalive:merchant_counter",
+    "dungeonsalive:luxury_counter",
+    "dungeonsalive:mystery_counter",
+    "dungeonsalive:blacksmith_station",
+    "dungeonsalive:gift_wrapping_table",
+    "dungeonsalive:enchantsmith_table",
+    "dungeonsalive:inn_ledger"
+  ]
+}

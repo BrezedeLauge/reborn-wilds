@@ -1,0 +1,183 @@
+{
+  "assets": [
+    {
+      "bones": 26,
+      "cube_pivot_nodes": 0,
+      "cubes": 26,
+      "texture_size": [
+        256,
+        64
+      ],
+      "key": "InfamousMage",
+      "geometry_class": "InfamousMageGeometry",
+      "baked_root": true,
+      "clip_owners": {
+        "MAGE_IDLE": "InfamousMageAnimations",
+        "MAGE_WALK": "InfamousMageAnimations",
+        "MAGE_CELEBRATE": "InfamousMageAnimations",
+        "MAGE_SHOOT": "InfamousMageAnimations",
+        "MAGE_THROW": "InfamousMageAnimations",
+        "MAGE_VANISH": "InfamousMageAnimations",
+        "MAGE_APPEAR": "InfamousMageAnimations"
+      },
+      "clip_lengths": {
+        "MAGE_IDLE": 7.2,
+        "MAGE_WALK": 7.2,
+        "MAGE_CELEBRATE": 7.2,
+        "MAGE_SHOOT": 2.0,
+        "MAGE_THROW": 2.5,
+        "MAGE_VANISH": 1.125,
+        "MAGE_APPEAR": 1.25
+      },
+      "discarded_unbound_channels": {
+        "mage_idle": [],
+        "mage_walk": [],
+        "mage_celebrate": [],
+        "mage_shoot": [],
+        "mage_throw": [],
+        "mage_vanish": [],
+        "mage_appear": []
+      },
+      "sampled_channels": 61,
+      "retained_channels": 68
+    },
+    {
+      "bones": 1,
+      "cube_pivot_nodes": 0,
+      "cubes": 1,
+      "texture_size": [
+        64,
+        64
+      ],
+      "key": "InfamousGeomancerBomb",
+      "geometry_class": "InfamousGeomancerBombGeometry",
+      "baked_root": true,
+      "clip_owners": {
+        "GEOMANCER_PILLAR_APPEAR": "InfamousGeomancerBombAnimations",
+        "GEOMANCER_PILLAR_DISAPPEAR": "InfamousGeomancerBombAnimations",
+        "GEOMANCER_PILLAR_IDLE": "InfamousGeomancerBombAnimations"
+      },
+      "clip_lengths": {
+        "GEOMANCER_PILLAR_APPEAR": 1.25,
+        "GEOMANCER_PILLAR_DISAPPEAR": 2.0,
+        "GEOMANCER_PILLAR_IDLE": 7.2
+      },
+      "discarded_unbound_channels": {
+        "geomancer_pillar_appear": [],
+        "geomancer_pillar_disappear": [],
+        "geomancer_pillar_idle": []
+      },
+      "sampled_channels": 2,
+      "retained_channels": 3
+    },
+    {
+      "bones": 1,
+      "cube_pivot_nodes": 0,
+      "cubes": 1,
+      "texture_size": [
+        64,
+        64
+      ],
+      "key": "InfamousGeomancerWall",
+      "geometry_class": "InfamousGeomancerWallGeometry",
+      "baked_root": true,
+      "clip_owners": {
+        "GEOMANCER_PILLAR_APPEAR": "InfamousGeomancerWallAnimations",
+        "GEOMANCER_PILLAR_DISAPPEAR": "InfamousGeomancerWallAnimations",
+        "GEOMANCER_PILLAR_IDLE": "InfamousGeomancerWallAnimations"
+      },
+      "clip_lengths": {
+        "GEOMANCER_PILLAR_APPEAR": 1.25,
+        "GEOMANCER_PILLAR_DISAPPEAR": 2.0,
+        "GEOMANCER_PILLAR_IDLE": 7.2
+      },
+      "discarded_unbound_channels": {
+        "geomancer_pillar_appear": [],
+        "geomancer_pillar_disappear": [],
+        "geomancer_pillar_idle": []
+      },
+      "sampled_channels": 2,
+      "retained_channels": 3
+    },
+    {
+      "bones": 7,
+      "cube_pivot_nodes": 0,
+      "cubes": 31,
+      "texture_size": [
+        446,
+        128
+      ],
+      "key": "InfamousIceChunk",
+      "geometry_class": "InfamousIceChunkGeometry",
+      "baked_root": true,
+      "clip_owners": {
+        "ICE_CHUNK_FORM": "InfamousIceChunkAnimations",
+        "ICE_CHUNK_IDLE": "InfamousIceChunkAnimations",
+        "ICE_CHUNK_FALL": "InfamousIceChunkAnimations",
+        "ICE_CHUNK_LAND": "InfamousIceChunkAnimations",
+        "ICE_CHUNK_IDLE_UNFORMED": "InfamousIceChunkAnimations"
+      },
+      "clip_lengths": {
+        "ICE_CHUNK_FORM": 2.0,
+        "ICE_CHUNK_IDLE": 7.2,
+        "ICE_CHUNK_FALL": 0.875,
+        "ICE_CHUNK_LAND": 1.125,
+        "ICE_CHUNK_IDLE_UNFORMED": 7.2
+      },
+      "discarded_unbound_channels": {
+        "ice_chunk_form": [],
+        "ice_chunk_idle": [],
+        "ice_chunk_fall": [],
+        "ice_chunk_land": [],
+        "ice_chunk_idle_unformed": []
+      },
+      "sampled_channels": 16,
+      "retained_channels": 36
+    },
+    {
+      "bones": 5,
+      "cube_pivot_nodes": 4,
+      "cubes": 4,
+      "texture_size": [
+        64,
+        64
+      ],
+      "key": "InfamousEntangleVine",
+      "geometry_class": "InfamousEntangleVineGeometry",
+      "baked_root": true,
+      "clip_owners": {
+        "VINE_TRAP_SPAWN": "InfamousEntangleVineAnimations",
+        "VINE_TRAP_IDLE": "InfamousEntangleVineAnimations",
+        "VINE_TRAP_DECAY": "InfamousEntangleVineAnimations",
+        "KELP_TRAP_SPAWN": "InfamousEntangleVineAnimations",
+        "KELP_TRAP_IDLE_PULLING": "InfamousEntangleVineAnimations",
+        "KELP_TRAP_ENSNARE": "InfamousEntangleVineAnimations",
+        "WEB_TRAP_SPAWN": "InfamousEntangleVineAnimations"
+      },
+      "clip_lengths": {
+        "VINE_TRAP_SPAWN": 0.375,
+        "VINE_TRAP_IDLE": 7.2,
+        "VINE_TRAP_DECAY": 1.25,
+        "KELP_TRAP_SPAWN": 0.5,
+        "KELP_TRAP_IDLE_PULLING": 7.2,
+        "KELP_TRAP_ENSNARE": 0.25,
+        "WEB_TRAP_SPAWN": 0.33333
+      },
+      "discarded_unbound_channels": {
+        "vine_trap_spawn": [],
+        "vine_trap_idle": [],
+        "vine_trap_decay": [],
+        "kelp_trap_spawn": [],
+        "kelp_trap_idle_pulling": [],
+        "kelp_trap_ensnare": [],
+        "web_trap_spawn": []
+      },
+      "sampled_channels": 18,
+      "retained_channels": 22
+    }
+  ],
+  "coordinate_reference": "Official Blockbench Bedrock and Java entity codecs; GeckoLib 1.21.1 quad conventions",
+  "procedural_sampling_hz": 60,
+  "normalized_ground_speed": 1,
+  "lifetime_clock_adaptation": "query.life_time is sampled on cyclic clip time; action clips use their own adapted phase, not global entity life phase."
+}

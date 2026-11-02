@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "source": "Goety-2",
+  "source_commit": "7de64560f76ae47f1b399bb46f69540511b9871e",
+  "time_basis": "20 gameplay ticks per second; animation start events included in evidence. Source mechanism differences explicitly recorded.",
+  "bindings": [
+    {
+      "id": "royal_guard",
+      "action": "MELEE",
+      "clip": "ATTACK",
+      "hit_seconds": 0.7,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ai/ShieldedMeleeGoal.java",
+      "source_condition": "getAttackTick() == 14 triggers attack()"
+    },
+    {
+      "id": "vanguard",
+      "action": "MELEE",
+      "clip": "ATTACK",
+      "hit_seconds": 0.4,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/undead/skeleton/VanguardServant.java",
+      "source_condition": "attackTick == 8 triggers doHurtTarget"
+    },
+    {
+      "id": "enchanter",
+      "action": "ENCHANT",
+      "clip": "ENCHANT",
+      "hit_seconds": 1.7,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ai/enchanter/EnchanterEnchantGoal.java",
+      "source_condition": "castTime == 34 attaches ally UUIDs and starts enchantment beam"
+    },
+    {
+      "id": "enchanter",
+      "action": "SOUL_BOLT",
+      "clip": "ATTACK",
+      "hit_seconds": 0.55,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ai/enchanter/EnchanterMeleeGoal.java",
+      "source_condition": "meleeTick == 11 triggers doHurtTarget",
+      "adaptation_note": "Book-strike release is reused for our ranged soul bolt; source effect is melee."
+    },
+    {
+      "id": "necromancer",
+      "action": "SUMMON",
+      "clip": "SUMMON",
+      "hit_seconds": 0.5,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/neutral/AbstractNecromancer.java",
+      "source_condition": "SummoningSpellGoal decrements getCastingTime until timeToCast == getCastingTime - 10"
+    },
+    {
+      "id": "necromancer",
+      "action": "SOUL_BOLT",
+      "clip": "ATTACK",
+      "hit_seconds": 0.25,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/neutral/AbstractNecromancer.java",
+      "source_condition": "NecromancerRangedGoal ANIMATION_START=5; performRangedAttack when attackTime==0",
+      "adaptation_note": "ATTACK is the source projectile animation. SPELL is the idle undead-summoning sequence and was incorrectly selected initially."
+    },
+    {
+      "id": "geomancer",
+      "action": "ROOT_SNARE",
+      "clip": "ATTACK",
+      "hit_seconds": 0.65,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/illager/GeomancerServant.java",
+      "source_condition": "spellTick == 13 executes ground-pillar attack"
+    },
+    {
+      "id": "geomancer",
+      "action": "HEAVY_SLAM",
+      "clip": "ATTACK",
+      "hit_seconds": 0.65,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/illager/GeomancerServant.java",
+      "source_condition": "spellTick == 13 executes ground-pillar attack"
+    },
+    {
+      "id": "wraith",
+      "action": "FIRE_FIELD",
+      "clip": "ATTACK",
+      "hit_seconds": 0.45,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/neutral/AbstractWraith.java",
+      "source_condition": "startFiring sends animation event when fireTick becomes11; magicFire occurs at20 (nine subsequent ticks)"
+    },
+    {
+      "id": "wind_caller",
+      "action": "STORM",
+      "clip": "UPDRAFT",
+      "hit_seconds": 0.85,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/illager/WindCallerServant.java",
+      "source_condition": "spellTick >= secondsToTicks(0.85F) executes UpdraftSpell once"
+    },
+    {
+      "id": "wind_caller",
+      "action": "SOUL_BOLT",
+      "clip": "BLAST",
+      "hit_seconds": 0.325,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/illager/WindCallerServant.java",
+      "source_condition": "spellTick >= secondsToTicks(0.325F) executes WindBlastSpell once",
+      "adaptation_note": "Source threshold is rounded to integer ticks; retain authored0.325-second motion marker."
+    },
+    {
+      "id": "whisperer",
+      "action": "ROOT_SNARE",
+      "clip": "SUMMON",
+      "hit_seconds": 1.0,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/Whisperer.java",
+      "source_condition": "SummonGoal summonTick == 20 creates first vines"
+    },
+    {
+      "id": "wavewhisperer",
+      "action": "ROOT_SNARE",
+      "clip": "SUMMON",
+      "hit_seconds": 1.0,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/Whisperer.java",
+      "source_condition": "SummonGoal summonTick == 20 creates first vines"
+    },
+    {
+      "id": "whisperer",
+      "action": "VOLLEY",
+      "clip": "SUMMON_POISON",
+      "hit_seconds": 1.0,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/Whisperer.java",
+      "source_condition": "SUMMON_POISON creates left vine at summonTick20 and right at50",
+      "adaptation_note": "One sandbox volley aligns to first release; source has two separate releases."
+    },
+    {
+      "id": "wavewhisperer",
+      "action": "STORM",
+      "clip": "ATTACK",
+      "hit_seconds": 0.7,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/Whisperer.java",
+      "source_condition": "attackTick == 14 triggers melee attack",
+      "adaptation_note": "Source melee release is adapted to a water pulse."
+    },
+    {
+      "id": "leapleaf",
+      "action": "HEAVY_SLAM",
+      "clip": "SMASH",
+      "hit_seconds": 0.65,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/Leapleaf.java",
+      "source_condition": "attackTick == 13 creates the ground smash"
+    },
+    {
+      "id": "watchling",
+      "action": "MELEE",
+      "clip": "SWING",
+      "hit_seconds": 0.6,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/neutral/ender/AbstractWatchling.java",
+      "source_condition": "attackTick == 12 triggers massiveSweep for ATTACK/SWING"
+    },
+    {
+      "id": "watchling",
+      "action": "TELEPORT",
+      "clip": "TELEPORT_OUT",
+      "hit_seconds": 0.5,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/neutral/ender/AbstractWatchling.java",
+      "source_condition": "TELEPORT_OUT starts before preHidingTime reaches10, which calls startHide"
+    },
+    {
+      "id": "blastling",
+      "action": "VOLLEY",
+      "clip": "SHOT",
+      "hit_seconds": 0.2,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/neutral/ender/AbstractBlastling.java",
+      "source_condition": "ATTACK starts at attackTime21; next multiple-of-five25 emits first projectile",
+      "adaptation_note": "Source uses a separate20-tick PRE_ATTACK and repeated5-tick shots; only SHOT is mapped here."
+    },
+    {
+      "id": "blastling",
+      "action": "SOUL_BOLT",
+      "clip": "SHOT",
+      "hit_seconds": 0.2,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/neutral/ender/AbstractBlastling.java",
+      "source_condition": "ATTACK starts at attackTime21; next multiple-of-five25 emits first projectile",
+      "adaptation_note": "Source uses a separate20-tick PRE_ATTACK and repeated5-tick shots; only SHOT is mapped here."
+    },
+    {
+      "id": "snareling",
+      "action": "ROOT_SNARE",
+      "clip": "SHOOT",
+      "hit_seconds": 0.8,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/neutral/ender/AbstractSnareling.java",
+      "source_condition": "SHOOT starts at countdown secondsToTicks(0.8F); projectile emits at attackTime0"
+    },
+    {
+      "id": "redstone_cube",
+      "action": "LEAP",
+      "clip": "ATTACK",
+      "hit_seconds": 0.4,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/golem/RedstoneCube.java",
+      "source_condition": "attackTick == 8 triggers doHurtTarget"
+    },
+    {
+      "id": "redstone_cube",
+      "action": "MELEE",
+      "clip": "ATTACK",
+      "hit_seconds": 0.4,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/golem/RedstoneCube.java",
+      "source_condition": "attackTick == 8 triggers doHurtTarget"
+    },
+    {
+      "id": "redstone_golem",
+      "action": "MELEE",
+      "clip": "ATTACK",
+      "hit_seconds": 0.15,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/golem/RedstoneGolem.java",
+      "source_condition": "attackTick == 3 triggers hurtTarget and massiveSweep"
+    },
+    {
+      "id": "redstone_golem",
+      "action": "HEAVY_SLAM",
+      "clip": "ATTACK",
+      "hit_seconds": 0.15,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/golem/RedstoneGolem.java",
+      "source_condition": "attackTick == 3 triggers hurtTarget and massiveSweep"
+    },
+    {
+      "id": "redstone_golem",
+      "action": "FIRE_FIELD",
+      "clip": "SUMMON",
+      "hit_seconds": 1.0,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/golem/RedstoneGolem.java",
+      "source_condition": "Countdown begins at SUMMON_SECONDS_TIME; mines begin at SUMMON_SECONDS_TIME-1",
+      "adaptation_note": "Source continues spawning mines after this marker; our pulse is one release."
+    },
+    {
+      "id": "endersent",
+      "action": "HEAVY_SLAM",
+      "clip": "ATTACK",
+      "hit_seconds": 1.0,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/hostile/ender/Endersent.java",
+      "source_condition": "attackTick == secondsToTicks(1) triggers smash or swipe"
+    },
+    {
+      "id": "endersent",
+      "action": "MELEE",
+      "clip": "SWING",
+      "hit_seconds": 1.0,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/hostile/ender/Endersent.java",
+      "source_condition": "attackTick == secondsToTicks(1) triggers smash or swipe"
+    },
+    {
+      "id": "endersent",
+      "action": "TELEPORT",
+      "clip": "TELEPORT_OUT",
+      "hit_seconds": 1.9,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/hostile/ender/Endersent.java",
+      "source_condition": "preHidingTime >= secondsToTicks(1.92F) calls startHide",
+      "adaptation_note": "Integer threshold38 ticks; authored clip length1.92s."
+    },
+    {
+      "id": "drowned_necromancer",
+      "action": "SUMMON",
+      "clip": "SUMMON",
+      "hit_seconds": 0.5,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/neutral/AbstractNecromancer.java",
+      "source_condition": "Inherited SummoningSpellGoal releases ten ticks after start; Drowned getCastingTime override retains timeToCast logic"
+    },
+    {
+      "id": "drowned_necromancer",
+      "action": "BEAM",
+      "clip": "STORM",
+      "hit_seconds": 2.0,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/neutral/DrownedNecromancer.java",
+      "source_condition": "TridentStormGoal starts STORM and creates trident pattern with warmUp=secondsToTicks(2)",
+      "adaptation_note": "Trident pattern release is adapted to one sandbox beam."
+    },
+    {
+      "id": "drowned_necromancer",
+      "action": "SOUL_BOLT",
+      "clip": "SHOOT",
+      "hit_seconds": 0.25,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/neutral/AbstractNecromancer.java",
+      "source_condition": "Inherited NecromancerRangedGoal starts animation at countdown5 and emits at0"
+    },
+    {
+      "id": "wildfire",
+      "action": "VOLLEY",
+      "clip": "SHOOT",
+      "hit_seconds": 0.25,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/neutral/Wildfire.java",
+      "source_condition": "attackTime == 5 emits fireball"
+    },
+    {
+      "id": "wildfire",
+      "action": "FIRE_FIELD",
+      "clip": "SHOCKWAVE",
+      "hit_seconds": 1.25,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/neutral/Wildfire.java",
+      "source_condition": "attackTime == 25 calls shockwave"
+    },
+    {
+      "id": "redstone_monstrosity",
+      "action": "HEAVY_SLAM",
+      "clip": "SMASH",
+      "hit_seconds": 1.7,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/golem/RedstoneMonstrosity.java",
+      "source_condition": "attackTick == 34 triggers massive ground impact"
+    },
+    {
+      "id": "redstone_monstrosity",
+      "action": "SUMMON",
+      "clip": "SUMMON",
+      "hit_seconds": 2.0,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/golem/RedstoneMonstrosity.java",
+      "source_condition": "summonTick begins at4.7s; cubes spawn when countdown <=4.7-2",
+      "adaptation_note": "Source ground impact is at1s; the actual cube release occurs at2s and matches our SUMMON effect."
+    },
+    {
+      "id": "redstone_monstrosity",
+      "action": "FIRE_FIELD",
+      "clip": "SPIT",
+      "hit_seconds": 0.85,
+      "contact_evidence": "source_gameplay_tick",
+      "source_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/golem/RedstoneMonstrosity.java",
+      "source_condition": "attackTime == 17 creates ScatterBomb projectiles"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "iceologer",
+      "actions": [
+        "ICE_FALL",
+        "SOUL_BOLT"
+      ],
+      "reason": "IceChunk created immediately at SPELL start, then falls after its own warmup. Determine visual hand release from native clip/world review; no invented half-length evidence."
+    },
+    {
+      "id": "leapleaf",
+      "actions": [
+        "LEAP"
+      ],
+      "reason": "Source has separate CHARGE then LEAP clip; impulse on LEAP tick1, impact on physical landing. A single LEAP clip stretched over windup cannot faithfully reproduce the charge. Prefer composed CHARGE+LEAP mapping."
+    },
+    {
+      "id": "snareling",
+      "actions": [
+        "MELEE"
+      ],
+      "reason": "Source applies damage at animation start; adaptation needs a chosen visible contact marker."
+    },
+    {
+      "id": "wraith",
+      "actions": [
+        "TELEPORT"
+      ],
+      "reason": "TELEPORT_OUT clip is source post-teleport arrival animation; departure uses transparency. Need distinct phase treatment."
+    },
+    {
+      "ids": [
+        "royal_guard",
+        "vanguard",
+        "wildfire"
+      ],
+      "actions": [
+        "GUARD"
+      ],
+      "reason": "Continuous defensive pose has no source damage/release marker; keep as adaptation timing rather than source_gameplay_tick."
+    }
+  ]
+}

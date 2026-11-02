@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dungeonsalive:power_bow",
+    "dungeonsalive:hunters_promise",
+    "dungeonsalive:auto_crossbow",
+    "dungeonsalive:exploding_crossbow"
+  ]
+}

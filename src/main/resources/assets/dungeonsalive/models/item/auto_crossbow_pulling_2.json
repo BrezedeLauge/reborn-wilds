@@ -1,0 +1,6 @@
+{
+  "parent": "dungeonsalive:item/auto_crossbow",
+  "textures": {
+    "layer0": "dungeonsalive:item/gear/auto_crossbow_pulling_2"
+  }
+}

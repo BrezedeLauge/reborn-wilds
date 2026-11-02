@@ -1,0 +1,1095 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "purpose": "Pinned exact source files for four additional enemy profiles and one peaceful rescue role; model availability is separate from client acceptance.",
+  "sources": {
+    "goety": {
+      "project_url": "https://github.com/Polarice3/Goety-2",
+      "revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT",
+      "license_file": "third_party/goety/LICENSE.txt"
+    },
+    "dungeons_mobs_port": {
+      "project_url": "https://github.com/FirefoxSalesman/DungeonsMobs",
+      "revision": "cca789ab3ce910853517d65494efd76508255a1d",
+      "license": "MIT",
+      "license_file": "third_party/dungeons_mobs_port/LICENSE.txt"
+    }
+  },
+  "source_files": [
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/java/com/Polarice3/Goety/client/render/model/TropicalSlimeModel.java",
+      "snapshot": "third_party/goety/snapshots/src/main/java/com/Polarice3/Goety/client/render/model/TropicalSlimeModel.java",
+      "sha256": "159d60c2e7c11fa900134f84c0c1e43c54970e26be296d7332044f82b2655239",
+      "bytes": 1928,
+      "kind": "java_model",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/java/com/Polarice3/Goety/client/render/model/TropicalSlimeModel.java",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/java/com/Polarice3/Goety/client/render/TropicalSlimeServantRenderer.java",
+      "snapshot": "third_party/goety/snapshots/src/main/java/com/Polarice3/Goety/client/render/TropicalSlimeServantRenderer.java",
+      "sha256": "55d421b64b97d66836614776af709794b52e3ae5b49cb11ecc96dc0ac8aee71d",
+      "bytes": 6679,
+      "kind": "renderer_or_binding_reference",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/java/com/Polarice3/Goety/client/render/TropicalSlimeServantRenderer.java",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/java/com/Polarice3/Goety/client/render/TropicalSlimeTextures.java",
+      "snapshot": "third_party/goety/snapshots/src/main/java/com/Polarice3/Goety/client/render/TropicalSlimeTextures.java",
+      "sha256": "cfca6523095a00c8b435aea43d94bfcfe57a6174a950972d2de854d2a400a10b",
+      "bytes": 656,
+      "kind": "renderer_or_binding_reference",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/java/com/Polarice3/Goety/client/render/TropicalSlimeTextures.java",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/java/com/Polarice3/Goety/common/entities/ally/TropicalSlimeServant.java",
+      "snapshot": "third_party/goety/snapshots/src/main/java/com/Polarice3/Goety/common/entities/ally/TropicalSlimeServant.java",
+      "sha256": "89f439feeb4197bbdd6ce80679815979408dc75229cc3841a02fca7ccaf88d56",
+      "bytes": 18727,
+      "kind": "entity_animation_clock_reference",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/java/com/Polarice3/Goety/common/entities/ally/TropicalSlimeServant.java",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/tropical_slime.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/tropical_slime.png",
+      "sha256": "c9a84df7eeb816151028803cc566e3933d530b3d22c054b7183fec01fdf6d3d9",
+      "bytes": 1751,
+      "kind": "texture",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/tropical_slime.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/1.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/1.png",
+      "sha256": "d0fb33fae5bc7e063e4f8426dec1e4baa36272c8e4c8a0b61c8defe3748773b6",
+      "bytes": 580,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/1.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/2.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/2.png",
+      "sha256": "d7d42e94f32a9bcfbbcce91d9716472e4e88134abf097dcb2d01d5504dd61561",
+      "bytes": 579,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/2.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/3.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/3.png",
+      "sha256": "42540a7ed10ef1037fe6420c6aba97283c800a93dcf8a2a080752f35596fd9b6",
+      "bytes": 574,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/3.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/4.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/4.png",
+      "sha256": "a314797390e695911e804e1873c854a9ba0b70aa20f858b00eccebdecc215fcd",
+      "bytes": 575,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/4.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/5.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/5.png",
+      "sha256": "77f77cee0b84f3e402bab0bfbbd1447ad091cd812b1453b82b89505100e3f744",
+      "bytes": 579,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/5.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/6.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/6.png",
+      "sha256": "454ed47ace5bab7c8c4d95472c9e5cc5a5e63cbceee87d6f354d8b42d7b75b0b",
+      "bytes": 580,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/6.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/7.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/7.png",
+      "sha256": "2976e05b1ac495e46c274fbaa36f8a17728c27e670c4b68f0d4233dc1b060336",
+      "bytes": 584,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/7.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/8.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/8.png",
+      "sha256": "8997719bfbe47e75b7634e9a5dcf1c4de1777e9a789e22b216fc05acc68c0fd8",
+      "bytes": 586,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/8.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/9.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/9.png",
+      "sha256": "8c60fadfc985951c2beb54ebfa8492620d73e4d5e4e0db525d17a0e6e3df142c",
+      "bytes": 586,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/9.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/10.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/10.png",
+      "sha256": "240cff596e209db990af6b03931b9c6f4eb6ff7f1e9e1cbeca21532cdd46a9cf",
+      "bytes": 575,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/10.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/11.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/11.png",
+      "sha256": "a0c398df293e189e1c0061b3500bf854d4d2fbac54dbf805adfd774ce3d41dbf",
+      "bytes": 578,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/11.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/12.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/12.png",
+      "sha256": "8f99b6d3cb12f730c95e29dc8eabf7eb80c2c489929a6905d7187d8a27f64771",
+      "bytes": 578,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/12.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/13.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/13.png",
+      "sha256": "90e8b0791af674448d4320be30c86f63a16fde470e17fff18a6357920acaf9e1",
+      "bytes": 583,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/13.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/14.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/14.png",
+      "sha256": "d0f400f2fa0a03d7e30b7e9cc5886466e819e597be48afc65461e61aaf98018e",
+      "bytes": 584,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/14.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/15.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/15.png",
+      "sha256": "4f6569da09a8a126b2a58897006ac2308a8a8c959d0602d5466c4d9557a9e04e",
+      "bytes": 587,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/15.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/16.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/16.png",
+      "sha256": "d55512f759f7e5137e17efaea779086fe24145802f024dd224ce675dc7ea04de",
+      "bytes": 588,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/16.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/17.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/17.png",
+      "sha256": "9479661359462147288badbe2d041bd5d76c58dc94ae5f18c07c9b4e6e4081bd",
+      "bytes": 591,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/17.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/18.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/18.png",
+      "sha256": "efa34408b000c0b248d393e2945005d79460ed419ff93fbb820e96645468ebdf",
+      "bytes": 581,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/18.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/19.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/19.png",
+      "sha256": "ad6a5bd8d69784dc95bac5ca749681f03174ec5a206bd40a6574f3034ac81038",
+      "bytes": 583,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/19.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/20.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/20.png",
+      "sha256": "af6de566fad4d15ad0828d983b45e14b55c1c6035ad6322b5b988a86e73e6d19",
+      "bytes": 603,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/20.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/21.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/21.png",
+      "sha256": "6d26b5b7dd63c3f460d9adeea7685a553db97d5d0b3af5fa9faacc2d3a7cbcac",
+      "bytes": 585,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/21.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/22.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/22.png",
+      "sha256": "93c24f30ae13a7371c6cce138a2441880e6ee2065fabe5ffb77a2f2f60c60a31",
+      "bytes": 583,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/22.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/23.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/23.png",
+      "sha256": "d6636d3fa98d6b0a8cabb1321399eac21b6b65918feba3cc174d8a498d67ca3e",
+      "bytes": 591,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/23.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/24.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/24.png",
+      "sha256": "b27ad373a34eb80d08a4e529be4925f3cf6c3066a709e9025575c55fdccaee09",
+      "bytes": 587,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/24.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/25.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/25.png",
+      "sha256": "f95b95781aee79ced50566bb7317e946747cd55f85046ff332ed427d2cf21bfa",
+      "bytes": 584,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/25.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/26.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/26.png",
+      "sha256": "2a9c22f67aac4366319ec2962566725e0b98b249f3dab5ede3c5730b6d327495",
+      "bytes": 585,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/26.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/27.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/27.png",
+      "sha256": "8166c6667eaf09a30873901d08d8aa8704f6687ff96713a37c60c3277cba70f9",
+      "bytes": 594,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/27.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/28.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/28.png",
+      "sha256": "a1948e20163ae740d0045638f2fdce9e70ccd5154834f76468e413eb14df713b",
+      "bytes": 573,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/28.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/29.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/29.png",
+      "sha256": "5fa310b1dc430f2bdd4fd33b0c2e32d8392734227a6cec1623a644ecfb073910",
+      "bytes": 593,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/29.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/30.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/30.png",
+      "sha256": "fae38498b6f567c1f3692fe7a769bd9a31d81a085374059764b149eb7de32cab",
+      "bytes": 579,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/30.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/31.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/31.png",
+      "sha256": "8eb4ed99cb5e5bbda43d74b07955d223c43a19613b6f23b6906d1bdb827e6b81",
+      "bytes": 583,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/31.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/32.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/32.png",
+      "sha256": "fb365c90da4ae312dad861ff26426d1b06cf78934f612207e219cd68632fcf2d",
+      "bytes": 582,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/32.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/33.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/33.png",
+      "sha256": "298b223737d992bcbde5038f6ba355bb4e83ed6611e54bbcf665a3bc21fea8b1",
+      "bytes": 574,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/33.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/34.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/34.png",
+      "sha256": "7aab68683fc092262528c879ebfc8a1ee7a627a54026eb3e6e163388a6c54a24",
+      "bytes": 577,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/34.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/35.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/35.png",
+      "sha256": "73e8b90c3b5418e748c18383abe972cc968b2b484c48d547ac4df95bf24226e6",
+      "bytes": 576,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/35.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/36.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/36.png",
+      "sha256": "da19896315f9e7796b673d7b76893bea984238589dc6cc0f5fb9128efae959eb",
+      "bytes": 574,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/36.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/37.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/37.png",
+      "sha256": "c6284977ae3361ee49fcc3faaad0346f25e6159672f1fcbf52af3d777c5336f4",
+      "bytes": 574,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/37.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/38.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/38.png",
+      "sha256": "d81efd1ad4ad9c6958d29bdefc3863949b3e6c9f6d3c9ab06dd91ca9008796bb",
+      "bytes": 586,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/38.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/39.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/39.png",
+      "sha256": "6ad6f302c04fc78df7540c5bb5252a03ad013225aef6c8fd62ae19cd698409be",
+      "bytes": 583,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/39.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/40.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/40.png",
+      "sha256": "192b6687ea3e8bec9658f99cd9289e50e636b2772477da9b90fdf6947857fae1",
+      "bytes": 581,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/40.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/41.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/41.png",
+      "sha256": "e7ba733ccb453d147aef70c6ec308b646b6f952f3bc011ac775bc159a3b1d924",
+      "bytes": 588,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/41.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/42.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/42.png",
+      "sha256": "47272dad41592a41c7bb8170c90ebd441954682e046da50dccaffeb320bac856",
+      "bytes": 576,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/42.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/43.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/43.png",
+      "sha256": "fe9abeab5c6a89c25e665dd355f9240aa00f533c301bb401c8d969853136eaaa",
+      "bytes": 578,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/43.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/44.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/44.png",
+      "sha256": "e8608916ca0ab20207e8df0ebfc18d3b907e382b5e36fbb4668cfc64dbdae658",
+      "bytes": 588,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/44.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/45.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/45.png",
+      "sha256": "2e2a35810886f4c997732a7eab36af97cd86d10bd7976404e3fd2c65c3e1ac28",
+      "bytes": 585,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/45.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/46.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/46.png",
+      "sha256": "85c9f825bfd71a15de4543fed0e80e8918b5e6f9f2c33c6624d7d09dbcf473cd",
+      "bytes": 585,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/46.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "goety",
+      "upstream_path": "src/main/resources/assets/goety/textures/entity/servants/slime/fishes/47.png",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/47.png",
+      "sha256": "56287da8170f574abf1380397bb30da6dceb90bc9ed4d644c1e69ba1659ab369",
+      "bytes": 589,
+      "kind": "texture_animation_frame",
+      "source_url": "https://github.com/Polarice3/Goety-2/blob/7de64560f76ae47f1b399bb46f69540511b9871e/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/47.png",
+      "source_revision": "7de64560f76ae47f1b399bb46f69540511b9871e",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "dungeons_mobs_port",
+      "upstream_path": "src/main/resources/assets/dungeonsmobs/textures/entity/illager/armored_pillager_diamond.png",
+      "snapshot": "third_party/dungeons_mobs_port/snapshots/src/main/resources/assets/dungeonsmobs/textures/entity/illager/armored_pillager_diamond.png",
+      "sha256": "70d0c6c8c4d1ffd8c611c3e501192074e3503617319238ccb244a88b449d0cd4",
+      "bytes": 2580,
+      "kind": "texture",
+      "source_url": "https://github.com/FirefoxSalesman/DungeonsMobs/blob/cca789ab3ce910853517d65494efd76508255a1d/src/main/resources/assets/dungeonsmobs/textures/entity/illager/armored_pillager_diamond.png",
+      "source_revision": "cca789ab3ce910853517d65494efd76508255a1d",
+      "license": "MIT"
+    },
+    {
+      "source_project_id": "dungeons_mobs_port",
+      "upstream_path": "src/main/resources/assets/dungeonsmobs/textures/entity/illager/armored_vindicator_diamond.png",
+      "snapshot": "third_party/dungeons_mobs_port/snapshots/src/main/resources/assets/dungeonsmobs/textures/entity/illager/armored_vindicator_diamond.png",
+      "sha256": "5c88de65e6b5aa32ea49c09b343cd99f79f891e66e20a18c2e0565edaa46f8ee",
+      "bytes": 2910,
+      "kind": "texture",
+      "source_url": "https://github.com/FirefoxSalesman/DungeonsMobs/blob/cca789ab3ce910853517d65494efd76508255a1d/src/main/resources/assets/dungeonsmobs/textures/entity/illager/armored_vindicator_diamond.png",
+      "source_revision": "cca789ab3ce910853517d65494efd76508255a1d",
+      "license": "MIT"
+    }
+  ],
+  "delivered_textures": [
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/tropical_slime.png",
+      "sha256": "c9a84df7eeb816151028803cc566e3933d530b3d22c054b7183fec01fdf6d3d9",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/tropical_slime.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/tropical_slime.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/1.png",
+      "sha256": "d0fb33fae5bc7e063e4f8426dec1e4baa36272c8e4c8a0b61c8defe3748773b6",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/1.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/1.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/2.png",
+      "sha256": "d7d42e94f32a9bcfbbcce91d9716472e4e88134abf097dcb2d01d5504dd61561",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/2.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/2.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/3.png",
+      "sha256": "42540a7ed10ef1037fe6420c6aba97283c800a93dcf8a2a080752f35596fd9b6",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/3.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/3.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/4.png",
+      "sha256": "a314797390e695911e804e1873c854a9ba0b70aa20f858b00eccebdecc215fcd",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/4.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/4.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/5.png",
+      "sha256": "77f77cee0b84f3e402bab0bfbbd1447ad091cd812b1453b82b89505100e3f744",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/5.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/5.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/6.png",
+      "sha256": "454ed47ace5bab7c8c4d95472c9e5cc5a5e63cbceee87d6f354d8b42d7b75b0b",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/6.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/6.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/7.png",
+      "sha256": "2976e05b1ac495e46c274fbaa36f8a17728c27e670c4b68f0d4233dc1b060336",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/7.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/7.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/8.png",
+      "sha256": "8997719bfbe47e75b7634e9a5dcf1c4de1777e9a789e22b216fc05acc68c0fd8",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/8.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/8.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/9.png",
+      "sha256": "8c60fadfc985951c2beb54ebfa8492620d73e4d5e4e0db525d17a0e6e3df142c",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/9.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/9.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/10.png",
+      "sha256": "240cff596e209db990af6b03931b9c6f4eb6ff7f1e9e1cbeca21532cdd46a9cf",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/10.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/10.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/11.png",
+      "sha256": "a0c398df293e189e1c0061b3500bf854d4d2fbac54dbf805adfd774ce3d41dbf",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/11.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/11.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/12.png",
+      "sha256": "8f99b6d3cb12f730c95e29dc8eabf7eb80c2c489929a6905d7187d8a27f64771",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/12.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/12.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/13.png",
+      "sha256": "90e8b0791af674448d4320be30c86f63a16fde470e17fff18a6357920acaf9e1",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/13.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/13.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/14.png",
+      "sha256": "d0f400f2fa0a03d7e30b7e9cc5886466e819e597be48afc65461e61aaf98018e",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/14.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/14.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/15.png",
+      "sha256": "4f6569da09a8a126b2a58897006ac2308a8a8c959d0602d5466c4d9557a9e04e",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/15.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/15.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/16.png",
+      "sha256": "d55512f759f7e5137e17efaea779086fe24145802f024dd224ce675dc7ea04de",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/16.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/16.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/17.png",
+      "sha256": "9479661359462147288badbe2d041bd5d76c58dc94ae5f18c07c9b4e6e4081bd",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/17.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/17.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/18.png",
+      "sha256": "efa34408b000c0b248d393e2945005d79460ed419ff93fbb820e96645468ebdf",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/18.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/18.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/19.png",
+      "sha256": "ad6a5bd8d69784dc95bac5ca749681f03174ec5a206bd40a6574f3034ac81038",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/19.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/19.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/20.png",
+      "sha256": "af6de566fad4d15ad0828d983b45e14b55c1c6035ad6322b5b988a86e73e6d19",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/20.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/20.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/21.png",
+      "sha256": "6d26b5b7dd63c3f460d9adeea7685a553db97d5d0b3af5fa9faacc2d3a7cbcac",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/21.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/21.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/22.png",
+      "sha256": "93c24f30ae13a7371c6cce138a2441880e6ee2065fabe5ffb77a2f2f60c60a31",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/22.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/22.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/23.png",
+      "sha256": "d6636d3fa98d6b0a8cabb1321399eac21b6b65918feba3cc174d8a498d67ca3e",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/23.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/23.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/24.png",
+      "sha256": "b27ad373a34eb80d08a4e529be4925f3cf6c3066a709e9025575c55fdccaee09",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/24.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/24.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/25.png",
+      "sha256": "f95b95781aee79ced50566bb7317e946747cd55f85046ff332ed427d2cf21bfa",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/25.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/25.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/26.png",
+      "sha256": "2a9c22f67aac4366319ec2962566725e0b98b249f3dab5ede3c5730b6d327495",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/26.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/26.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/27.png",
+      "sha256": "8166c6667eaf09a30873901d08d8aa8704f6687ff96713a37c60c3277cba70f9",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/27.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/27.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/28.png",
+      "sha256": "a1948e20163ae740d0045638f2fdce9e70ccd5154834f76468e413eb14df713b",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/28.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/28.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/29.png",
+      "sha256": "5fa310b1dc430f2bdd4fd33b0c2e32d8392734227a6cec1623a644ecfb073910",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/29.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/29.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/30.png",
+      "sha256": "fae38498b6f567c1f3692fe7a769bd9a31d81a085374059764b149eb7de32cab",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/30.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/30.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/31.png",
+      "sha256": "8eb4ed99cb5e5bbda43d74b07955d223c43a19613b6f23b6906d1bdb827e6b81",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/31.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/31.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/32.png",
+      "sha256": "fb365c90da4ae312dad861ff26426d1b06cf78934f612207e219cd68632fcf2d",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/32.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/32.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/33.png",
+      "sha256": "298b223737d992bcbde5038f6ba355bb4e83ed6611e54bbcf665a3bc21fea8b1",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/33.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/33.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/34.png",
+      "sha256": "7aab68683fc092262528c879ebfc8a1ee7a627a54026eb3e6e163388a6c54a24",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/34.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/34.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/35.png",
+      "sha256": "73e8b90c3b5418e748c18383abe972cc968b2b484c48d547ac4df95bf24226e6",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/35.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/35.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/36.png",
+      "sha256": "da19896315f9e7796b673d7b76893bea984238589dc6cc0f5fb9128efae959eb",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/36.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/36.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/37.png",
+      "sha256": "c6284977ae3361ee49fcc3faaad0346f25e6159672f1fcbf52af3d777c5336f4",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/37.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/37.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/38.png",
+      "sha256": "d81efd1ad4ad9c6958d29bdefc3863949b3e6c9f6d3c9ab06dd91ca9008796bb",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/38.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/38.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/39.png",
+      "sha256": "6ad6f302c04fc78df7540c5bb5252a03ad013225aef6c8fd62ae19cd698409be",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/39.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/39.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/40.png",
+      "sha256": "192b6687ea3e8bec9658f99cd9289e50e636b2772477da9b90fdf6947857fae1",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/40.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/40.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/41.png",
+      "sha256": "e7ba733ccb453d147aef70c6ec308b646b6f952f3bc011ac775bc159a3b1d924",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/41.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/41.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/42.png",
+      "sha256": "47272dad41592a41c7bb8170c90ebd441954682e046da50dccaffeb320bac856",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/42.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/42.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/43.png",
+      "sha256": "fe9abeab5c6a89c25e665dd355f9240aa00f533c301bb401c8d969853136eaaa",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/43.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/43.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/44.png",
+      "sha256": "e8608916ca0ab20207e8df0ebfc18d3b907e382b5e36fbb4668cfc64dbdae658",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/44.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/44.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/45.png",
+      "sha256": "2e2a35810886f4c997732a7eab36af97cd86d10bd7976404e3fd2c65c3e1ac28",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/45.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/45.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/46.png",
+      "sha256": "85c9f825bfd71a15de4543fed0e80e8918b5e6f9f2c33c6624d7d09dbcf473cd",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/46.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/46.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "goety",
+      "snapshot": "third_party/goety/snapshots/src/main/resources/assets/goety/textures/entity/servants/slime/fishes/47.png",
+      "sha256": "56287da8170f574abf1380397bb30da6dceb90bc9ed4d644c1e69ba1659ab369",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/tropical_slime/fishes/47.png",
+      "resource": "dungeonsalive:textures/entity/reference/goety/tropical_slime/fishes/47.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "dungeons_mobs_port",
+      "snapshot": "third_party/dungeons_mobs_port/snapshots/src/main/resources/assets/dungeonsmobs/textures/entity/illager/armored_pillager_diamond.png",
+      "sha256": "70d0c6c8c4d1ffd8c611c3e501192074e3503617319238ccb244a88b449d0cd4",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/dungeons_mobs_port/armored_pillager_diamond.png",
+      "resource": "dungeonsalive:textures/entity/reference/dungeons_mobs_port/armored_pillager_diamond.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "source_project_id": "dungeons_mobs_port",
+      "snapshot": "third_party/dungeons_mobs_port/snapshots/src/main/resources/assets/dungeonsmobs/textures/entity/illager/armored_vindicator_diamond.png",
+      "sha256": "5c88de65e6b5aa32ea49c09b343cd99f79f891e66e20a18c2e0565edaa46f8ee",
+      "file": "src/main/resources/assets/dungeonsalive/textures/entity/reference/dungeons_mobs_port/armored_vindicator_diamond.png",
+      "resource": "dungeonsalive:textures/entity/reference/dungeons_mobs_port/armored_vindicator_diamond.png",
+      "modification": "unchanged_source_bytes"
+    }
+  ],
+  "existing_assets_reused": [
+    "InfamousArmoredDrowned",
+    "PortArmoredPillager",
+    "PortArmoredVindicator",
+    "CemBlacksmith"
+  ],
+  "independent_animation_classes": [
+    "OriginalTropicalSlimeAnimations",
+    "OriginalCivilianAnimations",
+    "OriginalTridentDrownedAnimations"
+  ],
+  "adaptations": [
+    {
+      "id": "tropical_slime",
+      "source": "Goety TropicalSlimeModel + hostile skin + actual 47-frame fish animation",
+      "modifications": [
+        "Shared ground pivot added without changing any source rest vertex/UV.",
+        "Inner/fish/shell use matching full named hierarchies; outer shell uses entityTranslucent.",
+        "Own server-aligned idle/walk/leap/melee/death squash clips.",
+        "Source 0..47 cycle retains fallback texture1 in slot47; file48 deliberately not selected."
+      ],
+      "not_implemented": [
+        "Original splitting/death offspring mechanic is not implied by the scale clip."
+      ]
+    },
+    {
+      "id": "armored_trident_drowned",
+      "catalog_id": "mcd:armored_trident_drowned",
+      "modifications": [
+        "Reuses exact authored seaweed armor/skin atlas and corresponding native wrapper.",
+        "Real equipped trident and server projectile integration supplied by common-runtime agent.",
+        "Own overhead throwing gesture; source underwater/full original combat quality remains separately reviewed."
+      ]
+    },
+    {
+      "id": "diamond_armored_pillager",
+      "catalog_id": "mcd:armored_pillager",
+      "variant_kind": "armor_tier_3",
+      "modifications": [
+        "Exact authored diamond skin, existing Port helmet/body rig, existing host movement.",
+        "Height/health/armor are explicit Minecraft sandbox tuning, not claimed original numeric values."
+      ],
+      "reference_urls": [
+        "https://minecraft.wiki/w/Dungeons%3APillager"
+      ]
+    },
+    {
+      "id": "diamond_armored_vindicator",
+      "catalog_id": "mcd:armored_vindicator",
+      "variant_kind": "armor_tier_3",
+      "modifications": [
+        "Exact authored diamond skin and corresponding horned Port helmet/body rig.",
+        "Equips the registered Whirlwind item through the actual held-item layer, with zero equipment drop chance; player weapon callbacks are not applied to this mob."
+      ],
+      "reference_urls": [
+        "https://minecraft.wiki/w/Dungeons%3AVindicator"
+      ]
+    },
+    {
+      "id": "captured_blacksmith",
+      "catalog_id": "mcd:captured_blacksmith",
+      "source": "Existing audited ReCrafted Blacksmith model/materials; same named character, captive story role.",
+      "modifications": [
+        "Distinct CIVILIAN role with persistent server rescue state, rescuer and follow/wait.",
+        "Own restrained idle and release nod gestures; not a separate normal merchant or profession."
+      ],
+      "not_implemented": [
+        "No original mission cage/world generation or automatic merchant conversion."
+      ]
+    }
+  ],
+  "cinematic_form_not_registered": "Imperfect Heart of Ender remains a cinematic reference; no invented new boss health/encounter added.",
+  "new_audited_source_paths": [
+    "src/main/java/com/Polarice3/Goety/common/entities/ally/TropicalSlimeServant.java",
+    "src/main/resources/assets/dungeonsmobs/textures/entity/illager/armored_pillager_diamond.png",
+    "src/main/resources/assets/dungeonsmobs/textures/entity/illager/armored_vindicator_diamond.png"
+  ],
+  "runtime_validation": "Zentraler Build und Serverprüfungen bestanden: 30 erforderliche Core-Tests sowie 32 Tests im optionalen Lagerlauf (einschließlich 2 Camp-Tests). Abgeschlossener nativer Gesamtlauf 20261102-084331-002: 131 Profile, 352 Hauptbilder, 13 Sequenzen/208 Zusatzframes. Davon wurden 15 Hauptbilder dieser fünf Ergänzungen persönlich visuell geprüft; zusätzlich 3 echte Lageraufnahmen. Quellen-, Kampf- und Animationsgrenzen bleiben bestehen. Verbindliche Einzelbelege und SHA256: reports/v04-new-content-visual-qa.json; gesamter Prüfstand: docs/VALIDATION.md."
+}

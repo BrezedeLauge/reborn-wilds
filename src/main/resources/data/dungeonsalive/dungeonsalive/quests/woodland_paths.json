@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "title": "Unter grünen Kronen",
+  "description": "Folge den Pfaden zwischen den Bäumen. Suche nach einem gewöhnlichen Wald und bringe ein paar Eichen-Setzlinge für dein späteres Lager mit. Achte am Abend auf die Glühwürmchen. Die Setzlinge behältst du.",
+  "icon": "minecraft:oak_sapling",
+  "order": 20,
+  "prerequisites": ["dungeonsalive:small_wonders"],
+  "objectives": [
+    {"id": "forest", "type": "visit_biome", "target": "minecraft:forest", "amount": 1, "label": "Einen Wald besuchen (Biom: Forest)"},
+    {"id": "saplings", "type": "collect_item", "target": "minecraft:oak_sapling", "amount": 4, "label": "Eichen-Setzlinge im Inventar"}
+  ],
+  "rewards": [{"item": "minecraft:torch", "count": 12}, {"item": "minecraft:bread", "count": 4}],
+  "experience": 30
+}

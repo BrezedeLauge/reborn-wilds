@@ -1,0 +1,32 @@
+{
+  "entity.duck.contact": {
+    "subtitle": "subtitles.dungeonsalive.duck_contact",
+    "sounds": [
+      "dungeonsalive:wildlife/duck_contact_1",
+      "dungeonsalive:wildlife/duck_contact_2",
+      "dungeonsalive:wildlife/duck_contact_3"
+    ]
+  },
+  "entity.toucan.contact": {
+    "subtitle": "subtitles.dungeonsalive.toucan.contact",
+    "sounds": [
+      {
+        "name": "minecraft:entity.parrot.ambient",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 0.85
+      }
+    ]
+  },
+  "entity.golden_parrot.contact": {
+    "subtitle": "subtitles.dungeonsalive.golden_parrot.contact",
+    "sounds": [
+      {
+        "name": "minecraft:entity.parrot.ambient",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.0
+      }
+    ]
+  }
+}

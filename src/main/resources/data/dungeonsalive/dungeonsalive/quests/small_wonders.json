@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "title": "Kleine Wunder",
+  "description": "Zwischen Blumen und Gräsern steckt mehr Leben, als es zunächst scheint. Nimm dir Zeit für einen Spaziergang und sammle ein paar Blüten. Die Blumen bleiben nach dem Abschluss in deinem Inventar.",
+  "icon": "minecraft:poppy",
+  "order": 10,
+  "prerequisites": [],
+  "objectives": [
+    {"id": "dandelions", "type": "collect_item", "target": "minecraft:dandelion", "amount": 3, "label": "Löwenzahn im Inventar"},
+    {"id": "poppies", "type": "collect_item", "target": "minecraft:poppy", "amount": 3, "label": "Mohn im Inventar"}
+  ],
+  "rewards": [{"item": "minecraft:honey_bottle", "count": 3}],
+  "experience": 20
+}

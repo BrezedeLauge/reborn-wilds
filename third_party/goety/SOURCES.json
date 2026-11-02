@@ -1,0 +1,302 @@
+{
+  "repository": "https://github.com/Polarice3/Goety-2",
+  "commit": "7de64560f76ae47f1b399bb46f69540511b9871e",
+  "files": {
+    "src/main/java/com/Polarice3/Goety/client/render/model/RoyalGuardModel.java": {
+      "path": "third_party/goety/source_models/RoyalGuardModel.java",
+      "sha256": "26aa270cf6d61e889fb5254476cbad0b73e05975de1ee864a006898aa6b4f699"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/RoyalGuardAnimations.java": {
+      "path": "third_party/goety/source_animations/RoyalGuardAnimations.java",
+      "sha256": "99b23e6d985c66dcbe6dc0f70702b1010d88e957209a0b61f47b8b40a3cff57f"
+    },
+    "src/main/resources/assets/goety/textures/entity/illagers/royal_guard.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/illagers/royal_guard.png",
+      "sha256": "96c64ff78c30f1ccc55bce0feb0cb839245519d712272990de012c175735a33b"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/VanguardModel.java": {
+      "path": "third_party/goety/source_models/VanguardModel.java",
+      "sha256": "b6a7484f443f99cda2c513c7139b65786e57494ac291fbcf92b2f13c62778901"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/VanguardAnimations.java": {
+      "path": "third_party/goety/source_animations/VanguardAnimations.java",
+      "sha256": "8e908b5c25490302db5a5131d1678ebca5ee607667d85d79d842f0bbe4e33619"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/skeleton/vanguard_original.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/skeleton/vanguard_original.png",
+      "sha256": "f37e9131dd8cb6163c968788c693a2bf97bcc8aa72649c188e61d94ff9794e7e"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/EnchanterModel.java": {
+      "path": "third_party/goety/source_models/EnchanterModel.java",
+      "sha256": "1be79f7107843ee3f2026a56c0bdc1a80a109b63e9e70a7746bb5c98e829ab26"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/EnchanterAnimations.java": {
+      "path": "third_party/goety/source_animations/EnchanterAnimations.java",
+      "sha256": "a8d4fd64aa633a4bf6268b6acef736df342d413eb86ad030e8f8b0cebe6cca1e"
+    },
+    "src/main/resources/assets/goety/textures/entity/illagers/enchanter.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/illagers/enchanter.png",
+      "sha256": "9d850d00a64805190bbdbb7ed95bc166a751e543f7b37cfce239479cba303fc5"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/NecromancerModel.java": {
+      "path": "third_party/goety/source_models/NecromancerModel.java",
+      "sha256": "607dc102e9d46ee864eb67a0b1a9daf7e1eeae5055980bc4b0fec1ae6f2c1980"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/NecromancerAnimations.java": {
+      "path": "third_party/goety/source_animations/NecromancerAnimations.java",
+      "sha256": "2a36ef13bf81cfb118748ab9a37c0fcc659e607cfde89fdbf770994983d17bd1"
+    },
+    "src/main/resources/assets/goety/textures/entity/necromancer/necromancer.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/necromancer/necromancer.png",
+      "sha256": "c6fc555850ae6da7a1e074948f351d63c2ff8811aed2d7f5d0537f3a71238ce9"
+    },
+    "src/main/resources/assets/goety/textures/entity/necromancer/necromancer_glow.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/necromancer/necromancer_glow.png",
+      "sha256": "11af0d62b95b8a4285d7d9ceb838efe3255cd496b82ddbbc20bb71e528419d6a"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/GeomancerModel.java": {
+      "path": "third_party/goety/source_models/GeomancerModel.java",
+      "sha256": "0151dca26cb1178a5d958466030153b0ebff4cbf88271ebda8b23fd7f055509f"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/illager/geomancer_original.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/illager/geomancer_original.png",
+      "sha256": "8d54946e4aae2562d182a1c31193855e3582c418568d3d037d44208602b70eda"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/illager/geomancer_glow.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/illager/geomancer_glow.png",
+      "sha256": "09e217815765f16f57e9ec2ec7a415920be3f82ccfd72bd09e1e21dc458d92e5"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/WraithModel.java": {
+      "path": "third_party/goety/source_models/WraithModel.java",
+      "sha256": "6a1859d7e740f43b2bc1a233f7c2dcc4dddd96144fb724d97156a4a3d212160d"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/WraithAnimations.java": {
+      "path": "third_party/goety/source_animations/WraithAnimations.java",
+      "sha256": "e4cd4c12a7ff6c5ae517284690fdeea71bcc074caadd882b0e3e77353f3f4d91"
+    },
+    "src/main/resources/assets/goety/textures/entity/wraith/wraith.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/wraith/wraith.png",
+      "sha256": "6ac31940c57286cef9101475b5abd949c4ea2e4135dff940c5faf1d68d09795e"
+    },
+    "src/main/resources/assets/goety/textures/entity/wraith/wraith_glow.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/wraith/wraith_glow.png",
+      "sha256": "7f41fc80a840740dce42afb15b4fea59d75dea79c91564ad2b5ee1a046bb3f81"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/IceologerModel.java": {
+      "path": "third_party/goety/source_models/IceologerModel.java",
+      "sha256": "9d03c36e0ebbf6b2fe62013fe9837d6347e092a983e8d23523f3e80da655d52a"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/illager/iceologer_original.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/illager/iceologer_original.png",
+      "sha256": "af6004acb3444eea82bd05322b27ad903c44e3c3c2b8206fa1702d9c53d5dfc0"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/WindCallerModel.java": {
+      "path": "third_party/goety/source_models/WindCallerModel.java",
+      "sha256": "62ff1d4e49f354270442ded52cb023796e3595a89731ffa75bb59bd0ef04ca86"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/illager/wind_caller_original.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/illager/wind_caller_original.png",
+      "sha256": "f1de94d74f029d35f3cf477af7ea8716148e2b89c762380f6f75fb8a09c2a992"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/WhispererModel.java": {
+      "path": "third_party/goety/source_models/WhispererModel.java",
+      "sha256": "81f6180f66c2ed941dcc7efd92b5e2e04e3a9773b4f14af1e66aab26a0c69c63"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/WhispererAnimations.java": {
+      "path": "third_party/goety/source_animations/WhispererAnimations.java",
+      "sha256": "a7fe96d15c96ccfd38dfc70f241f72088c2dd010ab18a5b28c90868b69cbe7e9"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/whisperer/whisperer_original.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/whisperer/whisperer_original.png",
+      "sha256": "edf1d946536358ef3083b2213128bc3cf22787159b82e204c09a54f9a9ad52be"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/whisperer/whisperer_original_glow.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/whisperer/whisperer_original_glow.png",
+      "sha256": "4f1403d7e4daa878daf0be7ddb4ec1d83c0e9bbbb2d79baf8fe7d91a01985bd1"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/whisperer/wavewhisperer.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/whisperer/wavewhisperer.png",
+      "sha256": "cede397dca26a68451279fdcf2eb96d826c58eb1711cc914f4936ad5e844b9e5"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/whisperer/wavewhisperer_glow.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/whisperer/wavewhisperer_glow.png",
+      "sha256": "5efd32da89f260fe3ebc034bb63bdbbffe69a19243c4b1af6f6f73bd8b612da5"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/LeapleafModel.java": {
+      "path": "third_party/goety/source_models/LeapleafModel.java",
+      "sha256": "fdd16b5810e1f436efcbba132e1f0c3c09254899b7141b8c333585671472d699"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/LeapleafAnimations.java": {
+      "path": "third_party/goety/source_animations/LeapleafAnimations.java",
+      "sha256": "c2e2ec370007e0730c53a0b94a37f8fe2ccf5fbfa7f64a845ff1fd5b5aa8b6a1"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/leapleaf/leapleaf_original.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/leapleaf/leapleaf_original.png",
+      "sha256": "e84621174ff77cd3cefa3fe4c77054a43fc7c2143d138458ce63770cf75f9f05"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/leapleaf/leapleaf_original_glow.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/leapleaf/leapleaf_original_glow.png",
+      "sha256": "c6f045de3416dc432be0073abb4ba08b0b6c31b150aaaa9c9da7eff381a2ef21"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/WatchlingModel.java": {
+      "path": "third_party/goety/source_models/WatchlingModel.java",
+      "sha256": "9a57921c62dafb4aa2ab2a4064da4a857b68203437361dcc2904cefa1c4f7b19"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/WatchlingAnimations.java": {
+      "path": "third_party/goety/source_animations/WatchlingAnimations.java",
+      "sha256": "8226a7329694c14b1e2edf4318d257d171842911eab55c72bf89340eeb16a4bc"
+    },
+    "src/main/resources/assets/goety/textures/entity/enderling/watchling.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/enderling/watchling.png",
+      "sha256": "7819fd62144429fabd4dd9c6b0fda24e803617119e404dff2e8daec1c9091d82"
+    },
+    "src/main/resources/assets/goety/textures/entity/enderling/watchling_glow.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/enderling/watchling_glow.png",
+      "sha256": "cd16a2bb5ef3b0756b2b39debf8a81e21e8f9d1306d0f669803ee25f65eeb970"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/BlastlingModel.java": {
+      "path": "third_party/goety/source_models/BlastlingModel.java",
+      "sha256": "ec08aefbd61895148509f1441d45519b25f15077c419842d71cd77042537b889"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/BlastlingAnimations.java": {
+      "path": "third_party/goety/source_animations/BlastlingAnimations.java",
+      "sha256": "bc462c316eab3f4ca1a43f99da60728b2ccba58a7430b778f49abad375309f18"
+    },
+    "src/main/resources/assets/goety/textures/entity/enderling/blastling.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/enderling/blastling.png",
+      "sha256": "c06f773781cae703597bdc93c7390d4e6a73c93c85dcdb3fdf5f83a5cbf29668"
+    },
+    "src/main/resources/assets/goety/textures/entity/enderling/blastling_glow.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/enderling/blastling_glow.png",
+      "sha256": "55c0a05d595c7d18699d1688921fae7e3e5ad7e69d7634719fe03b8f831c8592"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/SnarelingModel.java": {
+      "path": "third_party/goety/source_models/SnarelingModel.java",
+      "sha256": "38397014e51f5792bc0a645df41a7016cf1643aa72c069db4cdb4ce6e7d9a7d0"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/SnarelingAnimations.java": {
+      "path": "third_party/goety/source_animations/SnarelingAnimations.java",
+      "sha256": "596ca690cd7ff41654205620db5eb96fd4cad4e8071c1203add9f1916818eef1"
+    },
+    "src/main/resources/assets/goety/textures/entity/enderling/snareling.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/enderling/snareling.png",
+      "sha256": "efeb4d729b1e12a5238ccb4fe24f6735aa227e2bb12f0e6b2ecca1ae306882f5"
+    },
+    "src/main/resources/assets/goety/textures/entity/enderling/snareling_glow.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/enderling/snareling_glow.png",
+      "sha256": "63488231972890987fcbe43b0e7160abe645fc4b880caf103e1acedca46fa52a"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/RedstoneCubeModel.java": {
+      "path": "third_party/goety/source_models/RedstoneCubeModel.java",
+      "sha256": "0df274c08f908fdf00d344db5b52c42f1d1bccdf7e542cd1487516c685e82386"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/RedstoneCubeAnimations.java": {
+      "path": "third_party/goety/source_animations/RedstoneCubeAnimations.java",
+      "sha256": "4de26c6f97bc653d1d511d96328c0b8149e528a4ba1db0d46193421f1ea39c96"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/redstone_monstrosity/redstone_cube.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/redstone_monstrosity/redstone_cube.png",
+      "sha256": "c5e185d71d5943b9c341b28875541a3d2fb0fe4db2f792f4296384e35bb9e68b"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/redstone_monstrosity/redstone_cube_active.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/redstone_monstrosity/redstone_cube_active.png",
+      "sha256": "e22ad2afcf2a57336f769aff03f7dbbeb80549ec37117fc16df8c4c0b332c0fb"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/redstone_monstrosity/redstone_cube_eyes.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/redstone_monstrosity/redstone_cube_eyes.png",
+      "sha256": "15d8ddb6f67017e241f235adb96b97894cb3ab1ac1d8fff36f18a9cffe3419cb"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/RedstoneGolemModel.java": {
+      "path": "third_party/goety/source_models/RedstoneGolemModel.java",
+      "sha256": "35cc93dbacbe2b785f8e09526064ba7e6e5864631672f497f45e6bccaf1a4369"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/RedstoneGolemAnimations.java": {
+      "path": "third_party/goety/source_animations/RedstoneGolemAnimations.java",
+      "sha256": "29deba7e575d63663a4ea56df81202ccbbfecc0084c8cc8835a0c68eede0499e"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/redstone_golem/redstone_golem.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/redstone_golem/redstone_golem.png",
+      "sha256": "168436475d75c392d6adbc558ebafc12b04630ffb7a9a0aebe32c6bf951b593f"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/redstone_golem/redstone_golem_glow.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/redstone_golem/redstone_golem_glow.png",
+      "sha256": "8054ab71c5d03cc2cc3ce34d8d58359830c0ed734184b6934095ffb2d266f5b3"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/redstone_golem/redstone_golem_eyes.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/redstone_golem/redstone_golem_eyes.png",
+      "sha256": "adf3b1cc2fc52fb0ed293c2857468dee9ef1364e825e584a7940380d44766950"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/EndersentModel.java": {
+      "path": "third_party/goety/source_models/EndersentModel.java",
+      "sha256": "9927790927746022954943f60417a43deec61d07fd9cbd49179e0987c508e037"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/EndersentAnimations.java": {
+      "path": "third_party/goety/source_animations/EndersentAnimations.java",
+      "sha256": "1924980047a141b461615aa6e5228c509c200a3d7312c2da9ee1265d0127a800"
+    },
+    "src/main/resources/assets/goety/textures/entity/enderling/endersent.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/enderling/endersent.png",
+      "sha256": "8a4b02c76b52acee6b06c631b2e3901f926f4c4c7adf1a5e698b4f8f50d72879"
+    },
+    "src/main/resources/assets/goety/textures/entity/enderling/endersent_glow.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/enderling/endersent_glow.png",
+      "sha256": "f185765609f547fa27c360ffe18d5b5aa1332e21dd63575436fbe13a91ec9f36"
+    },
+    "src/main/resources/assets/goety/textures/entity/enderling/endersent_eye.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/enderling/endersent_eye.png",
+      "sha256": "5cc61099d40f1420ec5c7a40f7d371e03ea7b75bdd4e42bb1a5ba2cfb9a2dd65"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/DrownedNecromancerModel.java": {
+      "path": "third_party/goety/source_models/DrownedNecromancerModel.java",
+      "sha256": "c1cf4e0a750c4421a8ecaf01d4b60a5697298d306bddd74bfaa830d32558ea8c"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/DrownedNecromancerAnimations.java": {
+      "path": "third_party/goety/source_animations/DrownedNecromancerAnimations.java",
+      "sha256": "69939227e5d7b4ee9f5938b7970df4d682b8daae1765e5076eed874eb6fae2a0"
+    },
+    "src/main/resources/assets/goety/textures/entity/necromancer/drowned_necromancer.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/necromancer/drowned_necromancer.png",
+      "sha256": "c10f27f34f8fea12fd71a74d3893ff83954ec0c2ebb4e4554885a20e28d15ad6"
+    },
+    "src/main/resources/assets/goety/textures/entity/necromancer/drowned_necromancer_glow.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/necromancer/drowned_necromancer_glow.png",
+      "sha256": "c937c180d3e3965a7882a48a18469303f4f0d503852ac8f3a6377410a015ccf9"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/WildfireModel.java": {
+      "path": "third_party/goety/source_models/WildfireModel.java",
+      "sha256": "65a491e0a453414dd9a6333edccb29977793e306b8878e79ad48e7e9bf93dec3"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/WildfireAnimations.java": {
+      "path": "third_party/goety/source_animations/WildfireAnimations.java",
+      "sha256": "d88ec0e9eb0b1549f23e1b47e18d26fc89e7df02c314a1b78d82eeaf9786c177"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/blaze/wildfire.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/blaze/wildfire.png",
+      "sha256": "26382b658df7b9e08090dd27714a8245e7aa02df6e0eb9febeae675293ed0704"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/model/RedstoneMonstrosityModel.java": {
+      "path": "third_party/goety/source_models/RedstoneMonstrosityModel.java",
+      "sha256": "f3dc11d41dbe005e5175ad0ad315dfe62444b1b9b3bf032d3f5fa72ecdb4e38d"
+    },
+    "src/main/java/com/Polarice3/Goety/client/render/animation/RedstoneMonstrosityAnimations.java": {
+      "path": "third_party/goety/source_animations/RedstoneMonstrosityAnimations.java",
+      "sha256": "327df7be927cc0ae0c72952fc398fbcc0f47a8572e11ab8ac96851b1ad86a725"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/redstone_monstrosity/redstone_monstrosity.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/redstone_monstrosity/redstone_monstrosity.png",
+      "sha256": "019ea8233c0fba482dd6828b7951f406af315e07e1f6fa9db5dbe868358d4cc6"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/redstone_monstrosity/redstone_monstrosity_active.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/redstone_monstrosity/redstone_monstrosity_active.png",
+      "sha256": "3deea87d1f21e213598c5cbccfe6ad7057773571e0f2927af9f6253ff6efabc0"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/redstone_monstrosity/redstone_monstrosity_eyes.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/redstone_monstrosity/redstone_monstrosity_eyes.png",
+      "sha256": "8696163eb089b5fcfe3496bb26880ac39a52b97e802be5393838854f2e50af20"
+    },
+    "src/main/resources/assets/goety/textures/entity/servants/redstone_monstrosity/redstone_monstrosity_lines.png": {
+      "path": "src/main/resources/assets/dungeonsalive/textures/entity/reference/goety/servants/redstone_monstrosity/redstone_monstrosity_lines.png",
+      "sha256": "c41865ed4ffb08755b40f38cb1a253de0cc48c4ee9f4df1b72cef7846450c867"
+    }
+  }
+}

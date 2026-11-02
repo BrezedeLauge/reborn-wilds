@@ -1,0 +1,1409 @@
+{
+  "schema_version": 1,
+  "asset_definitions": [
+    {
+      "key": "InfamousMage",
+      "source": "dungeons_mobs",
+      "geometry_class": "InfamousMageGeometry",
+      "baked_root": true,
+      "external_generator": "tools/convert_bedrock_models.py --manifest design/infamous-additions.json --report design/infamous-conversion-report.json",
+      "clip_owners": {
+        "MAGE_IDLE": "InfamousMageAnimations",
+        "MAGE_WALK": "InfamousMageAnimations",
+        "MAGE_CELEBRATE": "InfamousMageAnimations",
+        "MAGE_SHOOT": "InfamousMageAnimations",
+        "MAGE_THROW": "InfamousMageAnimations",
+        "MAGE_VANISH": "InfamousMageAnimations",
+        "MAGE_APPEAR": "InfamousMageAnimations"
+      },
+      "clip_lengths": {
+        "MAGE_IDLE": 7.2,
+        "MAGE_WALK": 7.2,
+        "MAGE_CELEBRATE": 7.2,
+        "MAGE_SHOOT": 2.0,
+        "MAGE_THROW": 2.5,
+        "MAGE_VANISH": 1.125,
+        "MAGE_APPEAR": 1.25
+      },
+      "credits": [
+        "Patrigan",
+        "Selected-file authors recorded in design/model-source-audit.json"
+      ],
+      "provenance_manifest": "design/infamous-additions.json",
+      "geometry_source_kind": "converted_original_bedrock_snapshot"
+    },
+    {
+      "key": "InfamousGeomancerBomb",
+      "source": "dungeons_mobs",
+      "geometry_class": "InfamousGeomancerBombGeometry",
+      "baked_root": true,
+      "external_generator": "tools/convert_bedrock_models.py --manifest design/infamous-additions.json --report design/infamous-conversion-report.json",
+      "clip_owners": {
+        "GEOMANCER_PILLAR_APPEAR": "InfamousGeomancerBombAnimations",
+        "GEOMANCER_PILLAR_DISAPPEAR": "InfamousGeomancerBombAnimations",
+        "GEOMANCER_PILLAR_IDLE": "InfamousGeomancerBombAnimations"
+      },
+      "clip_lengths": {
+        "GEOMANCER_PILLAR_APPEAR": 1.25,
+        "GEOMANCER_PILLAR_DISAPPEAR": 2.0,
+        "GEOMANCER_PILLAR_IDLE": 7.2
+      },
+      "credits": [
+        "Patrigan",
+        "Selected-file authors recorded in design/model-source-audit.json"
+      ],
+      "provenance_manifest": "design/infamous-additions.json",
+      "geometry_source_kind": "converted_original_bedrock_snapshot"
+    },
+    {
+      "key": "InfamousGeomancerWall",
+      "source": "dungeons_mobs",
+      "geometry_class": "InfamousGeomancerWallGeometry",
+      "baked_root": true,
+      "external_generator": "tools/convert_bedrock_models.py --manifest design/infamous-additions.json --report design/infamous-conversion-report.json",
+      "clip_owners": {
+        "GEOMANCER_PILLAR_APPEAR": "InfamousGeomancerWallAnimations",
+        "GEOMANCER_PILLAR_DISAPPEAR": "InfamousGeomancerWallAnimations",
+        "GEOMANCER_PILLAR_IDLE": "InfamousGeomancerWallAnimations"
+      },
+      "clip_lengths": {
+        "GEOMANCER_PILLAR_APPEAR": 1.25,
+        "GEOMANCER_PILLAR_DISAPPEAR": 2.0,
+        "GEOMANCER_PILLAR_IDLE": 7.2
+      },
+      "credits": [
+        "Patrigan",
+        "Selected-file authors recorded in design/model-source-audit.json"
+      ],
+      "provenance_manifest": "design/infamous-additions.json",
+      "geometry_source_kind": "converted_original_bedrock_snapshot"
+    },
+    {
+      "key": "InfamousIceChunk",
+      "source": "dungeons_mobs",
+      "geometry_class": "InfamousIceChunkGeometry",
+      "baked_root": true,
+      "external_generator": "tools/convert_bedrock_models.py --manifest design/infamous-additions.json --report design/infamous-conversion-report.json",
+      "clip_owners": {
+        "ICE_CHUNK_FORM": "InfamousIceChunkAnimations",
+        "ICE_CHUNK_IDLE": "InfamousIceChunkAnimations",
+        "ICE_CHUNK_FALL": "InfamousIceChunkAnimations",
+        "ICE_CHUNK_LAND": "InfamousIceChunkAnimations",
+        "ICE_CHUNK_IDLE_UNFORMED": "InfamousIceChunkAnimations"
+      },
+      "clip_lengths": {
+        "ICE_CHUNK_FORM": 2.0,
+        "ICE_CHUNK_IDLE": 7.2,
+        "ICE_CHUNK_FALL": 0.875,
+        "ICE_CHUNK_LAND": 1.125,
+        "ICE_CHUNK_IDLE_UNFORMED": 7.2
+      },
+      "credits": [
+        "Patrigan",
+        "Selected-file authors recorded in design/model-source-audit.json"
+      ],
+      "provenance_manifest": "design/infamous-additions.json",
+      "geometry_source_kind": "converted_original_bedrock_snapshot"
+    },
+    {
+      "key": "InfamousEntangleVine",
+      "source": "dungeons_mobs",
+      "geometry_class": "InfamousEntangleVineGeometry",
+      "baked_root": true,
+      "external_generator": "tools/convert_bedrock_models.py --manifest design/infamous-additions.json --report design/infamous-conversion-report.json",
+      "clip_owners": {
+        "VINE_TRAP_SPAWN": "InfamousEntangleVineAnimations",
+        "VINE_TRAP_IDLE": "InfamousEntangleVineAnimations",
+        "VINE_TRAP_DECAY": "InfamousEntangleVineAnimations",
+        "KELP_TRAP_SPAWN": "InfamousEntangleVineAnimations",
+        "KELP_TRAP_IDLE_PULLING": "InfamousEntangleVineAnimations",
+        "KELP_TRAP_ENSNARE": "InfamousEntangleVineAnimations",
+        "WEB_TRAP_SPAWN": "InfamousEntangleVineAnimations"
+      },
+      "clip_lengths": {
+        "VINE_TRAP_SPAWN": 0.375,
+        "VINE_TRAP_IDLE": 7.2,
+        "VINE_TRAP_DECAY": 1.25,
+        "KELP_TRAP_SPAWN": 0.5,
+        "KELP_TRAP_IDLE_PULLING": 7.2,
+        "KELP_TRAP_ENSNARE": 0.25,
+        "WEB_TRAP_SPAWN": 0.33333
+      },
+      "credits": [
+        "Patrigan",
+        "Selected-file authors recorded in design/model-source-audit.json"
+      ],
+      "provenance_manifest": "design/infamous-additions.json",
+      "geometry_source_kind": "converted_original_bedrock_snapshot"
+    },
+    {
+      "key": "InfamousZombie",
+      "source": "dungeons_mobs",
+      "geometry_class": "InfamousZombieGeometry",
+      "baked_root": false,
+      "external_generator": "manual native wrapper; preserve the supplied Infamous Java source",
+      "clip_owners": {},
+      "credits": [
+        "Copyright (c) 2022 Patrigan and selected source contributors; own wrapper/action changes by Dungeons Alive"
+      ],
+      "provenance_manifest": "design/infamous-additions.json",
+      "geometry_source_kind": "hand_maintained_installed_minecraft_factory_wrapper_with_selected_authored_parts"
+    },
+    {
+      "key": "InfamousMossySkeleton",
+      "source": "dungeons_mobs",
+      "geometry_class": "InfamousMossySkeletonGeometry",
+      "baked_root": false,
+      "external_generator": "manual native wrapper; preserve the supplied Infamous Java source",
+      "clip_owners": {},
+      "credits": [
+        "Copyright (c) 2022 Patrigan and selected source contributors; own wrapper/action changes by Dungeons Alive"
+      ],
+      "provenance_manifest": "design/infamous-additions.json",
+      "geometry_source_kind": "hand_maintained_installed_minecraft_factory_wrapper_with_selected_authored_parts"
+    },
+    {
+      "key": "InfamousIcyCreeper",
+      "source": "dungeons_mobs",
+      "geometry_class": "InfamousIcyCreeperGeometry",
+      "baked_root": false,
+      "external_generator": "manual native wrapper; preserve the supplied Infamous Java source",
+      "clip_owners": {
+        "IDLE": "InfamousIcyCreeperAnimations",
+        "WALK": "InfamousIcyCreeperAnimations",
+        "FUSE": "InfamousIcyCreeperAnimations"
+      },
+      "credits": [
+        "Copyright (c) 2022 Patrigan and selected source contributors; own wrapper/action changes by Dungeons Alive"
+      ],
+      "provenance_manifest": "design/infamous-additions.json",
+      "geometry_source_kind": "hand_maintained_installed_minecraft_factory_wrapper_with_selected_authored_parts"
+    },
+    {
+      "key": "InfamousPiglin",
+      "source": "dungeons_mobs",
+      "geometry_class": "InfamousPiglinGeometry",
+      "baked_root": false,
+      "external_generator": "manual native wrapper; preserve the supplied Infamous Java source",
+      "clip_owners": {
+        "IDLE": "InfamousPiglinAnimations",
+        "HUNTER_IDLE": "InfamousPiglinAnimations",
+        "WALK": "InfamousPiglinAnimations",
+        "HUNTER_WALK": "InfamousPiglinAnimations",
+        "MELEE": "InfamousPiglinAnimations",
+        "CROSSBOW": "InfamousPiglinAnimations",
+        "THROW": "InfamousPiglinAnimations"
+      },
+      "credits": [
+        "Copyright (c) 2022 Patrigan and selected source contributors; own wrapper/action changes by Dungeons Alive"
+      ],
+      "provenance_manifest": "design/infamous-additions.json",
+      "geometry_source_kind": "hand_maintained_installed_minecraft_factory_wrapper_with_selected_authored_parts"
+    },
+    {
+      "key": "InfamousArmoredPiglin",
+      "source": "dungeons_mobs",
+      "geometry_class": "InfamousArmoredPiglinGeometry",
+      "baked_root": false,
+      "external_generator": "manual native wrapper; preserve the supplied Infamous Java source",
+      "clip_owners": {
+        "IDLE": "InfamousPiglinAnimations",
+        "HUNTER_IDLE": "InfamousPiglinAnimations",
+        "WALK": "InfamousPiglinAnimations",
+        "HUNTER_WALK": "InfamousPiglinAnimations",
+        "MELEE": "InfamousPiglinAnimations",
+        "CROSSBOW": "InfamousPiglinAnimations",
+        "THROW": "InfamousPiglinAnimations"
+      },
+      "credits": [
+        "Copyright (c) 2022 Patrigan and selected source contributors; own wrapper/action changes by Dungeons Alive"
+      ],
+      "provenance_manifest": "design/infamous-additions.json",
+      "geometry_source_kind": "hand_maintained_installed_minecraft_factory_wrapper_with_selected_authored_parts"
+    },
+    {
+      "key": "InfamousFungusThrower",
+      "source": "dungeons_mobs",
+      "geometry_class": "InfamousFungusThrowerGeometry",
+      "baked_root": false,
+      "external_generator": "manual native wrapper; preserve the supplied Infamous Java source",
+      "clip_owners": {
+        "IDLE": "InfamousPiglinAnimations",
+        "HUNTER_IDLE": "InfamousPiglinAnimations",
+        "WALK": "InfamousPiglinAnimations",
+        "HUNTER_WALK": "InfamousPiglinAnimations",
+        "MELEE": "InfamousPiglinAnimations",
+        "CROSSBOW": "InfamousPiglinAnimations",
+        "THROW": "InfamousPiglinAnimations"
+      },
+      "credits": [
+        "Copyright (c) 2022 Patrigan and selected source contributors; own wrapper/action changes by Dungeons Alive"
+      ],
+      "provenance_manifest": "design/infamous-additions.json",
+      "geometry_source_kind": "hand_maintained_installed_minecraft_factory_wrapper_with_selected_authored_parts"
+    },
+    {
+      "key": "InfamousArmoredDrowned",
+      "source": "dungeons_mobs",
+      "geometry_class": "InfamousArmoredDrownedGeometry",
+      "baked_root": false,
+      "external_generator": "manual native wrapper; preserve the supplied Infamous Java source",
+      "clip_owners": {},
+      "credits": [
+        "Copyright (c) 2022 Patrigan and selected source contributors; own wrapper/action changes by Dungeons Alive"
+      ],
+      "provenance_manifest": "design/infamous-additions.json",
+      "geometry_source_kind": "hand_maintained_installed_minecraft_factory_wrapper_with_selected_authored_parts"
+    },
+    {
+      "key": "InfamousSunkenSkeleton",
+      "source": "dungeons_mobs",
+      "geometry_class": "InfamousSunkenSkeletonGeometry",
+      "baked_root": false,
+      "external_generator": "manual native wrapper; preserve the supplied Infamous Java source",
+      "clip_owners": {},
+      "credits": [
+        "Copyright (c) 2022 Patrigan and selected source contributors; own wrapper/action changes by Dungeons Alive"
+      ],
+      "provenance_manifest": "design/infamous-additions.json",
+      "geometry_source_kind": "hand_maintained_installed_minecraft_factory_wrapper_with_selected_authored_parts"
+    }
+  ],
+  "models": [
+    {
+      "id": "mage",
+      "catalog_id": "mcd:mage",
+      "asset": "InfamousMage",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/mage_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousMageGeometry",
+      "animation_class": "InfamousMageAnimations",
+      "baked_root": true,
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "idle": "MAGE_IDLE",
+      "walk": {
+        "clip": "MAGE_WALK",
+        "speed": 4,
+        "amplitude": 5
+      },
+      "actions": {
+        "SOUL_BOLT": {
+          "clip": "MAGE_SHOOT",
+          "hit_seconds": 1.0
+        },
+        "VOLLEY": {
+          "clip": "MAGE_THROW",
+          "hit_seconds": 1.25
+        },
+        "TELEPORT": {
+          "clip": "MAGE_VANISH",
+          "hit_seconds": 0.65
+        }
+      },
+      "hidden_bones": [
+        "illagerArms",
+        "armorIllagerLeftArm",
+        "armorIllagerRightArm",
+        "armorIllagerArmsMiddle"
+      ],
+      "look": {
+        "bone": "bipedHead",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "bedrock_source_root/bipedBody/bipedArms/bipedArmRight/bipedHandRight",
+        "left": "bedrock_source_root/bipedBody/bipedArms/bipedArmLeft/bipedHandLeft",
+        "palm_anchor": true
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 34,
+        "damage": 5,
+        "speed": 0.23,
+        "width": 0.7,
+        "height": 2,
+        "attacks": [
+          "SOUL_BOLT",
+          "VOLLEY",
+          "TELEPORT"
+        ]
+      },
+      "notes": [
+        "Source creature Mage is an additional author-mod candidate, absent from the existing 436-row catalog. Do not quietly count it as an already catalogued original Dungeons species."
+      ]
+    },
+    {
+      "id": "geomancer_bomb",
+      "catalog_id": "mcd:geomancer_bomb",
+      "asset": "InfamousGeomancerBomb",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/constructs/geomancer_bomb.png",
+      "scale": 1,
+      "geometry_class": "InfamousGeomancerBombGeometry",
+      "animation_class": "InfamousGeomancerBombAnimations",
+      "baked_root": true,
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "entity_scope": "hazard_or_summoned_construct; not an ordinary wandering hostile",
+      "idle": "GEOMANCER_PILLAR_IDLE",
+      "gestures": {
+        "spawn": "GEOMANCER_PILLAR_APPEAR",
+        "despawn": "GEOMANCER_PILLAR_DISAPPEAR"
+      }
+    },
+    {
+      "id": "geomancer_wall",
+      "catalog_id": "mcd:geomancer_wall",
+      "asset": "InfamousGeomancerWall",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/constructs/geomancer_wall.png",
+      "scale": 1,
+      "geometry_class": "InfamousGeomancerWallGeometry",
+      "animation_class": "InfamousGeomancerWallAnimations",
+      "baked_root": true,
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "entity_scope": "hazard_or_summoned_construct; not an ordinary wandering hostile",
+      "idle": "GEOMANCER_PILLAR_IDLE",
+      "gestures": {
+        "spawn": "GEOMANCER_PILLAR_APPEAR",
+        "despawn": "GEOMANCER_PILLAR_DISAPPEAR"
+      }
+    },
+    {
+      "id": "ice_chunk",
+      "catalog_id": "mcd:ice_chunk",
+      "asset": "InfamousIceChunk",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/ice_chunk.png",
+      "scale": 1,
+      "geometry_class": "InfamousIceChunkGeometry",
+      "animation_class": "InfamousIceChunkAnimations",
+      "baked_root": true,
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "entity_scope": "hazard_or_summoned_construct; not an ordinary wandering hostile",
+      "idle": "ICE_CHUNK_IDLE",
+      "gestures": {
+        "form": "ICE_CHUNK_FORM",
+        "fall": "ICE_CHUNK_FALL",
+        "impact": "ICE_CHUNK_LAND"
+      }
+    },
+    {
+      "id": "entangle_vine",
+      "catalog_id": "mcd:entangle_vine",
+      "asset": "InfamousEntangleVine",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/vine_trap.png",
+      "scale": 1,
+      "geometry_class": "InfamousEntangleVineGeometry",
+      "animation_class": "InfamousEntangleVineAnimations",
+      "baked_root": true,
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "entity_scope": "hazard_or_summoned_construct; not an ordinary wandering hostile",
+      "idle": "VINE_TRAP_IDLE",
+      "gestures": {
+        "spawn": "VINE_TRAP_SPAWN",
+        "despawn": "VINE_TRAP_DECAY"
+      },
+      "unused_source_clips": [
+        "KELP_TRAP_SPAWN",
+        "KELP_TRAP_IDLE_PULLING",
+        "KELP_TRAP_ENSNARE",
+        "WEB_TRAP_SPAWN"
+      ]
+    },
+    {
+      "id": "frozen_zombie",
+      "catalog_id": "mcd:frozen_zombie",
+      "asset": "InfamousZombie",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/zombie/frozen_zombie.png",
+      "scale": 1,
+      "geometry_class": "InfamousZombieGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "zombie",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [],
+      "cem_driver": "zombie",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "MELEE"
+        ]
+      },
+      "profile_proposal_note": "SKELETON is only the available runtime biped grouping; taxonomic family remains zombie. Do not present this temporary code choice as a species claim."
+    },
+    {
+      "id": "jungle_zombie",
+      "catalog_id": "mcd:jungle_zombie",
+      "asset": "InfamousZombie",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/zombie/jungle_zombie.png",
+      "scale": 1,
+      "geometry_class": "InfamousZombieGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "zombie",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [],
+      "cem_driver": "zombie",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "MELEE"
+        ]
+      },
+      "profile_proposal_note": "SKELETON is only the available runtime biped grouping; taxonomic family remains zombie. Do not present this temporary code choice as a species claim."
+    },
+    {
+      "id": "mossy_skeleton",
+      "catalog_id": "mcd:mossy_skeleton",
+      "asset": "InfamousMossySkeleton",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/skeleton/mossy_skeleton.png",
+      "scale": 1,
+      "geometry_class": "InfamousMossySkeletonGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "skeleton",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [],
+      "cem_driver": "skeleton",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "VOLLEY"
+        ]
+      },
+      "default_equipment": {
+        "mainhand": "minecraft:bow"
+      }
+    },
+    {
+      "id": "icy_creeper",
+      "catalog_id": "mcd:icy_creeper",
+      "asset": "InfamousIcyCreeper",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/creeper/icy_creeper.png",
+      "scale": 1,
+      "geometry_class": "InfamousIcyCreeperGeometry",
+      "animation_class": "InfamousIcyCreeperAnimations",
+      "baked_root": false,
+      "visual_family": "creeper",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "The reference animation is a fuse swell, not a melee swing. A real icy explosion/freeze gameplay action must be implemented; no FIRE_FIELD binding is supplied because fire damage is not completed icy behavior."
+      ],
+      "idle": "IDLE",
+      "walk": {
+        "clip": "WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "gestures": {
+        "fuse": "FUSE"
+      },
+      "required_gameplay_action": {
+        "kind": "ICY_EXPLOSION",
+        "clip": "FUSE",
+        "hit_seconds": 1.25
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 40,
+        "pitch": 25
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "required_new_family": "CREEPER",
+        "health": 20,
+        "damage": 8,
+        "speed": 0.22,
+        "width": 0.6,
+        "height": 1.7,
+        "attacks_pending": [
+          "ICY_EXPLOSION"
+        ],
+        "registration_ready": false
+      }
+    },
+    {
+      "id": "piglin_hunter",
+      "catalog_id": "mcd:piglin_hunter",
+      "asset": "InfamousPiglin",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/piglin/piglin_hunter.png",
+      "scale": 1,
+      "geometry_class": "InfamousPiglinGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [],
+      "idle": "HUNTER_IDLE",
+      "walk": {
+        "clip": "HUNTER_WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        },
+        "VOLLEY": {
+          "clip": "CROSSBOW",
+          "hit_seconds": 1.0
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:crossbow"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 24,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE",
+          "VOLLEY"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "zombified_piglin_hunter",
+      "catalog_id": "mcd:zombified_piglin_hunter",
+      "asset": "InfamousPiglin",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/piglin/zombified_piglin_hunter.png",
+      "scale": 1,
+      "geometry_class": "InfamousPiglinGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [],
+      "idle": "HUNTER_IDLE",
+      "walk": {
+        "clip": "HUNTER_WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        },
+        "VOLLEY": {
+          "clip": "CROSSBOW",
+          "hit_seconds": 1.0
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:crossbow"
+      },
+      "hidden_bones": [
+        "right_ear"
+      ],
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 24,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE",
+          "VOLLEY"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "armored_piglin",
+      "catalog_id": "mcd:armored_piglin",
+      "asset": "InfamousArmoredPiglin",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/gold_armored_piglin_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousArmoredPiglinGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Source skin selected by armor material and hunter status; matching separate authored helmet texture retained.",
+        "Helmet geometry matches the installed PiglinRenderer outer HumanoidArmorModel head (1.02 inflation), attached to the animated piglin head."
+      ],
+      "palette_variant_of": "armored_piglin",
+      "idle": "IDLE",
+      "walk": {
+        "clip": "WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:golden_sword"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 30,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "netherite_armored_piglin",
+      "catalog_id": "mcd:armored_piglin",
+      "asset": "InfamousArmoredPiglin",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/netherite_armored_piglin_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousArmoredPiglinGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Source skin selected by armor material and hunter status; matching separate authored helmet texture retained.",
+        "Helmet geometry matches the installed PiglinRenderer outer HumanoidArmorModel head (1.02 inflation), attached to the animated piglin head."
+      ],
+      "palette_variant_of": "armored_piglin",
+      "idle": "IDLE",
+      "walk": {
+        "clip": "WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:golden_sword"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 30,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "armored_piglin_hunter",
+      "catalog_id": "mcd:armored_piglin_hunter",
+      "asset": "InfamousArmoredPiglin",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/gold_armored_piglin_hunter_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousArmoredPiglinGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Source skin selected by armor material and hunter status; matching separate authored helmet texture retained.",
+        "Helmet geometry matches the installed PiglinRenderer outer HumanoidArmorModel head (1.02 inflation), attached to the animated piglin head."
+      ],
+      "palette_variant_of": "armored_piglin_hunter",
+      "idle": "HUNTER_IDLE",
+      "walk": {
+        "clip": "HUNTER_WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        },
+        "VOLLEY": {
+          "clip": "CROSSBOW",
+          "hit_seconds": 1.0
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:crossbow"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 30,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE",
+          "VOLLEY"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "netherite_armored_piglin_hunter",
+      "catalog_id": "mcd:armored_piglin_hunter",
+      "asset": "InfamousArmoredPiglin",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/netherite_armored_piglin_hunter_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousArmoredPiglinGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Source skin selected by armor material and hunter status; matching separate authored helmet texture retained.",
+        "Helmet geometry matches the installed PiglinRenderer outer HumanoidArmorModel head (1.02 inflation), attached to the animated piglin head."
+      ],
+      "palette_variant_of": "armored_piglin_hunter",
+      "idle": "HUNTER_IDLE",
+      "walk": {
+        "clip": "HUNTER_WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        },
+        "VOLLEY": {
+          "clip": "CROSSBOW",
+          "hit_seconds": 1.0
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:crossbow"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 30,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE",
+          "VOLLEY"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "fungus_thrower",
+      "catalog_id": "mcd:fungus_thrower",
+      "asset": "InfamousFungusThrower",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/fungus_thrower_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousFungusThrowerGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Exact authored FungusSackModel box and source setupAnim y=4.3611 preserved; backpack follows body as an explicit child."
+      ],
+      "idle": "IDLE",
+      "walk": {
+        "clip": "WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        },
+        "VOLLEY": {
+          "clip": "THROW",
+          "hit_seconds": 0.9
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:warped_fungus"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 24,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE",
+          "VOLLEY"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "zombified_fungus_thrower",
+      "catalog_id": "mcd:zombified_fungus_thrower",
+      "asset": "InfamousFungusThrower",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/zombified_fungus_thrower_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousFungusThrowerGeometry",
+      "animation_class": "InfamousPiglinAnimations",
+      "baked_root": false,
+      "visual_family": "piglin",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Exact authored FungusSackModel box and source setupAnim y=4.3611 preserved; backpack follows body as an explicit child."
+      ],
+      "idle": "IDLE",
+      "walk": {
+        "clip": "WALK",
+        "speed": 3,
+        "amplitude": 5
+      },
+      "actions": {
+        "MELEE": {
+          "clip": "MELEE",
+          "hit_seconds": 0.7
+        },
+        "VOLLEY": {
+          "clip": "THROW",
+          "hit_seconds": 0.9
+        }
+      },
+      "look": {
+        "bone": "head",
+        "yaw": 35,
+        "pitch": 20
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "bone_motions": [
+        {
+          "kind": "oscillate",
+          "bone": "left_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.3,
+          "phase": 180
+        },
+        {
+          "kind": "oscillate",
+          "bone": "right_ear",
+          "axis": "z",
+          "amplitude": 4.5,
+          "speed": 0.25,
+          "phase": 0
+        }
+      ],
+      "default_equipment": {
+        "mainhand": "minecraft:warped_fungus"
+      },
+      "hidden_bones": [
+        "right_ear"
+      ],
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "ILLAGER",
+        "health": 24,
+        "damage": 6,
+        "speed": 0.24,
+        "width": 0.7,
+        "height": 1.95,
+        "attacks": [
+          "MELEE",
+          "VOLLEY"
+        ]
+      },
+      "profile_proposal_note": "Family value is a temporary existing-code grouping, not the biological claim that piglins are illagers; add a piglin family if needed."
+    },
+    {
+      "id": "armored_drowned",
+      "catalog_id": "mcd:armored_drowned",
+      "asset": "InfamousArmoredDrowned",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/seaweed_armored_drowned_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousArmoredDrownedGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "zombie",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Matching authored base/outer PNG pair; 0.25-deformed Drowned outer shell is separately attached to the corresponding animated limbs, with the same source UV layout.",
+        "Trident throw and swimming require own gameplay/pose integration; the dry-land baseline is not full submerged behavior."
+      ],
+      "palette_variant_of": "armored_drowned",
+      "cem_driver": "zombie",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "MELEE"
+        ]
+      },
+      "profile_proposal_note": "SKELETON is only the available runtime biped grouping; taxonomic family remains zombie. Do not present this temporary code choice as a species claim."
+    },
+    {
+      "id": "pale_armored_drowned",
+      "catalog_id": "mcd:armored_drowned",
+      "asset": "InfamousArmoredDrowned",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/pale_armored_drowned_complete.png",
+      "scale": 1,
+      "geometry_class": "InfamousArmoredDrownedGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "zombie",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Matching authored base/outer PNG pair; 0.25-deformed Drowned outer shell is separately attached to the corresponding animated limbs, with the same source UV layout.",
+        "Trident throw and swimming require own gameplay/pose integration; the dry-land baseline is not full submerged behavior."
+      ],
+      "palette_variant_of": "armored_drowned",
+      "cem_driver": "zombie",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "MELEE"
+        ]
+      },
+      "profile_proposal_note": "SKELETON is only the available runtime biped grouping; taxonomic family remains zombie. Do not present this temporary code choice as a species claim."
+    },
+    {
+      "id": "sunken_skeleton",
+      "catalog_id": "mcd:sunken_skeleton",
+      "asset": "InfamousSunkenSkeleton",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/ocean/sunken_skeleton.png",
+      "scale": 1,
+      "geometry_class": "InfamousSunkenSkeletonGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "skeleton",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Authored coral geometry retained and parented to head/right leg so it follows motion. Empty redundant hat prevents overlapping duplicate coral shell.",
+        "The upstream armored palette selector was commented out; this explicit model definition enables the verified red/yellow author-supplied palettes instead."
+      ],
+      "cem_driver": "skeleton",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "VOLLEY"
+        ]
+      },
+      "default_equipment": {
+        "mainhand": "minecraft:bow"
+      }
+    },
+    {
+      "id": "armored_sunken_skeleton",
+      "catalog_id": "mcd:armored_sunken_skeleton",
+      "asset": "InfamousSunkenSkeleton",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/ocean/red_coral_armored_sunken_skeleton.png",
+      "scale": 1,
+      "geometry_class": "InfamousSunkenSkeletonGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "skeleton",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Authored coral geometry retained and parented to head/right leg so it follows motion. Empty redundant hat prevents overlapping duplicate coral shell.",
+        "The upstream armored palette selector was commented out; this explicit model definition enables the verified red/yellow author-supplied palettes instead."
+      ],
+      "palette_variant_of": "armored_sunken_skeleton",
+      "cem_driver": "skeleton",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "VOLLEY"
+        ]
+      },
+      "default_equipment": {
+        "mainhand": "minecraft:bow"
+      }
+    },
+    {
+      "id": "yellow_coral_armored_sunken_skeleton",
+      "catalog_id": "mcd:armored_sunken_skeleton",
+      "asset": "InfamousSunkenSkeleton",
+      "texture": "dungeonsalive:textures/entity/reference/infamous/entity/ocean/yellow_coral_armored_sunken_skeleton.png",
+      "scale": 1,
+      "geometry_class": "InfamousSunkenSkeletonGeometry",
+      "animation_class": null,
+      "baked_root": false,
+      "visual_family": "skeleton",
+      "runtime_status": "visual_input_not_yet_registered_or_render_accepted",
+      "notes": [
+        "Authored coral geometry retained and parented to head/right leg so it follows motion. Empty redundant hat prevents overlapping duplicate coral shell.",
+        "The upstream armored palette selector was commented out; this explicit model definition enables the verified red/yellow author-supplied palettes instead."
+      ],
+      "palette_variant_of": "armored_sunken_skeleton",
+      "cem_driver": "skeleton",
+      "host_aliases": {
+        "head": "head",
+        "body": "body",
+        "left_arm": "left_arm",
+        "right_arm": "right_arm",
+        "left_leg": "left_leg",
+        "right_leg": "right_leg",
+        "headwear": "hat"
+      },
+      "hand_items": {
+        "right": "right_arm",
+        "left": "left_arm"
+      },
+      "profile_proposal": {
+        "category": "REGULAR",
+        "family": "SKELETON",
+        "health": 26,
+        "damage": 5,
+        "speed": 0.22,
+        "width": 0.65,
+        "height": 1.95,
+        "attacks": [
+          "VOLLEY"
+        ]
+      },
+      "default_equipment": {
+        "mainhand": "minecraft:bow"
+      }
+    }
+  ],
+  "merge_notice": "Proposed definitions only. Parent merges registries/index; this manifest does not register entities. Native wrappers are hand-maintained: external_generator tells the existing index importer to preserve them, not to execute a new generator.",
+  "acceptance": "Source hashes, atlases and converter channels validated. Compilation and actual client model/action acceptance belong to the integrated runtime; not claimed by this staging manifest."
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "project": "Dungeons Alive",
+  "assets": [
+    {
+      "files": [
+        "src/main/resources/assets/dungeonsalive/textures/particle/butterfly_open.png",
+        "src/main/resources/assets/dungeonsalive/textures/particle/butterfly_half.png",
+        "src/main/resources/assets/dungeonsalive/textures/particle/butterfly_closed.png"
+      ],
+      "origin": "Independently generated pixel art for this project",
+      "generator": "tools/generate_ambient_textures.py",
+      "license": "MIT",
+      "original_dungeons_extract": false
+    },
+    {
+      "directory": "src/main/resources/assets/dungeonsalive/textures/particle",
+      "origin": "All ambient particle textures in this directory are independently generated for this project",
+      "generator": "tools/generate_ambient_textures.py",
+      "license": "MIT",
+      "original_dungeons_extract": false
+    },
+    {
+      "files": [
+        "src/main/resources/assets/dungeonsalive/textures/item/wind_horn.png"
+      ],
+      "origin": "Independently generated horn icon; own interpretation of an artifact concept",
+      "generator": "tools/generate_item_textures.py",
+      "license": "MIT",
+      "original_dungeons_extract": false
+    },
+    {
+      "files": [
+        "src/main/resources/data/dungeonsalive/structure/gametest_empty.nbt"
+      ],
+      "origin": "Independently generated empty GameTest structure",
+      "license": "MIT",
+      "original_dungeons_extract": false
+    },
+    {
+      "paths": [
+        "src/main/resources/assets/dungeonsalive/textures/entity"
+      ],
+      "origin": "Own procedural pixel atlases for38 mob profiles and one magic projectile; Java geometry written for this project",
+      "generator": "tools/generate_mob_resources.py",
+      "license": "MIT",
+      "original_dungeons_extract": false,
+      "actions_and_stuff_extract": false
+    },
+    {
+      "paths": [
+        "src/main/resources/assets/dungeonsalive/textures/entity/villager/profession",
+        "src/main/resources/assets/dungeonsalive/textures/block"
+      ],
+      "origin": "Own profession overlays and tabletop cloth; vanilla model and skin referenced only at runtime",
+      "generator": "tools/generate_village_assets.py",
+      "license": "MIT",
+      "original_dungeons_extract": false,
+      "actions_and_stuff_extract": false
+    },
+    {
+      "paths": [
+        "src/main/resources/assets/dungeonsalive/textures/item/*_seal.png"
+      ],
+      "origin": "Own encounter seal sprites for voluntary sandbox encounters",
+      "generator": "tools/generate_encounter_resources.py",
+      "license": "MIT",
+      "original_dungeons_extract": false,
+      "actions_and_stuff_extract": false
+    },
+    {
+      "paths": [
+        "src/main/resources/assets/dungeonsalive/textures/entity/redstone_monstrosity/stone.png",
+        "src/main/resources/assets/dungeonsalive/textures/entity/redstone_monstrosity/glow.png",
+        "design/models/redstone_monstrosity.bbmodel"
+      ],
+      "origin": "Individually authored boss geometry, UVs, pixel textures and emissive mask; official images were viewed as visual references only.",
+      "generator": "tools/generate_redstone_monstrosity.py",
+      "license": "MIT",
+      "visual_reference_urls": [
+        "https://www.minecraft.net/en-us/article/what-s-it-be-minecraft-mob-",
+        "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/WILBMM_RedstoneMonstrosity.png",
+        "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/game-characters/WILBMM_RedstonneMonstrosityheadshot.jpg"
+      ],
+      "original_dungeons_extract": false,
+      "actions_and_stuff_extract": false,
+      "runtime_animation_source": "src/main/java/de/laugenbreze/dungeonsalive/client/entity/RedstoneMonstrosityModel.java",
+      "blockbench_note": "Geometry/UV/texture/rig export; no imported or exported keyframe clips."
+    },
+    {
+      "files": [
+        "src/main/resources/assets/dungeonsalive/models/block/key_gate_lower.json",
+        "src/main/resources/assets/dungeonsalive/models/block/key_gate_upper.json",
+        "src/main/resources/assets/dungeonsalive/models/item/key_gate.json",
+        "src/main/resources/assets/dungeonsalive/models/block/diamond_key_gate_lower.json",
+        "src/main/resources/assets/dungeonsalive/models/block/diamond_key_gate_upper.json",
+        "src/main/resources/assets/dungeonsalive/models/item/diamond_key_gate.json"
+      ],
+      "origin": "Own block geometry and item display transforms; references installed minecraft: iron-door, iron, gold and diamond textures without copying PNGs.",
+      "generator": "tools/generate_key_gate_resources.py",
+      "license": "MIT",
+      "original_dungeons_extract": false,
+      "native_visual_review": false
+    }
+  ],
+  "runtime_references_only": [
+    "minecraft:item/writable_book",
+    "Minecraft RAID_HORN sound",
+    "Minecraft GUST and CLOUD particles",
+    "Minecraft VillagerModel and villager clothing/profession layers via APIs",
+    "Minecraft item rendering for temporary visual work props",
+    "Minecraft block/item textures by ResourceLocation; no bundled vanilla assets"
+  ],
+  "optional_projects": "profiles/optional-mods.json; third-party binaries and their assets are not redistributed",
+  "model_source_files": [
+    "src/main/java/de/laugenbreze/dungeonsalive/client/entity/DungeonMobModel.java",
+    "src/main/java/de/laugenbreze/dungeonsalive/client/village/AnimatedVillagerModel.java",
+    "src/main/java/de/laugenbreze/dungeonsalive/client/entity/RedstoneMonstrosityGeometry.java",
+    "src/main/java/de/laugenbreze/dungeonsalive/client/entity/RedstoneMonstrosityModel.java"
+  ]
+}

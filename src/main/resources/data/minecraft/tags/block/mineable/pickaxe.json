@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "dungeonsalive:ancient_bricks",
+    "dungeonsalive:carved_ancient_bricks",
+    "dungeonsalive:diamond_key_gate",
+    "dungeonsalive:key_gate",
+    "dungeonsalive:wayfinder_stone"
+  ]
+}

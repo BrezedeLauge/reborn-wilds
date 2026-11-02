@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#dungeonsalive:has_wildlife/wooly_cow",
+  "spawners": [
+    {
+      "type": "dungeonsalive:wooly_cow",
+      "weight": 6,
+      "minCount": 3,
+      "maxCount": 5
+    }
+  ]
+}

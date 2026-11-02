@@ -1,0 +1,6 @@
+{
+  "parent": "dungeonsalive:item/power_bow",
+  "textures": {
+    "layer0": "dungeonsalive:item/gear/power_bow_pulling_1"
+  }
+}

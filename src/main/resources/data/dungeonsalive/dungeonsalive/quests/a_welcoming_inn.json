@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "title": "Ein Haus für Reisende",
+  "description": "Baue dein eigenes Gasthaus. Markiere mit dem Gasthausplan zuerst das Pult, dann zwei gegenüberliegende Raumecken (Boden bis Decke), den freien Eingang, eine eigene Vorratskiste oder ein Fass und einen Ankunftspunkt außerhalb. Bestätige am Pult. Eine zugängliche untere Holzstufe als Sitzbank, ein Bett, einfache Nahrung und ein echter Weg ermöglichen den Besuch. Der Gast muss selbst ankommen; Zimmer und Zugang werden bei der Abholung erneut geprüft. Du entscheidest über Form, Ort und Brückenbau.",
+  "icon": "dungeonsalive:inn_ledger",
+  "order": 45,
+  "prerequisites": [],
+  "objectives": [
+    {
+      "id": "usable_room",
+      "type": "world_state",
+      "target": "dungeonsalive:inn_ready",
+      "amount": 1,
+      "label": "Eigenes Gasthaus mit nutzbarem Sitz, Bett und Vorrat"
+    },
+    {
+      "id": "real_access",
+      "type": "world_state",
+      "target": "dungeonsalive:inn_connected",
+      "amount": 1,
+      "label": "Begehbarer Weg vom Ankunftspunkt zum Eingang"
+    },
+    {
+      "id": "first_guest",
+      "type": "world_state",
+      "target": "dungeonsalive:guest_arrived",
+      "amount": 1,
+      "label": "Ein echter Gast ist angekommen"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minecraft:lantern",
+      "count": 4
+    },
+    {
+      "item": "minecraft:emerald",
+      "count": 6
+    }
+  ],
+  "experience": 40
+}

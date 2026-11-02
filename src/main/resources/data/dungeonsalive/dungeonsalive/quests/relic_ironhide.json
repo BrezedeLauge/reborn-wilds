@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "title": "Standhalten",
+  "description": "Bereite dich auf schwere Begegnungen vor. Die Materialien werden nur geprüft und bleiben bei dir.",
+  "icon": "dungeonsalive:iron_hide_amulet",
+  "order": 520,
+  "prerequisites": [
+    "dungeonsalive:relic_supplies"
+  ],
+  "objectives": [
+    {
+      "id": "iron_ingot",
+      "type": "collect_item",
+      "target": "minecraft:iron_ingot",
+      "amount": 24,
+      "label": "Eisenbarren im Inventar"
+    },
+    {
+      "id": "leather",
+      "type": "collect_item",
+      "target": "minecraft:leather",
+      "amount": 8,
+      "label": "Leder im Inventar"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "dungeonsalive:iron_hide_amulet",
+      "count": 1
+    }
+  ],
+  "experience": 50
+}

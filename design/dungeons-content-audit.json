@@ -1,0 +1,2162 @@
+{
+  "schema_version": 1,
+  "audited_on": "2026-11-02",
+  "purpose": "Optional integration facts only. No foreign binaries, textures, models, animations, or implementation code are included.",
+  "status": "static_metadata_and_declared_registry_audit_only",
+  "project": {
+    "name": "Dungeons Content",
+    "actual_mod_id": "duneons",
+    "license_declared": "All Rights Reserved",
+    "minecraft_version": "1.21.1",
+    "loader": "neoforge",
+    "mod_version": "1.19",
+    "modrinth_project_id": "R0ToJjk1",
+    "modrinth_version_id": "iyRGzLcx",
+    "curseforge_project_id": 423533,
+    "curseforge_file_id": 7212076,
+    "published": "2025-11-11T21:43:35.990517Z"
+  },
+  "artifact": {
+    "filename": "dungeons_1.19_mc1.21.1.jar",
+    "size_bytes": 69282814,
+    "sha1": "be213ca00321dd212de613f4b9fd48923bb470a1",
+    "sha512": "f5f79f9b95add1585ed18c91384682c0c08fc5dd54da79276635e379693192db1823a2a4a14825ab788d7a0771f2a7eecec2a08c6a8b0f1bf33d9bae853ec795",
+    "hash_matches_author_api": true,
+    "download_url": "https://cdn.modrinth.com/data/R0ToJjk1/versions/iyRGzLcx/dungeons_1.19_mc1.21.1.jar",
+    "bundled_with_dungeons_alive": false
+  },
+  "sources": [
+    {
+      "id": "author_cf_file",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/minecraft-dungeons-content/files/7212076",
+      "tier": "primary"
+    },
+    {
+      "id": "author_modrinth",
+      "url": "https://modrinth.com/mod/dungeons-content",
+      "tier": "primary"
+    },
+    {
+      "id": "author_api",
+      "url": "https://api.modrinth.com/v2/version/iyRGzLcx",
+      "tier": "primary"
+    },
+    {
+      "id": "author_binary",
+      "url": "https://cdn.modrinth.com/data/R0ToJjk1/versions/iyRGzLcx/dungeons_1.19_mc1.21.1.jar",
+      "tier": "primary",
+      "resources_examined": [
+        "META-INF/neoforge.mods.toml",
+        "net/mde/duneons/init/DuneonsModEntities.class",
+        "assets/duneons/lang/en_us.json"
+      ]
+    }
+  ],
+  "loader_metadata": {
+    "source": "META-INF/neoforge.mods.toml",
+    "mod_loader": "javafml",
+    "loader_version": "[4,)",
+    "dependencies_as_declared": [
+      {
+        "modId": "neoforge",
+        "type": "required",
+        "versionRange": "[21.1.65,)",
+        "ordering": "AFTER",
+        "side": "BOTH"
+      },
+      {
+        "modId": "minecraft",
+        "type": "required",
+        "versionRange": "[1.21.1]",
+        "ordering": "AFTER",
+        "side": "BOTH"
+      },
+      {
+        "modId": "geckolib",
+        "type": "required",
+        "versionRange": "[0,)",
+        "ordering": "NONE",
+        "side": "BOTH"
+      },
+      {
+        "modId": "geckolib",
+        "type": "optional",
+        "versionRange": "[0,)",
+        "ordering": "NONE",
+        "side": "BOTH"
+      },
+      {
+        "modId": "geckolib",
+        "type": "optional",
+        "versionRange": "[0,)",
+        "ordering": "NONE",
+        "side": "BOTH"
+      }
+    ],
+    "legacy_forge_metadata_also_present": true
+  },
+  "findings": [
+    {
+      "id": "namespace_spelling",
+      "fact": "The entity registry namespace is duneons, not dungeons or dungeons_content.",
+      "evidence": "Both NeoForge metadata and DeferredRegister.create in the entity class use duneons."
+    },
+    {
+      "id": "dependency_conflict",
+      "fact": "The file declares GeckoLib as required once and optional twice. The author API has an empty dependency list; the changelog suggests GeckoLib is no longer needed.",
+      "decision": "Treat the required dependency in the exact NeoForge file as unresolved installation requirement. Do not assume GeckoLib can be omitted. Do not alter the foreign file to remove it."
+    },
+    {
+      "id": "static_not_runtime",
+      "fact": "250 distinct entity IDs are statically passed to DeferredRegister, with the same namespace and helper method.",
+      "limitation": "No joint launch or loaded-registry dump was performed. Registration success, attributes, rendering, spawning, persistence, quest integration and multiplayer are not certified."
+    },
+    {
+      "id": "not_mob_count",
+      "fact": "The list includes projectiles, temporary attack helpers, alternate boss states, scenery and control entities.",
+      "limitation": "250 registrations do not mean 250 different creature species or complete Dungeons coverage."
+    },
+    {
+      "id": "author_server_caveat",
+      "fact": "The author project description does not recommend installing the mod on a server.",
+      "decision": "Keep optional and isolate a future compatibility trial in a fresh test instance. Dungeons Alive must still load without it."
+    }
+  ],
+  "verification": {
+    "method": "javap -p -c of the public author JAR; inspect static initializer string arguments and register(String, EntityType.Builder) forwarding method; correlate optional translation-key presence. No source reimplementation was copied.",
+    "class": "net.mde.duneons.init.DuneonsModEntities",
+    "registry_type": "minecraft:entity_type",
+    "namespace": "duneons",
+    "register_call_count": 250,
+    "unique_id_count": 250,
+    "category_counts": {
+      "AMBIENT": 6,
+      "CREATURE": 25,
+      "MISC": 43,
+      "MONSTER": 168,
+      "UNDERGROUND_WATER_CREATURE": 2,
+      "WATER_AMBIENT": 1,
+      "WATER_CREATURE": 5
+    },
+    "projectile_suffix_count": 43,
+    "loaded_registry_verified": false,
+    "joint_version_matrix_tested": false,
+    "commands_executed_by_audit": [
+      "read public version API",
+      "download exact public JAR to temporary inspection directory",
+      "verify SHA-512",
+      "read NeoForge TOML",
+      "javap entity-registration class",
+      "parse and count constant register arguments"
+    ]
+  },
+  "integration_next_steps": [
+    "Choose and pin a GeckoLib build compatible with NeoForge 1.21.1, based on its author metadata.",
+    "Start a separate disposable test world with exactly the pinned binaries; preserve the actual loader log and registry dump.",
+    "Confirm entity IDs in the loaded registry before adding optional quest targets or summon buttons.",
+    "Check dedicated server startup, client rendering, save/reload and duplicate encounter spawns.",
+    "Create an explicit catalog-to-external-entity mapping only after visual and behavior review; names alone do not prove a faithful port."
+  ],
+  "entity_declarations": [
+    {
+      "registry_id": "duneons:pigchest",
+      "field": "PIGCHEST",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:mossyskeleton",
+      "field": "MOSSYSKELETON",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:woolycow",
+      "field": "WOOLYCOW",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:woolycowsheared",
+      "field": "WOOLYCOWSHEARED",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:sheepgreen",
+      "field": "SHEEPGREEN",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:sheepblue",
+      "field": "SHEEPBLUE",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:elevatormob",
+      "field": "ELEVATORMOB",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:ancientmine",
+      "field": "ANCIENTMINE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:perfectformammo",
+      "field": "PERFECTFORMAMMO",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:mines",
+      "field": "MINES",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:voidhole",
+      "field": "VOIDHOLE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:giftminecart",
+      "field": "GIFTMINECART",
+      "minecraft_mob_category": "AMBIENT",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:wagon",
+      "field": "WAGON",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:llama",
+      "field": "LLAMA",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:wolf",
+      "field": "WOLF",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:vengefulheartvoid",
+      "field": "VENGEFULHEARTVOID",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:redsheep",
+      "field": "REDSHEEP",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:abominationsleep",
+      "field": "ABOMINATIONSLEEP",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:poisonquillvine",
+      "field": "POISONQUILLVINE",
+      "minecraft_mob_category": "AMBIENT",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:leaper",
+      "field": "LEAPER",
+      "minecraft_mob_category": "AMBIENT",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:whisperer",
+      "field": "WHISPERER",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:jungleabomination",
+      "field": "JUNGLEABOMINATION",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:runebeacon",
+      "field": "RUNEBEACON",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:wickedwraith",
+      "field": "WICKEDWRAITH",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:crownwraith",
+      "field": "CROWNWRAITH",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:frozenzombie",
+      "field": "FROZENZOMBIE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:wickedwraithattack",
+      "field": "WICKEDWRAITHATTACK",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:wraithwretchednoactive",
+      "field": "WRAITHWRETCHEDNOACTIVE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:babyghast",
+      "field": "BABYGHAST",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:piglinthrower",
+      "field": "PIGLINTHROWER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:wildfire",
+      "field": "WILDFIRE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:whispererwave",
+      "field": "WHISPERERWAVE",
+      "minecraft_mob_category": "WATER_CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:windcaller",
+      "field": "WINDCALLER",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:mountaineer",
+      "field": "MOUNTAINEER",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:squallgolemsleep",
+      "field": "SQUALLGOLEMSLEEP",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:squallgolemactivate",
+      "field": "SQUALLGOLEMACTIVATE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:squallgolem",
+      "field": "SQUALLGOLEM",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:tempestgolemsleep",
+      "field": "TEMPESTGOLEMSLEEP",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:tempestgolem",
+      "field": "TEMPESTGOLEM",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:drownedking",
+      "field": "DROWNEDKING",
+      "minecraft_mob_category": "WATER_CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:ancientguardiansleep",
+      "field": "ANCIENTGUARDIANSLEEP",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:ancientguardian",
+      "field": "ANCIENTGUARDIAN",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:anemonepoison",
+      "field": "ANEMONEPOISON",
+      "minecraft_mob_category": "WATER_CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:sunkenskeleton",
+      "field": "SUNKENSKELETON",
+      "minecraft_mob_category": "WATER_CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:slimetropical",
+      "field": "SLIMETROPICAL",
+      "minecraft_mob_category": "WATER_CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:endlinge",
+      "field": "ENDLINGE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:snareling",
+      "field": "SNARELING",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:blastling",
+      "field": "BLASTLING",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:seravex",
+      "field": "SERAVEX",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:endersent",
+      "field": "ENDERSENT",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:enderavatarattack",
+      "field": "ENDERAVATARATTACK",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:enderavatarspider",
+      "field": "ENDERAVATARSPIDER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:archvessel",
+      "field": "ARCHVESSEL",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:heartvengeful",
+      "field": "HEARTVENGEFUL",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:heartvengefuldeath",
+      "field": "HEARTVENGEFULDEATH",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:vengefulheartofenderstage_4",
+      "field": "VENGEFULHEARTOFENDERSTAGE_4",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:geomancer",
+      "field": "GEOMANCER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:illagergeomancerbomb",
+      "field": "ILLAGERGEOMANCERBOMB",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:wraith",
+      "field": "WRAITH",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:redstonecube",
+      "field": "REDSTONECUBE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:castingtotemaura",
+      "field": "CASTINGTOTEMAURA",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:bee",
+      "field": "BEE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:vangruardskeleton",
+      "field": "VANGRUARDSKELETON",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:throneentity",
+      "field": "THRONEENTITY",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeper",
+      "field": "TOWERKEEPER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerwraithblack",
+      "field": "TOWERWRAITHBLACK",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:petministrosity",
+      "field": "PETMINISTROSITY",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:obsidianpetministrosity",
+      "field": "OBSIDIANPETMINISTROSITY",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:petgolem",
+      "field": "PETGOLEM",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:miniabomination",
+      "field": "MINIABOMINATION",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towervindicator",
+      "field": "TOWERVINDICATOR",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:enchanterillager",
+      "field": "ENCHANTERILLAGER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:pillagerarmorer",
+      "field": "PILLAGERARMORER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:namelessdeath",
+      "field": "NAMELESSDEATH",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:diamondpillager",
+      "field": "DIAMONDPILLAGER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:cauldronbosssit",
+      "field": "CAULDRONBOSSSIT",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:namelessone",
+      "field": "NAMELESSONE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:namelessup",
+      "field": "NAMELESSUP",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:cauldron",
+      "field": "CAULDRON",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:caldrondead",
+      "field": "CALDRONDEAD",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:enderavatardeath",
+      "field": "ENDERAVATARDEATH",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:necromancer",
+      "field": "NECROMANCER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:archillager",
+      "field": "ARCHILLAGER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:archspawning",
+      "field": "ARCHSPAWNING",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:archconvert",
+      "field": "ARCHCONVERT",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:captainillager",
+      "field": "CAPTAINILLAGER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:vindicatorvariant",
+      "field": "VINDICATORVARIANT",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:cauldronslime",
+      "field": "CAULDRONSLIME",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:beenestmob",
+      "field": "BEENESTMOB",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:monstrosity",
+      "field": "MONSTROSITY",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:monstrositysleep",
+      "field": "MONSTROSITYSLEEP",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:redstonemonstrositydeath",
+      "field": "REDSTONEMONSTROSITYDEATH",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:monstrosityactive",
+      "field": "MONSTROSITYACTIVE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:mushroommonstrositysleep",
+      "field": "MUSHROOMMONSTROSITYSLEEP",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:mushroommonstrositydeath",
+      "field": "MUSHROOMMONSTROSITYDEATH",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:mushroommonstrosityactive",
+      "field": "MUSHROOMMONSTROSITYACTIVE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:mushroommonstrosity",
+      "field": "MUSHROOMMONSTROSITY",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:vindicatorroyale",
+      "field": "VINDICATORROYALE",
+      "minecraft_mob_category": "AMBIENT",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:piglinmerchant",
+      "field": "PIGLINMERCHANT",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:quickgrowingvine",
+      "field": "QUICKGROWINGVINE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:whispererboss",
+      "field": "WHISPERERBOSS",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:archillagersit",
+      "field": "ARCHILLAGERSIT",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:enchantedvindicator",
+      "field": "ENCHANTEDVINDICATOR",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:enchanted_creeper",
+      "field": "ENCHANTED_CREEPER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:enchanted_zombie",
+      "field": "ENCHANTED_ZOMBIE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:gift_wrapper",
+      "field": "GIFT_WRAPPER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:redstonecrystal",
+      "field": "REDSTONECRYSTAL",
+      "minecraft_mob_category": "AMBIENT",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:namelessclone",
+      "field": "NAMELESSCLONE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:structureplaycer",
+      "field": "STRUCTUREPLAYCER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:fierystructureplaycer",
+      "field": "FIERYSTRUCTUREPLAYCER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerblockstructure",
+      "field": "TOWERBLOCKSTRUCTURE",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:totemregeneration",
+      "field": "TOTEMREGENERATION",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:totemshielding",
+      "field": "TOTEMSHIELDING",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:firefly",
+      "field": "FIREFLY",
+      "minecraft_mob_category": "AMBIENT",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:monstrositystun",
+      "field": "MONSTROSITYSTUN",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:abominationvine",
+      "field": "ABOMINATIONVINE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:whisperertrap",
+      "field": "WHISPERERTRAP",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:musroommonstrositystun",
+      "field": "MUSROOMMONSTROSITYSTUN",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:shardofdominance",
+      "field": "SHARDOFDOMINANCE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:fallingiceblock",
+      "field": "FALLINGICEBLOCK",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:iceloger",
+      "field": "ICELOGER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:fallingiceblockpassive",
+      "field": "FALLINGICEBLOCKPASSIVE",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:giant_royale_guard",
+      "field": "GIANT_ROYALE_GUARD",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:redstonemine",
+      "field": "REDSTONEMINE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:event",
+      "field": "EVENT",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:ancientgate",
+      "field": "ANCIENTGATE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeperboss",
+      "field": "TOWERKEEPERBOSS",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:tower_rooms",
+      "field": "TOWER_ROOMS",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:portal",
+      "field": "PORTAL",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:portalice",
+      "field": "PORTALICE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeper_2",
+      "field": "TOWERKEEPER_2",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:portalhigh",
+      "field": "PORTALHIGH",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:portaljungle",
+      "field": "PORTALJUNGLE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeper_3",
+      "field": "TOWERKEEPER_3",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeper_4",
+      "field": "TOWERKEEPER_4",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:portalbig",
+      "field": "PORTALBIG",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeperboss_2",
+      "field": "TOWERKEEPERBOSS_2",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeper_5",
+      "field": "TOWERKEEPER_5",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:portalarch",
+      "field": "PORTALARCH",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:mission_chest",
+      "field": "MISSION_CHEST",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:missionchest_2",
+      "field": "MISSIONCHEST_2",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerstart",
+      "field": "TOWERSTART",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:snarelingweb",
+      "field": "SNARELINGWEB",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:lightrod",
+      "field": "LIGHTROD",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:tnt",
+      "field": "TNT",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:tntfall",
+      "field": "TNTFALL",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:pillararea",
+      "field": "PILLARAREA",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:pillarareaon",
+      "field": "PILLARAREAON",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:swampbio",
+      "field": "SWAMPBIO",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:icycreeper",
+      "field": "ICYCREEPER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:woodenchest",
+      "field": "WOODENCHEST",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:emerald_chest",
+      "field": "EMERALD_CHEST",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:fancy_chest",
+      "field": "FANCY_CHEST",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:reward_chest",
+      "field": "REWARD_CHEST",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:woodenchestopen",
+      "field": "WOODENCHESTOPEN",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:fancychestopen",
+      "field": "FANCYCHESTOPEN",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:emeraldchestopen",
+      "field": "EMERALDCHESTOPEN",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:chestdiamond",
+      "field": "CHESTDIAMOND",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:chestdiamondopen",
+      "field": "CHESTDIAMONDOPEN",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:rewardchestopen",
+      "field": "REWARDCHESTOPEN",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:chairs",
+      "field": "CHAIRS",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:nakedchicken",
+      "field": "NAKEDCHICKEN",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:batteringram",
+      "field": "BATTERINGRAM",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:soggymobs",
+      "field": "SOGGYMOBS",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:mde",
+      "field": "MDE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:creepermobs",
+      "field": "CREEPERMOBS",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:fogentity",
+      "field": "FOGENTITY",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:armoredzombie",
+      "field": "ARMOREDZOMBIE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:catapult",
+      "field": "CATAPULT",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:dairycow",
+      "field": "DAIRYCOW",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:spottedpig",
+      "field": "SPOTTEDPIG",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:zombifiedpig",
+      "field": "ZOMBIFIEDPIG",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:cluckshroom",
+      "field": "CLUCKSHROOM",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:babyglowsquid",
+      "field": "BABYGLOWSQUID",
+      "minecraft_mob_category": "WATER_AMBIENT",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:duck",
+      "field": "DUCK",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:endermite",
+      "field": "ENDERMITE",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:moobloom",
+      "field": "MOOBLOOM",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:fancychicken",
+      "field": "FANCYCHICKEN",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:redbow_projectile",
+      "field": "REDBOW_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:caldronball_projectile",
+      "field": "CALDRONBALL_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:namelessball_projectile",
+      "field": "NAMELESSBALL_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:staffhecro_projectile",
+      "field": "STAFFHECRO_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:necromancerball_projectile",
+      "field": "NECROMANCERBALL_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:shootpoison_projectile",
+      "field": "SHOOTPOISON_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:archvesselshoot_projectile",
+      "field": "ARCHVESSELSHOOT_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:windcallershoot_projectile",
+      "field": "WINDCALLERSHOOT_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:fungus_projectile",
+      "field": "FUNGUS_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:guardian_eye_projectile",
+      "field": "GUARDIAN_EYE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:sheeppoison_projectile",
+      "field": "SHEEPPOISON_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:sheepfire_projectile",
+      "field": "SHEEPFIRE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:guardianbeam_projectile",
+      "field": "GUARDIANBEAM_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:sheepammo_projectile",
+      "field": "SHEEPAMMO_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:tridentfix_projectile",
+      "field": "TRIDENTFIX_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:soulwizardshot_projectile",
+      "field": "SOULWIZARDSHOT_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:blaslingammo_projectile",
+      "field": "BLASLINGAMMO_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:archcube_projectile",
+      "field": "ARCHCUBE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:wickedfire_projectile",
+      "field": "WICKEDFIRE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:wickedwraithfire_projectile",
+      "field": "WICKEDWRAITHFIRE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:spin_projectile",
+      "field": "SPIN_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:llamaspit_projectile",
+      "field": "LLAMASPIT_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:mace_projectile",
+      "field": "MACE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:bluefire_projectile",
+      "field": "BLUEFIRE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:monstrosityprojectile_projectile",
+      "field": "MONSTROSITYPROJECTILE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:abominationvineprojectile_projectile",
+      "field": "ABOMINATIONVINEPROJECTILE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:geomancerprojectile_projectile",
+      "field": "GEOMANCERPROJECTILE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:whispererprojectile_projectile",
+      "field": "WHISPERERPROJECTILE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:geomancerwallprojectile_projectile",
+      "field": "GEOMANCERWALLPROJECTILE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:snowball_projectile",
+      "field": "SNOWBALL_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeperprojectile_projectile",
+      "field": "TOWERKEEPERPROJECTILE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeperprojectile_2_projectile",
+      "field": "TOWERKEEPERPROJECTILE_2_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeperprojectile_3_projectile",
+      "field": "TOWERKEEPERPROJECTILE_3_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:redstonegolemmine_projectile",
+      "field": "REDSTONEGOLEMMINE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeperprojectileice_projectile",
+      "field": "TOWERKEEPERPROJECTILEICE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeperprojectilehigh_projectile",
+      "field": "TOWERKEEPERPROJECTILEHIGH_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeperprojectilehighland_projectile",
+      "field": "TOWERKEEPERPROJECTILEHIGHLAND_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeperprojectilejungle_projectile",
+      "field": "TOWERKEEPERPROJECTILEJUNGLE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerboss_2_projectile",
+      "field": "TOWERBOSS_2_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:towerkeeperprojectilearch_projectile",
+      "field": "TOWERKEEPERPROJECTILEARCH_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:snarelingwebprojectile_projectile",
+      "field": "SNARELINGWEBPROJECTILE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:lightrodprojectile_projectile",
+      "field": "LIGHTRODPROJECTILE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:tntprojectile_projectile",
+      "field": "TNTPROJECTILE_PROJECTILE",
+      "minecraft_mob_category": "MISC",
+      "translation_key_present": false,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:fancy_chest_cauldron",
+      "field": "FANCY_CHEST_CAULDRON",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:emerald_coin",
+      "field": "EMERALD_COIN",
+      "minecraft_mob_category": "CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:piglinchestlarge",
+      "field": "PIGLINCHESTLARGE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:piglinchestlargeopen",
+      "field": "PIGLINCHESTLARGEOPEN",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:piglinchest",
+      "field": "PIGLINCHEST",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:piglinchestopen",
+      "field": "PIGLINCHESTOPEN",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:stun_spiral",
+      "field": "STUN_SPIRAL",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:snowlake",
+      "field": "SNOWLAKE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:junglezombie",
+      "field": "JUNGLEZOMBIE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:tropicalslime",
+      "field": "TROPICALSLIME",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:arenaeyespawner",
+      "field": "ARENAEYESPAWNER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:villagerminer",
+      "field": "VILLAGERMINER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:redstonegolem",
+      "field": "REDSTONEGOLEM",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:mobspawner",
+      "field": "MOBSPAWNER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:blazespawner",
+      "field": "BLAZESPAWNER",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:mooshroomcowenemy",
+      "field": "MOOSHROOMCOWENEMY",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:endermenbossstatic",
+      "field": "ENDERMENBOSSSTATIC",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:geomancerwall",
+      "field": "GEOMANCERWALL",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:endermenboss",
+      "field": "ENDERMENBOSS",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:redstonegolemdeath",
+      "field": "REDSTONEGOLEMDEATH",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:wartgrenade",
+      "field": "WARTGRENADE",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:irongolem",
+      "field": "IRONGOLEM",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:chef",
+      "field": "CHEF",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:redstonegolemsit",
+      "field": "REDSTONEGOLEMSIT",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:soul",
+      "field": "SOUL",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:soulwizard",
+      "field": "SOULWIZARD",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:rise_drowned",
+      "field": "RISE_DROWNED",
+      "minecraft_mob_category": "UNDERGROUND_WATER_CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:keygolem",
+      "field": "KEYGOLEM",
+      "minecraft_mob_category": "MONSTER",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    },
+    {
+      "registry_id": "duneons:ocean_mobs",
+      "field": "OCEAN_MOBS",
+      "minecraft_mob_category": "UNDERGROUND_WATER_CREATURE",
+      "translation_key_present": true,
+      "verification": "static_deferred_register_declaration",
+      "loaded_registry_verified": false
+    }
+  ]
+}

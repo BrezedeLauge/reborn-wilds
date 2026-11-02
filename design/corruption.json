@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "generator": "tools/generate_corruption_resources.py",
+  "biome": "dungeonsalive:blighted_thicket",
+  "origin": "Own rules, palette and placement; native Minecraft texture/feature references, no copied PNGs.",
+  "behavior": "Discovery starts a bounded saved natural-ground front. No runtime biome-ID rewrite.",
+  "nature_authentication": "Only new-chunk dirt reserved directly beneath grass by a generation feature can spread. Player edits invalidate columns.",
+  "limits": {
+    "regions_per_world": 8,
+    "radius_blocks": 48,
+    "patches_per_region": 256,
+    "patches_world": 2048,
+    "candidate_checks_per_20_ticks": 64,
+    "block_changes_per_20_ticks": 4,
+    "protected_columns": 65536
+  },
+  "cleanup": "Focus stops a whole region; recorded original grass states restore only in loaded, still-owned natural cells.",
+  "limits_note": "A full protection ledger disables further growth. Cleansed anchors remain remembered; old chunks without reservations are untouched.",
+  "native_validation": "Registry loading, worldgen ordering, discovery, front rendering and multiplayer protection require native server/client checks."
+}

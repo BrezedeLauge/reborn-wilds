@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#dungeonsalive:corruption_soil",
+    "dungeonsalive:amber_moss",
+    "dungeonsalive:luminous_moss"
+  ]
+}

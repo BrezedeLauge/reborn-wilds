@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "implementation": "Native Minecraft model APIs; client-only composition. No vanilla PNG or mesh source is copied.",
+  "models": [
+    {
+      "id": "pillager_raid_captain",
+      "geometry": "Minecraft IllagerModel.createBodyLayer",
+      "textures": [
+        "minecraft:textures/entity/illager/pillager.png"
+      ],
+      "attachments": "Actual MAINHAND/OFFHAND items; actual HEAD raid banner. Full root-to-hand transforms.",
+      "animation": "Installed Minecraft illager locomotion, source-aligned crossbow hold and server action timing."
+    },
+    {
+      "id": "vindicator_raid_captain",
+      "geometry": "Minecraft IllagerModel.createBodyLayer",
+      "textures": [
+        "minecraft:textures/entity/illager/vindicator.png"
+      ],
+      "attachments": "Actual MAINHAND/OFFHAND items; actual HEAD raid banner.",
+      "animation": "Installed Minecraft illager locomotion/folded idle arms; own telegraphed weapon stroke at server hit."
+    },
+    {
+      "id": "skeleton_horseman",
+      "geometry": [
+        "Minecraft HorseModel.createBodyMesh",
+        "Minecraft SkeletonModel / ModelLayers.SKELETON"
+      ],
+      "textures": [
+        "minecraft:textures/entity/horse/horse_skeleton.png",
+        "minecraft:textures/entity/skeleton/skeleton.png"
+      ],
+      "attachments": "Native skeleton rider seated at animated horse-back pivot; actual equipped bow. One server gameplay entity.",
+      "animation": "Installed horse locomotion equations; own retimed leap/rearing and skeleton mounted/bow poses."
+    },
+    {
+      "id": "conjured_slime",
+      "geometry": [
+        "Minecraft SlimeModel.createInnerBodyLayer",
+        "Minecraft SlimeModel.createOuterBodyLayer"
+      ],
+      "textures": [
+        "dungeonsalive:textures/entity/reference/dungeons_mobs_port/conjured_slime.png"
+      ],
+      "materials": [
+        "opaque inner body",
+        "native translucent SlimeOuterLayer"
+      ],
+      "animation": "Actual movement/vertical velocity and server LEAP/MELEE windup drive reciprocal squash. No fabricated jumping position.",
+      "source": {
+        "project": "DungeonsMobs-Port",
+        "url": "https://github.com/FirefoxSalesman/DungeonsMobs",
+        "commit": "cca789ab3ce910853517d65494efd76508255a1d",
+        "path": "src/main/resources/assets/dungeonsmobs/textures/entity/slime/conjured_slime.png",
+        "license": "MIT",
+        "copyright": "Copyright (c) 2022 Patrigan",
+        "texture_sha256": "a01a8df9e7433c97c2e19efc831802121f7359d517d2bbfa0b70e0d9100a276f"
+      }
+    }
+  ],
+  "limits": [
+    "These are faithful native visual compositions, not imports of Minecraft Dungeons proprietary assets or original keyframe data.",
+    "Host locomotion uses native equations; action interpolation is adapted to the existing server combat API.",
+    "Horse and rider form one DungeonMob. Dismounting and two-entity mount combat are not implemented.",
+    "Composite preview bounds conservatively include external gear; actual world captures are still required."
+  ]
+}

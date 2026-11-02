@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "dungeonsalive:overgrown_arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 48,
+    "separation": 28,
+    "salt": 84624901,
+    "frequency": 0.6,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 6
+    }
+  }
+}

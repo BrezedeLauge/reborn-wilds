@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dungeonsalive:block/inn_ledger",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "dungeonsalive:block/inn_ledger",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dungeonsalive:block/inn_ledger",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dungeonsalive:block/inn_ledger",
+      "y": 270
+    }
+  }
+}

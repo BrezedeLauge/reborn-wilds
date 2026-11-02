@@ -1,0 +1,2303 @@
+{
+  "schema_version": 1,
+  "source": {
+    "id": "dungeons_gear",
+    "project": "https://github.com/Infamous-Misadventures/Dungeons-Gear",
+    "revision": "9ba0075c5b2f13ef54ec914ad1327a853ecdce6f",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2022 Patrigan",
+    "credits": [
+      "Patrigan",
+      "the_infamous_1 and Dungeons Gear contributors"
+    ],
+    "license_file": "third_party/dungeons_gear/LICENSE.txt"
+  },
+  "source_files": [
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/generated/resources/assets/dungeons_gear/models/item/battle_robes_boots.json",
+      "bytes": 123,
+      "sha256": "614da2fe68c178a6116b3d4d641d0d5c3a800da0be3a5315ec1d25f346f309eb",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/battle_robes_boots.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/generated/resources/assets/dungeons_gear/models/item/battle_robes_boots.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/generated/resources/assets/dungeons_gear/models/item/battle_robes_chestplate.json",
+      "bytes": 128,
+      "sha256": "1f9a84fe92d226f359e838c0fa4901d8a97fb02c68a3a5b8f3c5210fa6f7bf3d",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/battle_robes_chestplate.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/generated/resources/assets/dungeons_gear/models/item/battle_robes_chestplate.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/generated/resources/assets/dungeons_gear/models/item/battle_robes_helmet.json",
+      "bytes": 124,
+      "sha256": "09909ff6d66d3f554fd14ca919413eea873c846df8d40b7ee9d6fbe489cf5dd5",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/battle_robes_helmet.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/generated/resources/assets/dungeons_gear/models/item/battle_robes_helmet.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/generated/resources/assets/dungeons_gear/models/item/battle_robes_leggings.json",
+      "bytes": 126,
+      "sha256": "82eb2a2282fb7ca8e7b44929d2b0b65574922a04ad41a00c01011e9f48fa2172",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/battle_robes_leggings.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/generated/resources/assets/dungeons_gear/models/item/battle_robes_leggings.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/generated/resources/assets/dungeons_gear/models/item/spider_boots.json",
+      "bytes": 117,
+      "sha256": "8e9a24a891aea82090e1a4498add855ad5308635a1f2aebb8d2a3c32c807891c",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/spider_boots.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/generated/resources/assets/dungeons_gear/models/item/spider_boots.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/generated/resources/assets/dungeons_gear/models/item/spider_chestplate.json",
+      "bytes": 122,
+      "sha256": "65c603dbf5033e7e2d513e50b7e5fbd6a5496eb6ae91f0f2f78e2e182f7313d5",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/spider_chestplate.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/generated/resources/assets/dungeons_gear/models/item/spider_chestplate.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/generated/resources/assets/dungeons_gear/models/item/spider_helmet.json",
+      "bytes": 118,
+      "sha256": "87001a4db82efea9ecc875c4db7216a9881eacc0977e81131f39ffedf93bb1a1",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/spider_helmet.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/generated/resources/assets/dungeons_gear/models/item/spider_helmet.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/generated/resources/assets/dungeons_gear/models/item/spider_leggings.json",
+      "bytes": 120,
+      "sha256": "86518c0d7978f0b67ac59ea27110f65d2a443e64ef2b5e5572c99fac74736fc7",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/spider_leggings.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/generated/resources/assets/dungeons_gear/models/item/spider_leggings.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/generated/resources/assets/dungeons_gear/models/item/wolf_boots.json",
+      "bytes": 115,
+      "sha256": "5b00b5ce5ea7219373dca89056df05316f8a973856432ad3d81012cec44572d7",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/wolf_boots.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/generated/resources/assets/dungeons_gear/models/item/wolf_boots.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/generated/resources/assets/dungeons_gear/models/item/wolf_chestplate.json",
+      "bytes": 120,
+      "sha256": "d5539dc65943257119c94d207ef6b76f179e685df41853d226a34234f73591ec",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/wolf_chestplate.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/generated/resources/assets/dungeons_gear/models/item/wolf_chestplate.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/generated/resources/assets/dungeons_gear/models/item/wolf_helmet.json",
+      "bytes": 116,
+      "sha256": "dcce70def363a88bba90b5930f4158949d7f980afaf2ccfce1878e895924e2b7",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/wolf_helmet.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/generated/resources/assets/dungeons_gear/models/item/wolf_helmet.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/generated/resources/assets/dungeons_gear/models/item/wolf_leggings.json",
+      "bytes": 118,
+      "sha256": "90c8bad468ff7948aa889e0edd7764aa1e9c9f56294b128678fb055bc760f0f2",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/wolf_leggings.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/generated/resources/assets/dungeons_gear/models/item/wolf_leggings.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/geo/armor/battle_robes_armor.geo.json",
+      "bytes": 2650,
+      "sha256": "cd059b3313e4e84cf8f9a33c7207051a9931ff92c6fa2be296be0039851ec663",
+      "source_path": "src/main/resources/assets/dungeons_gear/geo/armor/battle_robes_armor.geo.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/geo/armor/battle_robes_armor.geo.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/geo/armor/spider_armor.geo.json",
+      "bytes": 2700,
+      "sha256": "e914011a5914328ff33794ea85d3dc991da393f0d6f2fcf9447e251da8715ce2",
+      "source_path": "src/main/resources/assets/dungeons_gear/geo/armor/spider_armor.geo.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/geo/armor/spider_armor.geo.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/geo/armor/wolf_armor.geo.json",
+      "bytes": 2422,
+      "sha256": "6bcf1f46f071980ada312c196dc5dd159409d20aa9c2a2e7baae366f33265084",
+      "source_path": "src/main/resources/assets/dungeons_gear/geo/armor/wolf_armor.geo.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/geo/armor/wolf_armor.geo.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/auto_crossbow.json",
+      "bytes": 1347,
+      "sha256": "0d914072e2d1cccdbc81868c15851ec9edf2decd6de9947d8f14d6ba4c25a9d7",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/auto_crossbow.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/auto_crossbow.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_arrow.json",
+      "bytes": 137,
+      "sha256": "48b0bc5785f5431dd508a2eb882b85c34c7d58b0312aedf34434faf7411a577c",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_arrow.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_arrow.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_firework.json",
+      "bytes": 140,
+      "sha256": "a08ec4dcdc5934a9cb0eda60e03055554be65119487850d09b48ede40e11db0f",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_firework.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_firework.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_pulling_0.json",
+      "bytes": 141,
+      "sha256": "9f502c7000b7333d248bce055cfd3f85a64b73e93f915aaee36950983107595c",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_pulling_0.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_pulling_0.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_pulling_1.json",
+      "bytes": 141,
+      "sha256": "79d3a355a1215ca3578845353c9915789b5456209aa44b57bb21c4814ee2e83b",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_pulling_1.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_pulling_1.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_pulling_2.json",
+      "bytes": 141,
+      "sha256": "196b5851e54b95765fc7d694fb11d30a6dbf467b25ac71d7262fba7722be6111",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_pulling_2.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_pulling_2.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/boots_of_swiftness.json",
+      "bytes": 3341,
+      "sha256": "0f54f8b964e0cb644ba2fed2a699b59af8f82985fdf41dfef33fe65f664910de",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/boots_of_swiftness.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/boots_of_swiftness.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/corrupted_beacon.json",
+      "bytes": 5050,
+      "sha256": "368ae34780f2a50fad7745595b2d212cc39f86ea963f556f93560635a6c28e8a",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/corrupted_beacon.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/corrupted_beacon.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/cutlass.json",
+      "bytes": 714,
+      "sha256": "eed46599150901322e6ff89654095151d7370cfb51abbc941e99a1eef997983e",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/cutlass.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/cutlass.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/dagger.json",
+      "bytes": 712,
+      "sha256": "fa4ec221ee5e0d05c2cbd209a4811850489a6bc7699dd470cd1581b02f6001a5",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/dagger.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/dagger.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/death_cap_mushroom.json",
+      "bytes": 2007,
+      "sha256": "60eab51a4d818d8426f3f16cc5a03253d48c0ea0b20f0ecf5cde471bb473f993",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/death_cap_mushroom.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/death_cap_mushroom.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow.json",
+      "bytes": 1377,
+      "sha256": "868ac7e6686e94c88e0ab49a648314ba0ef2c8547343b9f5cbc8721e4d841adc",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_arrow.json",
+      "bytes": 147,
+      "sha256": "a82312dcd538df1e34f2b8785679c9400410413d1d91aefe0ce954197c3ba514",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_arrow.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_arrow.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_firework.json",
+      "bytes": 150,
+      "sha256": "d62a2aba9b4edf3e0f5cc6c2fb95317307ec94fcd27c2548bb26c665a051e9a9",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_firework.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_firework.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_pulling_0.json",
+      "bytes": 151,
+      "sha256": "2f9eab3cf40d101373a17ced49995dc033ea8fdd514f872350cb11ecbac590ad",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_pulling_0.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_pulling_0.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_pulling_1.json",
+      "bytes": 151,
+      "sha256": "887a0c001c4275ad18badc18fec3bf3a22ab454e528efe9f6395b26f17dda190",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_pulling_1.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_pulling_1.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_pulling_2.json",
+      "bytes": 151,
+      "sha256": "936c68cf928c77a6e7e9372d8f71bdc23b683cae4096fbc36223f62316cfc3b0",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_pulling_2.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_pulling_2.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/fighters_binding.json",
+      "bytes": 16286,
+      "sha256": "2738c8cac1bc0268c697d9444bc87805c6df89d3be5bf38491b7b986c2ed8660",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/fighters_binding.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/fighters_binding.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/flaming_quiver.json",
+      "bytes": 16740,
+      "sha256": "977aaff30e1fdcf0f680c82d496235a2c35849b22d0dccc3a0e28fd5f629fd75",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/flaming_quiver.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/flaming_quiver.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/frost_scythe.json",
+      "bytes": 723,
+      "sha256": "5bd970d4d8f3fd543a1a0efed42b7dce4b88c54ad385f60df2a9c6c7365f5a2a",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/frost_scythe.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/frost_scythe.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/ghost_cloak.json",
+      "bytes": 6327,
+      "sha256": "63dcebe06693a2379f88c59311e185b85fbb190a9f27f0c7bcd12aea3858411b",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/ghost_cloak.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/ghost_cloak.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/glaive.json",
+      "bytes": 675,
+      "sha256": "d304691c29a6e594bee9f7c7ff1e5807f213f2f29d8b7fc522c23c5c6c32fa79",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/glaive.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/glaive.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/gong_of_weakening.json",
+      "bytes": 8278,
+      "sha256": "192742cc4bc7adc75e6e045f6d08e2d5b73a606aaede9111fb2ec00c70657851",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/gong_of_weakening.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/gong_of_weakening.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/great_hammer.json",
+      "bytes": 6491,
+      "sha256": "2e65980a487b91a499e0b98341672b6df7b05c96f0460231cbdf9fea3e6c92bc",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/great_hammer.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/great_hammer.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/harvester.json",
+      "bytes": 2361,
+      "sha256": "7bf17e90e8f72d44027e4cfeba10c0855aa96b17809d2b9cf82c4431e998f72d",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/harvester.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/harvester.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/heartstealer.json",
+      "bytes": 720,
+      "sha256": "b0c586b4a9bb47f0a4df939af0206fc98452898c74a55d55a6e8929ac786faf2",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/heartstealer.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/heartstealer.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/hunters_promise.json",
+      "bytes": 1135,
+      "sha256": "2a982be117c3f2e3b2ee022a9466d4b640af5c31c007ae35191804f805223925",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/hunters_promise.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/hunters_promise.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/hunters_promise_pulling_0.json",
+      "bytes": 145,
+      "sha256": "f8229de3ddb5e2399583ee9378254ef6140cb32c6c9daf626af282aad8de76f1",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/hunters_promise_pulling_0.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/hunters_promise_pulling_0.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/hunters_promise_pulling_1.json",
+      "bytes": 145,
+      "sha256": "795c690f0f5ba12c48e820fd215406d52f7204a96a5330ff2e39878101c316a4",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/hunters_promise_pulling_1.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/hunters_promise_pulling_1.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/hunters_promise_pulling_2.json",
+      "bytes": 145,
+      "sha256": "c8d7052733cbf61153a63acb442a49cfdb0f92f0bec8a419216739253c344137",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/hunters_promise_pulling_2.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/hunters_promise_pulling_2.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/iron_hide_amulet.json",
+      "bytes": 8346,
+      "sha256": "ffa6ad06a24b4c5119230b3e4c4343255e8c5ce25c4575f4e1343aad3b097806",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/iron_hide_amulet.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/iron_hide_amulet.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/lightning_rod.json",
+      "bytes": 715,
+      "sha256": "fd2af45fb56211d58f76785942e4f21f407389d082117253b482b9a017ffd3d0",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/lightning_rod.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/lightning_rod.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/power_bow.json",
+      "bytes": 1111,
+      "sha256": "7d8756d6b4e74f143835f239d250b9f71846f0fe4fa3d9f927282d80f5fd5486",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/power_bow.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/power_bow.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/power_bow_pulling_0.json",
+      "bytes": 133,
+      "sha256": "49452abe873a2aa750dbfe42eb9b38454a10919fafc52c7a8b70987fec048168",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/power_bow_pulling_0.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/power_bow_pulling_0.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/power_bow_pulling_1.json",
+      "bytes": 133,
+      "sha256": "5aee40d9302b1a28c00a4b1d7832dbe6b56754f6a64715fa7e65e58ef4f28aa7",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/power_bow_pulling_1.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/power_bow_pulling_1.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/power_bow_pulling_2.json",
+      "bytes": 133,
+      "sha256": "1919ce9a9277b690fd7e5dbacf5f1825e8ca7f2b1c25fa966060110b6ec1548a",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/power_bow_pulling_2.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/power_bow_pulling_2.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/shock_powder.json",
+      "bytes": 4500,
+      "sha256": "4bd95dee67111e38e30254adc8e3a0e2552dc3a06fe6f5648eae1901df9796fa",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/shock_powder.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/shock_powder.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/sickle.json",
+      "bytes": 720,
+      "sha256": "c9a39b4f39482f3f4b1053a26b6a24e5719532508de6b5f13953b85aab1b4487",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/sickle.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/sickle.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/soul_healer.json",
+      "bytes": 8405,
+      "sha256": "1b2940516ccd33fc79587c98d3924119873cbf5f5134d021e5630bd23fd33640",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/soul_healer.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/soul_healer.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/soul_knife.json",
+      "bytes": 722,
+      "sha256": "9d9daa7327a7780a620d2c8263fe2e7aeaa9339e644655ba2c0b74409b8e91cf",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/soul_knife.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/soul_knife.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/spear.json",
+      "bytes": 656,
+      "sha256": "5591a46390edcc49e9878457cf43523f42c292fd0d66a79b0d96287a3be41a44",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/spear.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/spear.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/stormlander.json",
+      "bytes": 5978,
+      "sha256": "9630336f151e84417e913ca0096e01e49537b249113e39c0b1cf5be1cb9b0d17",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/stormlander.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/stormlander.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/suns_grace.json",
+      "bytes": 9040,
+      "sha256": "ccb797e5e62718512b148fa2da543a3506cf20c062ba28b31450a7747a39b02a",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/suns_grace.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/suns_grace.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/sword.json",
+      "bytes": 717,
+      "sha256": "db152e24689f1003a8fac5cb6b021b0aa7c6b405fed5cb196f4c6fe6709c851c",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/sword.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/sword.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/models/item/whirlwind.json",
+      "bytes": 711,
+      "sha256": "07f4428b2d179906117c4f025cedcdb493a2b7fcc8698f72a9da166cb7c90a48",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/whirlwind.json",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/models/item/whirlwind.json",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_boots.png",
+      "bytes": 276,
+      "sha256": "86ac6347d4ca1c43ffc3091d17aba0d7e63ea92cea7cd98e4934aa8003f19b4e",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_boots.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_boots.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_chestplate.png",
+      "bytes": 775,
+      "sha256": "349f474f6eb429da44cfed90e5ccda4913b71531139b226128626fc75bd11138",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_chestplate.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_chestplate.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_helmet.png",
+      "bytes": 345,
+      "sha256": "2ddca4451c301476eda7dee537d74792b0359ec08f31c42cb39f876dd16c7747",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_helmet.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_helmet.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_leggings.png",
+      "bytes": 258,
+      "sha256": "15f482abe2f5e5b3f3be4b9eb9bce5bbd29fd5536dd449bb992e772253541ab6",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_leggings.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_leggings.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/armor/spider_boots.png",
+      "bytes": 5485,
+      "sha256": "9dbf13a6467eda32f1dbd8ce4409b5275bf483d974ae9e921a14554ffc2f770e",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/spider_boots.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/armor/spider_boots.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/armor/spider_chestplate.png",
+      "bytes": 759,
+      "sha256": "c4b47ea1bac719c995b0f4c3e6a436bee23991e69217fa3b37f989399322ed78",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/spider_chestplate.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/armor/spider_chestplate.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/armor/spider_helmet.png",
+      "bytes": 679,
+      "sha256": "020773da4c9354905c937f2426cf2a388a4b9c33ac7e45468780dd400f06207d",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/spider_helmet.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/armor/spider_helmet.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/armor/spider_leggings.png",
+      "bytes": 5541,
+      "sha256": "e8e5e5adfaf8963716476196c60698858c69523456d66eaccc4bf0ca26a16175",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/spider_leggings.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/armor/spider_leggings.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_boots.png",
+      "bytes": 5625,
+      "sha256": "0ab46728ba76a11934e42ee6feb0ec95ef47c13bb023eee752f86035d359cbe0",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_boots.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_boots.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_chestplate.png",
+      "bytes": 749,
+      "sha256": "34b206162cf18b7589f9b1475139ea68f25899e39920d531def09330e09c8f8a",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_chestplate.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_chestplate.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_helmet.png",
+      "bytes": 724,
+      "sha256": "b3d685b2bef5ca9384c0492d9a6d411a39cded66343a12c539be7c22fe79970c",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_helmet.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_helmet.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_leggings.png",
+      "bytes": 5593,
+      "sha256": "1036d8136d90809018e4f1e8eec65bdd5f28a6f570f759479b074930f9d004d6",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_leggings.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_leggings.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow.png",
+      "bytes": 2107,
+      "sha256": "e922f233e5c86e6d546799cae425e0f14caae71c802260062b88c137df964833",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_arrow.png",
+      "bytes": 1033,
+      "sha256": "11eaa6888faf4d3011cbacbdfb5fe0235b615d989a313ab801a05a7cca2106bb",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_arrow.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_arrow.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_firework.png",
+      "bytes": 1055,
+      "sha256": "7281f5991894e11bc282f6fd173f52bad334baf4161cdff28b4239b135061613",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_firework.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_firework.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_pulling_0.png",
+      "bytes": 968,
+      "sha256": "f6f909697e6473f4a8ae4c41d50d8315f1b97a8af1b5394db64a8ceb033ef623",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_pulling_0.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_pulling_0.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_pulling_1.png",
+      "bytes": 951,
+      "sha256": "f908ae070b44b955cceac9b3394223ddc239c82b8a82a2ff2e4bbef0c6064409",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_pulling_1.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_pulling_1.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_pulling_2.png",
+      "bytes": 995,
+      "sha256": "8085b776d0040f3fa3cdf1aa9c654960e45c821bce29be9104084551b54c1ca3",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_pulling_2.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_pulling_2.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/boots_of_swiftness.png",
+      "bytes": 479,
+      "sha256": "21c00fd5f227ebc83c08461a20770b43e8dd08d6a6dbf37e10677bc5533a4bc5",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/boots_of_swiftness.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/boots_of_swiftness.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/corrupted_beacon.png",
+      "bytes": 1359,
+      "sha256": "7006b7e9653acede115eb094c727623eaae190f10e044ac78c201411c78aa73e",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/corrupted_beacon.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/corrupted_beacon.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/cutlass.png",
+      "bytes": 2049,
+      "sha256": "0b17529b2e25fec1ba6957de72ab2d13ea96a4c7e69ee121b5059dee93841fdf",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/cutlass.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/cutlass.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/dagger.png",
+      "bytes": 2076,
+      "sha256": "43f3569a46485d6ff73f6a7187877487e597bff55e98fc51369a0f8c2daa93db",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/dagger.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/dagger.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/death_cap_mushroom.png",
+      "bytes": 419,
+      "sha256": "8bc8c92d9a225ad2a10591639c62861479f1949234cefb16e9c73e0a74a585c1",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/death_cap_mushroom.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/death_cap_mushroom.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow.png",
+      "bytes": 2501,
+      "sha256": "18a6899ed04233acfff7134207c6c9e62dd60783a4f1f347c9b7ac98284f8466",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_arrow.png",
+      "bytes": 989,
+      "sha256": "982a8c6a2b55d95063c633b1dbd6e1646879df2edad239ebbcf3d1226127c803",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_arrow.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_arrow.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_firework.png",
+      "bytes": 1054,
+      "sha256": "44f7be6c98ac8163d48db99758099cebfb38e807ea703c49f0235fdb49c78d16",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_firework.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_firework.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_pulling_0.png",
+      "bytes": 965,
+      "sha256": "99942b6b24a0b259d6b08a4175a323c4b114880750f1daa96a212bdd30870b54",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_pulling_0.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_pulling_0.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_pulling_1.png",
+      "bytes": 960,
+      "sha256": "98194405e3f7bb9b717a65b3736763eddf57b260d0b4ef64a776eb7af821763f",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_pulling_1.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_pulling_1.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_pulling_2.png",
+      "bytes": 944,
+      "sha256": "deb07b840628e526d0ff4231283e7d3887ae173d1793ab279cbeccef66acbc6e",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_pulling_2.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_pulling_2.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/fighters_binding.png",
+      "bytes": 784,
+      "sha256": "d25bd124d153ccba018a66642239d6142131c4a2f4ed070f4db0db4c962771fd",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/fighters_binding.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/fighters_binding.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/flaming_quiver.png",
+      "bytes": 459,
+      "sha256": "83e2455c9d462c3e82a9f1e000801bbbf9956eb623fb38dc960146e61ca411fd",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/flaming_quiver.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/flaming_quiver.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/frost_scythe.png",
+      "bytes": 3109,
+      "sha256": "4edbfef20ea9334ea26771492a235e6fa868537291987dda5c21af54954733bb",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/frost_scythe.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/frost_scythe.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/ghost_cloak.png",
+      "bytes": 3087,
+      "sha256": "889c3161194e3f6d7ed76eec6548f931393ffd49dbad25ee569e1ffabc8e3b9e",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/ghost_cloak.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/ghost_cloak.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/glaive.png",
+      "bytes": 2010,
+      "sha256": "935bd765fd88e6a4ce6c3211d28f728de304733814f04157cf170105dc1535ae",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/glaive.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/glaive.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/gong_of_weakening.png",
+      "bytes": 820,
+      "sha256": "4214f94af9f86ef416362596fdc5d3fd8cc248bbb15887edbc9c3c3192dd8161",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/gong_of_weakening.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/gong_of_weakening.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/great_hammer.png",
+      "bytes": 2076,
+      "sha256": "9adeb838e4244563b15947f7c2ce7001f3c2da8face106eabd1246aa69623d4b",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/great_hammer.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/great_hammer.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/harvester.png",
+      "bytes": 444,
+      "sha256": "1734be61d399822281180ca6262538b0e9cb06fd657011e1d1b5af2ff79ac4e0",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/harvester.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/harvester.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/heartstealer.png",
+      "bytes": 2168,
+      "sha256": "e5e1b12312cf201ed712c7514498532781f8209a071894649a31150bf58f8dc2",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/heartstealer.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/heartstealer.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/hunters_promise.png",
+      "bytes": 2143,
+      "sha256": "5bbab2206c33f77cf3fe54bfc854c4017f2abd2d828c71963f7e1a33511cfc2d",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/hunters_promise.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/hunters_promise.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/hunters_promise_pulling_0.png",
+      "bytes": 864,
+      "sha256": "b1d01d765417b5eeb5ee935beb6bfb660a70b975288421f3bb7a78915f45d6e9",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/hunters_promise_pulling_0.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/hunters_promise_pulling_0.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/hunters_promise_pulling_1.png",
+      "bytes": 947,
+      "sha256": "a5d20f6d2590aba950c70ed8727ae4bc5e8e83a376e1c727c4df50b8907a875c",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/hunters_promise_pulling_1.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/hunters_promise_pulling_1.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/hunters_promise_pulling_2.png",
+      "bytes": 950,
+      "sha256": "6d3ab1c05520dd66085782bb4a901c6d571ce972a45c7a1bcbaf0dbb48c4113b",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/hunters_promise_pulling_2.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/hunters_promise_pulling_2.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/iron_hide_amulet.png",
+      "bytes": 1262,
+      "sha256": "e01759a4fdbbf2aa60b7c0a3e33871183e197d33aedb928091cb8fe76e16bdb7",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/iron_hide_amulet.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/iron_hide_amulet.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/lightning_rod.png",
+      "bytes": 2147,
+      "sha256": "2dccc07a2aab7a32eb42457135244c560b55b741831f3d949416aedeed467cbf",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/lightning_rod.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/lightning_rod.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/power_bow.png",
+      "bytes": 2022,
+      "sha256": "bbea86d8fc0d0d931b547ed6783841b6d045680e7e154c54cb9e993f12fdaf28",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/power_bow.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/power_bow.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/power_bow_pulling_0.png",
+      "bytes": 844,
+      "sha256": "e449da6325a77b33f69a6976f0324cdf252b9dbc2f757a21bc13c7ef8baf5cbc",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/power_bow_pulling_0.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/power_bow_pulling_0.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/power_bow_pulling_1.png",
+      "bytes": 886,
+      "sha256": "16c73953fb2d5c7ca7e74c386fcb64914a96ae186e9bbb48c26ddc27d506215c",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/power_bow_pulling_1.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/power_bow_pulling_1.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/power_bow_pulling_2.png",
+      "bytes": 878,
+      "sha256": "926375723f2d949b428401613528053d2f170b83f9d49f6e57a33415367dee10",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/power_bow_pulling_2.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/power_bow_pulling_2.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/shock_powder.png",
+      "bytes": 1009,
+      "sha256": "d956a9d2e217991c3b783ec52199cee6d8cb21a04084818fc49f939a0b13ac6f",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/shock_powder.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/shock_powder.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/sickle.png",
+      "bytes": 2383,
+      "sha256": "9d63101b449966b7500c277ce0a0c9feb098a1b5ca485181b2fd27afb2fae5ae",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/sickle.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/sickle.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/soul_healer.png",
+      "bytes": 1184,
+      "sha256": "25e3d22e6358baed8d1b7548c3c49c14123e17fbcd4651a7116a7e23fbfcea8e",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/soul_healer.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/soul_healer.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/soul_knife.png",
+      "bytes": 1919,
+      "sha256": "99f8cdc25bcaa8280f376c6e77a6cea43066aff81f7f338f8f0683a5c518820a",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/soul_knife.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/soul_knife.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/spear.png",
+      "bytes": 1988,
+      "sha256": "6afd30a386139c12d350c1c841492e9e11902b1cfac912a5581477d4faf032d9",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/spear.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/spear.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/stormlander.png",
+      "bytes": 2254,
+      "sha256": "173ad59e1122cf5e841577b8f7512a758aae2327289376959213c7d42f1a1e41",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/stormlander.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/stormlander.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/suns_grace.png",
+      "bytes": 3836,
+      "sha256": "6b198f25d9c4fe30c87c2393464a0f722c77605d7f432a73f6f509635669f044",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/suns_grace.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/suns_grace.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/sword.png",
+      "bytes": 1977,
+      "sha256": "dac6ea995a4ed8f048cc880c7e26e280a3f87fb7d11ef4737e2766233866f51a",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/sword.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/sword.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/item/whirlwind.png",
+      "bytes": 2126,
+      "sha256": "9882c0cc88fb09531629f57b27db2cc3ecf4d753d6e77d131bdb761c0495785c",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/whirlwind.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/item/whirlwind.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/models/armor/battle_robes_armor.png",
+      "bytes": 10154,
+      "sha256": "c5c4f1506418214414d893cfe86bf03ea09926eb4fc9a4b6a66e9a74a03b0a29",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/models/armor/battle_robes_armor.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/models/armor/battle_robes_armor.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/models/armor/spider_armor.png",
+      "bytes": 949,
+      "sha256": "f5e98010fc6fa30beedbae30463c6c6be4b1c3cec75b6546aae5b2a110ba039f",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/models/armor/spider_armor.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/models/armor/spider_armor.png",
+      "modification": "unchanged_source_bytes"
+    },
+    {
+      "file": "third_party/dungeons_gear/snapshots/src/main/resources/assets/dungeons_gear/textures/models/armor/wolf_armor.png",
+      "bytes": 10384,
+      "sha256": "233db348b32e83591c6da31f961c25a7edf4ce14f018fd9d345a582178f30d69",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/models/armor/wolf_armor.png",
+      "source_url": "https://github.com/Infamous-Misadventures/Dungeons-Gear/blob/9ba0075c5b2f13ef54ec914ad1327a853ecdce6f/src/main/resources/assets/dungeons_gear/textures/models/armor/wolf_armor.png",
+      "modification": "unchanged_source_bytes"
+    }
+  ],
+  "delivered_files": [
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/boots_of_swiftness.json",
+      "bytes": 6971,
+      "sha256": "f27699ea3220e5177620a78c7381e4324359b35edbab12bb49e8d774426f7235",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/boots_of_swiftness.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/boots_of_swiftness.png",
+      "bytes": 479,
+      "sha256": "21c00fd5f227ebc83c08461a20770b43e8dd08d6a6dbf37e10677bc5533a4bc5",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/boots_of_swiftness.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/death_cap_mushroom.json",
+      "bytes": 4123,
+      "sha256": "dce04b6a382afc69aa8750a1e3cedee189b67e24b7d461722f2c8a5f0964025a",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/death_cap_mushroom.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/death_cap_mushroom.png",
+      "bytes": 419,
+      "sha256": "8bc8c92d9a225ad2a10591639c62861479f1949234cefb16e9c73e0a74a585c1",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/death_cap_mushroom.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/iron_hide_amulet.json",
+      "bytes": 18434,
+      "sha256": "8f9a64bdecf6aba73c3a4e8ab16bc24b85ee09692fd473ba1a7138deba4042d6",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/iron_hide_amulet.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/iron_hide_amulet.png",
+      "bytes": 1262,
+      "sha256": "e01759a4fdbbf2aa60b7c0a3e33871183e197d33aedb928091cb8fe76e16bdb7",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/iron_hide_amulet.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/shock_powder.json",
+      "bytes": 9644,
+      "sha256": "2c51b6c2ab67d2a53b109137c9ac28204de3401ec78e0cee9baf3c41ecea5e3c",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/shock_powder.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/shock_powder.png",
+      "bytes": 1009,
+      "sha256": "d956a9d2e217991c3b783ec52199cee6d8cb21a04084818fc49f939a0b13ac6f",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/shock_powder.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/gong_of_weakening.json",
+      "bytes": 18641,
+      "sha256": "63720a61b2eb4f4bb07aa99aec630c8217e4d3d1043fa93463b74bfbf8635335",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/gong_of_weakening.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/gong_of_weakening.png",
+      "bytes": 820,
+      "sha256": "4214f94af9f86ef416362596fdc5d3fd8cc248bbb15887edbc9c3c3192dd8161",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/gong_of_weakening.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/harvester.json",
+      "bytes": 5194,
+      "sha256": "6be359ab1aeec2a35166ac93b6132690bf193664f7b9accec639c155a008cd36",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/harvester.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/harvester.png",
+      "bytes": 444,
+      "sha256": "1734be61d399822281180ca6262538b0e9cb06fd657011e1d1b5af2ff79ac4e0",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/harvester.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/corrupted_beacon.json",
+      "bytes": 11443,
+      "sha256": "7cb88faf2c410dd7fbbeb0d1a945fa6de3f0be4178b7bff9f89da634b3696d10",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/corrupted_beacon.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/corrupted_beacon.png",
+      "bytes": 1359,
+      "sha256": "7006b7e9653acede115eb094c727623eaae190f10e044ac78c201411c78aa73e",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/corrupted_beacon.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/lightning_rod.json",
+      "bytes": 1254,
+      "sha256": "b51f8171cdf7e1831c9524e174add5510491063277ec556e80bcd36c556132ef",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/lightning_rod.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/lightning_rod.png",
+      "bytes": 2147,
+      "sha256": "2dccc07a2aab7a32eb42457135244c560b55b741831f3d949416aedeed467cbf",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/lightning_rod.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/soul_healer.json",
+      "bytes": 18578,
+      "sha256": "cf7682107274b1bd4808cce6a19bccc1593e6075ba25bea29738b89c74c86181",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/soul_healer.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/soul_healer.png",
+      "bytes": 1184,
+      "sha256": "25e3d22e6358baed8d1b7548c3c49c14123e17fbcd4651a7116a7e23fbfcea8e",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/soul_healer.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/ghost_cloak.json",
+      "bytes": 14019,
+      "sha256": "7445cb0200569cae1d931347dc5f3926578ce50322ee2bc8d02ddea2ffb6eac3",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/ghost_cloak.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/ghost_cloak.png",
+      "bytes": 3087,
+      "sha256": "889c3161194e3f6d7ed76eec6548f931393ffd49dbad25ee569e1ffabc8e3b9e",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/ghost_cloak.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/flaming_quiver.json",
+      "bytes": 38693,
+      "sha256": "17a70ad94da6b474758a31f4dcff36a2e76bfbd6dbae4158b91e9146524325ea",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/flaming_quiver.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/flaming_quiver.png",
+      "bytes": 459,
+      "sha256": "83e2455c9d462c3e82a9f1e000801bbbf9956eb623fb38dc960146e61ca411fd",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/flaming_quiver.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/sword.json",
+      "bytes": 1256,
+      "sha256": "f1162b7ea7f2e1242d72c0f14bd5497d4fffb3128771408b80299ef0ebffc509",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/sword.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/sword.png",
+      "bytes": 1977,
+      "sha256": "dac6ea995a4ed8f048cc880c7e26e280a3f87fb7d11ef4737e2766233866f51a",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/sword.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/cutlass.json",
+      "bytes": 1253,
+      "sha256": "05667a880e720d09271c4313f14a5c2cb1efcd593fd3d4a2cbef0197af7adae6",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/cutlass.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/cutlass.png",
+      "bytes": 2049,
+      "sha256": "0b17529b2e25fec1ba6957de72ab2d13ea96a4c7e69ee121b5059dee93841fdf",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/cutlass.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/daggers.json",
+      "bytes": 1252,
+      "sha256": "805b5414b9acb12bd2f6dbc3663a5634078b852a34d90814bea5f270897c360d",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/dagger.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/daggers.png",
+      "bytes": 2076,
+      "sha256": "43f3569a46485d6ff73f6a7187877487e597bff55e98fc51369a0f8c2daa93db",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/dagger.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/glaive.json",
+      "bytes": 1144,
+      "sha256": "8fba8d79f2c9c6cf9522da966e4961b2f86d1edee822af63ea82ed02c600a493",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/glaive.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/glaive.png",
+      "bytes": 2010,
+      "sha256": "935bd765fd88e6a4ce6c3211d28f728de304733814f04157cf170105dc1535ae",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/glaive.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/spear.json",
+      "bytes": 1125,
+      "sha256": "33eb6f5209a096eacabb342551fb55a048fb210a608e6be3972b302f3391222f",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/spear.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/spear.png",
+      "bytes": 1988,
+      "sha256": "6afd30a386139c12d350c1c841492e9e11902b1cfac912a5581477d4faf032d9",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/spear.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/hammer.json",
+      "bytes": 15025,
+      "sha256": "d5ace237396a5b65b35f2b91690560a9da870a80c5d91cf677ad873fe3fe77b9",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/great_hammer.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/hammer.png",
+      "bytes": 2076,
+      "sha256": "9adeb838e4244563b15947f7c2ce7001f3c2da8face106eabd1246aa69623d4b",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/great_hammer.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/sickles.json",
+      "bytes": 1260,
+      "sha256": "600edb2b8e5a4b3d05a14ba6b258a641fe771ffbe486be0792d23d9d653abb59",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/sickle.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/sickles.png",
+      "bytes": 2383,
+      "sha256": "9d63101b449966b7500c277ce0a0c9feb098a1b5ca485181b2fd27afb2fae5ae",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/sickle.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/soul_knife.json",
+      "bytes": 1261,
+      "sha256": "839a50f6cdfa244840e2ea5cd01515600bf174b6ef2f0cd75c04484695379408",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/soul_knife.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/soul_knife.png",
+      "bytes": 1919,
+      "sha256": "99f8cdc25bcaa8280f376c6e77a6cea43066aff81f7f338f8f0683a5c518820a",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/soul_knife.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/heartstealer.json",
+      "bytes": 1259,
+      "sha256": "084c391569426c5775d00acf95d977e0ed813921fdb07dcf2f5281b15b4ecdbe",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/heartstealer.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/heartstealer.png",
+      "bytes": 2168,
+      "sha256": "e5e1b12312cf201ed712c7514498532781f8209a071894649a31150bf58f8dc2",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/heartstealer.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/stormlander.json",
+      "bytes": 13795,
+      "sha256": "5aa106faf8ece04153b327df13d36e7cb4d40cd1e89b8abd7ab9cff96287462e",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/stormlander.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/stormlander.png",
+      "bytes": 2254,
+      "sha256": "173ad59e1122cf5e841577b8f7512a758aae2327289376959213c7d42f1a1e41",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/stormlander.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/fighters_bindings.json",
+      "bytes": 38328,
+      "sha256": "d16c9eee739d7b6a30f997f72e2b26509b13630491a1296296d071f0c2c21528",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/fighters_binding.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/fighters_bindings.png",
+      "bytes": 784,
+      "sha256": "d25bd124d153ccba018a66642239d6142131c4a2f4ed070f4db0db4c962771fd",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/fighters_binding.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/suns_grace.json",
+      "bytes": 21024,
+      "sha256": "3a4b61a6cfd553aac5badcc11b2335353bfb01fe190a9cbc634aa487d05e84e6",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/suns_grace.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/suns_grace.png",
+      "bytes": 3836,
+      "sha256": "6b198f25d9c4fe30c87c2393464a0f722c77605d7f432a73f6f509635669f044",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/suns_grace.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/frost_scythe.json",
+      "bytes": 1262,
+      "sha256": "9c57d6053e3fe06c65fd56c5a0a5a1a295a7b51217a2b0779aa1818f988dbe29",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/frost_scythe.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/frost_scythe.png",
+      "bytes": 3109,
+      "sha256": "4edbfef20ea9334ea26771492a235e6fa868537291987dda5c21af54954733bb",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/frost_scythe.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/whirlwind.json",
+      "bytes": 1250,
+      "sha256": "c89d99389bb3b4eaf2406eeb158b76e47a675bc314eca114db8df5d44cc4b9a9",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/whirlwind.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/whirlwind.png",
+      "bytes": 2126,
+      "sha256": "9882c0cc88fb09531629f57b27db2cc3ecf4d753d6e77d131bdb761c0495785c",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/whirlwind.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/power_bow.json",
+      "bytes": 1711,
+      "sha256": "28f191943b17436a65989d46cc2cedc434745db0615e77228931fcd34d5bdec1",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/power_bow.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/power_bow.png",
+      "bytes": 2022,
+      "sha256": "bbea86d8fc0d0d931b547ed6783841b6d045680e7e154c54cb9e993f12fdaf28",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/power_bow.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/power_bow_pulling_0.json",
+      "bytes": 128,
+      "sha256": "592ce8a91a63e644dc1335de9a37fe7f4d00f220f37f437db915e5458458357d",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/power_bow_pulling_0.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/power_bow_pulling_0.png",
+      "bytes": 844,
+      "sha256": "e449da6325a77b33f69a6976f0324cdf252b9dbc2f757a21bc13c7ef8baf5cbc",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/power_bow_pulling_0.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/power_bow_pulling_1.json",
+      "bytes": 128,
+      "sha256": "3c1e4e3a98c172cc5b3bc370a7688bb890ecf419fc380353f7fa180fb4cd2961",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/power_bow_pulling_1.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/power_bow_pulling_1.png",
+      "bytes": 886,
+      "sha256": "16c73953fb2d5c7ca7e74c386fcb64914a96ae186e9bbb48c26ddc27d506215c",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/power_bow_pulling_1.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/power_bow_pulling_2.json",
+      "bytes": 128,
+      "sha256": "292fce9ea9580f94fa59943b261d70d3f01ebd7fc40da93d1afde93dc0de82ea",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/power_bow_pulling_2.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/power_bow_pulling_2.png",
+      "bytes": 878,
+      "sha256": "926375723f2d949b428401613528053d2f170b83f9d49f6e57a33415367dee10",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/power_bow_pulling_2.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/hunters_promise.json",
+      "bytes": 1735,
+      "sha256": "a32efe227aaa24726e0de389e8ddb5b2221fbce0e69168fb284cf98d221b0b70",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/hunters_promise.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/hunters_promise.png",
+      "bytes": 2143,
+      "sha256": "5bbab2206c33f77cf3fe54bfc854c4017f2abd2d828c71963f7e1a33511cfc2d",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/hunters_promise.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/hunters_promise_pulling_0.json",
+      "bytes": 140,
+      "sha256": "8af4f6b8c299186a7073b8c815eed87d47a8e7843b0f570dcf74876f6a35b20f",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/hunters_promise_pulling_0.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/hunters_promise_pulling_0.png",
+      "bytes": 864,
+      "sha256": "b1d01d765417b5eeb5ee935beb6bfb660a70b975288421f3bb7a78915f45d6e9",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/hunters_promise_pulling_0.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/hunters_promise_pulling_1.json",
+      "bytes": 140,
+      "sha256": "7cd18e040cdb6fcb11b6737c5f0445a4b7d426131416f8f07345b5557f8d150f",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/hunters_promise_pulling_1.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/hunters_promise_pulling_1.png",
+      "bytes": 947,
+      "sha256": "a5d20f6d2590aba950c70ed8727ae4bc5e8e83a376e1c727c4df50b8907a875c",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/hunters_promise_pulling_1.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/hunters_promise_pulling_2.json",
+      "bytes": 140,
+      "sha256": "a8750d1796332d77331931c9944b08a4bf01be66b94f0bd7d006c8f562e0825f",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/hunters_promise_pulling_2.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/hunters_promise_pulling_2.png",
+      "bytes": 950,
+      "sha256": "6d3ab1c05520dd66085782bb4a901c6d571ce972a45c7a1bcbaf0dbb48c4113b",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/hunters_promise_pulling_2.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/auto_crossbow.json",
+      "bytes": 1985,
+      "sha256": "c67e1308acd5d53b350e03ee4b5d787f6026115233b0aaf350aa6bb3e6c94fe2",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/auto_crossbow.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/auto_crossbow.png",
+      "bytes": 2107,
+      "sha256": "e922f233e5c86e6d546799cae425e0f14caae71c802260062b88c137df964833",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/auto_crossbow_pulling_0.json",
+      "bytes": 136,
+      "sha256": "8608ad0c4d8a976c7ead29dd714884abbee282b6838f2f6b99d762f49ea6ac5d",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_pulling_0.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/auto_crossbow_pulling_0.png",
+      "bytes": 968,
+      "sha256": "f6f909697e6473f4a8ae4c41d50d8315f1b97a8af1b5394db64a8ceb033ef623",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_pulling_0.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/auto_crossbow_pulling_1.json",
+      "bytes": 136,
+      "sha256": "0fb015362e8ae850efbcbf6c1c49fa91198c02c5d915b319e8aef2313e0e13fe",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_pulling_1.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/auto_crossbow_pulling_1.png",
+      "bytes": 951,
+      "sha256": "f908ae070b44b955cceac9b3394223ddc239c82b8a82a2ff2e4bbef0c6064409",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_pulling_1.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/auto_crossbow_pulling_2.json",
+      "bytes": 136,
+      "sha256": "d6038534d539f94980cb7013954a9af3699b086352c3d3cf0fe37cae7b7604fd",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_pulling_2.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/auto_crossbow_pulling_2.png",
+      "bytes": 995,
+      "sha256": "8085b776d0040f3fa3cdf1aa9c654960e45c821bce29be9104084551b54c1ca3",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_pulling_2.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/auto_crossbow_arrow.json",
+      "bytes": 132,
+      "sha256": "a3b3d61d3a5df48e1749a118c5561dd944485dacfa11b17d72e53c7cbc8cafd7",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_arrow.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/auto_crossbow_arrow.png",
+      "bytes": 1033,
+      "sha256": "11eaa6888faf4d3011cbacbdfb5fe0235b615d989a313ab801a05a7cca2106bb",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_arrow.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/auto_crossbow_firework.json",
+      "bytes": 135,
+      "sha256": "284a95be8ab69908729db07ce07a9a77502e3d59a28a1520326b9f9382c03ca5",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/auto_crossbow_firework.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/auto_crossbow_firework.png",
+      "bytes": 1055,
+      "sha256": "7281f5991894e11bc282f6fd173f52bad334baf4161cdff28b4239b135061613",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/auto_crossbow_firework.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/exploding_crossbow.json",
+      "bytes": 2015,
+      "sha256": "7a56b1d6bd0d2913e0f66f39994f3c3b7664a03d9fd17c4b2734d975a9445f67",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/exploding_crossbow.png",
+      "bytes": 2501,
+      "sha256": "18a6899ed04233acfff7134207c6c9e62dd60783a4f1f347c9b7ac98284f8466",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/exploding_crossbow_pulling_0.json",
+      "bytes": 146,
+      "sha256": "a6bafb13a15167e62d57b0b91c7538c1a130d08245c44dbcbc0202bda3022381",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_pulling_0.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/exploding_crossbow_pulling_0.png",
+      "bytes": 965,
+      "sha256": "99942b6b24a0b259d6b08a4175a323c4b114880750f1daa96a212bdd30870b54",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_pulling_0.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/exploding_crossbow_pulling_1.json",
+      "bytes": 146,
+      "sha256": "90e07a7eab21043da5c9934f96e737f54cb7e64c2c25ec0c264d4c67f3a3ff77",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_pulling_1.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/exploding_crossbow_pulling_1.png",
+      "bytes": 960,
+      "sha256": "98194405e3f7bb9b717a65b3736763eddf57b260d0b4ef64a776eb7af821763f",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_pulling_1.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/exploding_crossbow_pulling_2.json",
+      "bytes": 146,
+      "sha256": "3959e33d92f82e4327862c71c832ad7b154332aa8d0ce62c2e689896c28a3e43",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_pulling_2.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/exploding_crossbow_pulling_2.png",
+      "bytes": 944,
+      "sha256": "deb07b840628e526d0ff4231283e7d3887ae173d1793ab279cbeccef66acbc6e",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_pulling_2.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/exploding_crossbow_arrow.json",
+      "bytes": 142,
+      "sha256": "f6ff7bf7c12e84e13532f06584a0609aaa83fe2cc44643e7eab6553a3b9c099d",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_arrow.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/exploding_crossbow_arrow.png",
+      "bytes": 989,
+      "sha256": "982a8c6a2b55d95063c633b1dbd6e1646879df2edad239ebbcf3d1226127c803",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_arrow.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/exploding_crossbow_firework.json",
+      "bytes": 145,
+      "sha256": "2ef7ea41860de6521278f586f5bbce9d5939c0a5598a6094e2df72fcc57d5bf2",
+      "source_path": "src/main/resources/assets/dungeons_gear/models/item/exploding_crossbow_firework.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/exploding_crossbow_firework.png",
+      "bytes": 1054,
+      "sha256": "44f7be6c98ac8163d48db99758099cebfb38e807ea703c49f0235fdb49c78d16",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/exploding_crossbow_firework.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/wolf_helmet.json",
+      "bytes": 116,
+      "sha256": "d0d4fdd34cf222ea0df4e4aeff1ec7c2cf04dd58f1f1305f00a1b33b25e72146",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/wolf_helmet.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/wolf_helmet.png",
+      "bytes": 724,
+      "sha256": "b3d685b2bef5ca9384c0492d9a6d411a39cded66343a12c539be7c22fe79970c",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_helmet.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/wolf_chestplate.json",
+      "bytes": 120,
+      "sha256": "6a138b5ae1ee77212de87b340bb602c408283431420e4d1317295264e458a258",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/wolf_chestplate.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/wolf_chestplate.png",
+      "bytes": 749,
+      "sha256": "34b206162cf18b7589f9b1475139ea68f25899e39920d531def09330e09c8f8a",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_chestplate.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/wolf_leggings.json",
+      "bytes": 118,
+      "sha256": "d192fd49b5adfb8e217929fc123fc85291e9e32afb208508980fc46f391d7ea4",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/wolf_leggings.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/wolf_leggings.png",
+      "bytes": 5593,
+      "sha256": "1036d8136d90809018e4f1e8eec65bdd5f28a6f570f759479b074930f9d004d6",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_leggings.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/wolf_boots.json",
+      "bytes": 115,
+      "sha256": "55512fea6abf90fd93edea10fbd7eb2790f47ea1136871c4579ad7db67372442",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/wolf_boots.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/wolf_boots.png",
+      "bytes": 5625,
+      "sha256": "0ab46728ba76a11934e42ee6feb0ec95ef47c13bb023eee752f86035d359cbe0",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/wolf_boots.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/spider_helmet.json",
+      "bytes": 118,
+      "sha256": "b34c49195847d077275e70fcc3e393bb27986c4ea8809e706665118dedc039d7",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/spider_helmet.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/spider_helmet.png",
+      "bytes": 679,
+      "sha256": "020773da4c9354905c937f2426cf2a388a4b9c33ac7e45468780dd400f06207d",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/spider_helmet.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/spider_chestplate.json",
+      "bytes": 122,
+      "sha256": "d612d747757e2b9873521f5eb4e96fb8a67c24a145419bab6b204c71b3c5a058",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/spider_chestplate.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/spider_chestplate.png",
+      "bytes": 759,
+      "sha256": "c4b47ea1bac719c995b0f4c3e6a436bee23991e69217fa3b37f989399322ed78",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/spider_chestplate.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/spider_leggings.json",
+      "bytes": 120,
+      "sha256": "b0124816f769ef5dc0c2ad5ba2fe659543c4b5dcbf8eda07dc2cabb5c6ec10d9",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/spider_leggings.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/spider_leggings.png",
+      "bytes": 5541,
+      "sha256": "e8e5e5adfaf8963716476196c60698858c69523456d66eaccc4bf0ca26a16175",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/spider_leggings.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/spider_boots.json",
+      "bytes": 117,
+      "sha256": "be0c2f3907577df646447192f20f7e33c0918da122116f268348df06fc33e5de",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/spider_boots.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/spider_boots.png",
+      "bytes": 5485,
+      "sha256": "9dbf13a6467eda32f1dbd8ce4409b5275bf483d974ae9e921a14554ffc2f770e",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/spider_boots.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/battle_robes_helmet.json",
+      "bytes": 124,
+      "sha256": "c7d2129cd312d1fb373c826dd1939aa84b746c13cf778968208bfd3e7dd804e2",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/battle_robes_helmet.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/battle_robes_helmet.png",
+      "bytes": 345,
+      "sha256": "2ddca4451c301476eda7dee537d74792b0359ec08f31c42cb39f876dd16c7747",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_helmet.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/battle_robes_chestplate.json",
+      "bytes": 128,
+      "sha256": "716fc87fb1fd333021536be144e64cf300d3e57e92049418753297420be96fe6",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/battle_robes_chestplate.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/battle_robes_chestplate.png",
+      "bytes": 775,
+      "sha256": "349f474f6eb429da44cfed90e5ccda4913b71531139b226128626fc75bd11138",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_chestplate.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/battle_robes_leggings.json",
+      "bytes": 126,
+      "sha256": "997a595663354dad04e282edbcfde213240af1db7bbdfb46a22d86f571df005a",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/battle_robes_leggings.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/battle_robes_leggings.png",
+      "bytes": 258,
+      "sha256": "15f482abe2f5e5b3f3be4b9eb9bce5bbd29fd5536dd449bb992e772253541ab6",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_leggings.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/models/item/battle_robes_boots.json",
+      "bytes": 123,
+      "sha256": "8137bb0e8fecd80a97b2bc5f2ce5de6d90a90e18a58dc58e841e5477a1eebb29",
+      "source_path": "src/generated/resources/assets/dungeons_gear/models/item/battle_robes_boots.json",
+      "modification": "resource_locations_only; geometry_uvs_display_unchanged"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/item/gear/battle_robes_boots.png",
+      "bytes": 276,
+      "sha256": "86ac6347d4ca1c43ffc3091d17aba0d7e63ea92cea7cd98e4934aa8003f19b4e",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/item/armor/battle_robes_boots.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/models/armor/wolf_armor.png",
+      "bytes": 10384,
+      "sha256": "233db348b32e83591c6da31f961c25a7edf4ce14f018fd9d345a582178f30d69",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/models/armor/wolf_armor.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/models/armor/spider_armor.png",
+      "bytes": 949,
+      "sha256": "f5e98010fc6fa30beedbae30463c6c6be4b1c3cec75b6546aae5b2a110ba039f",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/models/armor/spider_armor.png",
+      "modification": "unchanged_source_pixels"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/textures/models/armor/battle_robes_armor.png",
+      "bytes": 10154,
+      "sha256": "c5c4f1506418214414d893cfe86bf03ea09926eb4fc9a4b6a66e9a74a03b0a29",
+      "source_path": "src/main/resources/assets/dungeons_gear/textures/models/armor/battle_robes_armor.png",
+      "modification": "unchanged_source_pixels"
+    }
+  ],
+  "items": [
+    {
+      "id": "boots_of_swiftness",
+      "registry_id": "dungeonsalive:boots_of_swiftness",
+      "source_id": "boots_of_swiftness",
+      "name_en": "Boots of Swiftness",
+      "name_de": "Stiefel der Schnelligkeit",
+      "kind": "artifact",
+      "model_elements": 4,
+      "rendering": "source_3d_elements",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "death_cap_mushroom",
+      "registry_id": "dungeonsalive:death_cap_mushroom",
+      "source_id": "death_cap_mushroom",
+      "name_en": "Death Cap Mushroom",
+      "name_de": "Todeshutpilz",
+      "kind": "artifact",
+      "model_elements": 2,
+      "rendering": "source_3d_elements",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "iron_hide_amulet",
+      "registry_id": "dungeonsalive:iron_hide_amulet",
+      "source_id": "iron_hide_amulet",
+      "name_en": "Iron Hide Amulet",
+      "name_de": "Eisenhautamulett",
+      "kind": "artifact",
+      "model_elements": 13,
+      "rendering": "source_3d_elements",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "shock_powder",
+      "registry_id": "dungeonsalive:shock_powder",
+      "source_id": "shock_powder",
+      "name_en": "Shock Powder",
+      "name_de": "Schockpulver",
+      "kind": "artifact",
+      "model_elements": 6,
+      "rendering": "source_3d_elements",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "gong_of_weakening",
+      "registry_id": "dungeonsalive:gong_of_weakening",
+      "source_id": "gong_of_weakening",
+      "name_en": "Gong of Weakening",
+      "name_de": "Gong der Schwächung",
+      "kind": "artifact",
+      "model_elements": 13,
+      "rendering": "source_3d_elements",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "harvester",
+      "registry_id": "dungeonsalive:harvester",
+      "source_id": "harvester",
+      "name_en": "Harvester",
+      "name_de": "Seelenernter",
+      "kind": "artifact",
+      "model_elements": 3,
+      "rendering": "source_3d_elements",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "corrupted_beacon",
+      "registry_id": "dungeonsalive:corrupted_beacon",
+      "source_id": "corrupted_beacon",
+      "name_en": "Corrupted Beacon",
+      "name_de": "Verdorbenes Leuchtfeuer",
+      "kind": "artifact",
+      "model_elements": 8,
+      "rendering": "source_3d_elements",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "lightning_rod",
+      "registry_id": "dungeonsalive:lightning_rod",
+      "source_id": "lightning_rod",
+      "name_en": "Lightning Rod",
+      "name_de": "Blitzstab",
+      "kind": "artifact",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "soul_healer",
+      "registry_id": "dungeonsalive:soul_healer",
+      "source_id": "soul_healer",
+      "name_en": "Soul Healer",
+      "name_de": "Seelenheiler",
+      "kind": "artifact",
+      "model_elements": 13,
+      "rendering": "source_3d_elements",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "ghost_cloak",
+      "registry_id": "dungeonsalive:ghost_cloak",
+      "source_id": "ghost_cloak",
+      "name_en": "Ghost Cloak",
+      "name_de": "Geisterumhang",
+      "kind": "artifact",
+      "model_elements": 10,
+      "rendering": "source_3d_elements",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "flaming_quiver",
+      "registry_id": "dungeonsalive:flaming_quiver",
+      "source_id": "flaming_quiver",
+      "name_en": "Flaming Quiver",
+      "name_de": "Flammenköcher",
+      "kind": "artifact",
+      "model_elements": 28,
+      "rendering": "source_3d_elements",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "sword",
+      "registry_id": "dungeonsalive:sword",
+      "source_id": "sword",
+      "name_en": "Sword",
+      "name_de": "Schwert",
+      "kind": "weapon",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "cutlass",
+      "registry_id": "dungeonsalive:cutlass",
+      "source_id": "cutlass",
+      "name_en": "Cutlass",
+      "name_de": "Entermesser",
+      "kind": "weapon",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "daggers",
+      "registry_id": "dungeonsalive:daggers",
+      "source_id": "dagger",
+      "name_en": "Daggers",
+      "name_de": "Dolche",
+      "kind": "weapon",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "glaive",
+      "registry_id": "dungeonsalive:glaive",
+      "source_id": "glaive",
+      "name_en": "Glaive",
+      "name_de": "Gleve",
+      "kind": "weapon",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "spear",
+      "registry_id": "dungeonsalive:spear",
+      "source_id": "spear",
+      "name_en": "Spear",
+      "name_de": "Speer",
+      "kind": "weapon",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "hammer",
+      "registry_id": "dungeonsalive:hammer",
+      "source_id": "great_hammer",
+      "name_en": "Great Hammer",
+      "name_de": "Großhammer",
+      "kind": "weapon",
+      "model_elements": 11,
+      "rendering": "source_3d_elements",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "sickles",
+      "registry_id": "dungeonsalive:sickles",
+      "source_id": "sickle",
+      "name_en": "Sickles",
+      "name_de": "Sicheln",
+      "kind": "weapon",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "soul_knife",
+      "registry_id": "dungeonsalive:soul_knife",
+      "source_id": "soul_knife",
+      "name_en": "Soul Knife",
+      "name_de": "Seelenmesser",
+      "kind": "weapon",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "heartstealer",
+      "registry_id": "dungeonsalive:heartstealer",
+      "source_id": "heartstealer",
+      "name_en": "Heartstealer",
+      "name_de": "Herzensbrecher",
+      "kind": "weapon",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "stormlander",
+      "registry_id": "dungeonsalive:stormlander",
+      "source_id": "stormlander",
+      "name_en": "Stormlander",
+      "name_de": "Sturmländer",
+      "kind": "weapon",
+      "model_elements": 10,
+      "rendering": "source_3d_elements",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "fighters_bindings",
+      "registry_id": "dungeonsalive:fighters_bindings",
+      "source_id": "fighters_binding",
+      "name_en": "Fighter's Bindings",
+      "name_de": "Kämpferfesseln",
+      "kind": "weapon",
+      "model_elements": 74,
+      "rendering": "source_3d_elements",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "suns_grace",
+      "registry_id": "dungeonsalive:suns_grace",
+      "source_id": "suns_grace",
+      "name_en": "Sun's Grace",
+      "name_de": "Sonnengnade",
+      "kind": "weapon",
+      "model_elements": 15,
+      "rendering": "source_3d_elements",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "frost_scythe",
+      "registry_id": "dungeonsalive:frost_scythe",
+      "source_id": "frost_scythe",
+      "name_en": "Frost Scythe",
+      "name_de": "Frostsense",
+      "kind": "weapon",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "whirlwind",
+      "registry_id": "dungeonsalive:whirlwind",
+      "source_id": "whirlwind",
+      "name_en": "Whirlwind",
+      "name_de": "Wirbelwind",
+      "kind": "weapon",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "power_bow",
+      "registry_id": "dungeonsalive:power_bow",
+      "source_id": "power_bow",
+      "name_en": "Power Bow",
+      "name_de": "Kraftbogen",
+      "kind": "ranged",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "hunters_promise",
+      "registry_id": "dungeonsalive:hunters_promise",
+      "source_id": "hunters_promise",
+      "name_en": "Hunter's Promise",
+      "name_de": "Versprechen des Jägers",
+      "kind": "ranged",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "auto_crossbow",
+      "registry_id": "dungeonsalive:auto_crossbow",
+      "source_id": "auto_crossbow",
+      "name_en": "Auto Crossbow",
+      "name_de": "Automatische Armbrust",
+      "kind": "ranged",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "exploding_crossbow",
+      "registry_id": "dungeonsalive:exploding_crossbow",
+      "source_id": "exploding_crossbow",
+      "name_en": "Exploding Crossbow",
+      "name_de": "Explodierende Armbrust",
+      "kind": "ranged",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "wolf_helmet",
+      "registry_id": "dungeonsalive:wolf_helmet",
+      "source_id": "wolf_helmet",
+      "name_en": "Wolf Hood",
+      "name_de": "Wolfs-Kapuze",
+      "kind": "armor",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "wolf_chestplate",
+      "registry_id": "dungeonsalive:wolf_chestplate",
+      "source_id": "wolf_chestplate",
+      "name_en": "Wolf Chestpiece",
+      "name_de": "Wolfs-Bruststück",
+      "kind": "armor",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "wolf_leggings",
+      "registry_id": "dungeonsalive:wolf_leggings",
+      "source_id": "wolf_leggings",
+      "name_en": "Wolf Leggings",
+      "name_de": "Wolfs-Hose",
+      "kind": "armor",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "wolf_boots",
+      "registry_id": "dungeonsalive:wolf_boots",
+      "source_id": "wolf_boots",
+      "name_en": "Wolf Boots",
+      "name_de": "Wolfs-Stiefel",
+      "kind": "armor",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "spider_helmet",
+      "registry_id": "dungeonsalive:spider_helmet",
+      "source_id": "spider_helmet",
+      "name_en": "Spider Hood",
+      "name_de": "Spinnen-Kapuze",
+      "kind": "armor",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "spider_chestplate",
+      "registry_id": "dungeonsalive:spider_chestplate",
+      "source_id": "spider_chestplate",
+      "name_en": "Spider Chestpiece",
+      "name_de": "Spinnen-Bruststück",
+      "kind": "armor",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "spider_leggings",
+      "registry_id": "dungeonsalive:spider_leggings",
+      "source_id": "spider_leggings",
+      "name_en": "Spider Leggings",
+      "name_de": "Spinnen-Hose",
+      "kind": "armor",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "spider_boots",
+      "registry_id": "dungeonsalive:spider_boots",
+      "source_id": "spider_boots",
+      "name_en": "Spider Boots",
+      "name_de": "Spinnen-Stiefel",
+      "kind": "armor",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "battle_robes_helmet",
+      "registry_id": "dungeonsalive:battle_robes_helmet",
+      "source_id": "battle_robes_helmet",
+      "name_en": "Battle Robes Hood",
+      "name_de": "Kampfroben-Kapuze",
+      "kind": "armor",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "battle_robes_chestplate",
+      "registry_id": "dungeonsalive:battle_robes_chestplate",
+      "source_id": "battle_robes_chestplate",
+      "name_en": "Battle Robes Chestpiece",
+      "name_de": "Kampfroben-Bruststück",
+      "kind": "armor",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "battle_robes_leggings",
+      "registry_id": "dungeonsalive:battle_robes_leggings",
+      "source_id": "battle_robes_leggings",
+      "name_en": "Battle Robes Leggings",
+      "name_de": "Kampfroben-Hose",
+      "kind": "armor",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    },
+    {
+      "id": "battle_robes_boots",
+      "registry_id": "dungeonsalive:battle_robes_boots",
+      "source_id": "battle_robes_boots",
+      "name_en": "Battle Robes Boots",
+      "name_de": "Kampfroben-Stiefel",
+      "kind": "armor",
+      "model_elements": 0,
+      "rendering": "source_handheld_sprite",
+      "behavior": "own_native_minecraft_adaptation",
+      "recipe": "own_sandbox_recipe"
+    }
+  ],
+  "counts": {
+    "artifacts": 11,
+    "weapons": 14,
+    "ranged_weapons": 4,
+    "armor_sets": 3,
+    "armor_pieces": 12,
+    "source_files": 120,
+    "delivered_files": 117,
+    "new_quests": 4
+  },
+  "notice": "Published community art, not claimed to be original game-extracted files. Native behavior, recipes, cooldowns and soul accounting are this project's adaptation."
+}

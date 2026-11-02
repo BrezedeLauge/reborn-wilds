@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "half_height": 0,
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 2
+    },
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "dungeonsalive:luminous_moss"
+        }
+      },
+      "rules": []
+    },
+    "target": {
+      "type": "minecraft:all_of",
+      "predicates": [
+        {
+          "type": "minecraft:matching_blocks",
+          "blocks": [
+            "minecraft:grass_block",
+            "minecraft:dirt",
+            "minecraft:coarse_dirt",
+            "minecraft:podzol",
+            "minecraft:rooted_dirt",
+            "minecraft:moss_block",
+            "minecraft:mud",
+            "dungeonsalive:amber_moss",
+            "dungeonsalive:luminous_moss"
+          ]
+        },
+        {
+          "type": "minecraft:matching_blocks",
+          "blocks": "minecraft:air",
+          "offset": [
+            0,
+            1,
+            0
+          ]
+        }
+      ]
+    }
+  }
+}

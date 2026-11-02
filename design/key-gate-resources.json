@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "generator": "tools/generate_key_gate_resources.py",
+  "author": "Dungeons Alive project",
+  "geometry_license": "MIT",
+  "textures": "References to installed Minecraft resources only; no third-party pixels copied.",
+  "scope": "Two optional player-built Minecraft door adaptations, not imported Dungeons gate models.",
+  "native_visual_validation": "pending",
+  "generated_files": [
+    {
+      "path": "src/main/resources/assets/dungeonsalive/blockstates/key_gate.json",
+      "sha256": "e4a5c8cdebb2f3d18bd2ff15da9ba855a9476458b8988390ea2e6b96147023fa"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/block/key_gate_lower.json",
+      "sha256": "dceb54ec46aadfcb7fa5ee45628723dbbb7acfe015b68a8f7dd9f5bfbe8f8272"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/block/key_gate_upper.json",
+      "sha256": "a4874a39a9434b2a9384201f60d5d7d5766125394f534398df75dc204f3f3a01"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/item/key_gate.json",
+      "sha256": "85cd9f48805278f2e72de990245c3a386c440737690e7361b6d82eac6437e41f"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/recipe/key_gate.json",
+      "sha256": "5c909217a3aa8f1d7084e0274b8413930516fb6021dbbbe535162daeda70fabe"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/loot_table/blocks/key_gate.json",
+      "sha256": "e939df2a490e7af05d827f32b1fdca08979ad649958c9b6d7814db355048461f"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/advancement/recipes/key_gate.json",
+      "sha256": "c37f84456c9a1dbfc7b81b7ea6592ee1a305264d1cb317a033bd1cc61779d0a6"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/blockstates/diamond_key_gate.json",
+      "sha256": "093c52e3cbf176b54cfb76764e079711b415985a67bb34ceef7e55a089734afc"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/block/diamond_key_gate_lower.json",
+      "sha256": "4607ab0a9aad85637485c4147cc7df14ad5036ff6d2802fedf3120a39b614ebd"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/block/diamond_key_gate_upper.json",
+      "sha256": "8331441116a76db4f70b2be5f90036f10e32a227865e17e9dc8df8554c672634"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/item/diamond_key_gate.json",
+      "sha256": "a262151ad7e4784f0bb4add71b9ed3b8bfb116673c0cf18ffaacbaa5ba3a0c78"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/recipe/diamond_key_gate.json",
+      "sha256": "587392491dff80216fb8b8a4d4357ced754305dbcdd07bfaff9d6d8f13fbea94"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/loot_table/blocks/diamond_key_gate.json",
+      "sha256": "5e2c8b45551764cf3f7eeadf6225d5931dc1e7cf6d70a8115c54ea1965ec9fdb"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/advancement/recipes/diamond_key_gate.json",
+      "sha256": "7bc3b5bac0791e045b8258bedf5d3d50562c15ef515b9468cf42a0b9919d097e"
+    }
+  ]
+}

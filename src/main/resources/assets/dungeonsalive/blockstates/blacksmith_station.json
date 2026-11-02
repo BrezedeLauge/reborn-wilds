@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dungeonsalive:block/blacksmith_station",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "dungeonsalive:block/blacksmith_station",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dungeonsalive:block/blacksmith_station",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dungeonsalive:block/blacksmith_station",
+      "y": 270
+    }
+  }
+}

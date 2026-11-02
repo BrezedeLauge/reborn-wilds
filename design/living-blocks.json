@@ -1,0 +1,159 @@
+{
+  "generator": "tools/generate_living_blocks.py",
+  "authorship": "Own MIT definitions, model quads and tint choices. Installed Minecraft textures referenced by ID; no copied game PNGs.",
+  "materials": {
+    "amber_moss": {
+      "de": "Bernsteinmoos",
+      "en": "Amber Moss",
+      "texture_reference": "minecraft:block/moss_block"
+    },
+    "luminous_moss": {
+      "de": "Leuchtmoos",
+      "en": "Luminous Moss",
+      "texture_reference": "minecraft:block/moss_block"
+    },
+    "ancient_bricks": {
+      "de": "Uralte Steinziegel",
+      "en": "Ancient Bricks",
+      "texture_reference": "minecraft:block/stone_bricks"
+    },
+    "carved_ancient_bricks": {
+      "de": "Gemeißelte uralte Steinziegel",
+      "en": "Carved Ancient Bricks",
+      "texture_reference": "minecraft:block/chiseled_stone_bricks"
+    },
+    "wayfinder_stone": {
+      "de": "Alter Wegstein",
+      "en": "Ancient Waystone",
+      "texture_reference": "minecraft:block/lodestone_side"
+    }
+  },
+  "delivered_files": [
+    {
+      "path": "src/main/resources/assets/dungeonsalive/blockstates/amber_moss.json",
+      "sha256": "b13debe2d45897c3e91af0ee71a229dc8c67792190e3b3b0de595a11aa6a294d",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/block/amber_moss.json",
+      "sha256": "08c640913f6bbd064d3f78c74fd2802714ed5276bc2c36f0426e4ce291c6d10b",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/item/amber_moss.json",
+      "sha256": "52629614c5ae9f14fb286438b21286734104b79c9f450364b406d1efde9714c1",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/loot_table/blocks/amber_moss.json",
+      "sha256": "4d2514c8494bf8aaa6c84c346dfd75cc64c0a143dd9c41c8d033dd4685c77fb0",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/recipe/amber_moss.json",
+      "sha256": "4f01786f6c9711153723ff537873b44b2696d92771f11602f62204f1f121577a",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/blockstates/luminous_moss.json",
+      "sha256": "d4cd24064153a413e13d45dacbcd7849cc374c6270f1ad984a8d8a6e2a226399",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/block/luminous_moss.json",
+      "sha256": "08c640913f6bbd064d3f78c74fd2802714ed5276bc2c36f0426e4ce291c6d10b",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/item/luminous_moss.json",
+      "sha256": "16c912492594120d351a002e0b386125d7cac0d9a37089fd8f370185f693a480",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/loot_table/blocks/luminous_moss.json",
+      "sha256": "ba2c7ea1ad62107beab5d51b61d02351d59e79329ac6b61493215c658a29f5d8",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/recipe/luminous_moss.json",
+      "sha256": "45937b80829f9e67d81b74955d195618523911a4c8a067888cde19bfbf241b4d",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/blockstates/ancient_bricks.json",
+      "sha256": "74c23abc3009d9ed8103d6f1696b15a5f4822e1cb8ec7ba9581b2b41d1f81c9a",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/block/ancient_bricks.json",
+      "sha256": "eda571e51e843d4d73f2d173cfd488375eb37c64314acd7aff0faafebadf2b52",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/item/ancient_bricks.json",
+      "sha256": "29e75939e2ab161484aa719de495c9fdc65a0e2e88dcde13ee66daf284880cc8",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/loot_table/blocks/ancient_bricks.json",
+      "sha256": "004725d2e5b81d78efd4adc717c77db4849f3b27b48f0e225303b11997f4faf8",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/recipe/ancient_bricks.json",
+      "sha256": "0093bd905b2a5faf9ed5dd4d46930c1134629a28e97d7d4cc822ec7fe2e31b78",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/blockstates/carved_ancient_bricks.json",
+      "sha256": "575bcf53c82619829493dea0271a819d52109acc6095502b182eb8ec6545cb95",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/block/carved_ancient_bricks.json",
+      "sha256": "9cf57cfe90754c809ad012953a70621315d6c040609eb04f0215c0645abbaee3",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/item/carved_ancient_bricks.json",
+      "sha256": "80396f90bbde318c7b02f36826e5c57605b40e0324bfcadfefaeda300970f40b",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/loot_table/blocks/carved_ancient_bricks.json",
+      "sha256": "49e08c8fca7bcd207372d900c49f6fd8d24f86b02490b98996f646964de65095",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/recipe/carved_ancient_bricks.json",
+      "sha256": "e529555145499878bec68d1efd0c17825eb3e1faacd75339745d1e3d0a93f945",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/blockstates/wayfinder_stone.json",
+      "sha256": "5af904d669148324739980dd346ccaf55ac870b030135e16e7719a784d19ec42",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/block/wayfinder_stone.json",
+      "sha256": "16016446ba47d683113b37ac7abdd2ab58b9e1f1b87676200220111904913570",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/assets/dungeonsalive/models/item/wayfinder_stone.json",
+      "sha256": "b818d18a62677bd4b8134553c1caeb8063f7c96ad9b4594590dcebd290bc993d",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/loot_table/blocks/wayfinder_stone.json",
+      "sha256": "de670705c94859f186de19cedabf1430811d1943e68d32218e5ad1b5bd016151",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    },
+    {
+      "path": "src/main/resources/data/dungeonsalive/recipe/wayfinder_stone.json",
+      "sha256": "c91e6378e2d593ef37f16e172cf803fd7ee3a20651234bff974c4a61c4eca080",
+      "source": "own_definition_with_installed_minecraft_texture_reference"
+    }
+  ],
+  "native_visual_review": false
+}

@@ -1,0 +1,29 @@
+{
+  "author": "LaugenBreze / Dungeons Alive project",
+  "license": "MIT",
+  "source": "tools/generate_duck_sounds.py",
+  "external_recordings": [],
+  "description": "Original oscillator/formant contact calls; not extracted Dungeons audio.",
+  "sample_rate": 44100,
+  "channels": 1,
+  "files": [
+    {
+      "file": "src/main/resources/assets/dungeonsalive/sounds/wildlife/duck_contact_1.ogg",
+      "sha256": "f834345573f8ade1e95d1feee3c001b4777b5e703364511eab581636b8fb6683",
+      "kind": "original_synthetic_audio",
+      "license": "MIT"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/sounds/wildlife/duck_contact_2.ogg",
+      "sha256": "ed770a0f91819cf6d23e9d954e9fdf2226c0913f37dacd0298a1c0a6f4c9e2c8",
+      "kind": "original_synthetic_audio",
+      "license": "MIT"
+    },
+    {
+      "file": "src/main/resources/assets/dungeonsalive/sounds/wildlife/duck_contact_3.ogg",
+      "sha256": "af472bff6d350bd835f29c90fa186b1f2edaec95df671b284464506945831544",
+      "kind": "original_synthetic_audio",
+      "license": "MIT"
+    }
+  ]
+}

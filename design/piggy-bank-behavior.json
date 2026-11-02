@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "source": "tools/generate_piggy_bank_resources.py",
+  "status": "source_implemented_runtime_validation_pending",
+  "registry_id": "dungeonsalive:piggy_bank",
+  "mechanic": "minecraft_adaptation_not_original_drop_table",
+  "configuration": "dungeonsalive-piggy-bank-common.toml",
+  "default_enabled": true,
+  "spawn_weight": 1,
+  "requested_pack_size": 1,
+  "extra_placement_chance": "1/8",
+  "schedule": "day",
+  "biomes": [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:forest",
+    "minecraft:flower_forest",
+    "minecraft:savanna"
+  ],
+  "live_local_pig_limit": 2,
+  "live_local_radius": 48,
+  "flee_ticks_after_damage": 120,
+  "flee_radius": 12,
+  "treasure": {
+    "emerald_min": 6,
+    "emerald_max": 12,
+    "equipment_count": 1,
+    "equipment_choices": [
+      "dungeonsalive:power_bow",
+      "dungeonsalive:boots_of_swiftness",
+      "dungeonsalive:iron_hide_amulet",
+      "dungeonsalive:death_cap_mushroom"
+    ]
+  },
+  "claim_ledger_capacity": 65536,
+  "notes": [
+    "Loot requires a final player-attributed damage source, accepted death and doMobLoot; no damage-tick coins.",
+    "Saved entity identity determines a stable bounded plan. Entity state and world claims prevent ordinary reload and same-UUID replay payouts.",
+    "A full or malformed world claim ledger refuses new rewards and never evicts prior UUIDs.",
+    "ItemEntities enter NeoForge's captured LivingDrops pass; canceling that pass consumes the claim without spawning items.",
+    "Unknown chunks are not loaded. Live natural spawning shares the wildlife configuration limit and adds a two-pig limit.",
+    "Chunk generation keeps the singleton pack and rarity but never queries live entities from a generation thread.",
+    "The Piggy Bank is wildlife, not a pet or a herd member. Existing pets and summoned companion profiles do not receive treasure.",
+    "Native compilation, GameTests and client review remain required; natural distribution is not established by generated JSON."
+  ]
+}

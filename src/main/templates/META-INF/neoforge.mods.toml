@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Mixed: MIT; CC-BY-NC-SA-4.0 for ReCrafted art. See META-INF/THIRD_PARTY_NOTICES.md"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="LaugenBreze"
+description='''A living-world adventure mod for Minecraft: wildlife, voluntary quests, player-built inns, and Dungeons-inspired creatures and equipment. An unofficial fan project; not approved by or associated with Mojang or Microsoft.'''
+
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="[${minecraft_version}]"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dungeons Runtime"
+  short_description: "Serverlogik und Persistenz in Dungeons Alive"
+  default_prompt: "Nutze $dungeons-neoforge-runtime für diese Gameplay-Änderung in Dungeons Alive."

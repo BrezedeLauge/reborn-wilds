@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_overworld",
+    {
+      "id": "dungeonsalive:amber_grove",
+      "required": false
+    },
+    {
+      "id": "dungeonsalive:luminous_marsh",
+      "required": false
+    },
+    {
+      "id": "dungeonsalive:ember_crags",
+      "required": false
+    },
+    {
+      "id": "dungeonsalive:blighted_thicket",
+      "required": false
+    }
+  ]
+}
